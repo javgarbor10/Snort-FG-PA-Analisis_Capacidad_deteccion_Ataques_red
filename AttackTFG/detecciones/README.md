@@ -8,4 +8,4 @@
     (_____)-------------------------------(_____)
     
 En este directorio se encuentran los resultados devueltos por los análisis de Snort. 
-Estos análisis se sustentan sobre 4 RuleSets definidos en la Hoja "Detecciones.xlsx".
+Estos análisis se sustentan sobre los 4 RuleSets definidos en la Hoja "Detecciones.xlsx".
