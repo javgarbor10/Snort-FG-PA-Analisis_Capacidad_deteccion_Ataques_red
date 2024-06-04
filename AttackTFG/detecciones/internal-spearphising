@@ -1,0 +1,15 @@
+Nº alertas = 3
+ [1:655:16] "SERVER-MAIL Sendmail 8.6.9 exploit" 
+ [1:1394:17] "INDICATOR-SHELLCODE x86 inc ecx NOOP" 
+ [1:3065:12] "PROTOCOL-IMAP append literal overflow attempt" 
+Nº alertas = 0
+Nº alertas = 5
+ [1:38043:2] "POLICY-OTHER PDF containing Action key download detected" 
+ [1:655:16] "SERVER-MAIL Sendmail 8.6.9 exploit" 
+ [1:1394:17] "INDICATOR-SHELLCODE x86 inc ecx NOOP" 
+ [1:23858:10] "FILE-OTHER heapspray characters detected - binary" 
+ [1:3065:12] "PROTOCOL-IMAP append literal overflow attempt" 
+Nº alertas = 3
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2001117:6] ET DNS Standard query response, Name Error 
