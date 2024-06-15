@@ -9,7 +9,7 @@
           ▐   \|_________|                                       ▌
           ▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌
 
-El foco principal de este estudio se centra en las capacidades de detección del IPS Snort, un
+El foco principal de este estudio se centra en las capacidades de detección del IDS Snort, un
 cortafuegos Open-Source. Para ello, se lleva a cabo la implementación de más de 20 técnicas de 
 ataque diferentes definidas por la matriz MITRE ATT&CK®. 
 
