@@ -1,8 +1,0 @@
-Nº alertas = 1
- [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" 
-Nº alertas = 0
-Nº alertas = 1
- [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" 
-Nº alertas = 2
- [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
- [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 

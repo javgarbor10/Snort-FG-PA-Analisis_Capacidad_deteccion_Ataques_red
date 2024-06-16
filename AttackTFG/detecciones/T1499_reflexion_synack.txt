@@ -1,3 +1,0 @@
-Nº alertas = 1
- [1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt" 
-Nº alertas = 0
