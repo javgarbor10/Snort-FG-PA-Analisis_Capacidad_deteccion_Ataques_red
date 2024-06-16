@@ -1,0 +1,12 @@
+RS1:
+Nº alertas = 0
+RS2:
+Nº alertas = 0
+RS3:
+Nº alertas = 1
+ [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
+RS4:
+Nº alertas = 3
+ [1:2044666:2] ET INFO Outbound SMB Protocol Request to External Address 
+ [1:2051116:1] ET INFO Outbound SMB2 NTLM Auth Attempt to External Address 
+ [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
