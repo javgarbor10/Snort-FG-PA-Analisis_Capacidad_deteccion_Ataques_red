@@ -1,0 +1,8 @@
+Nº alertas = 0
+Nº alertas = 0
+Nº alertas = 1
+ [1:46533:2] "SERVER-WEBAPP DHCP cross site scripting attempt" 
+Nº alertas = 3
+ [1:2100527:9] GPL SCAN same SRC/DST 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
