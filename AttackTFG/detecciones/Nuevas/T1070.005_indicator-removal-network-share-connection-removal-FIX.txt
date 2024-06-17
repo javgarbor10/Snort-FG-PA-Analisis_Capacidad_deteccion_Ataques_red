@@ -1,9 +1,0 @@
-Nº alertas = 0
-Nº de alertas totales: 0
-Nº alertas = 0
-Nº de alertas totales: 0
-Nº alertas = 0
-Nº de alertas totales: 0
-Nº alertas = 1
- [1:2051116:1] ET INFO Outbound SMB2 NTLM Auth Attempt to External Address 
-Nº de alertas totales: 1
