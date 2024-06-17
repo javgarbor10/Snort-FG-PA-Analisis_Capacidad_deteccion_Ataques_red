@@ -1,0 +1,18 @@
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 3
+ [1:2027792:2] ET TROJAN Covenant Framework Default HTTP Beacon 
+ [1:2027794:2] ET TROJAN Covenant Framework HTTP Hello World Server Response 
+ [1:2027793:2] ET TROJAN Covenant Framework HTTP Beacon 
+Nº de alertas totales: 4
+Nº alertas = 1
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+Nº de alertas totales: 20
+Nº alertas = 6
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2027792:2] ET TROJAN Covenant Framework Default HTTP Beacon 
+ [1:2027794:2] ET TROJAN Covenant Framework HTTP Hello World Server Response 
+ [1:2027793:2] ET TROJAN Covenant Framework HTTP Beacon 
+ [1:2100628:8] GPL SCAN nmap TCP 
+Nº de alertas totales: 10
