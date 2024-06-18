@@ -1,19 +1,35 @@
+RS1:
 Nº alertas = 1
  [1:459:12] "PROTOCOL-ICMP unassigned type 1 undefined code" 
 Nº de alertas totales: 1
-Nº alertas = 4
+
+RS2:
+Nº alertas = 5
+ [1:459:12] "PROTOCOL-ICMP unassigned type 1 undefined code" 
  [1:2010781:3] ET POLICY PsExec service created 
  [1:2025701:2] ET POLICY SMB2 NT Create AndX Request For an Executable File 
  [1:2025699:2] ET POLICY SMB Executable File Transfer 
  [1:2027237:2] ET NETBIOS DCERPC SVCCTL - Remote Service Control Manager Access 
-Nº de alertas totales: 14
-Nº alertas = 4
+Nº de alertas totales: 15
+
+RS3:
+Nº alertas = 8
  [1:459:12] "PROTOCOL-ICMP unassigned type 1 undefined code" 
  [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
  [1:30281:4] "POLICY-OTHER use of psexec remote administration tool SMBv2" 
  [1:26385:3] "FILE-EXECUTABLE Microsoft Windows executable file save onto SMB share attempt" 
-Nº de alertas totales: 9
-Nº alertas = 12
+ [1:2010781:3] ET POLICY PsExec service created 
+ [1:2025701:2] ET POLICY SMB2 NT Create AndX Request For an Executable File 
+ [1:2025699:2] ET POLICY SMB Executable File Transfer 
+ [1:2027237:2] ET NETBIOS DCERPC SVCCTL - Remote Service Control Manager Access
+Nº de alertas totales: 23
+
+RS4:
+Nº alertas = 16
+ [1:459:12] "PROTOCOL-ICMP unassigned type 1 undefined code" 
+ [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
+ [1:30281:4] "POLICY-OTHER use of psexec remote administration tool SMBv2" 
+ [1:26385:3] "FILE-EXECUTABLE Microsoft Windows executable file save onto SMB share attempt" 
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
  [1:2101620:7] GPL POLICY TRAFFIC Non-Standard IP protocol 
@@ -26,4 +42,4 @@ Nº alertas = 12
  [1:2025699:2] ET POLICY SMB Executable File Transfer 
  [1:2027237:2] ET NETBIOS DCERPC SVCCTL - Remote Service Control Manager Access 
  [1:2024510:2] ET DOS Possible SMBLoris NBSS Length Mem Exhaustion Vuln Inbound 
-Nº de alertas totales: 22
+Nº de alertas totales: 30
