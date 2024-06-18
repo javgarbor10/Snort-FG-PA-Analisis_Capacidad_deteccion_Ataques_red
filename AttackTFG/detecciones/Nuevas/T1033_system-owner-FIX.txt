@@ -1,13 +1,21 @@
+RS1:
 Nº alertas = 0
 Nº de alertas totales: 0
+
+RS2:
 Nº alertas = 0
 Nº de alertas totales: 0
+
+RS3:
 Nº alertas = 1
  [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
 Nº de alertas totales: 1
-Nº alertas = 4
+
+RS4:
+Nº alertas = 5
+ [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
  [1:2044666:2] ET INFO Outbound SMB Protocol Request to External Address 
  [1:2051116:1] ET INFO Outbound SMB2 NTLM Auth Attempt to External Address 
-Nº de alertas totales: 8
+Nº de alertas totales: 9
