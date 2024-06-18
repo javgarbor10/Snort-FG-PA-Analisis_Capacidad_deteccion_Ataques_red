@@ -1,16 +1,19 @@
 RS1:
 Nº alertas = 0
 Nº de alertas totales: 0
+
 RS2:
 Nº alertas = 2
  [1:2027792:2] ET TROJAN Covenant Framework Default HTTP Beacon 
  [1:2027793:2] ET TROJAN Covenant Framework HTTP Beacon 
 Nº de alertas totales: 7
+
 RS3:
 Nº alertas = 2
  [1:2027792:2] ET TROJAN Covenant Framework Default HTTP Beacon 
  [1:2027793:2] ET TROJAN Covenant Framework HTTP Beacon 
 Nº de alertas totales: 7
+
 RS4:
 Nº alertas = 5
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
