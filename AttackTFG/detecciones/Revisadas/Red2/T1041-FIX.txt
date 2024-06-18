@@ -1,0 +1,28 @@
+RS1:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+RS2:
+Nº alertas = 4
+ [1:2043217:1] ET TROJAN Golang/Sandcat Plugin Activity (POST) 
+ [1:2034567:2] ET INFO curl User-Agent to Dotted Quad 
+ [1:2013028:3] ET POLICY curl User-Agent Outbound 
+ [1:2016992:2] ET WEB_SERVER WebShell Generic - *.tar.gz in POST body 
+Nº de alertas totales: 8
+
+RS3:
+Nº alertas = 1
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+Nº de alertas totales: 2
+
+RS4:
+Nº alertas = 8
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2006409:8] ET POLICY HTTP POST on unusual Port Possibly Hostile 
+ [1:2043217:1] ET TROJAN Golang/Sandcat Plugin Activity (POST) 
+ [1:2034567:2] ET INFO curl User-Agent to Dotted Quad 
+ [1:2013028:3] ET POLICY curl User-Agent Outbound 
+ [1:2016992:2] ET WEB_SERVER WebShell Generic - *.tar.gz in POST body 
+ [1:2002824:9] ET POLICY CURL User Agent 
+Nº de alertas totales: 19
