@@ -118,14 +118,128 @@ Nº alertas = 111
 Nº de alertas totales: 838
 
 RS3:
-Nº alertas = 3
+Nº alertas = 114
  [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
  [1:300003:1] "SERVER-WEBAPP Multiple Products invalid HTTP request attempt" 
  [1:31940:2] "SERVER-WEBAPP password sent via URL parameter" 
-Nº de alertas totales: 6295
+ [1:2002677:14] ET SCAN Nikto Web App Scan in Progress 
+ [1:2101071:7] GPL WEB_SERVER .htpasswd access 
+ [1:2101242:13] GPL EXPLOIT ISAPI .ida access 
+ [1:2027262:3] ET INFO Dotted Quad Host ZIP Request 
+ [1:2016141:5] ET INFO Executable Download from dotted-quad Host 
+ [1:2101129:7] GPL WEB_SERVER .htaccess access 
+ [1:2100987:16] GPL EXPLOIT .htr access 
+ [1:2027265:4] ET INFO Dotted Quad Host PDF Request 
+ [1:2027250:3] ET INFO Dotted Quad Host DLL Request 
+ [1:2018752:11] ET INFO Generic .bin download from Dotted Quad 
+ [1:2027263:3] ET INFO Dotted Quad Host GZ Request 
+ [1:2101245:12] GPL EXPLOIT ISAPI .idq access 
+ [1:2027253:3] ET INFO Dotted Quad Host XLS Request 
+ [1:2101145:9] GPL WEB_SERVER /~root access 
+ [1:2010766:9] ET POLICY Proxy TRACE Request - inbound 
+ [1:2100993:12] GPL WEB_SERVER iisadmin access 
+ [1:2101256:10] GPL EXPLOIT CodeRed v2 root.exe access 
+ [1:2101016:14] GPL WEB_SERVER global.asa access 
+ [1:2019714:8] ET CURRENT_EVENTS Terse alphanumeric executable downloader high likelihood of being hostile 
+ [1:2101402:8] GPL EXPLOIT iissamples access 
+ [1:2049400:1] ET WEB_SERVER /etc/passwd Detected in URI 
+ [1:2009362:6] ET WEB_SERVER /system32/ in Uri - Possible Protected Directory Access Attempt 
+ [1:2009361:6] ET WEB_SERVER cmd.exe In URI - Possible Command Execution Attempt 
+ [1:2101401:10] GPL EXPLOIT /msadc/samples/ access 
+ [1:2030337:2] ET EXPLOIT VMware Spring Cloud Directory Traversal (CVE-2020-5410) 
+ [1:2101244:16] GPL EXPLOIT ISAPI .idq attempt 
+ [1:2049401:1] ET WEB_SERVER /etc/hosts Detected in URI 
+ [1:2011042:3] ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt 
+ [1:2010963:4] ET WEB_SERVER SELECT USER SQL Injection Attempt in URI 
+ [1:2006446:11] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT 
+ [1:2006445:12] ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM 
+ [1:2009714:9] ET WEB_SERVER Script tag in URI Possible Cross Site Scripting Attempt 
+ [1:2019526:5] ET WEB_SERVER WEB-PHP phpinfo access 
+ [1:2101877:9] GPL WEB_SERVER printenv access 
+ [1:2101108:12] GPL WEB_SERVER Tomcat server snoop access 
+ [1:2016184:3] ET WEB_SERVER ColdFusion administrator access 
+ [1:2100952:8] GPL WEB_SERVER author.exe access 
+ [1:2100977:15] GPL EXPLOIT .cnf access 
+ [1:2100958:11] GPL WEB_SERVER service.cnf access 
+ [1:2100961:11] GPL WEB_SERVER services.cnf access 
+ [1:2100965:11] GPL WEB_SERVER writeto.cnf access 
+ [1:2011141:4] ET WEB_SERVER PHP Easteregg Information-Disclosure (phpinfo) 
+ [1:2011144:4] ET WEB_SERVER PHP Easteregg Information-Disclosure (funny-logo) 
+ [1:2011142:4] ET WEB_SERVER PHP Easteregg Information-Disclosure (php-logo) 
+ [1:2011143:4] ET WEB_SERVER PHP Easteregg Information-Disclosure (zend-logo) 
+ [1:2021390:1] ET WEB_SPECIFIC_APPS WEB-PHP RCE PHPBB 2004-1315 
+ [1:2101201:12] GPL WEB_SERVER 403 Forbidden 
+ [1:2101013:11] GPL EXPLOIT fpcount access 
+ [1:2101487:12] GPL EXPLOIT /iisadmpwd/aexp2.htr access 
+ [1:2101018:12] GPL EXPLOIT iisadmpwd attempt 
+ [1:2009485:7] ET WEB_SERVER /etc/shadow Detected in URI 
+ [1:2102073:5] GPL WEB_SERVER globals.pl access 
+ [1:2049402:1] ET WEB_SERVER .bash_history Detected in URI 
+ [1:2101874:4] GPL WEB_SERVER Oracle Java Process Manager access 
+ [1:2100953:9] GPL EXPLOIT administrators.pwd access 
+ [1:2100951:12] GPL WEB_SERVER authors.pwd access 
+ [1:2100959:8] GPL WEB_SERVER service.pwd 
+ [1:2100981:14] GPL EXPLOIT unicode directory traversal attempt 
+ [1:2100982:12] GPL EXPLOIT unicode directory traversal attempt 
+ [1:2101403:11] GPL WEB_SERVER viewcode access 
+ [1:2016182:4] ET WEB_SERVER ColdFusion componentutils access 
+ [1:2011696:3] ET WEB_SPECIFIC_APPS Possible JBoss JMX Console Beanshell Deployer WAR Upload and Deployment Exploit Attempt 
+ [1:2011564:2] ET WEB_SPECIFIC_APPS PHP Classifieds class.phpmailer.php lang_path Parameter Remote File Inclusion Attempt 
+ [1:2009317:4] ET WEB_SPECIFIC_APPS DesktopOnNet don3_requiem.php app_path Parameter Remote File Inclusion 
+ [1:2009318:4] ET WEB_SPECIFIC_APPS DesktopOnNet frontpage.php app_path Parameter Remote File Inclusion 
+ [1:2010920:10] ET WEB_SERVER Exploit Suspected PHP Injection Attack (cmd=) 
+ [1:2009931:4] ET WEB_SPECIFIC_APPS Possible OpenSiteAdmin pageHeader.php Remote File Inclusion Attempt 
+ [1:2010475:3] ET WEB_SPECIFIC_APPS KR-Web krgourl.php DOCUMENT_ROOT Parameter Remote File Inclusion Attempt 
+ [1:2012795:2] ET WEB_SPECIFIC_APPS Golem Gaming Portal root_path Parameter Remote File inclusion Attempt 
+ [1:2009384:5] ET WEB_SPECIFIC_APPS Joomla Dada Mail Manager Component config.dadamail.php GLOBALS Parameter Remote File Inclusion 
+ [1:2009391:5] ET WEB_SPECIFIC_APPS Joomla Onguma Time Sheet Component onguma.class.php mosConfig_absolute_path Parameter Remote File Inclusion 
+ [1:2009369:5] ET WEB_SPECIFIC_APPS Joomla Simple RSS Reader admin.rssreader.php mosConfig_live_site Parameter Remote File Inclusion 
+ [1:2012369:2] ET WEB_SPECIFIC_APPS Joomla swMenuPro ImageManager.php Remote File Inclusion Attempt 
+ [1:2002879:7] ET WEB_SPECIFIC_APPS PHP phpMyAgenda rootagenda Remote File Include Attempt 
+ [1:2010485:3] ET WEB_SPECIFIC_APPS phptraverse mp3_id.php GLOBALS Parameter Remote File Inclusion Attempt 
+ [1:2008897:5] ET WEB_SPECIFIC_APPS MODx CMS snippet.reflect.php reflect_base Remote File Inclusion 
+ [1:2017442:1] ET WEB_SERVER PHP ENV SuperGlobal in URI 
+ [1:2010260:3] ET WEB_SPECIFIC_APPS Joomla AjaxChat Component ajcuser.php GLOBALS Parameter Remote File Inclusion Attempt 
+ [1:2009933:4] ET WEB_SPECIFIC_APPS Possible Mambo/Joomla! com_koesubmit Component 'koesubmit.php' Remote File Inclusion Attempt 
+ [1:2012013:2] ET WEB_SPECIFIC_APPS Mambo Component com_smf smf.php Remote File Inclusion Attempt 
+ [1:2009051:4] ET WEB_SPECIFIC_APPS PHPOF DB_AdoDB.Class.PHP PHPOF_INCLUDE_PATH parameter Remote File Inclusion 
+ [1:2010354:3] ET WEB_SPECIFIC_APPS Achievo debugger.php config_atkroot parameter Remote File Inclusion Attempt 
+ [1:2008833:4] ET WEB_SPECIFIC_APPS Enthusiast path parameter Remote File Inclusion 
+ [1:2010355:3] ET WEB_SPECIFIC_APPS OBOphiX fonctions_racine.php chemin_lib parameter Remote File Inclusion Attempt 
+ [1:2009892:4] ET WEB_SPECIFIC_APPS PHP-Paid4Mail RFI attempt 
+ [1:2009316:4] ET WEB_SPECIFIC_APPS YapBB class_yapbbcooker.php cfgIncludeDirectory Parameter Remote File Inclusion 
+ [1:2010197:3] ET WEB_SPECIFIC_APPS KingCMS menu.php CONFIG Parameter Remote File Inclusion 
+ [1:2010276:3] ET WEB_SPECIFIC_APPS ProdLer prodler.class.php sPath Parameter Remote File Inclusion Attempt 
+ [1:2010466:3] ET WEB_SPECIFIC_APPS PointComma pctemplate.php pcConfig Parameter Remote File Inclusion Attempt 
+ [1:2017441:1] ET WEB_SERVER PHP REQUEST SuperGlobal in URI 
+ [1:2010362:3] ET WEB_SPECIFIC_APPS AjaxPortal di.php pathtoserverdata Parameter Remote File Inclusion Attempt 
+ [1:2010473:4] ET WEB_SPECIFIC_APPS p-Table for WordPress wptable-tinymce.php ABSPATH Parameter RFI Attempt 
+ [1:2009932:4] ET WEB_SPECIFIC_APPS Possible eFront database.php Remote File Inclusion Attempt 
+ [1:2011274:4] ET WEB_SPECIFIC_APPS OpenX phpAdsNew phpAds_geoPlugin Parameter Remote File Inclusion Attempt 
+ [1:2010124:3] ET WEB_SPECIFIC_APPS SERWeb load_lang.php configdir Parameter Remote File Inclusion 
+ [1:2010564:3] ET WEB_SPECIFIC_APPS Sisplet CMS komentar.php site_path Parameter Remote File Inclusion Attempt 
+ [1:2010125:3] ET WEB_SPECIFIC_APPS SERWeb main_prepend.php functionsdir Parameter Remote File Inclusion 
+ [1:2011384:3] ET WEB_SPECIFIC_APPS MAXcms fm_includes_special Parameter Remote File Inclusion Attempt 
+ [1:2011259:4] ET WEB_SPECIFIC_APPS MAXcms fm_includes_special Parameter Remote File Inclusion Attempt 
+ [1:2017440:1] ET WEB_SERVER PHP SESSION SuperGlobal in URI 
+ [1:2010484:3] ET WEB_SPECIFIC_APPS FormMailer formmailer.admin.inc.php BASE_DIR Parameter Remote File Inclusion Attempt 
+ [1:2009887:5] ET WEB_SPECIFIC_APPS ProjectButler RFI attempt 
+ [1:2009325:4] ET WEB_SPECIFIC_APPS phPortal gunaysoft.php icerikyolu Parameter Remote File Inclusion 
+ [1:2009326:4] ET WEB_SPECIFIC_APPS phPortal gunaysoft.php sayfaid Parameter Remote File Inclusion 
+ [1:2009229:5] ET WEB_SPECIFIC_APPS TECHNOTE shop_this_skin_path Parameter Remote File Inclusion 
+ [1:2009071:4] ET WEB_SPECIFIC_APPS phpSkelSite theme parameter remote file inclusion 
+ [1:2019524:5] ET WEB_SPECIFIC_APPS BASE base_stat_common.php remote file include 
+ [1:2002901:7] ET WEB_SPECIFIC_APPS PHP Aardvark Topsites PHP CONFIG PATH Remote File Include Attempt 
+ [1:2014180:2] ET WEB_SPECIFIC_APPS SAPID get_infochannel.inc.php Remote File inclusion Attempt 
+ [1:2010254:3] ET WEB_SPECIFIC_APPS Ve-EDIT edit_htmlarea.php highlighter Parameter Remote File Inclusion 
+ [1:2017436:1] ET WEB_SERVER PHP SERVER SuperGlobal in URI 
+Nº de alertas totales: 7133
 
 RS4:
-Nº alertas = 322
+Nº alertas = 325
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+ [1:300003:1] "SERVER-WEBAPP Multiple Products invalid HTTP request attempt" 
+ [1:31940:2] "SERVER-WEBAPP password sent via URL parameter" 
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
  [1:2002677:14] ET SCAN Nikto Web App Scan in Progress 
@@ -448,4 +562,4 @@ Nº alertas = 322
  [1:2003686:7] ET WEB_SPECIFIC_APPS Wordpress Remote Inclusion Attempt -- wordtube-button.php wpPATH 
  [1:2009190:4] ET WEB_SPECIFIC_APPS YACS update_trailer.php context Parameter Remote File Inclusion 
  [1:2011160:6] ET WEB_SERVER Apache Axis2 xsd Parameter Directory Traversal Attempt 
-Nº de alertas totales: 4145
+Nº de alertas totales: 10440
