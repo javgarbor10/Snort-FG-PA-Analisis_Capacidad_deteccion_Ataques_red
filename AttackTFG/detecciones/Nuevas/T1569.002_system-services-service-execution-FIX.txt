@@ -22,7 +22,7 @@ Nº alertas = 8
  [1:2025701:2] ET POLICY SMB2 NT Create AndX Request For an Executable File 
  [1:2025699:2] ET POLICY SMB Executable File Transfer 
  [1:2027237:2] ET NETBIOS DCERPC SVCCTL - Remote Service Control Manager Access
-Nº de alertas totales: 23
+Nº de alertas totales: 25
 
 RS4:
 Nº alertas = 16
@@ -42,4 +42,4 @@ Nº alertas = 16
  [1:2025699:2] ET POLICY SMB Executable File Transfer 
  [1:2027237:2] ET NETBIOS DCERPC SVCCTL - Remote Service Control Manager Access 
  [1:2024510:2] ET DOS Possible SMBLoris NBSS Length Mem Exhaustion Vuln Inbound 
-Nº de alertas totales: 30
+Nº de alertas totales: 31
