@@ -1,0 +1,15 @@
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 1
+ [1:2013028:3] ET POLICY curl User-Agent Outbound 
+Nº de alertas totales: 1
+Nº alertas = 1
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+Nº de alertas totales: 1
+Nº alertas = 5
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2100528:6] GPL SCAN loopback traffic 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2013028:3] ET POLICY curl User-Agent Outbound 
+ [1:2002824:9] ET POLICY CURL User Agent 
+Nº de alertas totales: 10821
