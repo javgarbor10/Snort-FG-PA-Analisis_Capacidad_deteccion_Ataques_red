@@ -11,7 +11,7 @@
 
 El foco principal de este estudio se centra en las capacidades de detección del IDS Snort, un
 cortafuegos Open-Source en comparación con otros como FortiGate. Para ello, se lleva a cabo la implementación de más de 40 técnicas de 
-ataque diferentes definidas por la matriz MITRE ATT&CK®. 
+ataque diferentes definidas por la matriz MITRE ATT&CK® para complementar las ya realizadas hasta el momento. 
 
 En este repositorio se encuentra toda la información relacionada con el Trabajo de Fin de Grado,
 desde capturas de los ataques hasta ficheros auxiliares, personalizados y elaborados manualmente,
