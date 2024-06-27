@@ -1,0 +1,11 @@
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 3
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2100527:9] GPL SCAN same SRC/DST 
+Nº de alertas totales: 7
