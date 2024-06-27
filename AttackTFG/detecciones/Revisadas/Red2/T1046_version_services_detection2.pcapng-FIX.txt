@@ -1,0 +1,99 @@
+RS1:
+Número de alertas: 9
+[1:1418:19] "PROTOCOL-SNMP request tcp"
+[1:1420:19] "PROTOCOL-SNMP trap tcp"
+[1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
+[1:257:18] "PROTOCOL-DNS named version attempt"
+[1:384:8] "PROTOCOL-ICMP PING"
+[1:408:8] "PROTOCOL-ICMP Echo Reply"
+[1:451:8] "PROTOCOL-ICMP Timestamp Reply"
+[1:453:8] "PROTOCOL-ICMP Timestamp Request"
+[1:598:23] "PROTOCOL-RPC portmap listing TCP 111"
+
+RS2:
+Número de alertas: 20
+[1:1418:19] "PROTOCOL-SNMP request tcp"
+[1:1420:19] "PROTOCOL-SNMP trap tcp"
+[1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
+[1:2002910:5] ET SCAN Potential VNC Scan 5800-5820
+[1:2002911:5] ET SCAN Potential VNC Scan 5900-5920
+[1:2009358:5] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine)
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010938:3] ET SCAN Suspicious inbound to mSQL port 4333
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2024364:3] ET SCAN Possible Nmap User-Agent Observed
+[1:2100257:10] GPL DNS named version attempt
+[1:2100598:13] GPL RPC portmap listing TCP 111
+[1:257:18] "PROTOCOL-DNS named version attempt"
+[1:384:8] "PROTOCOL-ICMP PING"
+[1:408:8] "PROTOCOL-ICMP Echo Reply"
+[1:451:8] "PROTOCOL-ICMP Timestamp Reply"
+[1:453:8] "PROTOCOL-ICMP Timestamp Request"
+[1:598:23] "PROTOCOL-RPC portmap listing TCP 111"
+
+RS3:
+Número de alertas: 23
+[1:13586:5] "APP-DETECT SSH server detected on non-standard port"
+[1:1418:19] "PROTOCOL-SNMP request tcp"
+[1:1420:19] "PROTOCOL-SNMP trap tcp"
+[1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
+[1:2002910:5] ET SCAN Potential VNC Scan 5800-5820
+[1:2002911:5] ET SCAN Potential VNC Scan 5900-5920
+[1:2009358:5] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine)
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010938:3] ET SCAN Suspicious inbound to mSQL port 4333
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2024364:3] ET SCAN Possible Nmap User-Agent Observed
+[1:2100257:10] GPL DNS named version attempt
+[1:2100598:13] GPL RPC portmap listing TCP 111
+[1:257:18] "PROTOCOL-DNS named version attempt"
+[1:36650:2] "PROTOCOL-ICMP Squid Pinger IPv6 denial of service attempt"
+[1:384:8] "PROTOCOL-ICMP PING"
+[1:408:8] "PROTOCOL-ICMP Echo Reply"
+[1:451:8] "PROTOCOL-ICMP Timestamp Reply"
+[1:453:8] "PROTOCOL-ICMP Timestamp Request"
+[1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt"
+[1:598:23] "PROTOCOL-RPC portmap listing TCP 111"
+
+RS4:
+Número de alertas: 35
+[1:13586:5] "APP-DETECT SSH server detected on non-standard port"
+[1:1418:19] "PROTOCOL-SNMP request tcp"
+[1:1420:19] "PROTOCOL-SNMP trap tcp"
+[1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
+[1:2000538:8] ET SCAN NMAP -sA (1)
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2002910:5] ET SCAN Potential VNC Scan 5800-5820
+[1:2002911:5] ET SCAN Potential VNC Scan 5900-5920
+[1:2009358:5] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine)
+[1:2009582:3] ET SCAN NMAP -sS window 1024
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010938:3] ET SCAN Suspicious inbound to mSQL port 4333
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2024364:3] ET SCAN Possible Nmap User-Agent Observed
+[1:2100257:10] GPL DNS named version attempt
+[1:2100384:6] GPL ICMP_INFO PING
+[1:2100408:6] GPL ICMP_INFO Echo Reply
+[1:2100451:6] GPL ICMP_INFO Timestamp Reply
+[1:2100453:6] GPL ICMP_INFO Timestamp Request
+[1:2100469:4] GPL SCAN PING NMAP
+[1:2100598:13] GPL RPC portmap listing TCP 111
+[1:2100615:10] GPL POLICY SOCKS Proxy attempt
+[1:2101418:13] GPL SNMP request tcp
+[1:2101420:12] GPL SNMP trap tcp
+[1:257:18] "PROTOCOL-DNS named version attempt"
+[1:36650:2] "PROTOCOL-ICMP Squid Pinger IPv6 denial of service attempt"
+[1:384:8] "PROTOCOL-ICMP PING"
+[1:408:8] "PROTOCOL-ICMP Echo Reply"
+[1:451:8] "PROTOCOL-ICMP Timestamp Reply"
+[1:453:8] "PROTOCOL-ICMP Timestamp Request"
+[1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt"
+[1:598:23] "PROTOCOL-RPC portmap listing TCP 111"
+

@@ -1,0 +1,54 @@
+RS1:
+Número de alertas: 3
+[1:1061:13] "SQL xp_cmdshell attempt"
+[1:1122:16] "SERVER-WEBAPP /etc/passwd file access attempt"
+[1:1147:21] "SERVER-WEBAPP cat_ access"
+
+RS2:
+Número de alertas: 9
+[1:1061:13] "SQL xp_cmdshell attempt"
+[1:1122:16] "SERVER-WEBAPP /etc/passwd file access attempt"
+[1:1147:21] "SERVER-WEBAPP cat_ access"
+[1:2006445:12] ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM
+[1:2006446:11] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT
+[1:2008538:8] ET SCAN Sqlmap SQL Injection Scan
+[1:2009714:9] ET WEB_SERVER Script tag in URI Possible Cross Site Scripting Attempt
+[1:2009815:5] ET WEB_SERVER Attempt To Access MSSQL xp_cmdshell Stored Procedure Via URI
+[1:2017808:1] ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access
+
+RS3:
+Número de alertas: 13
+[1:1061:13] "SQL xp_cmdshell attempt"
+[1:1122:16] "SERVER-WEBAPP /etc/passwd file access attempt"
+[1:1147:21] "SERVER-WEBAPP cat_ access"
+[1:19779:8] "INDICATOR-SCAN sqlmap SQL injection scan attempt"
+[1:2006445:12] ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM
+[1:2006446:11] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT
+[1:2008538:8] ET SCAN Sqlmap SQL Injection Scan
+[1:2009714:9] ET WEB_SERVER Script tag in URI Possible Cross Site Scripting Attempt
+[1:2009815:5] ET WEB_SERVER Attempt To Access MSSQL xp_cmdshell Stored Procedure Via URI
+[1:2017808:1] ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access
+[1:31939:2] "SERVER-WEBAPP password sent via POST parameter"
+[1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt"
+[1:7070:24] "POLICY-OTHER script tag in URI - likely cross-site scripting attempt"
+
+RS4:
+Número de alertas: 17
+[1:1061:13] "SQL xp_cmdshell attempt"
+[1:1122:16] "SERVER-WEBAPP /etc/passwd file access attempt"
+[1:1147:21] "SERVER-WEBAPP cat_ access"
+[1:19779:8] "INDICATOR-SCAN sqlmap SQL injection scan attempt"
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2006445:12] ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM
+[1:2006446:11] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT
+[1:2008538:8] ET SCAN Sqlmap SQL Injection Scan
+[1:2009714:9] ET WEB_SERVER Script tag in URI Possible Cross Site Scripting Attempt
+[1:2009815:5] ET WEB_SERVER Attempt To Access MSSQL xp_cmdshell Stored Procedure Via URI
+[1:2012885:2] ET POLICY Http Client Body contains password= in cleartext
+[1:2017808:1] ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access
+[1:2101061:7] GPL DELETED xp_cmdshell attempt
+[1:31939:2] "SERVER-WEBAPP password sent via POST parameter"
+[1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt"
+[1:7070:24] "POLICY-OTHER script tag in URI - likely cross-site scripting attempt"
+
