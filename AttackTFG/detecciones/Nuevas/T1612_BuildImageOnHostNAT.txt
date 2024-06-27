@@ -1,14 +1,14 @@
 RS1:
-Número de alertas: 0
+NÃºmero de alertas: 0
 
 RS2:
-Número de alertas: 0
+NÃºmero de alertas: 0
 
 RS3:
-Número de alertas: 0
+NÃºmero de alertas: 0
 
 RS4:
-Número de alertas: 2
+NÃºmero de alertas: 2
 [1:2001117:6] ET DNS Standard query response, Name Error
 [1:2003195:5] ET POLICY Unusual number of DNS No Such Name Responses
 
