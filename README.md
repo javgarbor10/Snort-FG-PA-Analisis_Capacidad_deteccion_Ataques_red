@@ -10,7 +10,7 @@
     ▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌
 
 El foco principal de este estudio se centra en las capacidades de detección del IDS Snort, un
-cortafuegos Open-Source en comparación con otros como FortiGate. Para ello, se lleva a cabo la implementación de más de 40 técnicas de 
+cortafuegos Open-Source. Para ello, se lleva a cabo la implementación de más de 40 técnicas de 
 ataque diferentes definidas por la matriz MITRE ATT&CK® para complementar las ya realizadas hasta el momento. 
 
 En este repositorio se encuentra toda la información relacionada con los Trabajos Fin de Grado elaborados en 2024 y con titulos "Análisis de la capacidad de detección de ataques en red mediante el IDS Snort y XXXX" (siendo XXXX uno de los dos cortafuegos auxiliares empleados para la comparativa con Snort). Es conveniente puntualizar que en determinados directorios se encontrará información no sólo de las nuevas técnicas implementadas, sino además
