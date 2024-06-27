@@ -8,4 +8,4 @@
     (_____)---------------(_____)
 
 
-En este directorio se hallan todos los pcaps relativos a las 24 técnicas totales analizadas en el TFG, cada una con su nombre de técnica asociado, siendo posible su identificación unívoca
+En este directorio se hallan gran parte de los pcaps originales, que no han sufrido las modificaciones permitentes para su adaptación al entorno (véase la carpeta pcaps-FIX)
