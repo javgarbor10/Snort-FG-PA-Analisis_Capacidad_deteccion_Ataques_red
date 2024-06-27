@@ -1,18 +1,18 @@
 RS1:
-Número de alertas: 1
+NÃºmero de alertas: 1
 [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected"
 
 RS2:
-Número de alertas: 1
+NÃºmero de alertas: 1
 [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected"
 
 RS3:
-Número de alertas: 2
+NÃºmero de alertas: 2
 [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected"
 [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt"
 
 RS4:
-Número de alertas: 8
+NÃºmero de alertas: 8
 [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
 [1:2002752:4] ET POLICY Reserved Internal IP Traffic
 [1:2009768:6] ET SCAN NBTStat Query Response to External Destination, Possible Windows Network Enumeration
