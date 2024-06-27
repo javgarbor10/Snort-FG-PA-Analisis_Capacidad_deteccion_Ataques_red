@@ -1,0 +1,11 @@
+for pcap_file in *.pcapng;
+do
+    > /var/log/snort/alert_fast.txt
+    > /var/log/snort/snort.alert.fast
+    snort -c /etc/snort/snort3.lua -u snort -g snort -r "$pcap_file" -A fast -l /var/log/snort
+    /usr/sbin/snort -c /etc/snort/snort.conf -u snort -g snort -r "$pcap_file"
+    > /var/log/snort/alert_fast.txt
+    > /var/log/snort/snort.alert.fast
+     snort -c /etc/snort/snort3REG.lua -u snort -g snort -r "$pcap_file" -A fast -l /var/log/snort
+     /usr/sbin/snort -c /etc/snort/snortOPT.conf -u snort -g snort -r "$pcap_file"
+    done
