@@ -1,0 +1,29 @@
+RS1:
+Número de alertas: 1
+[1:1444:10] "PROTOCOL-TFTP Get"
+
+RS2:
+Número de alertas: 4
+[1:1444:10] "PROTOCOL-TFTP Get"
+[1:2008118:3] ET TFTP Outbound TFTP ACK
+[1:2008119:3] ET TFTP Outbound TFTP Error Message
+[1:2008120:4] ET TFTP Outbound TFTP Read Request
+
+RS3:
+Número de alertas: 4
+[1:1444:10] "PROTOCOL-TFTP Get"
+[1:2008118:3] ET TFTP Outbound TFTP ACK
+[1:2008119:3] ET TFTP Outbound TFTP Error Message
+[1:2008120:4] ET TFTP Outbound TFTP Read Request
+
+RS4:
+Número de alertas: 8
+[1:1444:10] "PROTOCOL-TFTP Get"
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2008118:3] ET TFTP Outbound TFTP ACK
+[1:2008119:3] ET TFTP Outbound TFTP Error Message
+[1:2008120:4] ET TFTP Outbound TFTP Read Request
+[1:2100527:9] GPL SCAN same SRC/DST
+[1:2101444:4] GPL TFTP Get
+
