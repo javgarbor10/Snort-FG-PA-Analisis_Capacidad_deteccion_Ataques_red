@@ -1,0 +1,21 @@
+RS1:
+Número de alertas: 1
+[1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt"
+
+RS2:
+Número de alertas: 2
+[1:2012870:4] ET POLICY HTTP Outbound Request contains pw
+[1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt"
+
+RS3:
+Número de alertas: 2
+[1:2012870:4] ET POLICY HTTP Outbound Request contains pw
+[1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt"
+
+RS4:
+Número de alertas: 4
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2012870:4] ET POLICY HTTP Outbound Request contains pw
+[1:40063:5] "OS-LINUX Linux Kernel Challenge ACK provocation attempt"
+

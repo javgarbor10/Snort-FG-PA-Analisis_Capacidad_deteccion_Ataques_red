@@ -1,0 +1,24 @@
+RS1:
+Número de alertas: 0
+
+RS2:
+Número de alertas: 1
+[1:2043217:1] ET TROJAN Golang/Sandcat Plugin Activity (POST)
+
+RS3:
+Número de alertas: 2
+[1:2043217:1] ET TROJAN Golang/Sandcat Plugin Activity (POST)
+[1:36376:3] "SERVER-OTHER IBM Tivoli Management Framework lcfd endpoint daemon buffer overflow attempt"
+
+RS4:
+Número de alertas: 9
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2003303:3] ET POLICY FTP Login Attempt (non-anonymous)
+[1:2003410:9] ET POLICY FTP Login Successful
+[1:2006409:8] ET POLICY HTTP POST on unusual Port Possibly Hostile
+[1:2015016:2] ET INFO FTP STOR to External Network
+[1:2043217:1] ET TROJAN Golang/Sandcat Plugin Activity (POST)
+[1:2100472:5] GPL ICMP_INFO redirect host
+[1:36376:3] "SERVER-OTHER IBM Tivoli Management Framework lcfd endpoint daemon buffer overflow attempt"
+

@@ -1,0 +1,140 @@
+RS1:
+Número de alertas: 12
+[1:1413:19] "PROTOCOL-SNMP private access udp"
+[1:1417:18] "PROTOCOL-SNMP request udp"
+[1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt"
+[1:1917:16] "INDICATOR-SCAN UPnP service discover attempt"
+[1:2049:9] "SQL ping attempt"
+[1:29456:3] "PROTOCOL-ICMP Unusual PING detected"
+[1:31136:3] "MALWARE-CNC Win.Trojan.ZeroAccess inbound connection"
+[1:384:8] "PROTOCOL-ICMP PING"
+[1:385:8] "PROTOCOL-ICMP traceroute"
+[1:42340:4] "OS-WINDOWS Microsoft Windows SMB anonymous session IPC share access attempt"
+[1:449:9] "PROTOCOL-ICMP Time-To-Live Exceeded in Transit"
+[1:566:10] "APP-DETECT PCAnywhere server response"
+
+RS2:
+Número de alertas: 25
+[1:1413:19] "PROTOCOL-SNMP private access udp"
+[1:1417:18] "PROTOCOL-SNMP request udp"
+[1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt"
+[1:1917:16] "INDICATOR-SCAN UPnP service discover attempt"
+[1:2001219:19] ET SCAN Potential SSH Scan
+[1:2001972:19] ET SCAN Behavioral Unusually fast Terminal Server Traffic Potential Scan or Infection (Inbound)
+[1:2003068:6] ET SCAN Potential SSH Scan OUTBOUND
+[1:2008578:6] ET SCAN Sipvicious Scan
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2011716:4] ET SCAN Sipvicious User-Agent Detected (friendly-scanner)
+[1:2012296:1] ET VOIP Modified Sipvicious Asterisk PBX User-Agent
+[1:2013479:4] ET SCAN Behavioral Unusually fast Terminal Server Traffic Potential Scan or Infection (Outbound)
+[1:2015856:5] ET SNMP Attempt to retrieve Cisco Config via TFTP (CISCO-CONFIG-COPY)
+[1:2049:9] "SQL ping attempt"
+[1:2100566:5] GPL POLICY PCAnywhere server response
+[1:2101413:12] GPL SNMP private access udp
+[1:29456:3] "PROTOCOL-ICMP Unusual PING detected"
+[1:31136:3] "MALWARE-CNC Win.Trojan.ZeroAccess inbound connection"
+[1:384:8] "PROTOCOL-ICMP PING"
+[1:385:8] "PROTOCOL-ICMP traceroute"
+[1:42340:4] "OS-WINDOWS Microsoft Windows SMB anonymous session IPC share access attempt"
+[1:449:9] "PROTOCOL-ICMP Time-To-Live Exceeded in Transit"
+[1:566:10] "APP-DETECT PCAnywhere server response"
+
+RS3:
+Número de alertas: 35
+[1:1413:19] "PROTOCOL-SNMP private access udp"
+[1:1417:18] "PROTOCOL-SNMP request udp"
+[1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt"
+[1:1917:16] "INDICATOR-SCAN UPnP service discover attempt"
+[1:2001219:19] ET SCAN Potential SSH Scan
+[1:2001972:19] ET SCAN Behavioral Unusually fast Terminal Server Traffic Potential Scan or Infection (Inbound)
+[1:2003068:6] ET SCAN Potential SSH Scan OUTBOUND
+[1:2008578:6] ET SCAN Sipvicious Scan
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2011716:4] ET SCAN Sipvicious User-Agent Detected (friendly-scanner)
+[1:2012296:1] ET VOIP Modified Sipvicious Asterisk PBX User-Agent
+[1:2013479:4] ET SCAN Behavioral Unusually fast Terminal Server Traffic Potential Scan or Infection (Outbound)
+[1:2015856:5] ET SNMP Attempt to retrieve Cisco Config via TFTP (CISCO-CONFIG-COPY)
+[1:2049:9] "SQL ping attempt"
+[1:2100566:5] GPL POLICY PCAnywhere server response
+[1:2101413:12] GPL SNMP private access udp
+[1:23493:7] "MALWARE-CNC Win.Trojan.ZeroAccess outbound connection"
+[1:28993:3] "PROTOCOL-VOIP Sipvicious User-Agent detected"
+[1:29456:3] "PROTOCOL-ICMP Unusual PING detected"
+[1:31136:3] "MALWARE-CNC Win.Trojan.ZeroAccess inbound connection"
+[1:384:8] "PROTOCOL-ICMP PING"
+[1:385:8] "PROTOCOL-ICMP traceroute"
+[1:4060:9] "APP-DETECT remote desktop protocol attempted administrator connection request"
+[1:42340:4] "OS-WINDOWS Microsoft Windows SMB anonymous session IPC share access attempt"
+[1:44484:6] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44485:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44486:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44487:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44488:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:449:9] "PROTOCOL-ICMP Time-To-Live Exceeded in Transit"
+[1:45941:1] "SERVER-OTHER Memcached UDP version discovery attempt"
+[1:566:10] "APP-DETECT PCAnywhere server response"
+
+RS4:
+Número de alertas: 56
+[1:1413:19] "PROTOCOL-SNMP private access udp"
+[1:1417:18] "PROTOCOL-SNMP request udp"
+[1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt"
+[1:1917:16] "INDICATOR-SCAN UPnP service discover attempt"
+[1:2001117:6] ET DNS Standard query response, Name Error
+[1:2001219:19] ET SCAN Potential SSH Scan
+[1:2001972:19] ET SCAN Behavioral Unusually fast Terminal Server Traffic Potential Scan or Infection (Inbound)
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2003068:6] ET SCAN Potential SSH Scan OUTBOUND
+[1:2008578:6] ET SCAN Sipvicious Scan
+[1:2009205:5] ET TROJAN Possible KEYPLUG/Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 1)
+[1:2009206:4] ET TROJAN Possible KEYPLUG/Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 4)
+[1:2009207:4] ET TROJAN Possible KEYPLUG/Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 5)
+[1:2009208:4] ET TROJAN Possible Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 16)
+[1:2009582:3] ET SCAN NMAP -sS window 1024
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2011716:4] ET SCAN Sipvicious User-Agent Detected (friendly-scanner)
+[1:2012296:1] ET VOIP Modified Sipvicious Asterisk PBX User-Agent
+[1:2013479:4] ET SCAN Behavioral Unusually fast Terminal Server Traffic Potential Scan or Infection (Outbound)
+[1:2015856:5] ET SNMP Attempt to retrieve Cisco Config via TFTP (CISCO-CONFIG-COPY)
+[1:2023997:3] ET INFO Potentially unsafe SMBv1 protocol in use
+[1:2044666:2] ET INFO Outbound SMB Protocol Request to External Address
+[1:2049:9] "SQL ping attempt"
+[1:2100254:5] GPL DNS SPOOF query response with TTL of 1 min. and no authority
+[1:2100384:6] GPL ICMP_INFO PING
+[1:2100385:5] GPL ICMP_INFO traceroute
+[1:2100449:7] GPL MISC Time-To-Live Exceeded in Transit
+[1:2100469:4] GPL SCAN PING NMAP
+[1:2100486:5] GPL ICMP_INFO Destination Unreachable Communication with Destination Host is Administratively Prohibited
+[1:2100566:5] GPL POLICY PCAnywhere server response
+[1:2100615:10] GPL POLICY SOCKS Proxy attempt
+[1:2100628:8] GPL SCAN nmap TCP
+[1:2101413:12] GPL SNMP private access udp
+[1:2101417:11] GPL SNMP request udp
+[1:2101917:7] GPL MISC UPnP service discover attempt
+[1:2102049:5] GPL SQL ping attempt
+[1:23493:7] "MALWARE-CNC Win.Trojan.ZeroAccess outbound connection"
+[1:28993:3] "PROTOCOL-VOIP Sipvicious User-Agent detected"
+[1:29456:3] "PROTOCOL-ICMP Unusual PING detected"
+[1:31136:3] "MALWARE-CNC Win.Trojan.ZeroAccess inbound connection"
+[1:384:8] "PROTOCOL-ICMP PING"
+[1:385:8] "PROTOCOL-ICMP traceroute"
+[1:4060:9] "APP-DETECT remote desktop protocol attempted administrator connection request"
+[1:42340:4] "OS-WINDOWS Microsoft Windows SMB anonymous session IPC share access attempt"
+[1:44484:6] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44485:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44486:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44487:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44488:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:449:9] "PROTOCOL-ICMP Time-To-Live Exceeded in Transit"
+[1:45941:1] "SERVER-OTHER Memcached UDP version discovery attempt"
+[1:566:10] "APP-DETECT PCAnywhere server response"
+

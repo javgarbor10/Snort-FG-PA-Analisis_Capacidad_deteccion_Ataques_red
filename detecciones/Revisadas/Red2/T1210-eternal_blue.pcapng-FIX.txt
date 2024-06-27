@@ -1,0 +1,42 @@
+RS1:
+Número de alertas: 1
+[1:42944:2] "OS-WINDOWS Microsoft Windows SMB remote code execution attempt"
+
+RS2:
+Número de alertas: 5
+[1:2025649:3] ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (MSF style)
+[1:2025650:3] ET EXPLOIT ETERNALBLUE Probe Vulnerable System Response MS17-010
+[1:2025992:2] ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (Generic Flags)
+[1:2102465:9] GPL NETBIOS SMB-DS IPC$ share access
+[1:42944:2] "OS-WINDOWS Microsoft Windows SMB remote code execution attempt"
+
+RS3:
+Número de alertas: 9
+[1:2025649:3] ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (MSF style)
+[1:2025650:3] ET EXPLOIT ETERNALBLUE Probe Vulnerable System Response MS17-010
+[1:2025992:2] ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (Generic Flags)
+[1:2102465:9] GPL NETBIOS SMB-DS IPC$ share access
+[1:42944:2] "OS-WINDOWS Microsoft Windows SMB remote code execution attempt"
+[1:44485:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44487:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:5730:13] "OS-WINDOWS Microsoft Windows SMB-DS Trans Max Param OS-WINDOWS attempt"
+
+RS4:
+Número de alertas: 15
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2023997:3] ET INFO Potentially unsafe SMBv1 protocol in use
+[1:2024766:3] ET EXPLOIT [PTsecurity] DoublePulsar Backdoor installation communication
+[1:2025649:3] ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (MSF style)
+[1:2025650:3] ET EXPLOIT ETERNALBLUE Probe Vulnerable System Response MS17-010
+[1:2025992:2] ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (Generic Flags)
+[1:2044665:3] ET INFO Outbound SMB NTLM Auth Attempt to External Address
+[1:2044666:2] ET INFO Outbound SMB Protocol Request to External Address
+[1:2102465:9] GPL NETBIOS SMB-DS IPC$ share access
+[1:42944:2] "OS-WINDOWS Microsoft Windows SMB remote code execution attempt"
+[1:44485:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44487:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:5730:13] "OS-WINDOWS Microsoft Windows SMB-DS Trans Max Param OS-WINDOWS attempt"
+

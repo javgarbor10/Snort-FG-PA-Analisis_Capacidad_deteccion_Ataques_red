@@ -1,0 +1,82 @@
+RS1:
+Número de alertas: 2
+[1:1418:19] "PROTOCOL-SNMP request tcp"
+[1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
+
+RS2:
+Número de alertas: 15
+[1:1418:19] "PROTOCOL-SNMP request tcp"
+[1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
+[1:2002910:5] ET SCAN Potential VNC Scan 5800-5820
+[1:2002911:5] ET SCAN Potential VNC Scan 5900-5920
+[1:2009358:5] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine)
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2013409:3] ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware
+[1:2018317:1] ET SCAN NMAP SIP Version Detect OPTIONS Scan
+[1:2023753:3] ET SCAN MS Terminal Server Traffic on Non-standard Port
+[1:2024364:3] ET SCAN Possible Nmap User-Agent Observed
+[1:2034718:3] ET POLICY RMI Request Outbound
+[1:2034730:2] ET POLICY GIOP/IIOP Request Outbound
+
+RS3:
+Número de alertas: 22
+[1:1418:19] "PROTOCOL-SNMP request tcp"
+[1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
+[1:2002910:5] ET SCAN Potential VNC Scan 5800-5820
+[1:2002911:5] ET SCAN Potential VNC Scan 5900-5920
+[1:2009358:5] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine)
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2013409:3] ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware
+[1:2018317:1] ET SCAN NMAP SIP Version Detect OPTIONS Scan
+[1:2023753:3] ET SCAN MS Terminal Server Traffic on Non-standard Port
+[1:2024364:3] ET SCAN Possible Nmap User-Agent Observed
+[1:2034718:3] ET POLICY RMI Request Outbound
+[1:2034730:2] ET POLICY GIOP/IIOP Request Outbound
+[1:41807:3] "POLICY-OTHER SSLv3 Client Hello attempt"
+[1:44484:6] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44485:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44487:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:49040:5] "INDICATOR-COMPROMISE Microsoft Windows Terminal server RDP over non-standard port attempt"
+[1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt"
+
+RS4:
+Número de alertas: 31
+[1:1418:19] "PROTOCOL-SNMP request tcp"
+[1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2002910:5] ET SCAN Potential VNC Scan 5800-5820
+[1:2002911:5] ET SCAN Potential VNC Scan 5900-5920
+[1:2003099:7] ET WEB_SERVER Poison Null Byte
+[1:2006408:8] ET POLICY HTTP Request on Unusual Port Possibly Hostile
+[1:2007571:6] ET POLICY Remote Desktop Connection via non RDP Port
+[1:2009358:5] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine)
+[1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433
+[1:2010936:3] ET SCAN Suspicious inbound to Oracle SQL port 1521
+[1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306
+[1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432
+[1:2013409:3] ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware
+[1:2018317:1] ET SCAN NMAP SIP Version Detect OPTIONS Scan
+[1:2023753:3] ET SCAN MS Terminal Server Traffic on Non-standard Port
+[1:2024364:3] ET SCAN Possible Nmap User-Agent Observed
+[1:2034718:3] ET POLICY RMI Request Outbound
+[1:2034730:2] ET POLICY GIOP/IIOP Request Outbound
+[1:2044666:2] ET INFO Outbound SMB Protocol Request to External Address
+[1:2100472:5] GPL ICMP_INFO redirect host
+[1:2100615:10] GPL POLICY SOCKS Proxy attempt
+[1:2101418:13] GPL SNMP request tcp
+[1:41807:3] "POLICY-OTHER SSLv3 Client Hello attempt"
+[1:44484:6] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44485:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44487:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:49040:5] "INDICATOR-COMPROMISE Microsoft Windows Terminal server RDP over non-standard port attempt"
+[1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt"
+
