@@ -1,0 +1,20 @@
+RS1:
+Número de alertas: 0
+
+RS2:
+Número de alertas: 0
+
+RS3:
+Número de alertas: 3
+[1:44484:6] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44486:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44488:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+
+RS4:
+Número de alertas: 5
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:44484:6] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44486:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+[1:44488:4] "POLICY-OTHER SMBv1 protocol detection attempt"
+
