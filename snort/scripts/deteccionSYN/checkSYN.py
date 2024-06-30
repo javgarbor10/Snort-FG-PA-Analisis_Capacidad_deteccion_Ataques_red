@@ -3,6 +3,14 @@ import numpy as np
 import glob
 import os
 
+#Script: checkSYN.py
+#Este script es la parte 2/3 de la deteccion de flujos truncados TCP SYN. Para su correcto uso debe
+#encontrarse con el resto de scripts (detector_syn.sh, txt_to_csv.py y script_deteccion_falta_SYN.py)
+
+#Este script se encarga de comprobar de los ficheros con extension .csv si contienen flujos truncados
+#extrayendo aquellas lineas que cumplan unos requisitos, entre ellos que el flag SYN no este activo en un flujo
+#Finalmente, aquellos flujos detectados como truncados, son almacenados en un fichero Excel RESULTADOS_EXCEL.xlsx
+
 # Nombre del archivo de Excel de salida
 archivo_resultados = 'RESULTADOS_EXCEL.xlsx'
 
