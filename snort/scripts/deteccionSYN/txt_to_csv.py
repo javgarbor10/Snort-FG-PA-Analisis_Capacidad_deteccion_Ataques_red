@@ -2,6 +2,12 @@ import pandas as pd
 import glob
 import os
 
+#Script: txt_to_csv.py
+#Este script es la parte 2/3 de la detección de flujos truncados TCP SYN. Para su correcto uso debe encontrarse
+#con el resto de scripts (checkSYN.py, detector_syn.sh y script_deteccion_falta_SYN.py)
+
+#En este script se convierte la salida de tranalyzer, devuelta en formato txt a formato csv creando
+#un fichero .csv por cada fichero .txt que exista
 # Directorio donde se encuentran los archivos filtrados
 directorio = './'  # Puedes cambiar esto al directorio específico
 
