@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#Este script es la parte 1/3 de la detección de flujos truncados TCP SYN. Para su correcto uso debe encontrarse con
+#el resto de scripts (checkSYN.py, txt_to_csv.py y script_deteccion_falta_SYN.py)
+#En este script se realiza el análisis mediante tranalyzer de los flujos de los archivos pcap
+#existentes en el directorio actual. La sálida de tranalyzer se filtra mediante awk seleccionando
+#los campos más relevantes y se crean ficheros .txt por cada pcap analizado.
+
 DIRECTORIO="."
 
 #Colocar el script en el mismo directorio que los ficheros .pcapng
