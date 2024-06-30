@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Script: analiza_snort.sh
+#Script que automatiza el análisis de Snort y recogida de alertas del fichero de log
+#para las versiones de Snort v2 y Snort v3. Además, tiene una opcion sacarreglas que
+#se usa en conjunto con el script sacarreglas.py para extraer las reglas únicas 
+#de cada uno de los ataques
 # Verificar si se proporcionó una opción válida (snortv2, snortv3 o sacarreglas)
 if [ "$1" != "snortv2" ] && [ "$1" != "snortv3" ] && [ "$1" != "sacarreglas" ]; then
     echo "Uso: $0 {snortv2|snortv3|sacarreglas}"
