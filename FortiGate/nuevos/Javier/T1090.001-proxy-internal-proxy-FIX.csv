@@ -1,0 +1,8 @@
+attackid,severity,attack,service,srcip,dstip,subtype,eventtype
+52169,high,Backdoor.Covenant,HTTP,192.168.10.2,192.168.10.5,ips,signature
+52169,high,Backdoor.Covenant,HTTP,192.168.10.5,192.168.10.1,ips,signature
+52169,high,Backdoor.Covenant,HTTP,192.168.10.5,192.168.10.1,ips,signature
+52169,high,Backdoor.Covenant,HTTP,192.168.10.2,192.168.10.5,ips,signature
+52169,high,Backdoor.Covenant,HTTP,192.168.10.2,192.168.10.5,ips,signature
+52169,high,Backdoor.Covenant,HTTP,192.168.10.5,192.168.10.1,ips,signature
+52169,high,Backdoor.Covenant,HTTP,192.168.10.5,192.168.10.1,ips,signature
