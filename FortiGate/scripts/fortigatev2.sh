@@ -1,4 +1,5 @@
 #!/bin/bash
+# SCRIPT que automatiza el envío de pcaps al host y recogida de logs
 for fichero in "/opt/pcaps-nuevos/red/revisados/Red2/"*.pcapng; do
 	if [[ "$fichero" == *.pcapng ]]; then
 		nuevo_fichero=$(basename "${fichero%.pcapng}")
