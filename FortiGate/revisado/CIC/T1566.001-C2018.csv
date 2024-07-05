@@ -1,0 +1,4 @@
+attackid,severity,attack,service,srcip,dstip,subtype,eventtype
+29247,high,Malicious.Shellcode.Detection,tcp/31337,172.31.69.24,13.58.225.34,ips,signature
+12449,critical,Remote.CMD.Shell,tcp/31337,172.31.69.24,13.58.225.34,ips,signature
+29247,high,Malicious.Shellcode.Detection,tcp/31337,172.31.69.24,13.58.225.34,ips,signature
