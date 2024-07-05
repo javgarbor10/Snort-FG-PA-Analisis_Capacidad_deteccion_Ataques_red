@@ -1,0 +1,7 @@
+attackid,severity,attack,service,srcip,dstip,subtype,eventtype
+43814,low,Port.Scanning,tcp/13,172.16.17.3,172.16.17.2,ips,signature
+43814,low,Port.Scanning,tcp/9,172.16.17.3,172.16.17.2,ips,signature
+43814,low,Port.Scanning,tcp/37,172.16.17.3,172.16.17.2,ips,signature
+43814,low,Port.Scanning,tcp/19,172.16.17.3,172.16.17.2,ips,signature
+43814,low,Port.Scanning,tcp/26,172.16.17.3,172.16.17.2,ips,signature
+43814,low,Port.Scanning,FINGER,172.16.17.3,172.16.17.2,ips,signature
