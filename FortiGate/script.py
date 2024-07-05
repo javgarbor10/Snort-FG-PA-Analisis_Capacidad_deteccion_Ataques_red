@@ -1,3 +1,5 @@
+# SCRIPT que automatiza la extracción de alertas de logs y creción de ficheros .csv y .xlsx
+
 import sys
 import openpyxl
 import csv
