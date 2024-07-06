@@ -1,0 +1,6 @@
+Técnica		Pcap					Nº De Ataques en Pcap	Nº Ataques detectados FG
+T1190		T1190-sql_inyection.pcapng		1			1
+T1210		T1210-eternal_blue.pcapng		1			1
+T1210		T1210-Remote_code_execution.pcapng	1			1
+
+% --> 100%
