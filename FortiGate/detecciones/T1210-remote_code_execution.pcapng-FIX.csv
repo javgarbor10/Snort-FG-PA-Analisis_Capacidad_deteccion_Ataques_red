@@ -1,3 +1,0 @@
-attackid,severity,attack,service,srcip,dstip,subtype,eventtype
-40511,critical,ProFTPd.mod_copy.Remote.Command.Execution,FTP,192.168.1.3,192.168.2.2,ips,signature
-40511,critical,ProFTPd.mod_copy.Remote.Command.Execution,FTP,192.168.1.3,192.168.2.2,ips,signature
