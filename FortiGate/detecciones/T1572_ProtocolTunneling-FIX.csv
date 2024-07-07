@@ -1,0 +1,2 @@
+attackid,severity,attack,service,srcip,dstip,subtype,eventtype
+12449,critical,Remote.CMD.Shell,tcp/1234,192.168.0.20,192.168.0.30,ips,signature
