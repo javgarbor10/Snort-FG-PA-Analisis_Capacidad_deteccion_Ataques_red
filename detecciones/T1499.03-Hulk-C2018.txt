@@ -1,0 +1,20 @@
+RS1:
+Número de alertas: 0
+
+RS2:
+Número de alertas: 1
+[1:2012801:5] ET TROJAN Spoofed MSIE 7 User-Agent Likely Ponmocup
+
+RS3:
+Número de alertas: 1
+[1:2012801:5] ET TROJAN Spoofed MSIE 7 User-Agent Likely Ponmocup
+
+RS4:
+Número de alertas: 6
+[1:2002192:4] ET CHAT MSN status change
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2002822:8] ET POLICY Wget User Agent
+[1:2012801:5] ET TROJAN Spoofed MSIE 7 User-Agent Likely Ponmocup
+[1:2012914:1] ET POLICY URL Contains pwd Parameter
+

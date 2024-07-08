@@ -1,0 +1,19 @@
+RS1:
+Número de alertas: 1
+[1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt"
+
+RS2:
+Número de alertas: 1
+[1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt"
+
+RS3:
+Número de alertas: 1
+[1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt"
+
+RS4:
+Número de alertas: 4
+[1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt"
+[1:2001117:6] ET DNS Standard query response, Name Error
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+

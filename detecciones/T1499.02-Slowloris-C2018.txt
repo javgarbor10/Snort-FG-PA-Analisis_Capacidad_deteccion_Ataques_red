@@ -1,0 +1,16 @@
+RS1:
+Número de alertas: 0
+
+RS2:
+Número de alertas: 0
+
+RS3:
+Número de alertas: 1
+[1:15578:10] "MALWARE-TOOLS Slowloris http DoS tool"
+
+RS4:
+Número de alertas: 3
+[1:15578:10] "MALWARE-TOOLS Slowloris http DoS tool"
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+
