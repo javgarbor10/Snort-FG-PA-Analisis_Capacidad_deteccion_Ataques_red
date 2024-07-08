@@ -1,0 +1,30 @@
+RS1:
+Número de alertas: 0
+
+RS2:
+Número de alertas: 2
+[1:2101384:9] GPL MISC UPnP malformed advertisement
+[1:2101411:12] GPL SNMP public access udp
+
+RS3:
+Número de alertas: 2
+[1:2101384:9] GPL MISC UPnP malformed advertisement
+[1:2101411:12] GPL SNMP public access udp
+
+RS4:
+Número de alertas: 14
+[1:2001117:6] ET DNS Standard query response, Name Error
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2100381:7] GPL ICMP_INFO PING Sun Solaris
+[1:2100384:6] GPL ICMP_INFO PING
+[1:2100399:7] GPL ICMP_INFO Destination Unreachable Host Unreachable
+[1:2100402:8] GPL ICMP_INFO Destination Unreachable Port Unreachable
+[1:2100408:6] GPL ICMP_INFO Echo Reply
+[1:2100472:5] GPL ICMP_INFO redirect host
+[1:2100527:9] GPL SCAN same SRC/DST
+[1:2101384:9] GPL MISC UPnP malformed advertisement
+[1:2101411:12] GPL SNMP public access udp
+[1:2101417:11] GPL SNMP request udp
+[1:2101917:7] GPL MISC UPnP service discover attempt
+
