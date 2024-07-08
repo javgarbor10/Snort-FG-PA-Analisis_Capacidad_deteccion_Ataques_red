@@ -1,4 +1,4 @@
 FICHERO PCAP,Nº DE INSTANCIAS DE ATAQUE PRINCIPAL,Nº DE INSTANCIAS DE ATAQUE COLATERAL,ERROR TCP_REPLAY,SID (sin repetición),#SID,Número total de alertas
-T1190-Sql_inyection2_[2].pcapng,71,0,NO,"46199, 15621",2,150
-T1210-Eternal_blue_[2].pcapng,1,0,NO,"43799, 43963, 43796",3,3
+"T1190-Sql_inyection2_[2].pcapng,73,0,NO,""46199, 15621"",2,150"
+"T1210-Eternal_blue_[2].pcapng,1,0,NO,""43799, 43963, 43796"",3,3"
 T1210-Remote_code_execution_[2].pcapng,1,0,NO,40511,1,2
