@@ -1,2 +1,0 @@
-attackid,severity,attack,service,srcip,dstip,subtype,eventtype
-49480,high,Mozilla.IonMonkey.Array.Elements.Setting.Type.Confusion,HTTP,192.168.10.1,192.168.10.2,ips,signature
