@@ -1,20 +1,20 @@
-    ▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌
-    ▐ ________  ________   ________  ________  _________   ▌
-    ▐|\   ____\|\   ___  \|\   __  \|\   __  \|\___   ___\ ▌
-    ▐\ \  \___|\ \  \\ \  \ \  \|\  \ \  \|\  \|___ \  \_| ▌
-    ▐ \ \_____  \ \  \\ \  \ \  \\\  \ \   _  _\   \ \  \  ▌
-    ▐  \|____|\  \ \  \\ \  \ \  \\\  \ \  \\  \|   \ \  \ ▌
-    ▐    ____\_\  \ \__\\ \__\ \_______\ \__\\ _\    \ \__\▌
-    ▐   |\_________\|__| \|__|\|_______|\|__|\|__|    \|__|▌
-    ▐   \|_________|                                       ▌
-    ▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌
+    >>===========================================================================================================================<<
+    || ________  ________   ________  ________  _________               ________ ________                 ________  ________     ||
+    |||\   ____\|\   ___  \|\   __  \|\   __  \|\___   ___\            |\  _____\\   ____\               |\   __  \|\   __  \    ||
+    ||\ \  \___|\ \  \\ \  \ \  \|\  \ \  \|\  \|___ \  \_|____________\ \  \__/\ \  \___|   ____________\ \  \|\  \ \  \|\  \   ||
+    || \ \_____  \ \  \\ \  \ \  \\\  \ \   _  _\   \ \  \|\____________\ \   __\\ \  \  ___|\____________\ \   ____\ \   __  \  ||
+    ||  \|____|\  \ \  \\ \  \ \  \\\  \ \  \\  \|   \ \  \|____________|\ \  \_| \ \  \|\  \|____________|\ \  \___|\ \  \ \  \ ||
+    ||    ____\_\  \ \__\\ \__\ \_______\ \__\\ _\    \ \__\              \ \__\   \ \_______\              \ \__\    \ \__\ \__\||
+    ||   |\_________\|__| \|__|\|_______|\|__|\|__|    \|__|               \|__|    \|_______|               \|__|     \|__|\|__|||
+    ||   \|_________|                                                                                                            ||
+    >>===========================================================================================================================<<
 
-El foco principal de este estudio se centra en las capacidades de detección del IDS Snort, un cortafuegos OpenSource, junto con FortiGate y PaloAlto. Para ello, se lleva a cabo la implementación de más de 40 técnicas de 
-ataque diferentes definidas por la matriz MITRE ATT&CK® para complementar las ya realizadas hasta el momento. 
+El foco principal de este estudio se centra en las capacidades de detección del IDS Snort, un cortafuegos OpenSource, junto con FortiGate y PaloAlto. Para ello, se lleva a cabo la implementación de más de 70 técnicas de 
+ataque diferentes definidas por la matriz MITRE ATT&CK® para poner a prueba el rendimiento de los mismos.
 
-En este repositorio se encuentra toda la información relacionada con los Trabajos Fin de Grado elaborados en 2024 y con titulos "Análisis de la capacidad de detección de ataques en red mediante el IDS Snort y XXXX", siendo XXXX uno de los dos cortafuegos auxiliares empleados para la comparativa con Snort (FortiGate y PaloAlto). Es conveniente puntualizar que en determinados directorios existen recursos relativos a otras técnicas de la matriz MITRE ATT&CK® que fueron realizadas con anterioridad en otros TFG de la misma temática, y que han sido revisadas y actualizadas a las versiones más recientes.
+En este repositorio se encuentra toda la información relacionada con los Trabajos Fin de Grado elaborados en 2024 y con titulos "Análisis de la capacidad de detección de ataques en red mediante el IDS Snort y XXXX", siendo XXXX uno de los dos cortafuegos auxiliares empleados para la comparativa con Snort (FortiGate y PaloAlto) así como otros TFC elaborados con anterioridad. 
 
-El abanico es amplio, en este repositorio localizará todo tipo de elementos, desde capturas de los ataques hasta ficheros auxiliares, personalizados y elaborados manualmente,
+El abanico es amplio, en este repositorio podrá localizar todo tipo de elementos, desde capturas de los ataques y detecciones hasta ficheros auxiliares, personalizados y elaborados manualmente,
 que intervienen en ciertas técnicas que puedan requerir de una configuración más extensa de lo 
 habitual.
 
