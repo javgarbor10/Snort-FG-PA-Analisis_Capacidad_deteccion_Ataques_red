@@ -1,2 +1,0 @@
-attackid,severity,attack,service,srcip,dstip,subtype,eventtype
-52169,high,Backdoor.Covenant,HTTP,192.168.10.150,192.168.10.140,ips,signature
