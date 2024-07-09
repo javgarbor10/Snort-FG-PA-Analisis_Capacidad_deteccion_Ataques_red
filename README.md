@@ -14,7 +14,7 @@ ataque diferentes definidas por la matriz MITRE ATT&CK® para poner a prueba el 
 
 En este repositorio se encuentra toda la información relacionada con los Trabajos Fin de Grado elaborados en 2024 y con titulos "Análisis de la capacidad de detección de ataques en red mediante el IDS Snort y XXXX", siendo XXXX uno de los dos cortafuegos auxiliares empleados para la comparativa con Snort (FortiGate y PaloAlto) así como partes de otros TFC elaborados con anterioridad. 
 
-El abanico es amplio, en este repositorio podrá localizar todo tipo de elementos, desde capturas de los ataques y detecciones hasta ficheros auxiliares, personalizados y elaborados manualmente,
+El abanico es amplio, en este repositorio podrá localizar todo tipo de elementos, desde capturas de los ataques y detecciones hasta ficheros auxiliares, personalizados y elaborados manualmente
 que intervienen en ciertas técnicas que puedan requerir de una configuración más extensa de lo 
 habitual.
 
