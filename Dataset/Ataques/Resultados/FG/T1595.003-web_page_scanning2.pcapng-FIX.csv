@@ -1,0 +1,2 @@
+attackid,severity,attack,service,srcip,dstip,subtype,eventtype
+12648,medium,HTPasswd.Access,HTTP,172.16.1.2,172.16.2.2,ips,signature
