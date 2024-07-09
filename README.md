@@ -18,4 +18,6 @@ El abanico es amplio, en este repositorio podrá localizar todo tipo de elemento
 que intervienen en ciertas técnicas que puedan requerir de una configuración más extensa de lo 
 habitual.
 
+Los ficheros que por cuestiones de tamaño no aparecen en este repositorio se encuentran subidos en el siguiente enlace:
+https://drive.google.com/drive/folders/1RQE7id31t0QD8Xh_DSOGcCun2tVjKAr1?usp=sharing
 
