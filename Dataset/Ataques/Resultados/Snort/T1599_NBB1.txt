@@ -1,0 +1,12 @@
+RS1:
+Número de alertas: 0
+
+RS2:
+Número de alertas: 0
+
+RS3:
+Número de alertas: 0
+
+RS4:
+Número de alertas: 0
+

@@ -1,0 +1,16 @@
+RS1:
+Número de alertas: 0
+
+RS2:
+Número de alertas: 0
+
+RS3:
+Número de alertas: 1
+[1:13586:5] "APP-DETECT SSH server detected on non-standard port"
+
+RS4:
+Número de alertas: 3
+[1:13586:5] "APP-DETECT SSH server detected on non-standard port"
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+

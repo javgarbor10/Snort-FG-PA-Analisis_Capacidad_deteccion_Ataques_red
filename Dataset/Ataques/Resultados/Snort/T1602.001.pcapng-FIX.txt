@@ -1,0 +1,26 @@
+RS1:
+Número de alertas: 2
+[1:1411:21] "PROTOCOL-SNMP public access udp"
+[1:1417:18] "PROTOCOL-SNMP request udp"
+
+RS2:
+Número de alertas: 3
+[1:1411:21] "PROTOCOL-SNMP public access udp"
+[1:1417:18] "PROTOCOL-SNMP request udp"
+[1:2101411:12] GPL SNMP public access udp
+
+RS3:
+Número de alertas: 3
+[1:1411:21] "PROTOCOL-SNMP public access udp"
+[1:1417:18] "PROTOCOL-SNMP request udp"
+[1:2101411:12] GPL SNMP public access udp
+
+RS4:
+Número de alertas: 6
+[1:1411:21] "PROTOCOL-SNMP public access udp"
+[1:1417:18] "PROTOCOL-SNMP request udp"
+[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
+[1:2002752:4] ET POLICY Reserved Internal IP Traffic
+[1:2101411:12] GPL SNMP public access udp
+[1:2101417:11] GPL SNMP request udp
+
