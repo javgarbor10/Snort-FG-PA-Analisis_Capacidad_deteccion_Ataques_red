@@ -1,2 +1,0 @@
-attackid,severity,attack,service,srcip,dstip,subtype,eventtype
-15621,high,HTTP.URI.SQL.Injection,HTTP,18.218.115.60,172.31.69.28,ips,signature
