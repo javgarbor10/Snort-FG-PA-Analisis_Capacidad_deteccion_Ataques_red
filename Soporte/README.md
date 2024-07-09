@@ -7,8 +7,4 @@
      |___\                       |___| 
     (_____)---------------------(_____)
 
-En estos directorios se pueden encontrar 
-tanto ficheros de configuración relativos
-a las técnicas de ataque como ficheros
-auxiliares que intervengan de forma directa
-en la realización de las mismas.
+En estos directorios se puede encontrar toda la información que complemente la implementación de los ataques o que intervenga en la puesta en escena de los entornos de los cortafuegos (como pueden ser archivos de configuración, reglas, etc.)
