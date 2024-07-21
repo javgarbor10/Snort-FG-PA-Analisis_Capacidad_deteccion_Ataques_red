@@ -5,5 +5,4 @@ IMPLEMENTACIÓN CON HyperSQL y GUI HyperSQL Database Manager Swing
 3º) Arranque de la interfáz gráfica (GUI) con el comando "java -cp hsqldb.jar org.hsqldb.util.DatabaseManagerSwing"
 4º) Conexión a la BBDD. Dirección hsql://localhost/tfg
 5º) Preparación de las tablas. Carga del script "tablas.sql" y ejecución. 
-6º) Asociación de los datos del CSV a la tabla auxiliar temp_detecciones (Comando SQL SET TABLE temp_detecciones SOURCE "Datos.csv;ignore_first=true";)
-7º) Traspaso de información a tabla definitiva (Comando SQL INSERT INTO detecciones SELECT * FROM temp_detecciones)
+6º) Inserción de los datos. Carga del script "datos.sql" y ejecución.
