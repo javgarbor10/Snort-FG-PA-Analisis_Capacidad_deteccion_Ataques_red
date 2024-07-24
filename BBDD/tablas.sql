@@ -1,9 +1,13 @@
 DROP TABLE if exists alertas_ataque_FG;
+DROP TABLE if exists temp_alertas_ataque_FG;
 DROP TABLE if exists alertas_ataque_snort;
+DROP TABLE if exists temp_alertas_ataque_snort;
 DROP TABLE if exists alertas_legitimo_snort;
-DROP TABLE if exists temp_detecciones;
+DROP TABLE if exists temp_alertas_legitimo_snort;
+DROP TABLE if exists temp_detecciones_ataque;
 DROP TABLE if exists detecciones_ataque;
 DROP TABLE if exists detecciones_legitimo;
+DROP TABLE if exists temp_detecciones_legitimo;
 
 
 
@@ -51,7 +55,7 @@ CREATE TABLE detecciones_legitimo (
 ficheropcap varchar(1000) PRIMARY KEY,
 tipotrafico varchar(1000),
 categoria varchar(1000),
-tamanoreal_Mb numeric,
+tamanoreal_Mb numeric(10,5),
 nflujos INTEGER,
 ndirecciones INTEGER,
 flujoscompletos INTEGER
@@ -60,22 +64,45 @@ flujoscompletos INTEGER
 CREATE TABLE alertas_ataque_snort (
 ficheropcap varchar(1000) REFERENCES detecciones_ataque(ficheropcap),
 sid INTEGER,
-ruleset INTEGER
+ruleset INTEGER,
+TP INTEGER
+);
+
+CREATE TEXT TABLE temp_alertas_ataque_snort (
+ficheropcap varchar(1000) REFERENCES detecciones_ataque(ficheropcap),
+sid INTEGER,
+ruleset INTEGER,
+TP INTEGER
 );
 
 CREATE TABLE alertas_legitimo_snort (
 ficheropcap varchar(1000) REFERENCES detecciones_legitimo(ficheropcap),
 sid INTEGER,
-ruleset INTEGER
+ruleset INTEGER,
+
+);
+
+CREATE TEXT TABLE temp_alertas_legitimo_snort (
+ficheropcap varchar(1000) REFERENCES detecciones_legitimo(ficheropcap),
+sid INTEGER,
+ruleset INTEGER,
+
 );
 
 CREATE TABLE alertas_ataque_FG (
 ficheropcap varchar(1000) REFERENCES detecciones_ataque(ficheropcap),
-attackid INTEGER
+attackid INTEGER,
+TP INTEGER
+);
+
+CREATE TEXT TABLE temp_alertas_ataque_FG (
+ficheropcap varchar(1000) REFERENCES detecciones_ataque(ficheropcap),
+attackid INTEGER,
+TP INTEGER
 );
 
 
-CREATE TEXT TABLE temp_detecciones (
+CREATE TEXT TABLE temp_detecciones_ataque (
 tactica varchar(1000),
 otrastacticas varchar(1000),
 idtactica varchar(1000),
@@ -116,3 +143,12 @@ usado_para_analisis INTEGER
 );
 
 
+CREATE TEXT TABLE temp_detecciones_legitimo (
+ficheropcap varchar(1000) PRIMARY KEY,
+tipotrafico varchar(1000),
+categoria varchar(1000),
+tamanoreal_Mb numeric(10,5),
+nflujos INTEGER,
+ndirecciones INTEGER,
+flujoscompletos INTEGER
+);
