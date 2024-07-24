@@ -1,17 +1,13 @@
-DROP TABLE if exists alertas_ataque_rs1;
-DROP TABLE if exists alertas_ataque_rs2;
-DROP TABLE if exists alertas_ataque_rs3;
-DROP TABLE if exists alertas_ataque_rs4;
-DROP TABLE if exists alertas_legitimoyataque_rs1;
-DROP TABLE if exists alertas_legitimoyataque_rs2;
-DROP TABLE if exists alertas_legitimoyataque_rs3;
-DROP TABLE if exists alertas_legitimoyataque_rs4;
+DROP TABLE if exists alertas_ataque_FG;
+DROP TABLE if exists alertas_ataque_snort;
+DROP TABLE if exists alertas_legitimo_snort;
 DROP TABLE if exists temp_detecciones;
-DROP TABLE if exists detecciones;
+DROP TABLE if exists detecciones_ataque;
+DROP TABLE if exists detecciones_legitimo;
 
 
 
-CREATE TABLE detecciones (
+CREATE TABLE detecciones_ataque (
 tactica varchar(1000),
 otrastacticas varchar(1000),
 idtactica varchar(1000),
@@ -51,63 +47,32 @@ deteccion_fg numeric(3,2),
 usado_para_analisis INTEGER
 );
 
-CREATE TABLE alertas_ataques_RS1 (
-
-ficheropcap varchar(1000) REFERENCES detecciones(ficheropcap),
-sid INTEGER
-
+CREATE TABLE detecciones_legitimo (
+ficheropcap varchar(1000) PRIMARY KEY,
+tipotrafico varchar(1000),
+categoria varchar(1000),
+tamanoreal_Mb numeric,
+nflujos INTEGER,
+ndirecciones INTEGER,
+flujoscompletos INTEGER
 );
 
-CREATE TABLE alertas_ataques_RS2 (
-
-ficheropcap varchar(1000) REFERENCES detecciones(ficheropcap),
-sid INTEGER
-
+CREATE TABLE alertas_ataque_snort (
+ficheropcap varchar(1000) REFERENCES detecciones_ataque(ficheropcap),
+sid INTEGER,
+ruleset INTEGER
 );
 
-CREATE TABLE alertas_ataques_RS3 (
-
-ficheropcap varchar(1000) REFERENCES detecciones(ficheropcap),
-sid INTEGER
-
+CREATE TABLE alertas_legitimo_snort (
+ficheropcap varchar(1000) REFERENCES detecciones_legitimo(ficheropcap),
+sid INTEGER,
+ruleset INTEGER
 );
 
-CREATE TABLE alertas_ataques_RS4 (
-
-ficheropcap varchar(1000) REFERENCES detecciones(ficheropcap),
-sid INTEGER
-
+CREATE TABLE alertas_ataque_FG (
+ficheropcap varchar(1000) REFERENCES detecciones_ataque(ficheropcap),
+attackid INTEGER
 );
-
-CREATE TABLE alertas_legitimoyataques_RS1 (
-
-ficheropcap varchar(1000) REFERENCES detecciones(ficheropcap),
-sid INTEGER
-
-);
-
-CREATE TABLE alertas_legitimoyataques_RS2 (
-
-ficheropcap varchar(1000) REFERENCES detecciones(ficheropcap),
-sid INTEGER
-
-);
-
-CREATE TABLE alertas_legitimoyataques_RS3 (
-
-ficheropcap varchar(1000) REFERENCES detecciones(ficheropcap),
-sid INTEGER
-
-);
-
-CREATE TABLE alertas_legitimoyataques_RS4 (
-
-ficheropcap varchar(1000) REFERENCES detecciones(ficheropcap),
-sid INTEGER
-
-);
-
-
 
 
 CREATE TEXT TABLE temp_detecciones (
