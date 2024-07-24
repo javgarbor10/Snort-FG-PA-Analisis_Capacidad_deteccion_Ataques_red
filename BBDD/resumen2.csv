@@ -1,0 +1,712 @@
+TÁCTICA,Técnica,ID,Táctica Adicional,Implementada,Subtécnica,ID.1,Técnicas Adicionales,Detectable por Red,Sólo Detectable por Red,Detectable mediante patrones,Mecanismo de detección,Implementada.1
+Reconnaissance,Active Scanning,T1595,-,SI,Scanning IP Blocks,T1595.001,-,SI,SI,-,-,NO
+Reconnaissance,Active Scanning,T1595,-,SI,Vulnerability Scanning,T1595.002,-,SI,SI,SI,Regla genérica que detecte el envío de paquetes TCP con flag SYN activado a varios puertos diferentes,SI
+Reconnaissance,Active Scanning,T1595,-,SI,Wordlist Scanning,T1595.003,-,SI,SI,SI,Regla genérica que detecte peticiones HTTP hacia muchas URLs diferentes con destino el mismo servidor,SI
+Reconnaissance,Gather Victim Host Information,T1592,-,NO,Hardware,T1592.001,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Host Information,T1592,-,NO,Software,T1592.002,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Host Information,T1592,-,NO,Firmware,T1592.003,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Host Information,T1592,-,NO,Client Configurations,T1592.004,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Identity Information,T1589,-,SI,Credentials,T1589.001,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Identity Information,T1589,-,SI,Email Addresses,T1589.002,-,SI,SI,SI,Regla genérica que detecte un número elevado de intentos de conexión y mensajes ehlo SMTP procedentes de un mismo origen hacia un servidor.,SI
+Reconnaissance,Gather Victim Identity Information,T1589,-,SI,Employee Names,T1589.003,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Network Information,T1590,-,NO,Domain Properties,T1590.001,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Network Information,T1590,-,NO,DNS,T1590.002,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Network Information,T1590,-,NO,Network Trust Dependencies,T1590.003,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Network Information,T1590,-,NO,Network Topology,T1590.004,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Network Information,T1590,-,NO,IP Addresses,T1590.005,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Network Information,T1590,-,NO,Network Security Appliances,T1590.006,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Org Information,T1591,-,NO,Determine Physical Locations,T591.001,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Org Information,T1591,-,NO,Business Relationships,T591.002,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Org Information,T1591,-,NO,Identify Business Tempo,T591.003,-,NO,NO,-,-,NO
+Reconnaissance,Gather Victim Org Information,T1591,-,NO,Identify Roles,T591.004,-,NO,NO,-,-,NO
+Reconnaissance,Phishing for Information,T1598,-,SI,Spearphishing Attachment,T1598.002,-,SI,NO,NO,-,NO
+Reconnaissance,Phishing for Information,T1598,-,SI,Spearphishing Link,T1598.003,-,SI,NO,NO,Detección por listas negras/anomalías que permitan detectar tráfico de red correspondiente a correos electrónicos con enlaces maliciosos,SI
+Reconnaissance,Phishing for Information,T1598,-,SI,Spearphishing via Service,T1598.001,-,SI,NO,NO,-,NO
+Reconnaissance,Phishing for Information,T1598,-,SI,Spearphishing Voice,T1598.004,-,NO,NO,NO,-,NO
+Reconnaissance,Search Closed Sources,T1597,-,NO,Threat Intel Vendor,T1597.001,-,NO,NO,-,-,NO
+Reconnaissance,Search Closed Sources,T1597,-,NO,Purchase Technical Data,T1597.002,-,NO,NO,-,-,NO
+Reconnaissance,Search Open Technical Databases,T1596,-,SI,DNS/Pasive DNS,T1596.001,-,NO,NO,SI,"Regla genérica que detecte paquetes TCP dirigidos al puerto 53 que tengan los bytes ""Question"" igual a 1 y el resto a cero. Además, el campo ""Type"" debe tomar el valor ""00 FC""",SI
+Reconnaissance,Search Open Technical Databases,T1596,-,SI,WHOIS,T1596.002,-,NO,NO,-,-,NO
+Reconnaissance,Search Open Technical Databases,T1596,-,SI,Digital Certificates,T1596.003,-,NO,NO,-,-,NO
+Reconnaissance,Search Open Technical Databases,T1596,-,SI,CDNs,T1596.004,-,NO,NO,-,-,NO
+Reconnaissance,Search Open Technical Databases,T1596,-,SI,Scan Databases,T1596.005,-,NO,NO,-,-,NO
+Reconnaissance,Search Open Websites/Domains,T1593,-,NO,Social Media,T1593.001,-,NO,NO,-,-,NO
+Reconnaissance,Search Open Websites/Domains,T1593,-,NO,Search Engines,T1593.002,-,NO,NO,-,-,NO
+Reconnaissance,Search Open Websites/Domains,T1593,-,NO,Code Repositories,T1593.003,-,NO,NO,-,-,NO
+Reconnaissance,Search Victim-Owned Websites,T1594,-,NO,-,-,-,NO,NO,-,-,NO
+Resource Development,Acquire Access,T1650,-,NO,-,-,-,NO,NO,-,-,NO
+Resource Development,Acquire Infrastucture,T1583,-,NO,Domains,T1583.001,-,NO,NO,-,-,NO
+Resource Development,Acquire Infrastucture,T1583,-,NO,DNS Server,T1583.002,-,NO,NO,-,-,NO
+Resource Development,Acquire Infrastucture,T1583,-,NO,Virtual Private Server,T1583.003,-,NO,NO,-,-,NO
+Resource Development,Acquire Infrastucture,T1583,-,NO,Server,T1583.004,-,NO,NO,-,-,NO
+Resource Development,Acquire Infrastucture,T1583,-,NO,Botnet,T1583.005,-,NO,NO,-,-,NO
+Resource Development,Acquire Infrastucture,T1583,-,NO,Web Services,T1583.006,-,NO,NO,-,-,NO
+Resource Development,Acquire Infrastucture,T1583,-,NO,Serverless,T1583.007,-,NO,NO,-,-,NO
+Resource Development,Acquire Infrastucture,T1583,-,NO,Malvertising,T1583.008,-,NO,NO,-,-,NO
+Resource Development,Compromise Accounts,T1586,-,SI,Social Media Accounts,T1586.001,-,SI,NO,SI,Regla genérica que detecte el envío de una contraseña sobre el cuerpo de una petición HTTP POST.,SI
+Resource Development,Compromise Accounts,T1586,-,SI,Email Accounts,T1586.002,-,NO,NO,-,-,NO
+Resource Development,Compromise Accounts,T1586,-,SI,Cloud Accounts,T1586.003,-,NO,NO,-,-,NO
+Resource Development,Compromise Infrastructure,T1584,-,NO,Domains,T1584.001,-,NO,NO,-,-,NO
+Resource Development,Compromise Infrastructure,T1584,-,NO,DNS Server,T1584.002,-,NO,NO,NO,"Una vez el servidor DNS se encuentra comprometido, no es posible determinar si las redirecciones basadas en una caché envenenada son maliciosas o no",SI
+Resource Development,Compromise Infrastructure,T1584,-,NO,Virtual Private Server,T1584.003,-,NO,NO,-,-,NO
+Resource Development,Compromise Infrastructure,T1584,-,NO,Server,T1584.004,-,NO,NO,-,-,NO
+Resource Development,Compromise Infrastructure,T1584,-,NO,Botnet,T1584.005,-,NO,NO,NO,"La detección debe centrarse en otras fases del ciclo de vida de un ataque, como Phishing, DDoS...",SI
+Resource Development,Compromise Infrastructure,T1584,-,NO,Web Services,T1584.006,-,NO,NO,-,-,NO
+Resource Development,Compromise Infrastructure,T1584,-,NO,Serverless,T1584.007,-,NO,NO,-,-,NO
+Resource Development,Compromise Infrastructure,T1584,-,NO,Network Devices,T1584.008,-,NO,NO,-,-,NO
+Resource Development,Develop Capabilities,T1587,-,NO,Malware,T1587.001,-,NO,NO,-,-,NO
+Resource Development,Develop Capabilities,T1587,-,NO,Code Signing Certificates,T1587.002,-,NO,NO,-,-,NO
+Resource Development,Develop Capabilities,T1587,-,NO,Digital Certificates,T1587.003,-,NO,NO,-,-,NO
+Resource Development,Develop Capabilities,T1587,-,NO,Exploits,T1587.004,-,NO,NO,-,-,NO
+Resource Development,Establish Accounts,T1585,-,SI,Social Media Accounts,T1585.001,-,SI,NO,NO,"Siempre y cuando el origen sea la red a proteger, detección por anomalías que identifique un incipiente aumento de las peticiones a servidores de redes sociales.",SI
+Resource Development,Establish Accounts,T1585,-,SI,Email Accounts,T1585.002,-,NO,NO,-,-,NO
+Resource Development,Establish Accounts,T1585,-,SI,Cloud Accounts,T1585.003,-,NO,NO,-,-,NO
+Resource Development,Obtain Capabilities,T1588,-,NO,Malware,T1588.001,-,NO,NO,-,-,NO
+Resource Development,Obtain Capabilities,T1588,-,NO,Tool,T1588.002,-,NO,NO,-,-,NO
+Resource Development,Obtain Capabilities,T1588,-,NO,Code Signing Certificates,T1588.003,-,NO,NO,-,-,NO
+Resource Development,Obtain Capabilities,T1588,-,NO,Digital Certificates,T1588.004,-,NO,NO,-,-,NO
+Resource Development,Obtain Capabilities,T1588,-,NO,Exploits,T1588.005,-,NO,NO,-,-,NO
+Resource Development,Obtain Capabilities,T1588,-,NO,Vulnerabilities,T1588.006,-,NO,NO,-,-,NO
+Resource Development,Obtain Capabilities,T1588,-,NO,Artificial Intelligence,T1588.007,-,NO,NO,-,-,NO
+Resource Development,Stage Capabilities,T1608,-,NO,Upload Malware,T1608.001,-,NO,NO,-,-,NO
+Resource Development,Stage Capabilities,T1608,-,NO,Upload Tool,T1608.002,-,NO,NO,-,-,NO
+Resource Development,Stage Capabilities,T1608,-,NO,Install Digital Certificate,T1608.003,-,NO,NO,-,-,NO
+Resource Development,Stage Capabilities,T1608,-,NO,Drive-by Target,T1608.004,-,NO,NO,-,-,NO
+Resource Development,Stage Capabilities,T1608,-,NO,Link Target,T1608.005,-,NO,NO,-,-,NO
+Resource Development,Stage Capabilities,T1608,-,NO,SEO Poisoning,T1608.006,-,NO,NO,-,-,NO
+Initial Access,Content Injection,T1659,Command and Control,SI,-,-,-,SI,NO,"NO, salvo circunstancias concretas del ataque",La detección de esta técnica será más o menos viales dependiendo del objetivo y método del atacante. Si el ataque se realiza en conjunto con protocolos de gestion(DHCP) dificultará la detección. Resultará necesario monitorizar por la distribución a traves del tráfico de red de archivos malware,SI
+Initial Access,Drive-by Compromise,T1189,-,SI,-,-,-,SI,NO,"NO, salvo circunstancias concretas del ataque","La detección de esta técnica será más o menos viable dependiendo del objetivo y método del atacante. Si el foco está fijado en la obtención de credenciales, si el ataque está elaborado resulta prácticamente imposible su detección. En caso de que se busque un acceso a la red de manera directa mediante ejecutables y/o malware, el tipo de contenido marcará su grado de detección.",SI
+Initial Access,Exploit Public-Facing Application,T1190,-,SI,-,-,-,SI,NO,SI,Regla que detecte un posible intento al esquema de informacion de un servidor MySQL. Regla que detecte una sentencia SQL pudiendose tratar de una posible inyeccion SQL. Regla que detecte posible escaneo de vulnerabilidades de inyeccion SQL.,SI
+Initial Access,External Remote Services,T1133,Persistence,SI,-,-,-,SI,NO,"NO, salvo circunstancias concretas y reglas personalizadas","Existen varias variantes.
+ Circunstancias concretas del ataque: el atacante realiza algún ataque posterior una vez ha logrado acceder a la red (no aplicable a esta técnica) como un escaneo de red o mensajes de anuncio de Host.
+ Reglas personalizadas: regla que compruebe si las direcciones IP involucradas en los paquetes se corresponden con las autorizadas dentro de la red VPN (debe ser configurada manualmente).
+",SI
+Initial Access,Hardware Additions,T1200,-,SI,-,-,-,SI,NO,NO,"Detección por anomalías que identifique desviaciones en el tráfico de red, tales como metadatos o protocolos de gestión (DHCP,...) fuera de los habituales",SI
+Initial Access,Phishing,T1566,-,SI,Spearphishing Attachment,T1566.001,-,SI,NO,NO,Detección por listas negras/anomalías que permitan detectar tráfico de red correspondiente a correos electrónicos con archivos adjuntos maliciosos,SI
+Initial Access,Phishing,T1566,-,SI,Spearphishing Link,T1566.002,-,SI,NO,"NO, salvo circunstancias concretas",Detección por listas negras/anomalías que permitan detectar tráfico de red correspondiente a correos electrónicos con enlaces maliciosos que contengan contenido malware,SI
+Initial Access,Phishing,T1566,-,SI,Spearphishing via Service,T1566.003,-,SI,NO,NO,-,NO
+Initial Access,Phishing,T1566,-,SI,Spearphishing Voice,T1566.004,-,SI,NO,NO,-,NO
+Initial Access,Replication Through Removable Media,T1091,Initial Access,NO,-,-,-,NO,NO,-,-,NO
+Initial Access,Supply Chain Compromise,T1195,-,NO,Compromise Software Dependencies and Development Tools,T1195.001,-,NO,NO,-,-,NO
+Initial Access,Supply Chain Compromise,T1195,-,NO,Compromise Software Supply Chain,T1195.002,-,NO,NO,-,-,NO
+Initial Access,Supply Chain Compromise,T1195,-,NO,Compromise Hardware Supply Chain,T1195.003,-,NO,NO,-,-,NO
+Initial Access,Trusted Relationship,T1199,-,SI,-,-,-,SI,NO,SI*,"El ataque tiene un matiz clave. Si bien el ataque puede ser detectado por Snort (existen muchas variantes, aunque para esta instancia concreta, por ejemplo, sí que existe mecanismo de detección), el hecho de que se trate de un ataque procedente de un dominio de confianza infectado, dificulta su detección, pues bloquear estos paquetes podría imposibilitar comunicación con el dominio de confianza si no existiera amenaza",SI
+Initial Access,Valid Accounts,T1078,"Defense Evasion,Persistence,Privilege Escalation",NO,Default Accounts,T1078.001,-,NO,NO,-,-,NO
+Initial Access,Valid Accounts,T1078,"Defense Evasion,Persistence,Privilege Escalation",NO,Domain Accounts,T1078.002,-,NO,NO,-,-,NO
+Initial Access,Valid Accounts,T1078,"Defense Evasion,Persistence,Privilege Escalation",NO,Local Accounts,T1078.003,-,NO,NO,-,-,NO
+Initial Access,Valid Accounts,T1078,"Defense Evasion,Persistence,Privilege Escalation",NO,Cloud Accounts,T1078.004,-,NO,NO,-,-,NO
+Execution,Cloud Administration Command,T1651,-,NO,-,-,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,Powershell,T1059.001,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,AppleScript,T1059.002,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,Windows Command Shell,T1059.003,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,Unix Shell,T1059.004,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,Visual Basic,T1059.005,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,Python,T1059.006,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,Javascript,T1059.007,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,Network Device CLI,T1059.008,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,Cloud API,T1059.009,-,NO,NO,-,-,NO
+Execution,Command and Scripting Interpreter,T1059,-,NO,AutoHotKey & AutoIT,T1059.010,-,NO,NO,-,-,NO
+Execution,Container Administration Command,T169,-,NO,-,-,-,NO,NO,-,-,NO
+Execution,Deploy Container,T1610,Defense Evasion,NO,-,-,-,NO,NO,-,-,NO
+Execution,Exploitation for Client Execution,T1203,-,SI,-,-,-,NO,NO,NO,-,SI
+Execution,Inter-Process Communication,T1559,-,NO,Component Object Model,T1559.001,-,NO,NO,-,-,NO
+Execution,Inter-Process Communication,T1559,-,NO,Dynamic Data Exchange,T1559.002,-,NO,NO,-,-,NO
+Execution,Inter-Process Communication,T1559,-,NO,XPC Services,T1559.003,-,NO,NO,-,-,NO
+Execution,Native API,T1106,-,NO,-,-,-,NO,NO,-,-,NO
+Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",NO,At,T1053.002,-,SI,NO,-,-,NO
+Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",NO,Cron,T1053.003,-,NO,NO,-,-,NO
+Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",NO,Scheduled Task,T1053.005,-,SI,NO,-,-,NO
+Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",NO,Systemd Timers,T1053.006,-,NO,NO,-,-,NO
+Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",NO,Container Orchestration Job,T1053.007,-,NO,NO,-,-,NO
+Execution,Serverless Execution,T1649,-,NO,-,-,-,NO,NO,-,-,NO
+Execution,Shared Modules,T1129,-,NO,-,-,-,NO,NO,-,-,NO
+Execution,Software Development Tools,T1072,Lateral Movement,NO,-,-,-,NO,NO,-,-,NO
+Execution,System Services,T1569,-,SI,Launchctl,T1569.001,-,NO,NO,-,-,NO
+Execution,System Services,T1569,-,SI,Service Execution,T1569.002,-,SI,NO,SI,"Múltiples reglas de detección. Por ejemplo,
+ Regla que detecte la cadena “PSEXESVC” en el contenido de mensajes SMBv2
+ Regla que detecte archivos ejecutables en mensajes SMB
+",SI
+Execution,User Execution,T1204,-,SI,Malicious Link,T1204.001,-,SI,NO,NO,Deteccion por listas negras/anomalías,SI
+Execution,User Execution,T1204,-,SI,Malicous File,T1204.002,-,NO,NO,-,-,NO
+Execution,User Execution,T1204,-,SI,Malicious Image,T1204.003,-,NO,NO,-,-,NO
+Execution,Windows Management Instrumentation,T1047,-,SI,-,-,-,SI,NO,SI,Regla genérica que detecte intento de ejecucion de código shell en un equipo,SI
+Persistence,Account Manipulation,T1098,Privilege Escalation,NO,Additional Cloud Credentials,T1098.001,,NO,NO,-,-,NO
+Persistence,Account Manipulation,T1098,Privilege Escalation,NO,Additional Email Delegate Permissions,T1098.002,,NO,NO,-,-,NO
+Persistence,Account Manipulation,T1098,Privilege Escalation,NO,Additional Cloud Roles,T1098.003,,NO,NO,-,-,NO
+Persistence,Account Manipulation,T1098,Privilege Escalation,NO,SSH Authorized Keys,T1098.004,,NO,NO,-,-,NO
+Persistence,Account Manipulation,T1098,Privilege Escalation,NO,Device Registration,T1098.005,,NO,NO,-,-,NO
+Persistence,Account Manipulation,T1098,Privilege Escalation,NO,Additional Container Cluster Roles,T1098.006,,NO,NO,-,-,NO
+Persistence,BITS Jobs,T1197,Defense Evasion,SI,-,-,-,SI,NO,SI,Regla genérica que detecte mensajes del protocolo BITS,SI
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Registry Run Keys / Startup Folder,T1547.001,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Authentication Package,T1547.002,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Time Providers,T1547.003,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Winlogon Helper DLL,T1547.004,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Security Support Provider,T1547.005,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Kernel Modules and Extensions,T1547.006,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Re-opened Applications,T1547.007,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,LSASS Driver,T1547.008,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Shortcut Modification,T1547.009,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Port Monitors,T1547.010,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Print Processors,T1547.012,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,XDG Autostart Entries,T1547.013,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Active Setup,T1547.014,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,NO,Login Items,T1547.015,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Initialization Scripts,T1037,Privilege Escalation,NO,Logon Script (Windows),T1037.001,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Initialization Scripts,T1037,Privilege Escalation,NO,Login Hook,T1037.002,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Initialization Scripts,T1037,Privilege Escalation,NO,Network Logon Script,T1037.003,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Initialization Scripts,T1037,Privilege Escalation,NO,RC Scripts,T1037.004,-,NO,NO,-,-,NO
+Persistence,Boot or Logon Initialization Scripts,T1037,Privilege Escalation,NO,Startup Items,T1037.005,-,NO,NO,-,-,NO
+Persistence,Browser Extensions,T1176,-,SI,-,-,-,SI,NO,NO,"Detección por anomalías basada en flujos de datos hacia direcciones no relacionadas con las búsquedas, normalmente en formato de objetos JavaScript",SI
+Persistence,Compromise Host Software Binary,T1554,-,NO,-,-,-,NO,NO,-,-,NO
+Persistence,Create Account,T1136,-,NO,Local Account,T1136.001,-,NO,NO,-,-,NO
+Persistence,Create Account,T1136,-,NO,Domain Account,T1136.002,-,NO,NO,-,-,NO
+Persistence,Create Account,T1136,-,NO,Cloud Account,T1136.003,-,NO,NO,-,-,NO
+Persistence,Create or Modify System Process,T1543,Privilege Escalation,NO,Launch Agent,T1543.001,-,NO,NO,-,-,NO
+Persistence,Create or Modify System Process,T1543,Privilege Escalation,NO,Systemd Service,T1543.002,-,NO,NO,-,-,NO
+Persistence,Create or Modify System Process,T1543,Privilege Escalation,NO,Windows Service,T1543.003,-,SI,NO,-,-,NO
+Persistence,Create or Modify System Process,T1543,Privilege Escalation,NO,Launch Daemon,T1543.004,-,NO,NO,-,-,NO
+Persistence,Create or Modify System Process,T1543,Privilege Escalation,NO,Container Service,T1543.005,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Change Default File Association,T1546.001,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Screensaver,T1546.002,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Windows Management Instrumentation Event Subscription,T1546.003,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Unix Shell Configuration Modification,T1546.004,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Trap,T1546.005,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,LC_LOAD_DYLIB Addition,T1546.006,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Netsh Helper DLL,T1546.007,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Accessibilty features,T1546.008,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,AppCert DLLs,T1546.009,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,AppInit DLLs,T1546.010,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Application Shimming,T1546.011,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Image File Execution Options Injection,T1546.012,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Powershell Profile,T1546.013,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Emond,T1546.014,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Component Object Model Hijacking,T1546.015,-,NO,NO,-,-,NO
+Persistence,Event Triggered Execution,T1546,Privilege Escalation,NO,Installer Packages,T1546.016,-,NO,NO,-,-,NO
+Persistence,External Remote Services,T1133,Initial Access,SI,-,-,-,SI,NO,-,-,SI
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,DLL Search Order Hijacking,T1574.001,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,DLL Side-Loading,T1574.002,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,Dyñib Hijacking,T1574.003,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,Executable Installer File Permissions Weakness,T1574.004,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,Dynamic Linker Hijacking,T1574.005,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,Path Interception by PATH Environment Variable,T1574.006,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,Path Interception by Search Order Hijacking,T1574.007,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,Path Interception by Unquoted Path,T1574.008,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,Services File Permissions Weakness,T1574.009,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,Services Registry Permissions Weakness,T1574.010,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,COR_PROFILER,T1574.011,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,KernelCallbackTable,T1574.012,-,NO,NO,-,-,NO
+Persistence,Hijack Execution Flow,T1574,"Defense Evasion, Privilege Escalation",NO,AppDomainManager,T1574.013,-,NO,NO,-,-,NO
+Persistence,Implant Internal Image,T1525,-,NO,-,-,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Domain Controller Authentication,T1556.001,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Password Filter DLL,T1556.002,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Pluggable Authentication Modules,T1556.003,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Network Device Authentication,T1556.004,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Reversible Encryption,T1556.005,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Multi-Factor Authentication,T1556.006,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Hybrid Identity,T1556.007,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Network Provider DLL,T1556.008,-,NO,NO,-,-,NO
+Persistence,Modify Authentication Process,T1556,"Credential Access, Defense Evasion",NO,Conditional Access Policies,T1556.009,-,NO,NO,-,-,NO
+Persistence,Office Application Startup,T1137,-,NO,Office Template Macros,T1137.001,-,NO,NO,-,-,NO
+Persistence,Office Application Startup,T1137,-,NO,Office Test,T1137.002,-,NO,NO,-,-,NO
+Persistence,Office Application Startup,T1137,-,NO,Outlook Forms,T1137.003,-,NO,NO,-,-,NO
+Persistence,Office Application Startup,T1137,-,NO,Outlook Home Page,T1137.004,-,NO,NO,-,-,NO
+Persistence,Office Application Startup,T1137,-,NO,Outlook Rules,T1137.005,-,NO,NO,-,-,NO
+Persistence,Office Application Startup,T1137,-,NO,Add-ins,T1137.006,-,NO,NO,-,-,NO
+Persistence,Power Settings,T1653,-,NO,-,-,-,NO,NO,-,-,NO
+Persistence,Pre-OS Boot,T1542,Defense Evasion,SI,System Firmware,T1542.001,-,NO,NO,-,-,NO
+Persistence,Pre-OS Boot,T1542,Defense Evasion,SI,Component Firmware,T1542.002,-,NO,NO,-,-,NO
+Persistence,Pre-OS Boot,T1542,Defense Evasion,SI,Bootkit,T1542.003,-,NO,NO,-,-,NO
+Persistence,Pre-OS Boot,T1542,Defense Evasion,SI,ROMMONkit,T1542.004,-,NO,NO,-,-,NO
+Persistence,Pre-OS Boot,T1542,Defense Evasion,SI,TFTP Boot,T1542.005,-,SI,NO,"NO, salvo uso de reglas personalizadas o circunstancias concretas del ataque",**Regla personalizada que comprueba si la IP del servidor TFTP es la del servidor legítimo ** Que el SO enviado por el atacante contenga algun tipo de malware detectable por un IDS,SI
+Persistence,Scheduled Task/Job,T1053,"Privilege Escalation, Execution",NO,At,T1053.002,-,SI,NO,-,-,NO
+Persistence,Scheduled Task/Job,T1053,"Privilege Escalation, Execution",NO,Cron,T1053.003,-,NO,NO,-,-,NO
+Persistence,Scheduled Task/Job,T1053,"Privilege Escalation, Execution",NO,Scheduled Task,T1053.005,-,SI,NO,-,-,NO
+Persistence,Scheduled Task/Job,T1053,"Privilege Escalation, Execution",NO,Systemd Timers,T1053.006,-,NO,NO,-,-,NO
+Persistence,Scheduled Task/Job,T1053,"Privilege Escalation, Execution",NO,Container Orchestration Job,T1053.007,-,NO,NO,-,-,NO
+Persistence,Server Software Component,T1505,-,SI,SQL Stored Procedures,T1505.001,-,NO,NO,"NO, salvo uso de reglas personalizadas o circunstancias concretas del ataque","Regla genérica que detecte en la petición ""%27"" que indica la representacion de comillas simples",SI
+Persistence,Server Software Component,T1505,-,SI,Transport Agent,T1505.002,-,NO,NO,-,-,NO
+Persistence,Server Software Component,T1505,-,SI,Web Shell,T1505.003,-,SI,NO,SI,Regla genérica que detecta el intento de escaneo para comprobar la existencia de backdoor.,SI
+Persistence,Server Software Component,T1505,-,SI,IIS Components,T1505.004,-,NO,NO,-,-,NO
+Persistence,Server Software Component,T1505,-,SI,Terminal Service DLL,T1505.005,-,NO,NO,-,-,NO
+Persistence,Traffic Signaling,T1205,"Defense Evasion, Command and Control",SI,Port Knocking,T1205.001,-,SI,NO,NO,Deteccion por anomalias,SI
+Persistence,Traffic Signaling,T1205,"Defense Evasion, Command and Control",SI,Socket Filters,T1205.002,-,SI,NO,-,-,NO
+Persistence,Valid Accounts,T1078,"Defense Evasion,Initial Access,Privilege Escalation",NO,Default Accounts,T1078.001,-,NO,NO,-,-,NO
+Persistence,Valid Accounts,T1078,"Defense Evasion,Initial Access,Privilege Escalation",NO,Domain Accounts,T1078.002,-,NO,NO,-,-,NO
+Persistence,Valid Accounts,T1078,"Defense Evasion,Initial Access,Privilege Escalation",NO,Local Accounts,T1078.003,-,NO,NO,-,-,NO
+Persistence,Valid Accounts,T1078,"Defense Evasion,Initial Access,Privilege Escalation",NO,Cloud Accounts,T1078.004,-,NO,NO,-,-,NO
+Privilege Escalation,Abuse Elevation Control Mechanism,T1548,Defense Evasion,NO,Setuid and Setgid,T1548.001,-,NO,NO,-,-,NO
+Privilege Escalation,Abuse Elevation Control Mechanism,T1548,Defense Evasion,NO,Bypass User Account Control,T1548.002,-,NO,NO,-,-,NO
+Privilege Escalation,Abuse Elevation Control Mechanism,T1548,Defense Evasion,NO,Sudo and Sudo Caching,T1548.003,-,NO,NO,-,-,NO
+Privilege Escalation,Abuse Elevation Control Mechanism,T1548,Defense Evasion,NO,Elevated Execution with Prompt,T1548.004,-,NO,NO,-,-,NO
+Privilege Escalation,Abuse Elevation Control Mechanism,T1548,Defense Evasion,NO,Temporary Elevated Cloud Access,T1548.005,-,NO,NO,-,-,NO
+Privilege Escalation,Abuse Elevation Control Mechanism,T1548,Defense Evasion,NO,TCC Manipulation,T1548.006,-,NO,NO,-,-,NO
+Privilege Escalation,Access Token Manipulation,T1134,Defense Evasion,NO,Token Impersonation / Theft,T1134.001,-,NO,NO,-,-,NO
+Privilege Escalation,Access Token Manipulation,T1134,Defense Evasion,NO,Create Process with Token,T1134.002,-,NO,NO,-,-,NO
+Privilege Escalation,Access Token Manipulation,T1134,Defense Evasion,NO,Make and Impersonate Token,T1134.003,-,NO,NO,-,-,NO
+Privilege Escalation,Access Token Manipulation,T1134,Defense Evasion,NO,Parent PID Spoofing,T1134.004,-,NO,NO,-,-,NO
+Privilege Escalation,Access Token Manipulation,T1134,Defense Evasion,NO,SID-History Injection,T1134.005,-,NO,NO,-,-,NO
+Privilege Escalation,Account Manipulation,T1098,Persistence,NO,Additional Cloud Credentials,T1098.001,-,NO,NO,-,-,NO
+Privilege Escalation,Account Manipulation,T1098,Persistence,NO,Additional Email Delegate Permissions,T1098.002,-,NO,NO,-,-,NO
+Privilege Escalation,Account Manipulation,T1098,Persistence,NO,Additional Cloud Roles,T1098.003,-,NO,NO,-,-,NO
+Privilege Escalation,Account Manipulation,T1098,Persistence,NO,SSH Authorized Keys,T1098.004,-,NO,NO,-,-,NO
+Privilege Escalation,Account Manipulation,T1098,Persistence,NO,Device Registration,T1098.005,-,NO,NO,-,-,NO
+Privilege Escalation,Account Manipulation,T1098,Persistence,NO,Additional Container Cluster Roles,T1098.006,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Registry Run Keys / Startup Folder,T1547.001,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Authentication Package,T1547.002,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Time Providers,T1547.003,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Winlogon Helper DLL,T1547.004,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Security Support Provider,T1547.005,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Kernel Modules and Extensions,T1547.006,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Re-opened Applications,T1547.007,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,LSASS Driver,T1547.008,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Shortcut Modification,T1547.009,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Port Monitors,T1547.010,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Print Processors,T1547.012,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,XDG Autostart Entries,T1547.013,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Active Setup,T1547.014,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Autostart Execution,T1547,Persistence,NO,Login Items,T1547.015,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Initialization Scripts,T1037,Persistence,NO,Logon Script (Windows),T1037.001,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Initialization Scripts,T1037,Persistence,NO,Login Hook,T1037.002,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Initialization Scripts,T1037,Persistence,NO,Network Logon Script,T1037.003,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Initialization Scripts,T1037,Persistence,NO,RC Scripts,T1037.004,-,NO,NO,-,-,NO
+Privilege Escalation,Boot or Logon Initialization Scripts,T1037,Persistence,NO,Startup Items,T1037.005,-,NO,NO,-,-,NO
+Privilege Escalation,Escape to Host,T1611,-,NO,-,-,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Change Default File Association,T1546.001,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Screensaver,T1546.002,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Windows Management Instrumentation Event Subscription,T1546.003,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Unix Shell Configuration Modification,T1546.004,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Trap,T1546.005,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,LC_LOAD_DYLIB Addition,T1546.006,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Netsh Helper DLL,T1546.007,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Accessibilty features,T1546.008,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,AppCert DLLs,T1546.009,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,AppInit DLLs,T1546.010,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Application Shimming,T1546.011,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Image File Execution Options Injection,T1546.012,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Powershell Profile,T1546.013,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Emond,T1546.014,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Component Object Model Hijacking,T1546.015,-,NO,NO,-,-,NO
+Privilege Escalation,Event Triggered Execution,T1546,Persistence,NO,Installer Packages,T1546.016,-,NO,NO,-,-,NO
+Privilege Escalation,Exploitation for Privilege Escalation,T1068,-,NO,-,-,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,DLL Search Order Hijacking,T1574.001,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,DLL Side-Loading,T1574.002,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,Dyñib Hijacking,T1574.003,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,Executable Installer File Permissions Weakness,T1574.004,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,Dynamic Linker Hijacking,T1574.005,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,Path Interception by PATH Environment Variable,T1574.006,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,Path Interception by Search Order Hijacking,T1574.007,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,Path Interception by Unquoted Path,T1574.008,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,Services File Permissions Weakness,T1574.009,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,Services Registry Permissions Weakness,T1574.010,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,COR_PROFILER,T1574.011,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,KernelCallbackTable,T1574.012,-,NO,NO,-,-,NO
+Privilege Escalation,Hijack Execution Flow,T1574,"Persistence, Defense Evasion",NO,AppDomainManager,T1574.013,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Dynamic-link Library Injection,T1055.001,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Portable Executable Injection,T1055.002,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Thread Execution Hijacking,T1055.003,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Asynchronous Procedure Call,T1055.004,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Thread Local Storage,T1055.005,--,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Ptrace System Calls,T1055.008,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Proc Memory,T1055.009,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Extra Window Memory Injection,T1055.011,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Process Hollowing,T1055.012,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,Process Doppelgänging,T1055.013,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,VDSO Hijacking,T1055.014,-,NO,NO,-,-,NO
+Privilege Escalation,Process Injection,T1055,Defense Evasion,NO,ListPlanting,T1055.015,-,NO,NO,-,-,NO
+Privilege Escalation,Scheduled Task/Job,T1053,"Persistence, Execution",NO,At,T1053.002,-,NO,NO,-,-,NO
+Privilege Escalation,Scheduled Task/Job,T1053,"Persistence, Execution",NO,Cron,T1053.003,-,NO,NO,-,-,NO
+Privilege Escalation,Scheduled Task/Job,T1053,"Persistence, Execution",NO,Scheduled Task,T1053.005,-,NO,NO,-,-,NO
+Privilege Escalation,Scheduled Task/Job,T1053,"Persistence, Execution",NO,Systemd Timers,T1053.006,-,NO,NO,-,-,NO
+Privilege Escalation,Scheduled Task/Job,T1053,"Persistence, Execution",NO,Container Orchestration Job,T1053.007,-,NO,NO,-,-,NO
+Privilege Escalation,Valid Accounts,T1078,"Defense Evasion,Persistence, Initial Access",NO,Default Accounts,T1078.001,-,NO,NO,-,-,NO
+Privilege Escalation,Valid Accounts,T1078,"Defense Evasion,Persistence, Initial Access",NO,Domain Accounts,T1078.002,-,NO,NO,-,-,NO
+Privilege Escalation,Valid Accounts,T1078,"Defense Evasion,Persistence, Initial Access",NO,Local Accounts,T1078.003,-,NO,NO,-,-,NO
+Privilege Escalation,Valid Accounts,T1078,"Defense Evasion,Persistence, Initial Access",NO,Cloud Accounts,T1078.004,-,NO,NO,-,-,NO
+Defense Evasion,Abuse Elevation Control Mechanism,T1548,Privilege Escalation,NO,Setuid and Setgid,T1548.001,,NO,NO,-,-,NO
+Defense Evasion,Abuse Elevation Control Mechanism,T1548,Privilege Escalation,NO,Bypass User Account Control,T1548.002,,NO,NO,-,-,NO
+Defense Evasion,Abuse Elevation Control Mechanism,T1548,Privilege Escalation,NO,Sudo and Sudo Caching,T1548.003,,NO,NO,-,-,NO
+Defense Evasion,Abuse Elevation Control Mechanism,T1548,Privilege Escalation,NO,Elevated Execution with Prompt,T1548.004,,NO,NO,-,-,NO
+Defense Evasion,Abuse Elevation Control Mechanism,T1548,Privilege Escalation,NO,Temporary Elevated Cloud Access,T1548.005,,NO,NO,-,-,NO
+Defense Evasion,Abuse Elevation Control Mechanism,T1548,Privilege Escalation,NO,TCC Manipulation,T1548.006,,NO,NO,-,-,NO
+Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,NO,Token Impersonation / Theft,T1134.001,,NO,NO,-,-,NO
+Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,NO,Create Process with Token,T1134.002,,NO,NO,-,-,NO
+Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,NO,Make and Impersonate Token,T1134.003,,NO,NO,-,-,NO
+Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,NO,Parent PID Spoofing,T1134.004,,NO,NO,-,-,NO
+Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,NO,SID-History Injection,T1134.005,,NO,NO,-,-,NO
+Defense Evasion,BITS Jobs,T1197,Persistence,SI,-,-,-,SI,NO,SI,Regla genérica que detecte paquetes SMB desde un orígen a un destino/servidor,SI
+Defense Evasion,Build Image on Host,T1612,-,SI,-,-,-,SI,NO,SI,Regla genérica que detecte descargas de contenedores mediante Docker API,SI
+Defense Evasion,Debugger Evasion,T1622,Discovery,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Deobfuscate/Decode Files or Information,T1140,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Deploy Container,T1610,Execution,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Direct Volume Access,T1006,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Domain or Tenant Policy Modification,T1484,Privilege Escalation,NO,Group Policy Modification,T1484.001,-,NO,NO,-,-,NO
+Defense Evasion,Domain or Tenant Policy Modification,T1484,Privilege Escalation,NO,Trust Modification,T1484.002,-,NO,NO,-,-,NO
+Defense Evasion,Execution Guardrails,T1480,-,NO,Environmental Keying,T1480,-,NO,NO,-,-,NO
+Defense Evasion,Exploitation for Defense Evasion,T1211,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,File and Directory Permissions Modification,T1222,-,NO,Windows File and Directory Permissions Modification,T1222.001,-,NO,NO,-,-,NO
+Defense Evasion,File and Directory Permissions Modification,T1222,-,NO,Linux and Mac File and Directory Permissions Modification,T1222.002,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Hidden Files and Directories,T1564.001,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Hidden Users,T1564.002,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Hidden Window,T1564.003,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,NTFS File Attributes,T1564.004,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Hidden File System,T1564.005,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Run Virtual Instance,T1564.006,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,VBA Stomping,T1564.007,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Email Hiding Rules,T1564.008,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Resource Forking,T1564.009,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Process Argument Spoofing,T1564.010,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,Ignore Process Interrupts,T1564.011,-,NO,NO,-,-,NO
+Defense Evasion,Hide Artifacts,T1564,-,NO,File/Path Exclusions,T1564.012,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,DLL Search Order Hijacking,T1574.001,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,DLL Side-Loading,T1574.002,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,Dyñib Hijacking,T1574.003,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,Executable Installer File Permissions Weakness,T1574.004,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,Dynamic Linker Hijacking,T1574.005,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,Path Interception by PATH Environment Variable,T1574.006,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,Path Interception by Search Order Hijacking,T1574.007,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,Path Interception by Unquoted Path,T1574.008,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,Services File Permissions Weakness,T1574.009,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,Services Registry Permissions Weakness,T1574.010,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,COR_PROFILER,T1574.011,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,KernelCallbackTable,T1574.012,-,NO,NO,-,-,NO
+Defense Evasion,Hijack Execution Flow,T1574,"Persistence, Privilege Escalation",NO,AppDomainManager,T1574.013,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Disable or Modify Tools,T1562.001,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Disable Windows Event Logging,T1562.002,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Impair Command History Logging,T1562.003,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Disable or Modify System Firewall,T1562.004,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Indicator Blocking,T1562.006,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Disable or Modify Cloud Firewall,T1562.007,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Disable or Modify Cloud Logs,T1562.008,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Safe Mode Boot,T1562.009,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Downgrade Attack,T1562.010,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Spoof Security Alerting,T1562.011,-,NO,NO,-,-,NO
+Defense Evasion,Impair Defenses,T1562,-,NO,Disable or Modify Linux Audit System,T1562.012,-,NO,NO,-,-,NO
+Defense Evasion,Indicator Removal,T1070,-,SI,Clear Windows Event Logs,T1070.001,-,NO,NO,-,-,NO
+Defense Evasion,Indicator Removal,T1070,-,SI,Clear Linux or Mac System Logs,T1070.002,-,NO,NO,-,-,NO
+Defense Evasion,Indicator Removal,T1070,-,SI,Clear Command History,T1070.003,-,NO,NO,-,-,NO
+Defense Evasion,Indicator Removal,T1070,-,SI,File Deletion,T1070.004,-,NO,NO,-,-,NO
+Defense Evasion,Indicator Removal,T1070,-,SI,Network Share Connection Removal,T1070.005,-,SI,NO,NO,"Detección por anomalías, desconexión repentina de una dirección de varios recursos compartidos",SI
+Defense Evasion,Indicator Removal,T1070,-,SI,Timestomp,T1070.006,-,NO,NO,-,-,NO
+Defense Evasion,Indicator Removal,T1070,-,SI,Clear Network Connection History and Configurations,T1070.007,-,NO,NO,-,-,NO
+Defense Evasion,Indicator Removal,T1070,-,SI,Clear Mailbox Data,T1070.008,-,NO,NO,-,-,NO
+Defense Evasion,Indicator Removal,T1070,-,SI,Clear Persistence,T1070.009,-,NO,NO,-,-,NO
+Defense Evasion,Impersonation,T1656,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Indirect Command Execution,T1202,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Invalid Code Signature,T1036.001,,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Right-to-Left Override,T1036.002,-,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Rename System Utilities,T1036.003,-,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Masquerade Task or Service,T1036.004,-,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Match Legitimate Name or Location,T1036.005,-,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Space after Filename,T1036.006,-,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Double File Extension,T1036.007,-,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Masquerade File Type,T1036.008,-,NO,NO,-,-,NO
+Defense Evasion,Masquerading,T1036,-,NO,Break Process Trees,T1036.009,-,NO,NO,-,-,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Domain Controller Authentication,T1556.001,-,NO,NO,-,-,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Password Filter DLL,T1556.002,-,NO,NO,-,-,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Pluggable Authentication Modules,T1556.003,-,NO,NO,-,-,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Network Device Authentication,T1556.004,-,NO,NO,-,-,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Reversible Encryption,T1556.005,-,NO,NO,-,--,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Multi-Factor Authentication,T1556.006,-,NO,NO,-,-,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Hybrid Identity,T1556.007,-,NO,NO,-,-,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Network Provider DLL,T1556.008,-,NO,NO,-,-,NO
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",NO,Conditional Access Policies,T1556.009,-,NO,NO,-,-,NO
+Defense Evasion,Modify Cloud Compute Infrastructure,T1578,-,NO,Create Snapshot,T1578.001,-,NO,NO,-,-,NO
+Defense Evasion,Modify Cloud Compute Infrastructure,T1578,-,NO,Create Cloud Instance,T1578.002,-,NO,NO,-,-,NO
+Defense Evasion,Modify Cloud Compute Infrastructure,T1578,-,NO,Delete Cloud Instance,T1578.003,-,NO,NO,-,-,NO
+Defense Evasion,Modify Cloud Compute Infrastructure,T1578,-,NO,Revert Cloud Instance,T1578.004,-,NO,NO,-,-,NO
+Defense Evasion,Modify Cloud Compute Infrastructure,T1578,-,NO,Modify Cloud Compute Configurations,T1578.005,-,NO,NO,-,-,NO
+Defense Evasion,Modify Registry,T1112,-,SI,-,-,-,SI,NO,SI,Regla que detecte el envío de mensajes con protocolo WINREG o Remote Registry Service,SI
+Defense Evasion,Modify System Image,T1601,-,NO,Patch System Image,T1601.001,-,NO,NO,-,-,NO
+Defense Evasion,Modify System Image,T1601,-,NO,Downgrade System Image,T1601.002,-,NO,NO,-,-,NO
+Defense Evasion,Network Boundary Bridging,T1599,-,SI,Network Address Translation Transversal,T1599.001,-,SI,SI,NO,Detección por anomalías,SI
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Binary Padding,T1027.001,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Software Packing,T1027.002,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Steganography,T1027.003,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Compile After Delivery,T1027.004,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Indicator Removal From Tools,T1027.005,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,HTML Smuggling,T1027.006,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Dynamic API Resolution,T1027.007,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Stripped Payloads,T1027.008,-,NO,NO,-,--,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Embedded Payloads,T1027.009,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Command Obfuscation,T1027.010,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Fileless Storage,T1027.011,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,LNK Icon Smuggling,T1027.012,-,NO,NO,-,-,NO
+Defense Evasion,Obfuscated Files or Information,T1027,-,NO,Encrypted/Encoded File,T1027.013,-,NO,NO,-,-,NO
+Defense Evasion,Plist File Modification,T1647,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Pre-OS Boot,T1542,Persistence,SI,System Firmware,T1542.001,-,NO,NO,-,-,NO
+Defense Evasion,Pre-OS Boot,T1542,Persistence,SI,Component Firmware,T1542.002,-,NO,NO,-,-,NO
+Defense Evasion,Pre-OS Boot,T1542,Persistence,SI,Bootkit,T1542.003,-,NO,NO,-,-,NO
+Defense Evasion,Pre-OS Boot,T1542,Persistence,SI,ROMMONkit,T1542.004,-,NO,NO,-,-,NO
+Defense Evasion,Pre-OS Boot,T1542,Persistence,SI,TFTP Boot,T1542.005,-,SI,NO,NO,-,SI
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Dynamic-link Library Injection,T1055.001,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Portable Executable Injection,T1055.002,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Thread Execution Hijacking,T1055.003,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Asynchronous Procedure Call,T1055.004,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Thread Local Storage,T1055.005,--,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Ptrace System Calls,T1055.008,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Proc Memory,T1055.009,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Extra Window Memory Injection,T1055.011,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Process Hollowing,T1055.012,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,Process Doppelgänging,T1055.013,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,VDSO Hijacking,T1055.014,-,NO,NO,-,-,NO
+Defense Evasion,Process Injection,T1055,Privilege Escalation,NO,ListPlanting,T1055.015,-,NO,NO,-,-,NO
+Defense Evasion,Reflective Code Loading,T1620,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Rogue Domain Controller,T1207,-,SI,-,-,-,SI,NO,SÍ,Regla que detecte una llamada a la función DRSUAPI_REPLICA_ADD (5),SI
+Defense Evasion,Rootkit,T1014,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Suvert Trust Controls,T1553,-,NO,Gatekeeper Bypass,T1553.001,-,NO,NO,-,-,NO
+Defense Evasion,Suvert Trust Controls,T1553,-,NO,Code Signing,T1553.002,-,NO,NO,-,-,NO
+Defense Evasion,Suvert Trust Controls,T1553,-,NO,SIP and Trust Provider Hijacking,T1553.003,-,NO,NO,-,-,NO
+Defense Evasion,Suvert Trust Controls,T1553,-,NO,Install Root Certificate,T1553.004,-,NO,NO,-,-,NO
+Defense Evasion,Suvert Trust Controls,T1553,-,NO,Mark-of-the-Web Bypass,T1553.005,-,NO,NO,-,-,NO
+Defense Evasion,Suvert Trust Controls,T1553,-,NO,Code Signing Policy Modification,T1553.006,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Compiled HTML File,T1218.001,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Control Panel,T1218.002,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,CMSTP,T1218.003,-,SI,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,InstallUtil,T1218.004,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Mshta,T1218.005,-,SI,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Msiexec,T1218.007,-,SI,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Obdconf,T1218.008,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Regsvcs/Regasm,T1218.009,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Regsvr32,T1218.010,-,SI,NO,NO,-,SI
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Rundll32,T1218.011,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Verclsid,T1218.012,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Mavinject,T1218.013,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,MMC,T1218.014,-,NO,NO,-,-,NO
+Defense Evasion,System Binary Proxy Execution,T1218,-,SI,Electron Applications,T1218.015,-,NO,NO,-,-,NO
+Defense Evasion,System Script Proxy Execution,T1216,-,NO,PubPrn,T1216.001,-,NO,NO,-,-,NO
+Defense Evasion,System Script Proxy Execution,T1216,-,NO,SyncAppvPublishingServer,T1216.002,-,NO,NO,-,-,NO
+Defense Evasion,Template Injection,T1221,-,SI,-,-,-,SI,NO,"NO, salvo circunstancias concretas del ataque","Detección por lista negra/anomalías. Debería monitorizarse y detectar tráfico de red hacia direcciones o dominios marcados en listas negras. En algún caso concreto, se puede descargar y ejecutar malware por lo que se debe monitorizar y detectar la descarga de este tipo de ficheros",SI
+Defense Evasion,Traffic Signaling,T1205,"Persistence, Command and Control",SI,Port Knocking,T1205.001,-,SI,NO,NO,-,SI
+Defense Evasion,Traffic Signaling,T1205,"Persistence, Command and Control",SI,Socket Filters,T1205.002,-,SI,NO,-,-,NO
+Defense Evasion,Trusted Developer Utilities Proxy Execution,T1127,-,NO,MSBuild,T1127.001,-,NO,NO,-,-,NO
+Defense Evasion,Unused/Unsupported Cloud Regions,T1535,-,NO,-,-,-,NO,NO,-,-,NO
+Defense Evasion,Use Alternate Authentication Material,T1550,Defense Evasion,NO,Application Access Token,T1550.001,-,NO,NO,-,-,NO
+Defense Evasion,Use Alternate Authentication Material,T1550,Defense Evasion,NO,Pass the Hash,T1550.002,-,NO,NO,-,-,NO
+Defense Evasion,Use Alternate Authentication Material,T1550,Defense Evasion,NO,Pass the Ticket,T1550.003,-,NO,NO,-,-,NO
+Defense Evasion,Use Alternate Authentication Material,T1550,Defense Evasion,NO,Web Session Cookie,T1550.004,-,NO,NO,-,-,NO
+Defense Evasion,Valid Accounts,T1078,"Initial Access,Persistence,Privilege Escalation",NO,Default Accounts,T1078.001,-,NO,NO,-,-,NO
+Defense Evasion,Valid Accounts,T1078,"Initial Access,Persistence,Privilege Escalation",NO,Domain Accounts,T1078.002,-,NO,NO,-,-,NO
+Defense Evasion,Valid Accounts,T1078,"Initial Access,Persistence,Privilege Escalation",NO,Local Accounts,T1078.003,-,NO,NO,-,-,NO
+Defense Evasion,Valid Accounts,T1078,"Initial Access,Persistence,Privilege Escalation",NO,Cloud Accounts,T1078.004,-,NO,NO,-,-,NO
+Defense Evasion,Virtualization/Sandbox Evasion,T1497,Discovery,NO,System Checks,T1497.001,-,NO,NO,-,-,NO
+Defense Evasion,Virtualization/Sandbox Evasion,T1497,Discovery,NO,User Activity Based Checks,T1497.002,-,NO,NO,-,-,NO
+Defense Evasion,Virtualization/Sandbox Evasion,T1497,Discovery,NO,Time Based Evasion,T1497.003,-,NO,NO,-,-,NO
+Defense Evasion,Weaken Encryption,T1600,-,NO,Reduce Key Space,T1600.001,-,NO,NO,-,-,NO
+Defense Evasion,Weaken Encryption,T1600,-,NO,Disable Crypto Hardware,T1600.002,-,NO,NO,-,-,NO
+Defense Evasion,XSL Script Processing,T1220,-,NO,-,-,-,NO,NO,-,-,NO
+Credential Access,Adversary-in-the-Middle,T1557,Collection,SI,LLMNR/NBT-NS Poisoning and SMB Relay,T1557.001,-,SI,NO,-,-,NO
+Credential Access,Adversary-in-the-Middle,T1557,Collection,SI,ARP Cache Poisoning,T1557.002,-,SI,SI,SI,"Mediante el uso de preprocesadores, la detección de este ataque es posible estableciendo un asociación entre la IP a proteger y su dirección MAC correspondiente. De esta forma, se puede fundar una regla que detecte mensajes ARP que incumplen esta asociación y que avistan de un posible ataque por suplantación MAC",SI
+Credential Access,Adversary-in-the-Middle,T1557,Collection,SI,DHCP Spoofing,T1557.003,-,SI,NO,SI,"Regla genérica que detecte un envío masivo de procedimientos DHCP completos (DISCOVERY, OFFER, REQUEST, ACK). Otra alternativa es una regla personalizada que analice mensajes DHCP ACK con direcciones IP de servidores DNS distinta a la establecida en la red",SI
+Credential Access,Brute Force,T1110,-,SI,Password Guessing,T1110.001,-,NO,NO,NO,-,SI
+Credential Access,Brute Force,T1110,-,SI,Password Cracking,T1110.002,-,NO,NO,NO,-,SI
+Credential Access,Brute Force,T1110,-,SI,Password Spraying,T1110.003,-,NO,NO,NO,-,SI
+Credential Access,Brute Force,T1110,-,SI,Credential Stuffing,T1110.004,-,NO,NO,-,-,NO
+Credential Access,Credentials from Password Stores,T1555,-,NO,Keychain,T1555.001,-,NO,NO,-,-,NO
+Credential Access,Credentials from Password Stores,T1555,-,NO,Securityd Memory,T1555.002,-,NO,NO,-,-,NO
+Credential Access,Credentials from Password Stores,T1555,-,NO,Credentials from Web Browsers,T1555.003,-,NO,NO,-,-,NO
+Credential Access,Credentials from Password Stores,T1555,-,NO,Windows Credential Manager,T1555.004,-,NO,NO,-,-,NO
+Credential Access,Credentials from Password Stores,T1555,-,NO,Password Managers,T1555.005,-,NO,NO,-,-,NO
+Credential Access,Credentials from Password Stores,T1555,-,NO,Cloud Secrets Management Stores,T1555.006,-,NO,NO,-,-,NO
+Credential Access,Exploitation for Credential Access,T1212,-,NO,-,-,-,NO,NO,-,-,NO
+Credential Access,Forced Authentication,T1187,-,SI,-,-,-,SI,NO,SI,"Regla genérica que detecte paquetes SMB en puertos TCP 139,445 y puerto UDP 137 y el tráfico WebDAV",SI
+Credential Access,Forge Web Credentials,T1606,-,NO,Web Cookies,T1606.001,-,NO,NO,-,-,NO
+Credential Access,Forge Web Credentials,T1606,-,NO,SAML Tokens,T1606.002,-,NO,NO,-,-,NO
+Credential Access,Input Capture,T1056,Collection,NO,Keylogging,T1056.001,-,NO,NO,-,-,NO
+Credential Access,Input Capture,T1056,Collection,NO,GUI Input Capture,T1056.002,-,NO,NO,-,-,NO
+Credential Access,Input Capture,T1056,Collection,NO,Web Portal Capture,T1056.003,-,NO,NO,-,-,NO
+Credential Access,Input Capture,T1056,Collection,NO,Credential API Hooking,T1056.004,-,NO,NO,-,-,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Domain Controller Authentication,T1556.001,-,NO,NO,-,-,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Password Filter DLL,T1556.002,-,NO,NO,-,-,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Pluggable Authentication Modules,T1556.003,-,NO,NO,-,-,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Network Device Authentication,T1556.004,-,NO,NO,-,-,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Reversible Encryption,T1556.005,-,NO,NO,-,--,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Multi-Factor Authentication,T1556.006,-,NO,NO,-,-,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Hybrid Identity,T1556.007,-,NO,NO,-,-,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Network Provider DLL,T1556.008,-,NO,NO,-,-,NO
+Credential Access,Modify Authentication Process,T1556,"Defense Evasion, Persistence",NO,Conditional Access Policies,T1556.009,-,NO,NO,-,-,NO
+Credential Access,Multi-Factor Authentication Interception,T1111,-,NO,-,-,-,NO,NO,-,-,NO
+Credential Access,Multi-Factor Authentication Request Generation,T1621,-,NO,-,-,-,NO,NO,-,-,NO
+Credential Access,Network Sniffing,T1040,Discovery,NO,-,-,-,NO,NO,NO,No existe detección posible ante este tipo de ataques. El uso de cifrado WEP incorpora vulnerabilidades intrínsecas a este.,SI
+Credential Access,OS Credential Dumping,T1003,-,SI,LSASS Memory,T1003.001,-,NO,NO,-,-,NO
+Credential Access,OS Credential Dumping,T1003,-,SI,Security Account Manager,T1003.002,-,NO,NO,-,-,NO
+Credential Access,OS Credential Dumping,T1003,-,SI,NTDS,T1003.003,-,NO,NO,-,-,NO
+Credential Access,OS Credential Dumping,T1003,-,SI,LSA Secrets,T1003.004,-,NO,NO,-,-,NO
+Credential Access,OS Credential Dumping,T1003,-,SI,Cached Domain Credentials,T1003.005,-,NO,NO,-,-,NO
+Credential Access,OS Credential Dumping,T1003,-,SI,DCSync,T1003.006,-,SI,NO,SI,Regla compuesta que detecte una llamada DCERPC Bind a la API DRSUAPI y una llamada posterior a la función DsGetNCChanges,SI
+Credential Access,OS Credential Dumping,T1003,-,SI,Proc Filesystem,T1003.007,-,NO,NO,-,-,NO
+Credential Access,OS Credential Dumping,T1003,-,SI,/etc/passwd and /etc/shadow,T1003.008,-,NO,NO,-,-,NO
+Credential Access,Steal Application Access Token,T1528,-,NO,-,-,-,NO,NO,-,-,NO
+Credential Access,Steal or Forge Authentication Certificates,T1649,-,NO,-,-,-,NO,NO,-,-,NO
+Credential Access,Steal or Forge Kerberos Tickets,T1558,-,NO,Golden Ticket,T1558.001,-,NO,NO,-,-,NO
+Credential Access,Steal or Forge Kerberos Tickets,T1558,-,NO,Silver Ticket,T1558.002,-,NO,NO,-,-,NO
+Credential Access,Steal or Forge Kerberos Tickets,T1558,-,NO,Kerberoasting,T1558.003,-,NO,NO,-,-,NO
+Credential Access,Steal or Forge Kerberos Tickets,T1558,-,NO,AS-REP Roasting,T1558.004,-,NO,NO,-,-,NO
+Credential Access,Steal Web Session Cookie,T1539,-,NO,-,-,-,NO,NO,-,-,NO
+Credential Access,Unsecured Credentials,T1552,-,NO,Credentials in Files,T1552.001,-,NO,NO,-,-,NO
+Credential Access,Unsecured Credentials,T1552,-,NO,Credentials in Registry,T1552.002,-,NO,NO,-,-,NO
+Credential Access,Unsecured Credentials,T1552,-,NO,Bash History,T1552.003,-,NO,NO,-,-,NO
+Credential Access,Unsecured Credentials,T1552,-,NO,Private Keys,T1552.004,-,NO,NO,-,-,NO
+Credential Access,Unsecured Credentials,T1552,-,NO,Cloud Instance Metadata API,T1552.005,-,NO,NO,-,-,NO
+Credential Access,Unsecured Credentials,T1552,-,NO,Group Policy Preferences,T1552.006,-,NO,NO,-,-,NO
+Credential Access,Unsecured Credentials,T1552,-,NO,Container API,T1552.007,-,NO,NO,-,-,NO
+Credential Access,Unsecured Credentials,T1552,-,NO,Chat Messages,T1552.008,-,NO,NO,-,-,NO
+Discovery,Account Discovery,T1087,-,NO,Local Account,T1087.001,-,NO,NO,-,-,NO
+Discovery,Account Discovery,T1087,-,NO,Domain Account,T1087.002,-,SI,NO,-,-,NO
+Discovery,Account Discovery,T1087,-,NO,Email Account,T1087.003,-,NO,NO,-,-,NO
+Discovery,Account Discovery,T1087,-,NO,Cloud Account,T1087.004,-,NO,NO,-,-,NO
+Discovery,Application Window Discovery,T1010,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Browser Information Discovery,T1217,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Cloud Infrastructure Discovery,T1580,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Cloud Service Dashboard,T1538,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Cloud Service Discovery,T1526,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Cloud Storage Object Discovery,T1619,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Container and Resource Discovery,T1613,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Debugger Evasion,T1622,Defense Evasion,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Device Driver Discovery,T1562,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Domain Trust Discovery,T1482,-,SI,-,-,-,SI,NO,"NO, salvo reglas personalizadas","Regla personalizada que detecte paquetes LDAP, procedentes de equipos que no son DC en la red (configurable manualmente) y con la cadena objectClass=trustedDomain",SI
+Discovery,File and Directory Discovery,T1083,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Group Policy Discovery,T1615,-,SI,-,-,-,SI,NO,NO,Detección por anomalías,SI
+Discovery,Log Enumeration,T1654,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Network Service Discovery,T1046,-,SI,-,-,-,SI,NO,SI,"Múltiples mecanismos. Por ejemplo, regla que detecte un escaneo de puertos (alto número de peticiones hacia un rango de puertos en poco tiempo)",SI
+Discovery,Network Share Discovery,T1135,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Network Sniffing,T1040,Credential Access,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Password Policy Discovery,T1201,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Peripheral Device Discovery,T1120,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Permissions Group Discovery,T1069,-,NO,Local Groups,T1069.001,-,NO,NO,-,-,NO
+Discovery,,,,,Domain Groups,T1069.002,-,NO,NO,-,-,NO
+Discovery,,,,,Cloud Groups,T1069.003,-,NO,NO,-,-,NO
+Discovery,Proccess Discovery,T1057,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Query Registry,T1012,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Remote System Discovery,T1018,-,SI,-,-,-,SI,NO,SI,Regla genérica que detecte nuevas conexiones construidas asociadas con pings/escaneos que intenten obtener un listado de sistemas por direccion IP,SI
+Discovery,Software Discovery,T1518,-,NO,Security Software Discovery,T1518.001,-,NO,NO,-,-,NO
+Discovery,System Information Discovery,T1082,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,System Location Discovery,T1614,-,NO,System Language Discovery,T1614.001,-,NO,NO,-,-,NO
+Discovery,System Network Configuration Discovery,T1016,-,NO,Internet Connection Discovery,T1016.001,-,NO,NO,-,-,NO
+Discovery,,,,,Wi-Fi Discovery,T1016.002,-,NO,NO,-,-,NO
+Discovery,System Network Connections Discovery,T1049,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,System Owner / User Discovery,T1033,-,SI,-,-,-,SI,NO,SI,Regla que detecte múltiples interacciones con la API LSM_API_service del servicio RPC desde el mismo equipo origen.,SI
+Discovery,System Service Discovery,T1007,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,System Time Discovery,T1124,-,NO,-,-,-,NO,NO,-,-,NO
+Discovery,Virtualization/Sandbox Evasion,T1497,Defense Evasion,NO,System Checks,T1497.001,-,NO,NO,-,-,NO
+Discovery,Virtualization/Sandbox Evasion,T1497,Defense Evasion,NO,User Activity Based Checks,T1497.002,-,NO,NO,-,-,NO
+Discovery,Virtualization/Sandbox Evasion,T1497,Defense Evasion,NO,Time Based Evasion,T1497.003,-,NO,NO,-,-,NO
+Lateral Movement,Exploitation of Remote Services,T1210,-,SI,-,-,-,SI,NO,SI,Regla genérica que detecte intento de ejecucion remota de codigo en servidor FTP,SI
+Lateral Movement,Internal Spearphishing,T1534,-,SI,-,-,-,SI,NO,NO,"Detección por anomalías, análisis de la estructura de correos electrónicos, petición de información confidencial, etc",SI
+Lateral Movement,Lateral Tool Transfer,T1570,-,SI,-,-,-,SI,NO,SI,"Reglas genéricas que detecten un traspaso de archivos entre equipos utilizando protocolos de transferencia de ficheros como SMB, FTP... Dependiendo de las circunstancias del ataque tambien es importante detectar la transferencia de archivos malware que sean detectables mediante tráfico de red.",SI
+Lateral Movement,Remote Service Session Hijacking,T1563,-,SI,SSH Hijacking,T1563.001,-,SI,NO,SI,Regla genérica para detectar conexiones SSH entre un orígen y un servidor o destino,SI
+Lateral Movement,Remote Service Session Hijacking,T1563,-,SI,RDP Hijacking,T1563.002,-,SI,NO,SI,Regla genérica para detectar conexiones RDP entre un orígen y un servidor o destino,SI
+Lateral Movement,Remote Services,T1021,-,SI,Remote Desktop Protocol,T1021.001,-,SI,NO,SI,Regla genérica para detectar conexiones RDP entre un orígen y un servidor o destino,NO
+Lateral Movement,Remote Services,T1021,-,SI,SMB/Windows Admin Shares,T1021.002,-,SI,NO,SI,Regla genérica para detectar conexiones SMB entre un orígen y un servidor/destino,NO
+Lateral Movement,Remote Services,T1021,-,SI,Distributed Component Object Model,T1021.003,-,SI,NO,SI,Regla genérica que monitorice puerto 135,NO
+Lateral Movement,Remote Services,T1021,-,SI,SSH,T1021.004,-,SI,NO,SI,"Regla genérica para detectar conexiones SSH entre un orígen y un servidor o destino dentro de la red a proteger. *Este ataque, si bien es detectable por red, es idéntico a un acceso legítimo, por lo que no es posible diferenciar uno de otro (salvo por anomalías relacionadas con direcciones IP o usuarios poco comunes)",SI
+Lateral Movement,Remote Services,T1021,-,SI,VNC,T1021.005,-,SI,NO,SI,Regla genérica para detectar conexiones construidas mediante VNC entre un orígen y un servidor/destino,NO
+Lateral Movement,Remote Services,T1021,-,SI,Windows Remote Management,T1021.006,--,SI,NO,SI,Regla genérica que monitorice conexiones mediante WinRM y puertos 5985 y 5986,NO
+Lateral Movement,Remote Services,T1021,-,SI,Cloud Services,T1021.007,-,NO,NO,-,-,NO
+Lateral Movement,Remote Services,T1021,-,SI,Direct Cloud VM Connections,T1021.008,-,NO,NO,-,-,NO
+Lateral Movement,Replication Through Removable Media,T1091,Initial Access,NO,-,-,-,NO,NO,-,-,NO
+Lateral Movement,Software Development Tools,T1072,Execution,NO,-,-,-,NO,NO,-,-,NO
+Lateral Movement,Taint Shared Content,T1080,-,NO,-,-,-,NO,NO,-,-,NO
+Lateral Movement,Use Alternate Authentication Material,T1550,Lateral Movement,NO,Application Access Token,T1550.001,-,NO,NO,-,-,NO
+Lateral Movement,Use Alternate Authentication Material,T1550,Lateral Movement,NO,Pass the Hash,T1550.002,-,NO,NO,-,-,NO
+Lateral Movement,Use Alternate Authentication Material,T1550,Lateral Movement,NO,Pass the Ticket,T1550.003,-,NO,NO,-,-,NO
+Lateral Movement,Use Alternate Authentication Material,T1550,Lateral Movement,NO,Web Session Cookie,T1550.004,-,NO,NO,-,-,NO
+Collection,Adversary-in-the-Middle,T1557,Credential Access,SI,LLMNR/NBT-NS Poisoning and SMB Relay,T1557.001,-,SI,NO,-,-,NO
+Collection,Adversary-in-the-Middle,T1557,Credential Access,SI,ARP Cache Poisoning,T1557.002,-,SI,SI,NO,-,SI
+Collection,Adversary-in-the-Middle,T1557,Credential Access,SI,DHCP Spoofing,T1557.003,-,SI,NO,-,-,NO
+Collection,Archive Collected Data,T1560,-,NO,Archive via Utility,T1560.001,-,NO,NO,-,-,NO
+Collection,Archive Collected Data,T1560,-,NO,Archive via Library,T1560.002,-,NO,NO,-,-,NO
+Collection,Archive Collected Data,T1560,-,NO,Archive via Custom Method,T1560.003,-,NO,NO,-,-,NO
+Collection,Audio Capture,T1123,-,NO,-,-,-,NO,NO,-,-,NO
+Collection,Automated Collection,T1119,-,NO,-,-,-,NO,NO,-,-,NO
+Collection,Browser Session Hijacking,T1185,-,NO,-,-,-,NO,NO,-,-,NO
+Collection,Clipboard Data,T1115,-,NO,-,-,-,NO,NO,-,-,NO
+Collection,Data from Cloud Storage,T1530,-,NO,-,-,-,NO,NO,-,-,NO
+Collection,Data from Configuration Repository,T1602,-,SI,SNMP (MIB Dump),T1602.001,-,SI,SI,SI,Regla genérica que detecte el uso del protocolo SNMP sobre UDP para acceder a la comunidad public,SI
+Collection,Data from Configuration Repository,T1602,-,SI,Network Device Configuration Dump,T1602.002,-,SI,SI,-,-,NO
+Collection,Data from Information Repositories,T1213,-,SI,Confluence,T1213.001,-,NO,NO,-,-,NO
+Collection,Data from Information Repositories,T1213,-,SI,Sharepoint,T1213.002,-,NO,NO,-,-,NO
+Collection,Data from Information Repositories,T1213,-,SI,Code Repositories,T1213.003,-,NO,NO,-,-,NO
+Collection,Data from Local System,T1005,-,NO,-,-,-,NO,NO,-,-,NO
+Collection,Data from Network Shared Drive,T1039,-,SI,-,-,-,SI,NO,NO,"Detección por anomalías, copia repentina de ficheros compartidos por red.",SI
+Collection,Data from Removable Media,T1025,-,NO,-,-,-,NO,NO,-,-,NO
+Collection,Data Staged,T1074,-,NO,Local Data Staging,T1074.001,-,NO,NO,-,-,NO
+Collection,Data Staged,T1074,-,NO,Remote Data Staging,T1074.002,-,NO,NO,-,-,NO
+Collection,Email Collection,T1114,-,SI,Local Email Collection,T1114.001,-,NO,NO,-,-,NO
+Collection,Email Collection,T1114,-,SI,Remote Email Collection,T1114.002,-,SI,NO,NO,"Detección por anomalías, peticiones LDAP espontáneas desde un equipo de la red, haciendo uso de una cuenta con credenciales válidas.",SI
+Collection,Email Collection,T1114,-,SI,Email Forwarding Rule,T1114.003,-,NO,NO,-,-,NO
+Collection,Input Capture,T1056,Credential Access,NO,Keylogging,T1056.001,-,NO,NO,-,-,NO
+Collection,Input Capture,T1057,Credential Access,NO,GUI Input Capture,T1056.002,-,NO,NO,-,-,NO
+Collection,Input Capture,T1058,Credential Access,NO,Web Portal Capture,T1056.003,-,NO,NO,-,-,NO
+Collection,Input Capture,T1059,Credential Access,NO,Credential API Hooking,T1056.004,-,NO,NO,-,-,NO
+Collection,Screen Capture,T1113,-,NO,-,-,-,NO,NO,-,-,NO
+Collection,Video Capture,T1125,-,NO,-,-,-,NO,NO,-,-,NO
+Command and Control,Application Layer Protocol,T1071,-,SI,Web Protocols,T1071.001,-,SI,SI,-,-,NO
+Command and Control,Application Layer Protocol,T1071,-,SI,File Transfer Protocols,T1071.002,-,SI,SI,-,-,NO
+Command and Control,Application Layer Protocol,T1071,-,SI,Mail Protocols,T1071.003,-,SI,SI,-,-,NO
+Command and Control,Application Layer Protocol,T1071,-,SI,DNS,T1071.004,-,SI,SI,SI,Regla genérica que detecta uso de dnscat,SI
+Command and Control,Communication Through Removable Media,T1092,-,NO,-,-,-,NO,NO,-,-,NO
+Command and Control,Content Injection,T1659,Initial Access,SI,-,-,-,SI,NO,-,-,SI
+Command and Control,Data Encoding,T1132,-,SI,Standard Encoding,T1132.001,-,SI,SI,SI,Regla genérica que detecte codificación en Base64 en un paquete,SI
+Command and Control,Data Encoding,T1132,-,SI,Non-Standard Encoding,T1132.002,-,SI,SI,-,-,NO
+Command and Control,Data Obfuscation,T1001,-,SI,Junk Data,T1001.001,-,SI,SI,-,-,NO
+Command and Control,Data Obfuscation,T1001,-,SI,Steganography,T1001.002,-,SI,SI,NO,"Detección por anomalías y/o estegoanálisis, envío de imágenes o ficheros con formato poco común entre equipos, existencia de ficheros comprimidos sospechosos, etc.",SI
+Command and Control,Data Obfuscation,T1001,-,SI,Protocol Impersonation,T1001.003,-,SI,SI,"NO, salvo uso de reglas personalizadas",Regla personalizada que compruebe el campo Server Name y mediante DNS asegure si se corresponde con la dirección IP a la que se está accediendo.,SI
+Command and Control,Dynamic Resolution,T1568,-,SI,Fast Flux DNS,T1568.001,-,SI,SI,SI,Regla genérica que detecte consultas DNS de un mismo origen a un mismo destino y que la respuesta DNS devuelva diferentes IPs en cada respuesta,SI
+Command and Control,Dynamic Resolution,T1568,-,SI,Domain Generation Algorithms,T1568.002,-,SI,SI,-,-,NO
+Command and Control,Dynamic Resolution,T1568,-,SI,DNS Calculation,T1568.003,-,SI,SI,-,-,NO
+Command and Control,Encrypted Channel,T1573,-,SI,Symmetric Cryptography,T1573.001,-,SI,SI,-,-,NO
+Command and Control,Encrypted Channel,T1573,-,SI,Asymmetric Cryptography,T1573.002,-,SI,SI,SI,Monitorizar por la creación de nuevas conexiones encriptadas al exterior,SI
+Command and Control,Fallback Channels,T1008,-,SI,-,-,-,SI,SI,SI*,"La detección de la creación del canal es posible para este caso concreto. Sin embargo, si ambos canales, tanto primario como secundario están establecidos, y no se ha detectado su creación, el cambio de uno a otro es inapreciable por el cortafuegos.",SI
+Command and Control,Hide Infrastructure,T1665,-,SI,-,,,SI,NO,"NO, salvo circunstancias concretas del ataque","Detección por reglas/anomalías. Resulta importante monitorizar tráfico de red con destino a dominios incluidos en listas negras, conexiones a equpos externos...",SI
+Command and Control,Ingress Tool Transfer,T1105,-,SI,-,-,-,SI,NO,SI,"Reglas genéricas que detecten un traspaso de archivos entre equipos utilizando protocolos de transferencia de ficheros como SMB, FTP... Dependiendo de las circunstancias del ataque tambien es importante detectar la transferencia de archivos malware que sean detectables mediante tráfico de red.",SI
+Command and Control,Multi-Stage Channels,T1104,-,SI,-,-,-,SI,SI,NO,Detección por anomalías. Investigación de las sesiones establecidas en el equipo atacante (siempre que sea posible) para identificar un rastro de otra dirección.,SI
+Command and Control,Non-Application Layer Protocol,T1095,-,SI,-,-,-,SI,SI,SI,Regla genérica que detecte paquetes UDP/ICMP entre un orígen y un servidor,SI
+Command and Control,Non-Standard Port,T1571,-,SI,-,-,-,SI,SI,SI,Regla genérica que detecte paquetes que se dirijana un puerto que no es el habitual,SI
+Command and Control,Protocol Tunneling,T1572,-,SI,-,-,-,SI,SI,SI,Regla genérica que detecte nuevas conexiones,SI
+Command and Control,Proxy,T1090,-,SI,Internal Proxy,T1090.001,-,SI,SI,NO,"Aunque sí es detectable la conexión C2 directa con el atacante, no existe un mecanismo de detección concreto que pueda identificar el uso de un proxy, más allá de una detección por anomalías, como la repetición de paquetes, dando a entender que un equipo interno está replicando paquetes, y por tanto está actuando como proxy",SI
+Command and Control,Proxy,T1090,-,SI,External Proxy,T1090.002,-,SI,SI,-,-,NO
+Command and Control,Proxy,T1090,-,SI,Multi-hop Proxy,T1090.003,-,SI,SI,-,-,NO
+Command and Control,Proxy,T1090,-,SI,Domain Fronting,T1090.004,-,SI,SI,-,-,NO
+Command and Control,Remote Access Software,T1219,-,SI,-,-,-,SI,NO,NO,"Deteccion por listas negras/anomalías. Monitorizar tráfico de red correspondiente a softwares de acesso remoto(AnyDesk, TeamViewer...)",SI
+Command and Control,Traffic Signaling,T1205,"Persistence, Defense Evasion",SI,Port Knocking,T1205.001,-,SI,NO,-,-,SI
+Command and Control,Traffic Signaling,T1205,"Persistence, Defense Evasion",SI,Socket Filters,T1205.002,-,SI,NO,-,-,NO
+Command and Control,Web Service,T1102,-,SI,Dead Drop Resolver,T1102.001,-,SI,SI,-,-,NO
+Command and Control,Web Service,T1102,-,SI,Bidirectional Communication,T1102.002,-,SI,SI,-,-,NO
+Command and Control,Web Service,T1102,-,SI,One-Way Communication,T1102.003,-,SI,SI,NO,"Detección por anomalías, observando actividad inusual relacionada con el uso de servicios web (subidas pesadas de información a la nube, comunicación periódica con servidores web concretos, etc)",SI
+Exfiltration,Automated Exfiltration,T1020,-,SI,Traffic Duplication,T1020.001,-,SI,SI,NO,Detección por anomalías en red que detecte el envío duplicado de paquetes procedentes de un mismo origen interno a la organización,SI
+Exfiltration,Data Transfer Size Limits,T1030,-,SI,-,-,-,SI,SI,"NO, salvo circunstaciones concretas del ataque","Dependiendo la forma en la que se envien los archivos, puede ser indetectable. Sin embargo, si utiliza protocolos de transferencia de ficheros (FTP,SMB...) resulta importante monitorizar transferencias con un mismo tamaño de manera concurrente",SI
+Exfiltration,Exfiltration Over Alternative Protocols,T1048,-,SI,Exfiltration Over Symmetric Encrypted Non-C2 Protocol,T1048.001,-,SI,NO,-,-,NO
+Exfiltration,Exfiltration Over Alternative Protocols,T1048,-,SI,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,T1048.002,-,SI,NO,-,-,NO
+Exfiltration,Exfiltration Over Alternative Protocols,T1048,-,SI,Exfiltration Over Unencrypted Non-C2 Protocol,T1048.003,-,SI,NO,SI,Regla genérica que detecte PING inusual.,SI
+Exfiltration,Exfiltration Over C2 Channel,T1041,-,SI,-,-,-,SI,NO,NO,Detección por anomalías basada en la sospecha de una extracción de información confidencial por un posible canal C2,SI
+Exfiltration,Exfiltration Over Other Network Medium,T1011,-,SI,Exfiltration Over Bluetooth,T1011.001,-,SI,NO,NO,Detección por anomalías en red Bluetooth. Envío y/o recepción de información comprometida por la red,SI
+Exfiltration,Exfiltration Over Physical Medium,T052,-,NO,Exfiltration Over USB,T1052.001,-,NO,NO,-,-,NO
+Exfiltration,Exfiltration Over Web Service,T1567,-,SI,Exfiltration to Code Repository,T1567.001,-,SI,NO,-,-,NO
+Exfiltration,Exfiltration Over Web Service,T1567,-,SI,Exfiltration to Cloud Storage,T1567.002,-,SI,NO,NO,Deteccion por listas negras/anomalías,SI
+Exfiltration,Exfiltration Over Web Service,T1567,-,SI,Exfiltration to Text Storage Sites,T1567.003,-,SI,SI,-,-,NO
+Exfiltration,Exfiltration Over Web Service,T1567,-,SI,Exfiltration over Webhook,T1567.004,-,SI,NO,-,-,NO
+Exfiltration,Scheduled Transfer,T1029,-,SI,-,-,-,SI,SI,NO,"Detección por anomalías, basada en el descubrimiento de eventos programados que no han sido creados por el usuario.",SI
+Exfiltration,Transfer Data to Cloud Account,T1537,-,SI,-,-,-,SI,NO,NO,Deteccion por listas negras/anomalías,SI
+Impact,Account Access Removal,T1531,-,NO,-,-,-,NO,NO,-,-,NO
+Impact,Data Destruction,T1485,-,NO,-,-,-,NO,NO,-,-,NO
+Impact,Data Encrypted for Impact,T1486,-,NO,-,-,-,NO,NO,-,-,NO
+Impact,Data Manipulation,T1565,-,SI,Stored Data Manipulation,T1565.001,-,NO,NO,NO***,"Reglas personalizadas que detecten ataques de inyeccion SQL mediante la presencia del caracter ""%27""",SI
+Impact,Data Manipulation,T1565,-,SI,Transmitted Data Manipulation,T1565.002,-,SI,NO,-,-,SI
+Impact,Data Manipulation,T1565,-,SI,Runtime Data Manipulation,T1565.003,-,NO,NO,-,-,NO
+Impact,Defacement,T1491,-,SI,Internal Defacement,T1491.001,-,SI,NO,NO,Deteccion por listas negras/anomalías,SI
+Impact,Defacement,T1491,-,SI,External Defacement,T1491.002,-,SI,NO,-,-,NO
+Impact,Disk Wipe,T1561,-,NO,Disk Content Wipe,T1561.001,-,NO,NO,-,-,NO
+Impact,Disk Wipe,T1561,-,NO,Disk Structure Wipe,T1561.002,-,NO,NO,-,-,NO
+Impact,Endpoint Denial of Service,T1499,-,SI,OS Exhaustion Flood,T1499.001,-,SI,NO,,,SI
+Impact,Endpoint Denial of Service,T1499,-,SI,Service Exhaustion Flood,T1499.002,-,SI,NO,-,-,SI
+Impact,Endpoint Denial of Service,T1499,-,SI,Application Exhaustion Flood,T1499.003,-,SI,NO,SI,Reglas que detecen envío masivo de solicitudes a servidor web,SI
+Impact,Endpoint Denial of Service,T1499,-,SI,Application or System Exploitation,T1499.004,-,SI,NO,SI,"Mediante el uso de preprocesadores, la detección de este ataque es posible estableciendo un asociación entre la IP a proteger y su dirección MAC correspondiente. De esta forma, se puede fundar una regla que detecte mensajes ARP que incumplen esta asociación y que avistan de un posible ataque por suplantación MAC",SI
+Impact,Financial Theft,T1657,-,NO,-,-,-,NO,NO,-,-,NO
+Impact,Firmware Corruption,T1495,-,NO,-,-,-,NO,NO,-,-,NO
+Impact,Inhibit System Recovery,T1490,-,NO,-,-,-,NO,NO,-,-,NO
+Impact,Network Denial of Service,T1498,-,SI,Direct Network Flood,T1498.001,-,SI,NO,SI,Regla genérica que detecte un número elevado de intentos de conexión y mensajes UDP/MAC procedentes de un mismo orígen y hacia un mismo servidor o destinatario,SI
+Impact,Network Denial of Service,T1498,-,SI,Reflection Amplification,T1498.002,-,SI,NO,-,-,NO
+Impact,Resource Hijacking,T1496,-,SI,-,-,-,SI,NO,SI,Regla genérica que detecte envíos a un destino a/desde puertos extraños,SI
+Impact,Service Stop,T1489,-,NO,-,-,-,NO,NO,-,-,NO
+Impact,System Shutdown/Reboot,T1529,-,NO,-,-,-,NO,NO,-,-,NO
+,,,,,,,,,,,,
