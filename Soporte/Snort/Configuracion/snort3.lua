@@ -21,7 +21,7 @@
 
 -- HOME_NET and EXTERNAL_NET must be set now
 -- setup the network addresses you are protecting
-HOME_NET = '0.0.0.0/0'
+HOME_NET = [[0.0.0.0/0,::/0]]
 
 -- set up the external network addresses.
 -- (leave as "any" in most situations)
@@ -291,10 +291,12 @@ rate_filter =
 -- event logging
 -- you can enable with defaults from the command line with -A <alert_type>
 -- uncomment below to set non-default configs
---alert_csv = { }
+alert_csv = {
+file = true,}
 alert_fast = {
 file = true,}
---alert_full = { }
+alert_full = {
+file = true,}
 --alert_sfsocket = { }
 --alert_syslog = { }
 --unified2 = { }
@@ -303,7 +305,8 @@ file = true,}
 -- you can enable with defaults from the command line with -L <log_type>
 --log_codecs = { }
 --log_hext = { }
---log_pcap = { }
+--log_pcap = {
+
 
 -- additional logs
 --packet_capture = { }
