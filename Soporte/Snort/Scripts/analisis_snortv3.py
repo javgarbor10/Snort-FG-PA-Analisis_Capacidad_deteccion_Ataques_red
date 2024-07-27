@@ -17,6 +17,30 @@ def convert_txt_to_csv(txt_file, csv_file):
             for row in reader:
                 writer.writerow(row)
 
+def count_flows_scapy(pcap_file):
+    """
+    Cuenta el número total de flujos únicos en el archivo pcap usando scapy.
+    """
+    try:
+        packets = rdpcap(pcap_file)
+        flows = set()
+        
+        for pkt in packets:
+            if IP in pkt:
+                if TCP in pkt:
+                    flow = (pkt[IP].src, pkt[IP].dst, pkt[TCP].sport, pkt[TCP].dport)
+                elif UDP in pkt:
+                    flow = (pkt[IP].src, pkt[IP].dst, pkt[UDP].sport, pkt[UDP].dport)
+                else:
+                    continue
+                
+                flows.add(flow)
+        
+        return len(flows)
+    except Exception as e:
+        print(f"Error al contar flujos en {pcap_file} con scapy: {e}")
+        return 0
+    
 def count_packets(pcap_file):
     """
     Cuenta el número total de paquetes y el número de paquetes únicos en el archivo pcap.
@@ -219,18 +243,18 @@ def analyze_pcap(pcap_file):
         num_messages_with_attacks_rs2, num_attacks_instances_rs2 = count_packets(snort_pcap_fusion_rs1_rs2)
 
         # Contar flujos únicos en el archivo pcap de Snort
-        tranalyzer_cmd_rs2 = f"tranalyzer -r {snort_pcap_fusion_rs1_rs2}"
+        tranalyzer_cmd_rs2 = f"tranalyzer -r {snort_pcap_file_rs2}"
         print(f"Ejecutando comando para tranalyzer en el pcap de Snort: {tranalyzer_cmd_rs2}")
         subprocess.run(tranalyzer_cmd_rs2, shell=True, check=True)
 
         # Verifica si el archivo de resumen existe
-        summary_file_rs2 = os.path.splitext(snort_pcap_fusion_rs1_rs2)[0] + '_flows.txt'
+        summary_file_rs2 = os.path.splitext(snort_pcap_file_rs2)[0] + '_flows.txt'
         if not os.path.isfile(summary_file_rs2):
             print(f"El archivo de resumen {summary_file_rs2} no existe.")
             return
         
         # Convierte el archivo de resumen de tranalyzer a CSV
-        csv_file_rs2 = os.path.splitext(snort_pcap_fusion_rs1_rs2)[0] + '_flows.csv'
+        csv_file_rs2 = os.path.splitext(snort_pcap_file_rs2)[0] + '_flows.csv'
         convert_txt_to_csv(summary_file_rs2, csv_file_rs2)
         print(f"Convertido {summary_file_rs2} a {csv_file_rs2}")
 
@@ -294,22 +318,21 @@ def analyze_pcap(pcap_file):
         # Contar paquetes únicos y totales en el nuevo pcap generado
         num_messages_with_attacks_rs3, num_attacks_instances_rs3 = count_packets(snort_pcap_fusion_rs2_rs3)
 
-        # Contar flujos únicos en el nuevo pcap generado
-        num_flows_with_attacks_rs3 = count_flows(snort_pcap_fusion_rs2_rs3)
+    
 
         # Ejecuta tranalyzer en el nuevo pcap generado
-        tranalyzer_cmd_rs3 = f"tranalyzer -r {snort_pcap_fusion_rs2_rs3}"
+        tranalyzer_cmd_rs3 = f"tranalyzer -r {pcap_file_new_rs3}"
         print(f"Ejecutando comando para tranalyzer en el nuevo pcap: {tranalyzer_cmd_rs3}")
         subprocess.run(tranalyzer_cmd_rs3, shell=True, check=True)
 
         # Verifica si el archivo de resumen existe
-        summary_file_rs3 = os.path.splitext(snort_pcap_fusion_rs2_rs3)[0] + '_flows.txt'
+        summary_file_rs3 = os.path.splitext(pcap_file_new_rs3)[0] + '_flows.txt'
         if not os.path.isfile(summary_file_rs3):
             print(f"El archivo de resumen {summary_file_rs3} no existe.")
             return
         
         # Convierte el archivo de resumen de tranalyzer a CSV
-        csv_file_rs3 = os.path.splitext(snort_pcap_fusion_rs2_rs3)[0] + '_flows.csv'
+        csv_file_rs3 = os.path.splitext(pcap_file_new_rs3)[0] + '_flows.csv'
         convert_txt_to_csv(summary_file_rs3, csv_file_rs3)
         print(f"Convertido {summary_file_rs3} a {csv_file_rs3}")
 
@@ -394,18 +417,18 @@ def analyze_pcap(pcap_file):
         num_messages_with_attacks_opt, num_attacks_instances_opt = count_packets(snort_pcap_fusion_rs3_rs4)
 
         # Contar flujos únicos en el archivo pcap de Snort con configuración alternativa
-        tranalyzer_cmd_opt = f"tranalyzer -r {snort_pcap_fusion_rs3_rs4}"
+        tranalyzer_cmd_opt = f"tranalyzer -r {snort_pcap_file_opt}"
         print(f"Ejecutando comando para tranalyzer en el pcap de Snort con configuración alternativa: {tranalyzer_cmd_opt}")
         subprocess.run(tranalyzer_cmd_opt, shell=True, check=True)
 
         # Verifica si el archivo de resumen existe
-        summary_file_opt = os.path.splitext(snort_pcap_fusion_rs3_rs4)[0] + '_flows.txt'
+        summary_file_opt = os.path.splitext(snort_pcap_file_opt)[0] + '_flows.txt'
         if not os.path.isfile(summary_file_opt):
             print(f"El archivo de resumen {summary_file_opt} no existe.")
             return
         
         # Convierte el archivo de resumen de tranalyzer a CSV
-        csv_file_opt = os.path.splitext(snort_pcap_fusion_rs3_rs4)[0] + '_flows.csv'
+        csv_file_opt = os.path.splitext(snort_pcap_file_opt)[0] + '_flows.csv'
         convert_txt_to_csv(summary_file_opt, csv_file_opt)
         print(f"Convertido {summary_file_opt} a {csv_file_opt}")
 
