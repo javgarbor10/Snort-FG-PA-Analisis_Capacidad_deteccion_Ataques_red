@@ -1,10 +1,10 @@
 RS1:
-Número de alertas: 2
+NÃºmero de alertas: 2
 [1:1418:19] "PROTOCOL-SNMP request tcp"
 [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
 
 RS2:
-Número de alertas: 15
+NÃºmero de alertas: 15
 [1:1418:19] "PROTOCOL-SNMP request tcp"
 [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
 [1:2002910:5] ET SCAN Potential VNC Scan 5800-5820
@@ -22,7 +22,7 @@ Número de alertas: 15
 [1:2034730:2] ET POLICY GIOP/IIOP Request Outbound
 
 RS3:
-Número de alertas: 22
+NÃºmero de alertas: 22
 [1:1418:19] "PROTOCOL-SNMP request tcp"
 [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
 [1:2002910:5] ET SCAN Potential VNC Scan 5800-5820
@@ -47,7 +47,7 @@ Número de alertas: 22
 [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt"
 
 RS4:
-Número de alertas: 31
+NÃºmero de alertas: 31
 [1:1418:19] "PROTOCOL-SNMP request tcp"
 [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request"
 [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
