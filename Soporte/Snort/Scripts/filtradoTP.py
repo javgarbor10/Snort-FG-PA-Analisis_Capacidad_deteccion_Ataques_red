@@ -184,13 +184,38 @@ def main():
     print(f"RS4 y RS3: Coincidencias en RS4: {coincidencias_rs3}, Coincidencias en unified2: {coincidencias_unified2_rs3}")
 
     # Contar paquetes únicos y totales en los archivos filtrados
-    num_paquetes_unicos_rs1_rs2, num_paquetes_totales_rs1_rs2 = count_packets('CAPTURAS/filtrado_rs1_rs2.pcap')
-    num_paquetes_unicos_rs3_rs4, num_paquetes_totales_rs3_rs4 = count_packets('CAPTURAS/filtrado_rs3_rs4.pcap')
+    num_paquetes_unicos_pre_rs1, num_paquetes_totales_pre_rs1 = count_packets('CAPTURAS/new_pcap_file_rs1.pcap')
+    num_paquetes_unicos_post_rs1, num_paquetes_totales_post_rs1 = count_packets('CAPTURAS/new_pcap_file_rs1_filtrado.pcap')
 
-    print(f"Número de paquetes únicos en filtrado_rs1_rs2.pcap: {num_paquetes_unicos_rs1_rs2}")
-    print(f"Número de paquetes totales en filtrado_rs1_rs2.pcap: {num_paquetes_totales_rs1_rs2}")
-    print(f"Número de paquetes únicos en filtrado_rs3_rs4.pcap: {num_paquetes_unicos_rs3_rs4}")
-    print(f"Número de paquetes totales en filtrado_rs3_rs4.pcap: {num_paquetes_totales_rs3_rs4}")
+    num_paquetes_unicos_pre_rs2, num_paquetes_totales_pre_rs2 = count_packets('CAPTURAS/pcap_fusion_rs1_rs2.pcap')
+    num_paquetes_unicos_post_rs2, num_paquetes_totales_post_rs2 = count_packets('CAPTURAS/filtrado_rs1_rs2.pcap')
+
+    num_paquetes_unicos_pre_rs3, num_paquetes_totales_pre_rs3 = count_packets('CAPTURAS/new_pcap_file_rs3.pcap')
+    num_paquetes_unicos_post_rs3, num_paquetes_totales_post_rs3 = count_packets('CAPTURAS/new_pcap_file_rs3_filtrado.pcap')
+
+    num_paquetes_unicos_pre_rs4, num_paquetes_totales_pre_rs4 = count_packets('CAPTURAS/pcap_fusion_rs3_rs4.pcap')
+    num_paquetes_unicos_post_rs4, num_paquetes_totales_post_rs4 = count_packets('CAPTURAS/filtrado_rs3_rs4.pcap')
+
+
+    print(f"Número de paquetes únicos en RS1 antes de filtrado: {num_paquetes_unicos_pre_rs1}")
+    print(f"Número de paquetes totales en RS1 antes de filtrado: {num_paquetes_totales_pre_rs1}")
+    print(f"Número de paquetes únicos en RS1 después de filtrado: {num_paquetes_unicos_post_rs1}")
+    print(f"Número de paquetes totales en RS1 después de filtrado: {num_paquetes_totales_post_rs1}")
+    
+    print(f"Número de paquetes únicos en RS2 antes de filtrado: {num_paquetes_unicos_pre_rs2}")
+    print(f"Número de paquetes totales en RS2 antes de filtrado: {num_paquetes_totales_pre_rs2}")
+    print(f"Número de paquetes únicos en RS2 después de filtrado: {num_paquetes_unicos_post_rs2}")
+    print(f"Número de paquetes totales en RS2 después de filtrado: {num_paquetes_totales_post_rs2}")
+
+    print(f"Número de paquetes únicos en RS3 (sólo Talos) antes de filtrado: {num_paquetes_unicos_pre_rs3}")
+    print(f"Número de paquetes totales en RS3 (sólo Talos) antes de filtrado: {num_paquetes_totales_pre_rs3}")
+    print(f"Número de paquetes únicos en RS3 (sólo Talos) después de filtrado: {num_paquetes_unicos_post_rs3}")
+    print(f"Número de paquetes totales en RS3 (sólo Talos) después de filtrado: {num_paquetes_totales_post_rs3}")
+
+    print(f"Número de paquetes únicos en RS4 antes de filtrado: {num_paquetes_unicos_pre_rs4}")
+    print(f"Número de paquetes totales en RS4 antes de filtrado: {num_paquetes_totales_pre_rs4}")
+    print(f"Número de paquetes únicos en RS4 después de filtrado: {num_paquetes_unicos_post_rs4}")
+    print(f"Número de paquetes totales en RS4 después de filtrado: {num_paquetes_totales_post_rs4}")
 
 if __name__ == "__main__":
     main()

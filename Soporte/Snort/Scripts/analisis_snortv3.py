@@ -124,6 +124,7 @@ def analyze_pcap(pcap_file):
     csv_dir = 'CSV'
     logs_dir = 'LOGS'
     captures_dir = 'CAPTURAS'
+    detections_dir = 'DETECCIONES'
     current_directory = os.path.abspath('.')  # Ruta completa del directorio actual
 
     # Crea las carpetas si no existen
@@ -131,6 +132,8 @@ def analyze_pcap(pcap_file):
     os.makedirs(csv_dir, exist_ok=True)
     os.makedirs(logs_dir, exist_ok=True)
     os.makedirs(captures_dir, exist_ok=True)
+    os.makedirs(detections_dir, exist_ok=True)
+    
 
     try:
 
@@ -189,13 +192,15 @@ def analyze_pcap(pcap_file):
         subprocess.run(['mv', csv_file_rs1, csv_dir])
         subprocess.run(['mv', log_file_rs1, logs_dir])
        # subprocess.run(['mv', pcap_file_new_rs1, captures_dir])
+       
+       
 
-        # Elimina los archivos generados por Snort para RS1
-        snort_files_rs1 = glob.glob('unified2.log.*')
-        for file in snort_files_rs1:
-            os.remove(file)
-            print(f"Archivo eliminado: {file}")
 
+         # Elimina los archivos generados por Snort para RS4
+        snort_files = glob.glob('unified2*')
+        for file in snort_files:
+            subprocess.run(['mv', file , detections_dir])
+            print(f"Archivo almacenado: {file}")
         # Elimina los archivos .txt restantes generados por tranalyzer para RS1
         txt_files_rs1 = [f for f in os.listdir('.') if f.endswith('.txt') and f != summary_file_rs1]
         for txt_file in txt_files_rs1:
@@ -275,6 +280,7 @@ def analyze_pcap(pcap_file):
         subprocess.run(['mv', csv_file_rs2, csv_dir])
         subprocess.run(['mv', log_file_rs2, logs_dir])
         #subprocess.run(['mv', snort_pcap_file_rs2, captures_dir])
+        subprocess.run(['mv','alert',detections_dir+'/alertaRS2'])
         
     
 
@@ -354,11 +360,13 @@ def analyze_pcap(pcap_file):
         subprocess.run(['mv', log_file_rs3, logs_dir])
         #subprocess.run(['mv', pcap_file_new_rs3, captures_dir])
 
-        # Elimina los archivos generados por Snort para RS1
-        snort_files_rs3 = glob.glob('unified2.log.*')
-        for file in snort_files_rs3:
-            os.remove(file)
-            print(f"Archivo eliminado: {file}")
+
+        snort_files = glob.glob('unified2*')
+        for file in snort_files:
+            subprocess.run(['mv', file , detections_dir])
+            print(f"Archivo almacenado: {file}")
+
+       
 
         # Elimina los archivos .txt restantes generados por tranalyzer para RS1
         txt_files_rs3 = [f for f in os.listdir('.') if f.endswith('.txt') and f != summary_file_rs3]
@@ -368,10 +376,7 @@ def analyze_pcap(pcap_file):
 
         print(f"Archivos movidos y eliminados para RS3.")
         
-        snort_pcaps_rs2 = glob.glob('snort.log.*')
-        for file in snort_pcaps_rs2:
-            os.remove(file)
-            print(f"Archivo eliminado: {file}")
+        
         # --- Sección RS4 ---
         # Borra archivos generados por Snort y tranalyzer antes de iniciar RS4
         files_to_delete = [summary_file_rs2, csv_file_rs2]
@@ -448,6 +453,8 @@ def analyze_pcap(pcap_file):
         subprocess.run(['mv', summary_file_opt, flows_dir])
         subprocess.run(['mv', csv_file_opt, csv_dir])
         subprocess.run(['mv', log_file_rs4, logs_dir])
+        subprocess.run(['mv', snort_pcap_file_rs2, captures_dir])
+        subprocess.run(['mv', snort_pcap_file_opt, captures_dir])
        # subprocess.run(['mv', snort_pcap_file_opt, captures_dir])
 
         # Elimina los archivos generados por Snort para RS4
@@ -464,9 +471,17 @@ def analyze_pcap(pcap_file):
 
         print(f"Archivos movidos y eliminados para RS4.")
         
-       
-
-       
+        subprocess.run(['mv', pcap_file_new_rs1, captures_dir])
+        subprocess.run(['mv', snort_pcap_fusion_rs1_rs2, captures_dir])
+        subprocess.run(['mv', snort_pcap_fusion_rs2_rs3, captures_dir])
+        subprocess.run(['mv', snort_pcap_fusion_rs3_rs4, captures_dir])
+        subprocess.run(['mv', pcap_file_new_rs3, captures_dir])
+        subprocess.run(['mv','alert',detections_dir+'/alertaRS4'])
+        
+        # Cambia los permisos de los archivos generados por Snort
+        chmod_cmd_opt = "sudo chmod 777 DETECCIONES/*"
+        print(f"Ejecutando comando: {chmod_cmd_opt}")
+        subprocess.run(chmod_cmd_opt, shell=True, check=True)
         
     except subprocess.CalledProcessError as e:
         print(f"Ocurrió un error al ejecutar tranalyzer o Snort: {e}")
