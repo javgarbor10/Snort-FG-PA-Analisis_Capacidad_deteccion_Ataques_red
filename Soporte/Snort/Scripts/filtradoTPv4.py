@@ -1,5 +1,6 @@
 import pandas as pd
 import sys
+import os
 
 def filtrar_por_sids(input_csv, output_csv, lista_sids):
     # Leer el archivo CSV existente
@@ -7,6 +8,11 @@ def filtrar_por_sids(input_csv, output_csv, lista_sids):
     
     # Filtrar las filas cuyo SID no esté en la lista proporcionada
     df_filtrado = df[~df['SID'].astype(str).isin(lista_sids)]
+
+    # Convertir las columnas a enteros si no están vacías
+    for col in ['IDPaq', 'PrtOrigen', 'PrtDestino']:
+        df_filtrado[col] = df_filtrado[col].apply(lambda x: int(x) if pd.notna(x) and x != '' else '')
+
     
     # Guardar el DataFrame filtrado en un nuevo archivo CSV
     df_filtrado.to_csv(output_csv, index=False)
@@ -16,23 +22,27 @@ def filtrar_por_sids(input_csv, output_csv, lista_sids):
 
 if __name__ == "__main__":
     # Asegurarse de que el script se ejecute con los parámetros necesarios
-    if len(sys.argv) < 1:
-        print("Uso: python filtrar_sids.py <sid1> <sid2> ... <sidN>")
+    if len(sys.argv) < 2:
+        print("Uso: python filtrar_sids.py <input.csv> <sid1> <sid2> ... <sidN>")
         sys.exit(1)
 
 
-    
+    # Primer argumento: archivo CSV de entrada
+    input_csv = sys.argv[1]
+
+    output_csv = os.path.splitext(os.path.basename(input_csv))[0]+'TP.csv'
     
     # Resto de los argumentos: lista de SIDs a excluir
-    lista_sids = sys.argv[1:]
+    lista_sids = sys.argv[2:]
 
     # Llamar a la función de filtrado
-    filtrar_por_sids('resumen.csv', 'resumenTP.csv', lista_sids)
+    filtrar_por_sids(input_csv, output_csv, lista_sids)
     
-    print(f'Filtrado completado. El resultado se ha guardado en resumenTP.csv')
+    print(f'Filtrado completado. El resultado se ha guardado en {output_csv}')
 
     # Leer el archivo CSV generado
-    df = pd.read_csv('resumenTP.csv')
+    df = pd.read_csv(output_csv)
+    df = df[df['IDPaq'].notna()]
 
     # Filtrar las filas donde PaqueteReglas es "Community" o "ETOpen"
     df_filtrado_RS1 = df[df['PaqueteReglas'].isin(['Community'])]

@@ -181,7 +181,7 @@ def analiza_pcap(pcap_file):
 
             
   
-        
+        nombre_archivo_sin_extension = os.path.splitext(os.path.basename(pcap_file))[0]
             
 
 
@@ -189,17 +189,18 @@ def analiza_pcap(pcap_file):
         # ------- EXTRACCIÓN ----------
 
         datos_community = parsear_archivo_alertas('DETECCIONES/alertasCommunity')
-        guardar_en_csv(datos_community,'resumen.csv',True)
+        guardar_en_csv(datos_community,nombre_archivo_sin_extension+'.csv',True)
         datos_etopen = parsear_archivo_alertas('DETECCIONES/alertasETOpen')
-        guardar_en_csv(datos_etopen,'resumen.csv',False)
+        guardar_en_csv(datos_etopen,nombre_archivo_sin_extension+'.csv',False)
         datos_talos = parsear_archivo_alertas('DETECCIONES/alertasTalos')
-        guardar_en_csv(datos_talos,'resumen.csv',False)
+        guardar_en_csv(datos_talos,nombre_archivo_sin_extension+'.csv',False)
         datos_etopenopt = parsear_archivo_alertas('DETECCIONES/alertasETOpenOpt')
-        guardar_en_csv(datos_etopenopt,'resumen.csv',False)
+        guardar_en_csv(datos_etopenopt,nombre_archivo_sin_extension+'.csv',False)
 
 
         # Leer el archivo CSV generado
-        df = pd.read_csv('resumen.csv')
+        df = pd.read_csv(nombre_archivo_sin_extension+'.csv')
+        df = df[df['IDPaq'].notna()]
 
         # Filtrar las filas donde PaqueteReglas es "Community" o "ETOpen"
         df_filtrado_RS1 = df[df['PaqueteReglas'].isin(['Community'])]
