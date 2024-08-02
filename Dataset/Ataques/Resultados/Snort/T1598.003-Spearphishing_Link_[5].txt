@@ -1,0 +1,12 @@
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 4
+ [1:2101620:7] GPL POLICY TRAFFIC Non-Standard IP protocol 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2001117:6] ET DNS Standard query response, Name Error 
+Nº de alertas totales: 15
