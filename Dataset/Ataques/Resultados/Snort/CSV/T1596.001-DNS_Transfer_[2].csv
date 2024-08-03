@@ -1,0 +1,8 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,255,"""PROTOCOL-DNS dns zone transfer via TCP detected""",,,,,,
+Talos,255,"""PROTOCOL-DNS dns zone transfer via TCP detected""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,8C17DD03,192.168.1.3,192.168.2.2,33937,53,5984
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,8C17DD03,192.168.1.3,192.168.2.2,33937,53,5984
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,D34AB8C,192.168.2.2,192.168.1.3,53,33937,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,D34AB8C,192.168.2.2,192.168.1.3,53,33937,0
+ETOpenOpt,2100255,GPL DNS zone transfer TCP,8C17DD04,192.168.1.3,192.168.2.2,33937,53,5986

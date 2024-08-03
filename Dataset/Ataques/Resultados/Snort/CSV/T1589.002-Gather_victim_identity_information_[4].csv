@@ -1,0 +1,2 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,166D3601,148.163.133.242,10.0.2.15,25,38488,55834

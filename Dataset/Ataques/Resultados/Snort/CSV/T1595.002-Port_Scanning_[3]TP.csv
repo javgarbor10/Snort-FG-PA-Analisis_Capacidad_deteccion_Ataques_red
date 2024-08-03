@@ -1,0 +1,104 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,1421,"""PROTOCOL-SNMP AgentX/tcp request""",29BF30A4,172.16.1.2,172.16.2.2,42882.0,705.0,26970.0
+Community,1421,"""PROTOCOL-SNMP AgentX/tcp request""",D4225C31,172.16.1.2,172.16.2.2,43018.0,705.0,32320.0
+Community,1418,"""PROTOCOL-SNMP request tcp""",8A22143C,172.16.1.2,172.16.2.2,55116.0,161.0,60817.0
+Community,1418,"""PROTOCOL-SNMP request tcp""",2D2A91C2,172.16.1.2,172.16.2.2,55270.0,161.0,21159.0
+ETOpen,2010939,ET SCAN Suspicious inbound to PostgreSQL port 5432,BA4E67B0,172.16.1.2,172.16.2.2,40246.0,5432.0,34719.0
+ETOpen,2010939,ET SCAN Suspicious inbound to PostgreSQL port 5432,BA9BF736,172.16.1.2,172.16.2.2,40394.0,5432.0,38463.0
+ETOpen,2010936,ET SCAN Suspicious inbound to Oracle SQL port 1521,98D5A729,172.16.1.2,172.16.2.2,47304.0,1521.0,29938.0
+ETOpen,2010936,ET SCAN Suspicious inbound to Oracle SQL port 1521,4D0D5664,172.16.1.2,172.16.2.2,47462.0,1521.0,6203.0
+ETOpen,2023753,ET SCAN MS Terminal Server Traffic on Non-standard Port,334395F5,172.16.1.2,172.16.2.2,43364.0,8080.0,37160.0
+ETOpen,2018317,ET SCAN NMAP SIP Version Detect OPTIONS Scan,4406937A,172.16.1.2,172.16.2.2,43380.0,8080.0,51237.0
+ETOpen,2034718,ET POLICY RMI Request Outbound,F9F16427,172.16.1.2,172.16.2.2,43390.0,8080.0,20167.0
+ETOpen,2013409,ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware,2DA471FE,172.16.1.2,172.16.2.2,43396.0,8080.0,9684.0
+ETOpen,2034730,ET POLICY GIOP/IIOP Request Outbound,3796703E,172.16.1.2,172.16.2.2,43400.0,8080.0,30495.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),C556EE51,172.16.1.2,172.16.2.2,43402.0,8080.0,86.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,C556EE51,172.16.1.2,172.16.2.2,43402.0,8080.0,86.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),23BB5396,172.16.1.2,172.16.2.2,35886.0,80.0,62078.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,23BB5396,172.16.1.2,172.16.2.2,35886.0,80.0,62078.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),4394558C,172.16.1.2,172.16.2.2,35888.0,80.0,28460.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,4394558C,172.16.1.2,172.16.2.2,35888.0,80.0,28460.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),F5AB8FA6,172.16.1.2,172.16.2.2,43410.0,8080.0,10100.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,F5AB8FA6,172.16.1.2,172.16.2.2,43410.0,8080.0,10100.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),D1166C36,172.16.1.2,172.16.2.2,35892.0,80.0,55612.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,D1166C36,172.16.1.2,172.16.2.2,35892.0,80.0,55612.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),9AFC54E2,172.16.1.2,172.16.2.2,43414.0,8080.0,62830.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,9AFC54E2,172.16.1.2,172.16.2.2,43414.0,8080.0,62830.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),4A2BBBFE,172.16.1.2,172.16.2.2,35896.0,80.0,25855.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,4A2BBBFE,172.16.1.2,172.16.2.2,35896.0,80.0,25855.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),B72CDB04,172.16.1.2,172.16.2.2,35898.0,80.0,30101.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,B72CDB04,172.16.1.2,172.16.2.2,35898.0,80.0,30101.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),74922DC,172.16.1.2,172.16.2.2,43420.0,8080.0,58667.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,74922DC,172.16.1.2,172.16.2.2,43420.0,8080.0,58667.0
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),8A04F61D,172.16.1.2,172.16.2.2,43422.0,8080.0,47052.0
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,8A04F61D,172.16.1.2,172.16.2.2,43422.0,8080.0,47052.0
+Talos,1421,"""PROTOCOL-SNMP AgentX/tcp request""",29BF30A4,172.16.1.2,172.16.2.2,42882.0,705.0,26970.0
+Talos,1421,"""PROTOCOL-SNMP AgentX/tcp request""",D4225C31,172.16.1.2,172.16.2.2,43018.0,705.0,32320.0
+Talos,1418,"""PROTOCOL-SNMP request tcp""",8A22143C,172.16.1.2,172.16.2.2,55116.0,161.0,60817.0
+Talos,1418,"""PROTOCOL-SNMP request tcp""",2D2A91C2,172.16.1.2,172.16.2.2,55270.0,161.0,21159.0
+Talos,44484,"""POLICY-OTHER SMBv1 protocol detection attempt""",D18847CA,172.16.1.2,172.16.2.2,50108.0,445.0,2535.0
+Talos,44487,"""POLICY-OTHER SMBv1 protocol detection attempt""",D18847CA,172.16.1.2,172.16.2.2,50108.0,445.0,2535.0
+Talos,44485,"""POLICY-OTHER SMBv1 protocol detection attempt""",D18847CA,172.16.1.2,172.16.2.2,50108.0,445.0,2535.0
+Talos,44489,"""POLICY-OTHER SMBv1 protocol detection attempt""",,,,,,
+Talos,44484,"""POLICY-OTHER SMBv1 protocol detection attempt""",95140F0,172.16.1.2,172.16.2.2,48986.0,139.0,10164.0
+Talos,44487,"""POLICY-OTHER SMBv1 protocol detection attempt""",95140F0,172.16.1.2,172.16.2.2,48986.0,139.0,10164.0
+Talos,44485,"""POLICY-OTHER SMBv1 protocol detection attempt""",95140F0,172.16.1.2,172.16.2.2,48986.0,139.0,10164.0
+Talos,44489,"""POLICY-OTHER SMBv1 protocol detection attempt""",,,,,,
+Talos,41807,"""POLICY-OTHER SSLv3 Client Hello attempt""",,,,,,
+Talos,49040,"""INDICATOR-COMPROMISE Microsoft Windows Terminal server RDP over non-standard port attempt""",334395F5,172.16.1.2,172.16.2.2,43364.0,8080.0,37160.0
+Talos,41807,"""POLICY-OTHER SSLv3 Client Hello attempt""",,,,,,
+Talos,44484,"""POLICY-OTHER SMBv1 protocol detection attempt""",,,,,,
+Talos,44487,"""POLICY-OTHER SMBv1 protocol detection attempt""",,,,,,
+Talos,44485,"""POLICY-OTHER SMBv1 protocol detection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+ETOpenOpt,2010939,ET SCAN Suspicious inbound to PostgreSQL port 5432,BA4E67B0,172.16.1.2,172.16.2.2,40246.0,5432.0,34719.0
+ETOpenOpt,2010939,ET SCAN Suspicious inbound to PostgreSQL port 5432,BA9BF736,172.16.1.2,172.16.2.2,40394.0,5432.0,38463.0
+ETOpenOpt,2010936,ET SCAN Suspicious inbound to Oracle SQL port 1521,98D5A729,172.16.1.2,172.16.2.2,47304.0,1521.0,29938.0
+ETOpenOpt,2010936,ET SCAN Suspicious inbound to Oracle SQL port 1521,4D0D5664,172.16.1.2,172.16.2.2,47462.0,1521.0,6203.0
+ETOpenOpt,2101418,GPL SNMP request tcp,8A22143C,172.16.1.2,172.16.2.2,55116.0,161.0,60817.0
+ETOpenOpt,2101418,GPL SNMP request tcp,2D2A91C2,172.16.1.2,172.16.2.2,55270.0,161.0,21159.0
+ETOpenOpt,2006408,ET POLICY HTTP Request on Unusual Port Possibly Hostile,506FD49A,172.16.1.2,172.16.2.2,48968.0,139.0,25578.0
+ETOpenOpt,2044666,ET INFO Outbound SMB Protocol Request to External Address,D18847CA,172.16.1.2,172.16.2.2,50108.0,445.0,2535.0
+ETOpenOpt,2044666,ET INFO Outbound SMB Protocol Request to External Address,95140F0,172.16.1.2,172.16.2.2,48986.0,139.0,10164.0
+ETOpenOpt,2023753,ET SCAN MS Terminal Server Traffic on Non-standard Port,334395F5,172.16.1.2,172.16.2.2,43364.0,8080.0,37160.0
+ETOpenOpt,2007571,ET POLICY Remote Desktop Connection via non RDP Port,334395F5,172.16.1.2,172.16.2.2,43364.0,8080.0,37160.0
+ETOpenOpt,2003099,ET WEB_SERVER Poison Null Byte,1E09A224,172.16.1.2,172.16.2.2,43366.0,8080.0,15093.0
+ETOpenOpt,2003099,ET WEB_SERVER Poison Null Byte,76222289,172.16.1.2,172.16.2.2,43378.0,8080.0,10308.0
+ETOpenOpt,2018317,ET SCAN NMAP SIP Version Detect OPTIONS Scan,4406937A,172.16.1.2,172.16.2.2,43380.0,8080.0,51237.0
+ETOpenOpt,2034718,ET POLICY RMI Request Outbound,F9F16427,172.16.1.2,172.16.2.2,43390.0,8080.0,20167.0
+ETOpenOpt,2003099,ET WEB_SERVER Poison Null Byte,F04191C,172.16.1.2,172.16.2.2,43394.0,8080.0,14613.0
+ETOpenOpt,2013409,ET POLICY Outbound MSSQL Connection to Non-Standard Port - Likely Malware,2DA471FE,172.16.1.2,172.16.2.2,43396.0,8080.0,9684.0
+ETOpenOpt,2003099,ET WEB_SERVER Poison Null Byte,2DA471FE,172.16.1.2,172.16.2.2,43396.0,8080.0,9684.0
+ETOpenOpt,2034730,ET POLICY GIOP/IIOP Request Outbound,3796703E,172.16.1.2,172.16.2.2,43400.0,8080.0,30495.0
+ETOpenOpt,2034730,ET POLICY GIOP/IIOP Request Outbound,3796703E,172.16.1.2,172.16.2.2,43400.0,8080.0,30495.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),C556EE51,172.16.1.2,172.16.2.2,43402.0,8080.0,86.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,C556EE51,172.16.1.2,172.16.2.2,43402.0,8080.0,86.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),23BB5396,172.16.1.2,172.16.2.2,35886.0,80.0,62078.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,23BB5396,172.16.1.2,172.16.2.2,35886.0,80.0,62078.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),4394558C,172.16.1.2,172.16.2.2,35888.0,80.0,28460.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,4394558C,172.16.1.2,172.16.2.2,35888.0,80.0,28460.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),F5AB8FA6,172.16.1.2,172.16.2.2,43410.0,8080.0,10100.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,F5AB8FA6,172.16.1.2,172.16.2.2,43410.0,8080.0,10100.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),D1166C36,172.16.1.2,172.16.2.2,35892.0,80.0,55612.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,D1166C36,172.16.1.2,172.16.2.2,35892.0,80.0,55612.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),9AFC54E2,172.16.1.2,172.16.2.2,43414.0,8080.0,62830.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,9AFC54E2,172.16.1.2,172.16.2.2,43414.0,8080.0,62830.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),4A2BBBFE,172.16.1.2,172.16.2.2,35896.0,80.0,25855.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,4A2BBBFE,172.16.1.2,172.16.2.2,35896.0,80.0,25855.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),B72CDB04,172.16.1.2,172.16.2.2,35898.0,80.0,30101.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,B72CDB04,172.16.1.2,172.16.2.2,35898.0,80.0,30101.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),74922DC,172.16.1.2,172.16.2.2,43420.0,8080.0,58667.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,74922DC,172.16.1.2,172.16.2.2,43420.0,8080.0,58667.0
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),8A04F61D,172.16.1.2,172.16.2.2,43422.0,8080.0,47052.0
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,8A04F61D,172.16.1.2,172.16.2.2,43422.0,8080.0,47052.0

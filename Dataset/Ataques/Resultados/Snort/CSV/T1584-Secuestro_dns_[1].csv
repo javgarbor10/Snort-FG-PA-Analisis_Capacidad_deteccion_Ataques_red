@@ -1,0 +1,21 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Talos,13249,"""PROTOCOL-DNS dns response for rfc1918 10/8 address detected""",,10.10.1.4,10.10.1.9,53,46306,32487
+Talos,13249,"""PROTOCOL-DNS dns response for rfc1918 10/8 address detected""",,10.10.1.4,10.10.1.9,53,49615,32487
+ETOpenOpt,2100469,GPL SCAN PING NMAP,,,,,,32487
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,32487
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,,,,,32487
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,,,,,32487
+ETOpenOpt,2100469,GPL SCAN PING NMAP,,,,,,32487
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,32487
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,,,,,32487
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,,,,,32487
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,0,10.10.1.6,10.10.1.9,80,48174,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,0,10.10.1.6,10.10.1.9,80,48174,0

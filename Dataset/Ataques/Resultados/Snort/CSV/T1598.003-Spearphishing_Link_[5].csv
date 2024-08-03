@@ -1,0 +1,16 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,0
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,0
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.0.4,192.168.0.2,53,51750,2084
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.0.4,192.168.0.2,53,51750,2084
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,0
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.0.4,192.168.0.2,53,43505,5905
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.0.4,192.168.0.2,53,56203,5906
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.0.4,192.168.0.2,53,43505,5907
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.0.4,192.168.0.2,53,56203,5909
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.0.4,192.168.0.2,53,43362,5928
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.0.4,192.168.0.2,53,52812,5929
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.0.4,192.168.0.2,53,43362,5936
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.0.4,192.168.0.2,53,52812,5937
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,48497EF6,192.168.0.3,192.168.0.2,80,35304,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,48497EF6,192.168.0.3,192.168.0.2,80,35304,0

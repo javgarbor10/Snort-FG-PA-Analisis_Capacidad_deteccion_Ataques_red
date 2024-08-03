@@ -1,0 +1,11 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Talos,13249,"""PROTOCOL-DNS dns response for rfc1918 10/8 address detected""",,10.10.1.4,10.10.1.9,53,46306,32487
+Talos,13249,"""PROTOCOL-DNS dns response for rfc1918 10/8 address detected""",,10.10.1.4,10.10.1.9,53,49615,32487
