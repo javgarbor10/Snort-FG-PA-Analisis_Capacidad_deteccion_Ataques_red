@@ -1,0 +1,22 @@
+Nº alertas = 1
+ [1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt" 
+Nº de alertas totales: 2
+Nº alertas = 1
+ [1:2001330:10] ET INFO RDP - Response To External Host 
+Nº de alertas totales: 2
+Nº alertas = 1
+ [1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt" 
+Nº de alertas totales: 2
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 1
+ [1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt" 
+Nº de alertas totales: 2
+Nº alertas = 1
+ [1:2001330:10] ET INFO RDP - Response To External Host 
+Nº de alertas totales: 2
+Nº alertas = 1
+ [1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt" 
+Nº de alertas totales: 2
+Nº alertas = 0
+Nº de alertas totales: 0
