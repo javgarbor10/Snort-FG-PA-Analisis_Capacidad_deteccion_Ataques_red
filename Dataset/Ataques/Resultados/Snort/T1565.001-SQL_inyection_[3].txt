@@ -1,0 +1,13 @@
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 1
+ [1:2006443:10] ET WEB_SERVER Possible SQL Injection Attempt DELETE FROM 
+Nº de alertas totales: 1
+Nº alertas = 1
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+Nº de alertas totales: 1
+Nº alertas = 3
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2006443:10] ET WEB_SERVER Possible SQL Injection Attempt DELETE FROM 
+Nº de alertas totales: 5
