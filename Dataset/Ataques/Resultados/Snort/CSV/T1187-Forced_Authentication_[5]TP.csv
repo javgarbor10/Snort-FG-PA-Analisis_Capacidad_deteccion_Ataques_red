@@ -1,0 +1,7 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,44486,"""POLICY-OTHER SMBv1 protocol detection attempt""",FF0E5B53,192.168.0.10,192.168.0.30,49187,445,1063
+Talos,44484,"""POLICY-OTHER SMBv1 protocol detection attempt""",FF0E5B53,192.168.0.10,192.168.0.30,49187,445,1063
+Talos,44488,"""POLICY-OTHER SMBv1 protocol detection attempt""",FF0E5B53,192.168.0.10,192.168.0.30,49187,445,1063
+Talos,44486,"""POLICY-OTHER SMBv1 protocol detection attempt""",A9284D5,192.168.0.10,192.168.0.30,49191,445,1095
+Talos,44484,"""POLICY-OTHER SMBv1 protocol detection attempt""",A9284D5,192.168.0.10,192.168.0.30,49191,445,1095
+Talos,44488,"""POLICY-OTHER SMBv1 protocol detection attempt""",A9284D5,192.168.0.10,192.168.0.30,49191,445,1095

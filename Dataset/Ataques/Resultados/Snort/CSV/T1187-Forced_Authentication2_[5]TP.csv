@@ -1,0 +1,4 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,44486,"""POLICY-OTHER SMBv1 protocol detection attempt""",43A4BA97,192.168.0.10,192.168.0.35,49229,445,1646
+Talos,44484,"""POLICY-OTHER SMBv1 protocol detection attempt""",43A4BA97,192.168.0.10,192.168.0.35,49229,445,1646
+Talos,44488,"""POLICY-OTHER SMBv1 protocol detection attempt""",43A4BA97,192.168.0.10,192.168.0.35,49229,445,1646
