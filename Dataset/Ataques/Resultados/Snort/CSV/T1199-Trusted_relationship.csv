@@ -1,0 +1,23 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,1448,"""POLICY-OTHER Microsoft Windows Terminal server request attempt""",69FDA47C,,,,,0
+Community,1448,"""POLICY-OTHER Microsoft Windows Terminal server request attempt""",9A0BB324,,,,,0
+ETOpen,2001330,ET INFO RDP - Response To External Host,AF5D69FD,,,,,0
+ETOpen,2001330,ET INFO RDP - Response To External Host,39B4E751,,,,,0
+Talos,1448,"""POLICY-OTHER Microsoft Windows Terminal server request attempt""",69FDA47C,,,,,0
+Talos,1448,"""POLICY-OTHER Microsoft Windows Terminal server request attempt""",9A0BB324,,,,,0
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.10.2,224.0.0.251,5353,5353,26393
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.10.2,224.0.0.251,5353,5353,26393
+ETOpenOpt,2034857,ET INFO RDP Authentication Bypass Attempt,69FDA47C,,,,,0
+ETOpenOpt,2101448,GPL DELETED MS Terminal server request,69FDA47C,,,,,0
+ETOpenOpt,2101447,GPL POLICY MS Remote Desktop Request RDP,69FDA47C,,,,,0
+ETOpenOpt,2001329,ET POLICY RDP connection request,69FDA47C,,,,,0
+ETOpenOpt,2001330,ET INFO RDP - Response To External Host,AF5D69FD,,,,,0
+ETOpenOpt,2034857,ET INFO RDP Authentication Bypass Attempt,9A0BB324,,,,,0
+ETOpenOpt,2101448,GPL DELETED MS Terminal server request,9A0BB324,,,,,0
+ETOpenOpt,2101447,GPL POLICY MS Remote Desktop Request RDP,9A0BB324,,,,,0
+ETOpenOpt,2001329,ET POLICY RDP connection request,9A0BB324,,,,,0
+ETOpenOpt,2001330,ET INFO RDP - Response To External Host,39B4E751,,,,,0
+ETOpenOpt,2009207,ET TROJAN Possible KEYPLUG/Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 5),,,,,,0
+ETOpenOpt,2009206,ET TROJAN Possible KEYPLUG/Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 4),,,,,,0
+ETOpenOpt,2009205,ET TROJAN Possible KEYPLUG/Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 1),,,,,,0
+ETOpenOpt,2009208,ET TROJAN Possible Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 16),,,,,,0

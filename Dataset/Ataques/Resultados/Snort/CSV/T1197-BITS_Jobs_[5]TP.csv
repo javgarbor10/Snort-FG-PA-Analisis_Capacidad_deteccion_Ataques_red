@@ -1,0 +1,18 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39117
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39118
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39119
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39120
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39121
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39122
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39123
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39124
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39117
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39118
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39119
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39120
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39121
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39122
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39123
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39124

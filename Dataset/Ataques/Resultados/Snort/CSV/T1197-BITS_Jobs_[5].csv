@@ -1,0 +1,35 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39117
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39118
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39119
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39120
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39121
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39122
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39123
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39124
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39117
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39118
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39119
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,64767,1900,39120
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39121
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39122
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39123
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.10,239.255.255.250,62725,1900,39124
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.0.10,192.168.0.2,57800,53,25993
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.0.10,192.168.0.2,57800,53,25993
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,0,192.168.0.2,192.168.0.10,1234,49840,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,0,192.168.0.2,192.168.0.10,1234,49840,0
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.10,239.255.255.250,64767,1900,39117
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.10,239.255.255.250,64767,1900,39118
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.10,239.255.255.250,64767,1900,39119
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.10,239.255.255.250,64767,1900,39120
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.10,239.255.255.250,62725,1900,39121
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.10,239.255.255.250,62725,1900,39122
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.10,239.255.255.250,62725,1900,39123
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.10,239.255.255.250,62725,1900,39124
