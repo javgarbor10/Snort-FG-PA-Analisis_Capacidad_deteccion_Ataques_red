@@ -1,9 +1,0 @@
-PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
-Talos,44486,"""POLICY-OTHER SMBv1 protocol detection attempt""",FF0E5B53,192.168.0.10,192.168.0.30,49187,445,1063
-Talos,44484,"""POLICY-OTHER SMBv1 protocol detection attempt""",FF0E5B53,192.168.0.10,192.168.0.30,49187,445,1063
-Talos,44488,"""POLICY-OTHER SMBv1 protocol detection attempt""",FF0E5B53,192.168.0.10,192.168.0.30,49187,445,1063
-Talos,44486,"""POLICY-OTHER SMBv1 protocol detection attempt""",A9284D5,192.168.0.10,192.168.0.30,49191,445,1095
-Talos,44484,"""POLICY-OTHER SMBv1 protocol detection attempt""",A9284D5,192.168.0.10,192.168.0.30,49191,445,1095
-Talos,44488,"""POLICY-OTHER SMBv1 protocol detection attempt""",A9284D5,192.168.0.10,192.168.0.30,49191,445,1095
-ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.0.10,192.168.0.255,137,137,1054
-ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.0.10,192.168.0.255,137,137,1054
