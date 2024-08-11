@@ -1,0 +1,4 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,44489,"""POLICY-OTHER SMBv1 protocol detection attempt""",DB45DF28,,,,,0
+ETOpenOpt,2044666,ET INFO Outbound SMB Protocol Request to External Address,DB45DF28,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,DB45E0F1,,,,,0
