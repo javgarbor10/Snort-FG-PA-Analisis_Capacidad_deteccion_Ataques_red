@@ -1,0 +1,3 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,405B7BBD,172.16.17.3,172.16.17.2,47840,22,11731
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,405B7BBD,172.16.17.3,172.16.17.2,47840,22,11731

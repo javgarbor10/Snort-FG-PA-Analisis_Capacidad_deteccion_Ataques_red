@@ -1,0 +1,7 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,97E261ED,172.16.1.2,172.16.2.2,34366,80,4768
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,97E261ED,172.16.1.2,172.16.2.2,34366,80,4768
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,4845A9CE,172.16.2.2,172.16.1.2,80,34366,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,4845A9CE,172.16.2.2,172.16.1.2,80,34366,0
