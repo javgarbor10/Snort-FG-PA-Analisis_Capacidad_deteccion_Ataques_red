@@ -1,0 +1,14 @@
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 3
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+ [1:50202:1] "INDICATOR-COMPROMISE Peppa Pig botnet outbound scan attempt" 
+ [1:50182:1] "INDICATOR-SCAN PHP backdoor scan attempt" 
+Nº de alertas totales: 6
+Nº alertas = 3
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2006408:8] ET POLICY HTTP Request on Unusual Port Possibly Hostile 
+Nº de alertas totales: 5
