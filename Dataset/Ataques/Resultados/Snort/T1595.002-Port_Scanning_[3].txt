@@ -1,7 +1,10 @@
+Talos Community
 Nº alertas = 2
  [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request" 
  [1:1418:19] "PROTOCOL-SNMP request tcp" 
 Nº de alertas totales: 4
+
+ETOpen
 Nº alertas = 13
  [1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306 
  [1:2002911:5] ET SCAN Potential VNC Scan 5900-5920 
@@ -17,6 +20,8 @@ Nº alertas = 13
  [1:2009358:5] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine) 
  [1:2024364:3] ET SCAN Possible Nmap User-Agent Observed 
 Nº de alertas totales: 36
+
+Talos Registered
 Nº alertas = 9
  [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request" 
  [1:1418:19] "PROTOCOL-SNMP request tcp" 
@@ -28,6 +33,8 @@ Nº alertas = 9
  [1:49040:5] "INDICATOR-COMPROMISE Microsoft Windows Terminal server RDP over non-standard port attempt" 
  [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
 Nº de alertas totales: 30
+
+ETOpen Optimizada
 Nº alertas = 22
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
