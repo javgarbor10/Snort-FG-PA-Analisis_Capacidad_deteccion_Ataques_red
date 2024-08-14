@@ -1,5 +1,5 @@
-RS1:
-Número de alertas: 43
+Talos Community:
+NÃºmero de alertas: 43
 [1:1016:26] "SERVER-IIS global.asa access"
 [1:1071:15] "SERVER-WEBAPP .htpasswd access attempt"
 [1:1129:16] "SERVER-WEBAPP .htaccess access"
@@ -44,8 +44,8 @@ Número de alertas: 43
 [1:940:29] "SERVER-OTHER Microsoft Frontpage shtml.dll access"
 [1:993:22] "SERVER-IIS iisadmin access"
 
-RS2:
-Número de alertas: 57
+ETOpen:
+NÃºmero de alertas: 57
 [1:1016:26] "SERVER-IIS global.asa access"
 [1:1071:15] "SERVER-WEBAPP .htpasswd access attempt"
 [1:1129:16] "SERVER-WEBAPP .htaccess access"
@@ -104,8 +104,8 @@ Número de alertas: 57
 [1:940:29] "SERVER-OTHER Microsoft Frontpage shtml.dll access"
 [1:993:22] "SERVER-IIS iisadmin access"
 
-RS3:
-Número de alertas: 62
+Talos Registered:
+NÃºmero de alertas: 62
 [1:1016:26] "SERVER-IIS global.asa access"
 [1:1071:15] "SERVER-WEBAPP .htpasswd access attempt"
 [1:1129:16] "SERVER-WEBAPP .htaccess access"
@@ -169,8 +169,8 @@ Número de alertas: 62
 [1:940:29] "SERVER-OTHER Microsoft Frontpage shtml.dll access"
 [1:993:22] "SERVER-IIS iisadmin access"
 
-RS4:
-Número de alertas: 74
+ETOpen Optimizada:
+NÃºmero de alertas: 74
 [1:1016:26] "SERVER-IIS global.asa access"
 [1:1071:15] "SERVER-WEBAPP .htpasswd access attempt"
 [1:1129:16] "SERVER-WEBAPP .htaccess access"
