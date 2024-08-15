@@ -1,0 +1,306 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2016672,ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax),6136F53D,172.31.69.28,18.218.115.60,80,59880,17507
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,2DE60834,18.218.115.60,172.31.69.28,59901,80,4768
+ETOpen,2011037,ET WEB_SERVER Possible Attempt to Get SQL Server Version in URI using SELECT VERSION,DDC211B6,18.218.115.60,172.31.69.28,59904,80,3589
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,DDC211B6,18.218.115.60,172.31.69.28,59904,80,3589
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,B6B4FEBA,18.218.115.60,172.31.69.28,59907,80,13222
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,B6B4FEBA,18.218.115.60,172.31.69.28,59907,80,13222
+ETOpen,2016672,ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax),5CF42663,172.31.69.28,18.218.115.60,80,59907,17565
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,B6B50112,18.218.115.60,172.31.69.28,59907,80,13224
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,B6B50112,18.218.115.60,172.31.69.28,59907,80,13224
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,19D1E7A5,18.218.115.60,172.31.69.28,59912,80,588
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,9AF10223,18.218.115.60,172.31.69.28,59917,80,46104
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,ECC43637,18.218.115.60,172.31.69.28,59922,80,49915
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,ECC43637,18.218.115.60,172.31.69.28,59922,80,49915
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,ECC43637,18.218.115.60,172.31.69.28,59922,80,49915
+ETOpen,2016672,ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax),41E84FEE,172.31.69.28,18.218.115.60,80,59922,17585
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,537253F4,18.218.115.60,172.31.69.28,59923,80,57110
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,537253F4,18.218.115.60,172.31.69.28,59923,80,57110
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,537253F4,18.218.115.60,172.31.69.28,59923,80,57110
+ETOpen,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpen,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,A1B5BBB9,18.218.115.60,172.31.69.28,59957,80,8863
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,A1B5BBB9,18.218.115.60,172.31.69.28,59957,80,8863
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,A1B5BBB9,18.218.115.60,172.31.69.28,59957,80,8863
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,A1B5BBB9,18.218.115.60,172.31.69.28,59957,80,8863
+ETOpen,2016672,ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax),B1F667FF,172.31.69.28,18.218.115.60,80,65530,9622
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,D5CD25B4,18.218.115.60,172.31.69.28,49156,80,28206
+ETOpen,2011037,ET WEB_SERVER Possible Attempt to Get SQL Server Version in URI using SELECT VERSION,2AA21DC9,18.218.115.60,172.31.69.28,49158,80,41788
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,2AA21DC9,18.218.115.60,172.31.69.28,49158,80,41788
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,4EF9478A,18.218.115.60,172.31.69.28,49165,80,10548
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,4EF9478A,18.218.115.60,172.31.69.28,49165,80,10548
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,2FAE303F,18.218.115.60,172.31.69.28,49168,80,10247
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,4B66B564,18.218.115.60,172.31.69.28,49183,80,17915
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,BF961E8B,18.218.115.60,172.31.69.28,49187,80,48561
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,10D3FAE7,18.218.115.60,172.31.69.28,49190,80,3277
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,10D3FAE7,18.218.115.60,172.31.69.28,49190,80,3277
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,10D3FAE7,18.218.115.60,172.31.69.28,49190,80,3277
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,E1DA2A67,18.218.115.60,172.31.69.28,49192,80,10529
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,E1DA2A67,18.218.115.60,172.31.69.28,49192,80,10529
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,E1DA2A67,18.218.115.60,172.31.69.28,49192,80,10529
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,E1DA2A67,18.218.115.60,172.31.69.28,49192,80,10529
+ETOpen,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,8EAA3CC7,18.218.115.60,172.31.69.28,49202,80,17768
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,8EAA3CC7,18.218.115.60,172.31.69.28,49202,80,17768
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,8EAA3CC7,18.218.115.60,172.31.69.28,49202,80,17768
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,A6B6D8B2,18.218.115.60,172.31.69.28,49211,80,10799
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,A6B6D8B2,18.218.115.60,172.31.69.28,49211,80,10799
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,A6B6D8B2,18.218.115.60,172.31.69.28,49211,80,10799
+ETOpen,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,F2ACDE7C,18.218.115.60,172.31.69.28,49219,80,35376
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,F2ACDE7C,18.218.115.60,172.31.69.28,49219,80,35376
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,F2ACDE7C,18.218.115.60,172.31.69.28,49219,80,35376
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,F2ACDE7C,18.218.115.60,172.31.69.28,49219,80,35376
+ETOpen,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,D3857257,18.218.115.60,172.31.69.28,49222,80,16110
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,D3857257,18.218.115.60,172.31.69.28,49222,80,16110
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,D3857257,18.218.115.60,172.31.69.28,49222,80,16110
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,D3857257,18.218.115.60,172.31.69.28,49222,80,16110
+ETOpen,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpen,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,E9055A88,18.218.115.60,172.31.69.28,49227,80,28632
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,E9055A88,18.218.115.60,172.31.69.28,49227,80,28632
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,E9055A88,18.218.115.60,172.31.69.28,49227,80,28632
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,E9055A88,18.218.115.60,172.31.69.28,49227,80,28632
+ETOpen,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,A2C0FEFF,18.218.115.60,172.31.69.28,49230,80,20582
+ETOpen,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,A2C0FEFF,18.218.115.60,172.31.69.28,49230,80,20582
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,A2C0FEFF,18.218.115.60,172.31.69.28,49230,80,20582
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,A2C0FEFF,18.218.115.60,172.31.69.28,49230,80,20582
+ETOpen,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,5BC3E847,18.218.115.60,172.31.69.28,49232,80,2529
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,5BC3E847,18.218.115.60,172.31.69.28,49232,80,2529
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,5BC3E847,18.218.115.60,172.31.69.28,49232,80,2529
+ETOpen,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,19972ED,18.218.115.60,172.31.69.28,49234,80,28941
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,19972ED,18.218.115.60,172.31.69.28,49234,80,28941
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,19972ED,18.218.115.60,172.31.69.28,49234,80,28941
+ETOpen,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,2A36B338,18.218.115.60,172.31.69.28,49237,80,58373
+ETOpen,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,2A36B338,18.218.115.60,172.31.69.28,49237,80,58373
+ETOpen,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,2A36B338,18.218.115.60,172.31.69.28,49237,80,58373
+ETOpen,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,2A36B338,18.218.115.60,172.31.69.28,49237,80,58373
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19440,"""SQL 1 = 0 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,24172,"""SQL use of concat function with select - likely SQL injection""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,31939,"""SERVER-WEBAPP password sent via POST parameter""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,44416,"""INDICATOR-COMPROMISE png file attachment without matching file magic""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,24172,"""SQL use of concat function with select - likely SQL injection""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,19439,"""SQL 1 = 1 - possible sql injection attempt""",,,,,,
+Talos,24172,"""SQL use of concat function with select - likely SQL injection""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,24172,"""SQL use of concat function with select - likely SQL injection""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+Talos,24172,"""SQL use of concat function with select - likely SQL injection""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,13990,"""SQL union select - possible sql injection attempt - GET parameter""",,,,,,
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,905A0D06,18.218.115.60,172.31.69.28,59880,80,17504
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,6136F53C,172.31.69.28,18.218.115.60,80,59880,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,6136F53C,172.31.69.28,18.218.115.60,80,59880,0
+ETOpenOpt,2016672,ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax),6136F53D,172.31.69.28,18.218.115.60,80,59880,17507
+ETOpenOpt,2020506,"ET ATTACK_RESPONSE MySQL error in HTTP response, possible SQL injection point",6136F53D,172.31.69.28,18.218.115.60,80,59880,17507
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,2DE60834,18.218.115.60,172.31.69.28,59901,80,4768
+ETOpenOpt,2011037,ET WEB_SERVER Possible Attempt to Get SQL Server Version in URI using SELECT VERSION,DDC211B6,18.218.115.60,172.31.69.28,59904,80,3589
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,DDC211B6,18.218.115.60,172.31.69.28,59904,80,3589
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,B6B4FEBA,18.218.115.60,172.31.69.28,59907,80,13222
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,B6B4FEBA,18.218.115.60,172.31.69.28,59907,80,13222
+ETOpenOpt,2016672,ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax),5CF42663,172.31.69.28,18.218.115.60,80,59907,17565
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,B6B50112,18.218.115.60,172.31.69.28,59907,80,13224
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,B6B50112,18.218.115.60,172.31.69.28,59907,80,13224
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,19D1E7A5,18.218.115.60,172.31.69.28,59912,80,588
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,9AF10223,18.218.115.60,172.31.69.28,59917,80,46104
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,ECC43637,18.218.115.60,172.31.69.28,59922,80,49915
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,ECC43637,18.218.115.60,172.31.69.28,59922,80,49915
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,ECC43637,18.218.115.60,172.31.69.28,59922,80,49915
+ETOpenOpt,2016672,ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax),41E84FEE,172.31.69.28,18.218.115.60,80,59922,17585
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,537253F4,18.218.115.60,172.31.69.28,59923,80,57110
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,537253F4,18.218.115.60,172.31.69.28,59923,80,57110
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,537253F4,18.218.115.60,172.31.69.28,59923,80,57110
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,8A1F3BBA,18.218.115.60,172.31.69.28,59936,80,17595
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,3162CF44,172.31.69.28,18.218.115.60,80,59936,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,3162CF44,172.31.69.28,18.218.115.60,80,59936,0
+ETOpenOpt,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,8A1F3BBB,18.218.115.60,172.31.69.28,59936,80,58852
+ETOpenOpt,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,A1B5BBB9,18.218.115.60,172.31.69.28,59957,80,8863
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,A1B5BBB9,18.218.115.60,172.31.69.28,59957,80,8863
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,A1B5BBB9,18.218.115.60,172.31.69.28,59957,80,8863
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,A1B5BBB9,18.218.115.60,172.31.69.28,59957,80,8863
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,4F9813D5,18.218.115.60,172.31.69.28,65517,80,9580
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,EB7B1768,172.31.69.28,18.218.115.60,80,65517,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,EB7B1768,172.31.69.28,18.218.115.60,80,65517,0
+ETOpenOpt,2012885,ET POLICY Http Client Body contains password= in cleartext,DDE224FF,18.218.115.60,172.31.69.28,65519,80,10158
+ETOpenOpt,2009004,ET POLICY Login Credentials Possibly Passed in POST Data,DDE224FF,18.218.115.60,172.31.69.28,65519,80,10158
+ETOpenOpt,2016672,ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax),B1F667FF,172.31.69.28,18.218.115.60,80,65530,9622
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,D5CD25B4,18.218.115.60,172.31.69.28,49156,80,28206
+ETOpenOpt,2011037,ET WEB_SERVER Possible Attempt to Get SQL Server Version in URI using SELECT VERSION,2AA21DC9,18.218.115.60,172.31.69.28,49158,80,41788
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,2AA21DC9,18.218.115.60,172.31.69.28,49158,80,41788
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,4EF9478A,18.218.115.60,172.31.69.28,49165,80,10548
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,4EF9478A,18.218.115.60,172.31.69.28,49165,80,10548
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,2FAE303F,18.218.115.60,172.31.69.28,49168,80,10247
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,4B66B563,18.218.115.60,172.31.69.28,49183,80,9669
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,D9F740D7,172.31.69.28,18.218.115.60,80,49183,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,D9F740D7,172.31.69.28,18.218.115.60,80,49183,0
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,4B66B564,18.218.115.60,172.31.69.28,49183,80,17915
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,BF961E8B,18.218.115.60,172.31.69.28,49187,80,48561
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,10D3FAE7,18.218.115.60,172.31.69.28,49190,80,3277
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,10D3FAE7,18.218.115.60,172.31.69.28,49190,80,3277
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,10D3FAE7,18.218.115.60,172.31.69.28,49190,80,3277
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,E1DA2A67,18.218.115.60,172.31.69.28,49192,80,10529
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,E1DA2A67,18.218.115.60,172.31.69.28,49192,80,10529
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,E1DA2A67,18.218.115.60,172.31.69.28,49192,80,10529
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,E1DA2A67,18.218.115.60,172.31.69.28,49192,80,10529
+ETOpenOpt,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,44A3D5C0,18.218.115.60,172.31.69.28,49197,80,21647
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,8EAA3CC7,18.218.115.60,172.31.69.28,49202,80,17768
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,8EAA3CC7,18.218.115.60,172.31.69.28,49202,80,17768
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,8EAA3CC7,18.218.115.60,172.31.69.28,49202,80,17768
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,A6B6D8B2,18.218.115.60,172.31.69.28,49211,80,10799
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,A6B6D8B2,18.218.115.60,172.31.69.28,49211,80,10799
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,A6B6D8B2,18.218.115.60,172.31.69.28,49211,80,10799
+ETOpenOpt,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,F2ACDE7C,18.218.115.60,172.31.69.28,49219,80,35376
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,F2ACDE7C,18.218.115.60,172.31.69.28,49219,80,35376
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,F2ACDE7C,18.218.115.60,172.31.69.28,49219,80,35376
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,F2ACDE7C,18.218.115.60,172.31.69.28,49219,80,35376
+ETOpenOpt,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,D3857257,18.218.115.60,172.31.69.28,49222,80,16110
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,D3857257,18.218.115.60,172.31.69.28,49222,80,16110
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,D3857257,18.218.115.60,172.31.69.28,49222,80,16110
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,D3857257,18.218.115.60,172.31.69.28,49222,80,16110
+ETOpenOpt,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,4A2EEB01,18.218.115.60,172.31.69.28,49224,80,13885
+ETOpenOpt,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,E9055A88,18.218.115.60,172.31.69.28,49227,80,28632
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,E9055A88,18.218.115.60,172.31.69.28,49227,80,28632
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,E9055A88,18.218.115.60,172.31.69.28,49227,80,28632
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,E9055A88,18.218.115.60,172.31.69.28,49227,80,28632
+ETOpenOpt,2017337,ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1,A2C0FEFF,18.218.115.60,172.31.69.28,49230,80,20582
+ETOpenOpt,2017808,ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access,A2C0FEFF,18.218.115.60,172.31.69.28,49230,80,20582
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,A2C0FEFF,18.218.115.60,172.31.69.28,49230,80,20582
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,A2C0FEFF,18.218.115.60,172.31.69.28,49230,80,20582
+ETOpenOpt,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,5BC3E847,18.218.115.60,172.31.69.28,49232,80,2529
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,5BC3E847,18.218.115.60,172.31.69.28,49232,80,2529
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,5BC3E847,18.218.115.60,172.31.69.28,49232,80,2529
+ETOpenOpt,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,19972ED,18.218.115.60,172.31.69.28,49234,80,28941
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,19972ED,18.218.115.60,172.31.69.28,49234,80,28941
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,19972ED,18.218.115.60,172.31.69.28,49234,80,28941
+ETOpenOpt,2011042,ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt,2A36B338,18.218.115.60,172.31.69.28,49237,80,58373
+ETOpenOpt,2010963,ET WEB_SERVER SELECT USER SQL Injection Attempt in URI,2A36B338,18.218.115.60,172.31.69.28,49237,80,58373
+ETOpenOpt,2006446,ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT,2A36B338,18.218.115.60,172.31.69.28,49237,80,58373
+ETOpenOpt,2006445,ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM,2A36B338,18.218.115.60,172.31.69.28,49237,80,58373
