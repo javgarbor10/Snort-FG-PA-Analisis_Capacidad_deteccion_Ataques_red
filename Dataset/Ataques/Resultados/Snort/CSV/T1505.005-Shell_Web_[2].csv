@@ -1,0 +1,12 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50202,"""INDICATOR-COMPROMISE Peppa Pig botnet outbound scan attempt""",,,,,,
+Talos,50182,"""INDICATOR-SCAN PHP backdoor scan attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50202,"""INDICATOR-COMPROMISE Peppa Pig botnet outbound scan attempt""",,,,,,
+Talos,50182,"""INDICATOR-SCAN PHP backdoor scan attempt""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,42CB61D7,192.168.1.3,192.168.2.2,39635,8585,2746
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,42CB61D7,192.168.1.3,192.168.2.2,39635,8585,2746
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,CC2467FD,192.168.2.2,192.168.1.3,8585,39635,1655
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,CC2467FD,192.168.2.2,192.168.1.3,8585,39635,1655
+ETOpenOpt,2006408,ET POLICY HTTP Request on Unusual Port Possibly Hostile,788938EB,192.168.1.3,192.168.2.2,35073,8585,11543
