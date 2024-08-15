@@ -1,0 +1,7 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2011039,ET WEB_SERVER Possible INSERT VALUES SQL Injection Attempt,65F2FDF9,172.16.1.2,172.16.2.2,39250,8080,55462
+ETOpen,2006444,ET WEB_SERVER Possible SQL Injection Attempt INSERT INTO,65F2FDF9,172.16.1.2,172.16.2.2,39250,8080,55462
+Talos,13513,"""SQL generic sql insert injection attempt - GET parameter""",,,,,,
+Talos,19438,"""SQL url ending in comment characters - possible sql injection attempt""",,,,,,
+ETOpenOpt,2011039,ET WEB_SERVER Possible INSERT VALUES SQL Injection Attempt,65F2FDF9,172.16.1.2,172.16.2.2,39250,8080,55462
+ETOpenOpt,2006444,ET WEB_SERVER Possible SQL Injection Attempt INSERT INTO,65F2FDF9,172.16.1.2,172.16.2.2,39250,8080,55462
