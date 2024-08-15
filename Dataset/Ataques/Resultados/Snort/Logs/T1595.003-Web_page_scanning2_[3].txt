@@ -43,6 +43,7 @@ Número de alertas: 43
 [1:937:22] "SERVER-OTHER Microsoft Frontpage _vti_rpc access"
 [1:940:29] "SERVER-OTHER Microsoft Frontpage shtml.dll access"
 [1:993:22] "SERVER-IIS iisadmin access"
+Número de alertas totales: 62
 
 ETOpen:
 Número de alertas: 57
@@ -103,6 +104,7 @@ Número de alertas: 57
 [1:937:22] "SERVER-OTHER Microsoft Frontpage _vti_rpc access"
 [1:940:29] "SERVER-OTHER Microsoft Frontpage shtml.dll access"
 [1:993:22] "SERVER-IIS iisadmin access"
+Número de alertas totales: 
 
 Talos Registered:
 Número de alertas: 62
