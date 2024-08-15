@@ -1,15 +1,22 @@
+Talos Community:
 Nº alertas = 2
  [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
  [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
 Nº de alertas totales: 14
+
+ETOpen:
 Nº alertas = 0
 Nº de alertas totales: 0
+
+Talos Registered:
 Nº alertas = 4
  [1:24303:7] "PROTOCOL-ICMP IPv6 multicast neighbor add attempt" 
  [1:27611:3] "PROTOCOL-ICMP Truncated ICMPv6 denial of service attempt" 
  [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
  [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
 Nº de alertas totales: 20
+
+ETOpen Optimizada:
 Nº alertas = 5
  [1:2101620:7] GPL POLICY TRAFFIC Non-Standard IP protocol 
  [1:2100527:9] GPL SCAN same SRC/DST 
