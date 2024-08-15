@@ -1,0 +1,27 @@
+Nº alertas = 1
+ [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
+Nº de alertas totales: 4
+Nº alertas = 3
+ [1:2018959:4] ET POLICY PE EXE or DLL Windows file download HTTP 
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+Nº de alertas totales: 3
+Nº alertas = 3
+ [1:24303:7] "PROTOCOL-ICMP IPv6 multicast neighbor add attempt" 
+ [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
+ [1:15935:7] "PROTOCOL-DNS dns response for rfc1918 192.168/16 address detected" 
+Nº de alertas totales: 9
+Nº alertas = 12
+ [1:2100527:9] GPL SCAN same SRC/DST 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2101620:7] GPL POLICY TRAFFIC Non-Standard IP protocol 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2001117:6] ET DNS Standard query response, Name Error 
+ [1:2101917:7] GPL MISC UPnP service discover attempt 
+ [1:2003595:5] ET POLICY exe download via HTTP - Informational 
+ [1:2018959:4] ET POLICY PE EXE or DLL Windows file download HTTP 
+ [1:2101200:12] GPL ATTACK_RESPONSE Invalid URL 
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2000419:20] ET POLICY PE EXE or DLL Windows file download Non-HTTP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+Nº de alertas totales: 78
