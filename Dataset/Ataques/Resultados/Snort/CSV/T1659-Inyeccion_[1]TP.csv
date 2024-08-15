@@ -1,0 +1,9 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,1.1.1.1,56197,53,32
+Community,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,9.9.9.9,47789,53,36
+Community,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,1.1.1.1,36788,53,40
+Community,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,8.8.8.8,53356,53,44
+Talos,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,1.1.1.1,56197,53,32
+Talos,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,9.9.9.9,47789,53,36
+Talos,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,1.1.1.1,36788,53,40
+Talos,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,8.8.8.8,53356,53,44

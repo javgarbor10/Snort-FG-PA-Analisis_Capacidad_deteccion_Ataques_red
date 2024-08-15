@@ -1,0 +1,17 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,1.1.1.1,56197,53,32
+Community,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,9.9.9.9,47789,53,36
+Community,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,1.1.1.1,36788,53,40
+Community,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,8.8.8.8,53356,53,44
+Talos,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,1.1.1.1,56197,53,32
+Talos,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,9.9.9.9,47789,53,36
+Talos,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,1.1.1.1,36788,53,40
+Talos,399,"""PROTOCOL-ICMP Destination Unreachable Host Unreachable""",,192.168.0.100,8.8.8.8,53356,53,44
+ETOpenOpt,2100399,GPL ICMP_INFO Destination Unreachable Host Unreachable,,192.168.0.100,1.1.1.1,56197,53,32
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.0.100,1.1.1.1,56197,53,32
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.0.100,1.1.1.1,56197,53,32
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.0.100,192.168.0.1,40786,53,50747
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.0.100,192.168.0.1,40786,53,50747
+ETOpenOpt,2100399,GPL ICMP_INFO Destination Unreachable Host Unreachable,,192.168.0.100,9.9.9.9,47789,53,36
+ETOpenOpt,2100399,GPL ICMP_INFO Destination Unreachable Host Unreachable,,192.168.0.100,1.1.1.1,36788,53,40
+ETOpenOpt,2100399,GPL ICMP_INFO Destination Unreachable Host Unreachable,,192.168.0.100,8.8.8.8,53356,53,44
