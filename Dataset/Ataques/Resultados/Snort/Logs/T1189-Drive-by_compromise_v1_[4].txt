@@ -1,12 +1,19 @@
+Talos Community:
 Nº alertas = 1
  [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
 Nº de alertas totales: 4
+
+ETOpen:
 Nº alertas = 0
 Nº de alertas totales: 0
+
+Talos Registered:
 Nº alertas = 2
  [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
  [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
 Nº de alertas totales: 244
+
+ETOpen Optimizado:
 Nº alertas = 4
  [1:2101917:7] GPL MISC UPnP service discover attempt 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
