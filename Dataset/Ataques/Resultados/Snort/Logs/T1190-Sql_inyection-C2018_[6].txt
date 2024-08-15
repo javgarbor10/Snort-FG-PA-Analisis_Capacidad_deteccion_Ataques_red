@@ -1,0 +1,36 @@
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 8
+ [1:2016672:1] ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax) 
+ [1:2006446:11] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT 
+ [1:2011037:5] ET WEB_SERVER Possible Attempt to Get SQL Server Version in URI using SELECT VERSION 
+ [1:2010963:4] ET WEB_SERVER SELECT USER SQL Injection Attempt in URI 
+ [1:2017808:1] ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access 
+ [1:2006445:12] ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM 
+ [1:2017337:2] ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1 
+ [1:2011042:3] ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt 
+Nº de alertas totales: 85
+Nº alertas = 7
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+ [1:19439:10] "SQL 1 = 1 - possible sql injection attempt" 
+ [1:19440:10] "SQL 1 = 0 - possible sql injection attempt" 
+ [1:13990:27] "SQL union select - possible sql injection attempt - GET parameter" 
+ [1:24172:2] "SQL use of concat function with select - likely SQL injection" 
+ [1:31939:2] "SERVER-WEBAPP password sent via POST parameter" 
+ [1:44416:3] "INDICATOR-COMPROMISE png file attachment without matching file magic" 
+Nº de alertas totales: 120
+Nº alertas = 13
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2016672:1] ET WEB_SERVER SQL Errors in HTTP 200 Response (error in your SQL syntax) 
+ [1:2020506:2] ET ATTACK_RESPONSE MySQL error in HTTP response, possible SQL injection point 
+ [1:2006446:11] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT 
+ [1:2011037:5] ET WEB_SERVER Possible Attempt to Get SQL Server Version in URI using SELECT VERSION 
+ [1:2010963:4] ET WEB_SERVER SELECT USER SQL Injection Attempt in URI 
+ [1:2017808:1] ET WEB_SERVER Possible MySQL SQLi Attempt Information Schema Access 
+ [1:2006445:12] ET WEB_SERVER Possible SQL Injection Attempt SELECT FROM 
+ [1:2017337:2] ET WEB_SERVER ATTACKER SQLi - SELECT and Schema Columns M1 
+ [1:2011042:3] ET WEB_SERVER MYSQL SELECT CONCAT SQL Injection Attempt 
+ [1:2012885:2] ET POLICY Http Client Body contains password= in cleartext 
+ [1:2009004:4] ET POLICY Login Credentials Possibly Passed in POST Data 
+Nº de alertas totales: 100
