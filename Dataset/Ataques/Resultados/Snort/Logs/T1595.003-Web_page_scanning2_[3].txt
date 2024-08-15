@@ -1,3 +1,4 @@
+Talos Community
 Nº alertas = 43
  [1:1434:15] "SERVER-WEBAPP .bash_history access" 
  [1:1433:12] "SERVER-WEBAPP .history access" 
@@ -43,6 +44,8 @@ Nº alertas = 43
  [1:43290:2] "SERVER-WEBAPP /ws_ftp.log file access attempt" 
  [1:887:18] "SERVER-WEBAPP www-sql access" 
 Nº de alertas totales: 62
+
+ETOpen:
 Nº alertas = 14
  [1:2049402:1] ET WEB_SERVER .bash_history Detected in URI 
  [1:2101129:7] GPL WEB_SERVER .htaccess access 
@@ -59,6 +62,8 @@ Nº alertas = 14
  [1:2101877:9] GPL WEB_SERVER printenv access 
  [1:2027263:3] ET INFO Dotted Quad Host GZ Request 
 Nº de alertas totales: 21
+
+Talos Registered:
 Nº alertas = 48
  [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
  [1:1434:15] "SERVER-WEBAPP .bash_history access" 
@@ -109,6 +114,8 @@ Nº alertas = 48
  [1:43290:2] "SERVER-WEBAPP /ws_ftp.log file access attempt" 
  [1:887:18] "SERVER-WEBAPP www-sql access" 
 Nº de alertas totales: 4729
+
+ETOpen Optimizada:
 Nº alertas = 26
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
