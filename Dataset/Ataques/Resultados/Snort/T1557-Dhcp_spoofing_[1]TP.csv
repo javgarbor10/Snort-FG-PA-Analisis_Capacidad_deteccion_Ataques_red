@@ -1,0 +1,3 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,46533,"""SERVER-WEBAPP DHCP cross site scripting attempt""",,0.0.0.0,255.255.255.255,68,67,0
+Talos,46533,"""SERVER-WEBAPP DHCP cross site scripting attempt""",,0.0.0.0,255.255.255.255,68,67,0
