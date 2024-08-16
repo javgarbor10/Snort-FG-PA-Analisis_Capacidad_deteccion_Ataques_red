@@ -1,0 +1,3 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2001579,ET SCAN Behavioral Unusual Port 139 traffic Potential Scan or Infection,68EB47A3,10.10.1.9,10.10.1.9,139,139,17523
+ETOpenOpt,2001579,ET SCAN Behavioral Unusual Port 139 traffic Potential Scan or Infection,68EB47A3,10.10.1.9,10.10.1.9,139,139,17523
