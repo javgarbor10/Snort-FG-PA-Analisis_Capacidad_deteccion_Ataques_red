@@ -1,0 +1,15 @@
+Talos Community:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+Talos Registered:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen Optimizado:
+Nº alertas = 0
+Nº de alertas totales: 0
