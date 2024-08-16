@@ -1,0 +1,41 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1682,5923
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1684,5924
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1686,5925
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1688,5926
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1690,5927
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1692,5928
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46880,19,63275
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46933,19,63276
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46881,19,63277
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46882,19,63278
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46883,19,63279
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46884,19,63280
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1682,5923
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1684,5924
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1686,5925
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1688,5926
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1690,5927
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.2,10.10.1.9,19,1692,5928
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46880,19,63275
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46933,19,63276
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46881,19,63277
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46882,19,63278
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46883,19,63279
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,10.10.1.9,10.10.1.2,46884,19,63280
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,10.10.1.2,10.10.1.9,19,1682,61850
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,10.10.1.2,10.10.1.9,19,1682,61850
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.2,10.10.1.9,19,1682,5923
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,10.10.1.2,10.10.1.9,19,1682,5923
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,10.10.1.2,10.10.1.9,19,1682,5923
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.2,10.10.1.9,19,1684,5924
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.2,10.10.1.9,19,1686,5925
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.2,10.10.1.9,19,1688,5926
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.2,10.10.1.9,19,1690,5927
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.2,10.10.1.9,19,1692,5928
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.9,10.10.1.2,46880,19,63275
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.9,10.10.1.2,46933,19,63276
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.9,10.10.1.2,46881,19,63277
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.9,10.10.1.2,46882,19,63278
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.9,10.10.1.2,46883,19,63279
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,10.10.1.9,10.10.1.2,46884,19,63280
