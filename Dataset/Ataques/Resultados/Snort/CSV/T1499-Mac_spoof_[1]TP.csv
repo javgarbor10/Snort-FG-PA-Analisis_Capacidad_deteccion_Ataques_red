@@ -1,0 +1,323 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,50460
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,50460
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,50460
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55660
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,50646
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,50646
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,50646
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55661
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,50769
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,50769
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,50769
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55662
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51008
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51008
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,51008
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55663
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51189
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51189
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,51189
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55664
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51444
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51444
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,51444
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55665
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51448
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51448
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,51448
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55666
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51572
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51572
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,51572
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55667
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51697
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51697
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,51697
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55668
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51898
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51898
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,51898
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55669
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52075
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52075
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,52075
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55670
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52230
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52230
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,52230
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55671
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52296
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52296
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,52296
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55672
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52455
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52455
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,52455
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55673
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52604
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52604
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,52604
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55674
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52698
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52698
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,52698
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55675
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52875
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52875
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,52875
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55676
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53075
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53075
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,53075
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55677
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53166
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53166
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,53166
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55678
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53299
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53299
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,53299
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55679
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53552
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53552
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,53552
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55680
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53664
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53664
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,53664
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55681
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53900
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53900
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,53900
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55682
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54000
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54000
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,54000
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55683
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54255
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54255
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,54255
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55684
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54397
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54397
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,54397
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55685
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33419
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33419
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33419
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54584
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54584
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,54584
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33420
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33420
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33420
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54732
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54732
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,54732
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55687
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33421
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33421
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33421
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54749
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54749
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,54749
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55688
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33422
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33422
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33422
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54783
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54783
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,54783
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55689
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33423
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33423
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33423
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54967
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54967
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,54967
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55690
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33424
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33424
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33424
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55123
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55123
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,55123
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55691
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55165
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55165
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,55165
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55692
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55251
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55251
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,55251
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55693
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55407
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55407
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,55407
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55694
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55548
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55548
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,55548
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55695
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,50460
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,50460
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,50460
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55660
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,50646
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,50646
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,50646
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55661
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,50769
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,50769
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,50769
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55662
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51008
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51008
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,51008
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55663
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51189
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51189
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,51189
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55664
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51444
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51444
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,51444
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55665
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51448
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51448
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,51448
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55666
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51572
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51572
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,51572
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55667
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51697
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51697
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,51697
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55668
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,51898
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,51898
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,51898
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55669
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52075
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52075
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,52075
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55670
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52230
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52230
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,52230
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55671
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52296
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52296
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,52296
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55672
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52455
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52455
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,52455
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55673
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52604
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52604
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,52604
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55674
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52698
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52698
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,52698
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55675
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,52875
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,52875
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,52875
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55676
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53075
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53075
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,53075
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55677
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53166
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53166
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,53166
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55678
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53299
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53299
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,53299
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55679
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53552
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53552
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,53552
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55680
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53664
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53664
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,53664
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55681
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,53900
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,53900
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,53900
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55682
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54000
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54000
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,54000
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55683
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54255
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54255
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,54255
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55684
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54397
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54397
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,54397
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55685
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33419
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33419
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33419
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54584
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54584
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,54584
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33420
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33420
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33420
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54732
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54732
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,54732
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55687
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33421
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33421
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33421
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54749
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54749
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,54749
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55688
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33422
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33422
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33422
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54783
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54783
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,54783
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55689
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33423
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33423
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33423
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,54967
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,54967
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,54967
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55690
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33424
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33424
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33424
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55123
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55123
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,55123
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55691
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55165
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55165
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,55165
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55692
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55251
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55251
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,55251
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55693
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55407
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55407
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,55407
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55694
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,55548
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,55548
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,55548
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,55695
