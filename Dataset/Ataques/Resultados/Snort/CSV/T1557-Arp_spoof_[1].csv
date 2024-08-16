@@ -1,0 +1,137 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33426
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33426
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33426
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33426
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33426
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33426
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9049
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9049
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33427
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33427
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33427
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33427
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33427
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33427
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9050
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9050
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33428
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33428
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33428
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33428
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33428
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33428
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9051
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9051
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33429
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33429
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33429
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33429
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33429
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33429
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9052
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9052
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33430
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33430
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33430
+Community,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33430
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33430
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,33430
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9053
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9053
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33426
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33426
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33427
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33427
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33428
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33428
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33429
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33429
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33430
+ETOpen,2100366,GPL ICMP_INFO PING *NIX,,,,,,33430
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,32487
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,32487
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33426
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33426
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33426
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33426
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33426
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33426
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9049
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9049
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33427
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33427
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33427
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33427
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33427
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33427
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9050
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9050
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33428
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33428
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33428
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33428
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33428
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33428
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9051
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9051
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33429
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33429
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33429
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33429
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33429
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33429
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9052
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9052
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33430
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33430
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33430
+Talos,366,"""PROTOCOL-ICMP PING Unix""",,,,,,33430
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,33430
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,33430
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9053
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,9053
+ETOpenOpt,2100469,GPL SCAN PING NMAP,,,,,,32487
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,32487
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,,,,,32487
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,,,,,32487
+ETOpenOpt,2100469,GPL SCAN PING NMAP,,,,,,32487
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,32487
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,,,,,32487
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,,,,,32487
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33426
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33426
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33426
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33426
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9049
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9049
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33427
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33427
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33427
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33427
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9050
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9050
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33428
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33428
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33428
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33428
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9051
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9051
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33429
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33429
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33429
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33429
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9052
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9052
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33430
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33430
+ETOpenOpt,2100366,GPL ICMP_INFO PING *NIX,,,,,,33430
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,33430
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9053
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,9053
