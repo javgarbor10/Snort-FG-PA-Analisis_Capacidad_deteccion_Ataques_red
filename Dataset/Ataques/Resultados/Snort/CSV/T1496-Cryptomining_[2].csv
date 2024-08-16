@@ -1,0 +1,15 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.0.1,192.168.1.3,53,38738,11533
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.0.1,192.168.1.3,53,40643,14103
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.0.1,192.168.1.3,53,38738,11533
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.0.1,192.168.1.3,53,40643,14103
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.1.3,192.168.0.1,38738,53,37792
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.1.3,192.168.0.1,38738,53,37792
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.0.1,192.168.1.3,53,38738,11533
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.0.1,192.168.1.3,53,38738,11533
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,AAC9EF50,140.82.121.3,192.168.1.3,443,39684,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,44695883,185.199.110.133,192.168.1.3,443,54082,0
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,256
