@@ -1,20 +1,20 @@
-RS1:
+Talos Community:
 Nº alertas = 0
 Nº de alertas totales: 0
 
-RS2:
+ETOpen:
 Nº alertas = 2
  [1:2027792:2] ET TROJAN Covenant Framework Default HTTP Beacon 
  [1:2027793:2] ET TROJAN Covenant Framework HTTP Beacon 
 Nº de alertas totales: 2
 
-RS3:
+Talos Registered:
 Nº alertas = 2
  [1:2027792:2] ET TROJAN Covenant Framework Default HTTP Beacon 
  [1:2027793:2] ET TROJAN Covenant Framework HTTP Beacon 
 Nº de alertas totales: 2
 
-RS4:
+ETOpen Optimizada:
 Nº alertas = 5
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
