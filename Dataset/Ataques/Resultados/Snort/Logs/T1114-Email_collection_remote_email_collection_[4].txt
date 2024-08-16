@@ -1,0 +1,25 @@
+Talos Community:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen:
+Nº alertas = 1
+ [1:2026850:3] ET USER_AGENTS WinRM User Agent Detected - Possible Lateral Movement 
+Nº de alertas totales: 19
+
+Talos Registered:
+Nº alertas = 3
+ [1:44604:1] "SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt" 
+ [1:15935:7] "PROTOCOL-DNS dns response for rfc1918 192.168/16 address detected" 
+ [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
+Nº de alertas totales: 5
+
+ETOpen Optimizado:
+Nº alertas = 6
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2026850:3] ET USER_AGENTS WinRM User Agent Detected - Possible Lateral Movement 
+ [1:2036224:3] ET INFO Potential Forced OGNL Evaluation - HTTP Body 
+ [1:2044666:2] ET INFO Outbound SMB Protocol Request to External Address 
+ [1:2009345:7] ET ATTACK_RESPONSE HTTP 401 Unauthorized 
+Nº de alertas totales: 29
