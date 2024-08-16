@@ -1,0 +1,7 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,1325,"""INDICATOR-SHELLCODE ssh CRC32 overflow filler""",,,,,,
+Talos,1325,"""INDICATOR-SHELLCODE ssh CRC32 overflow filler""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,EF64A5DA,10.10.1.9,10.10.1.2,46485,22,27463
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,EF64A5DA,10.10.1.9,10.10.1.2,46485,22,27463
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,DE947576,10.10.1.2,10.10.1.9,22,46485,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,DE947576,10.10.1.2,10.10.1.9,22,46485,0
