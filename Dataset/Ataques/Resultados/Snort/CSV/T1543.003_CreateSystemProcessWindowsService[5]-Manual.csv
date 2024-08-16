@@ -1,0 +1,5 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),B544057A,172.16.1.2,172.16.2.2,7000,49182,60672
+ETOpen,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),256278DF,172.16.1.2,172.16.2.2,5000,49183,8637
+ETOpenOpt,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),B544057A,172.16.1.2,172.16.2.2,7000,49182,60672
+ETOpenOpt,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),256278DF,172.16.1.2,172.16.2.2,5000,49183,8637
