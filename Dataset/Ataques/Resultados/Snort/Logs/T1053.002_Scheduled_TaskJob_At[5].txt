@@ -1,0 +1,31 @@
+Talos Community:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen:
+Nº alertas = 4
+ [1:2034567:2] ET INFO curl User-Agent to Dotted Quad 
+ [1:2013028:3] ET POLICY curl User-Agent Outbound 
+ [1:2019240:13] ET POLICY Executable and linking format (ELF) file download Over HTTP 
+ [1:2043217:1] ET TROJAN Golang/Sandcat Plugin Activity (POST) 
+Nº de alertas totales: 14
+
+Talos Registered:
+Nº alertas = 1
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+Nº de alertas totales: 12
+
+ETOpen Optimizado:
+Nº alertas = 11
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2006409:8] ET POLICY HTTP POST on unusual Port Possibly Hostile 
+ [1:2034567:2] ET INFO curl User-Agent to Dotted Quad 
+ [1:2013028:3] ET POLICY curl User-Agent Outbound 
+ [1:2002824:9] ET POLICY CURL User Agent 
+ [1:2019240:13] ET POLICY Executable and linking format (ELF) file download Over HTTP 
+ [1:2011803:5] ET SHELLCODE Possible TCP x86 JMP to CALL Shellcode Detected 
+ [1:2101200:12] GPL ATTACK_RESPONSE Invalid URL 
+ [1:2101390:9] GPL SHELLCODE x86 inc ebx NOOP 
+ [1:2043217:1] ET TROJAN Golang/Sandcat Plugin Activity (POST) 
+Nº de alertas totales: 40
