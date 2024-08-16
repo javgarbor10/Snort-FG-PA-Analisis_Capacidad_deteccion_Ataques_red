@@ -1,0 +1,9 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2100254,GPL DNS SPOOF query response with TTL of 1 min. and no authority,,195.208.4.1,10.10.1.9,53,22788,23214
+ETOpenOpt,2100254,GPL DNS SPOOF query response with TTL of 1 min. and no authority,,195.208.4.1,10.10.1.9,53,9111,23243
+ETOpenOpt,2100254,GPL DNS SPOOF query response with TTL of 1 min. and no authority,,195.208.4.1,10.10.1.9,53,58199,23257
+ETOpenOpt,2100254,GPL DNS SPOOF query response with TTL of 1 min. and no authority,,8.8.4.4,10.10.1.9,53,43641,45706
+ETOpenOpt,2100254,GPL DNS SPOOF query response with TTL of 1 min. and no authority,,8.8.8.8,10.10.1.9,53,47066,40408
+ETOpenOpt,2100254,GPL DNS SPOOF query response with TTL of 1 min. and no authority,,8.8.4.4,10.10.1.9,53,18209,7035
+ETOpenOpt,2100254,GPL DNS SPOOF query response with TTL of 1 min. and no authority,,8.8.8.8,10.10.1.9,53,7584,28170
+ETOpenOpt,2100254,GPL DNS SPOOF query response with TTL of 1 min. and no authority,,8.8.8.8,10.10.1.9,53,11536,31375
