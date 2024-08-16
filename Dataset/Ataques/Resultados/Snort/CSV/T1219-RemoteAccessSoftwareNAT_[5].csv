@@ -1,0 +1,73 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,100.100.1.1,10.0.2.15,53,53236,20938
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",12BBC0B,10.0.2.15,142.250.184.10,45894,443,58611
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,54331,53,12537
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,35847,53,37078
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",35EE7B6A,10.0.2.15,34.120.208.123,51610,443,50464
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",7D7103D6,10.0.2.15,34.117.188.166,33994,443,54285
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,59661,53,35836
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,35562,53,34369
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,47732,53,33889
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,57001,53,54118
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",E0001E29,10.0.2.15,142.250.184.3,42404,443,51245
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,47642,53,28819
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,43689,53,64454
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,57227,53,34712
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,38110,53,54486
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",9DF6CBD6,10.0.2.15,104.16.63.16,37332,443,42865
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,33295,53,44621
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,37049,53,47885
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",10B59075,10.0.2.15,142.250.184.164,59126,443,19710
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,35938,53,15849
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,55769,53,27291
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,100.100.1.1,10.0.2.15,53,53236,20938
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,48406,53,36395
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,59442,53,62196
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,33919,53,13016
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,55478,53,46627
+Talos,24097,"""CONTENT-REPLACE Teamviewer remote connection attempt""",501B8855,10.0.2.15,34.175.160.10,51130,5938,40694
+Talos,24097,"""CONTENT-REPLACE Teamviewer remote connection attempt""",501B88B4,10.0.2.15,34.175.160.10,51130,5938,40695
+Talos,24096,"""CONTENT-REPLACE Teamviewer remote connection attempt""",B580B81,34.175.160.10,10.0.2.15,5938,51130,21287
+Talos,24097,"""CONTENT-REPLACE Teamviewer remote connection attempt""",501BBC7B,10.0.2.15,34.175.160.10,51130,5938,40707
+Talos,24096,"""CONTENT-REPLACE Teamviewer remote connection attempt""",B581307,34.175.160.10,10.0.2.15,5938,51130,21337
+Talos,24096,"""CONTENT-REPLACE Teamviewer remote connection attempt""",B581443,34.175.160.10,10.0.2.15,5938,51130,21338
+Talos,24097,"""CONTENT-REPLACE Teamviewer remote connection attempt""",501C3617,10.0.2.15,34.175.160.10,51130,5938,40735
+Talos,24096,"""CONTENT-REPLACE Teamviewer remote connection attempt""",B5814DF,34.175.160.10,10.0.2.15,5938,51130,21341
+Talos,24097,"""CONTENT-REPLACE Teamviewer remote connection attempt""",501C36B1,10.0.2.15,34.175.160.10,51130,5938,40736
+Talos,24096,"""CONTENT-REPLACE Teamviewer remote connection attempt""",B58163F,34.175.160.10,10.0.2.15,5938,51130,21353
+Talos,24096,"""CONTENT-REPLACE Teamviewer remote connection attempt""",B5816FF,34.175.160.10,10.0.2.15,5938,51130,21354
+Talos,24096,"""CONTENT-REPLACE Teamviewer remote connection attempt""",B5817BF,34.175.160.10,10.0.2.15,5938,51130,21355
+Talos,24096,"""CONTENT-REPLACE Teamviewer remote connection attempt""",B58184A,34.175.160.10,10.0.2.15,5938,51130,21356
+Talos,24097,"""CONTENT-REPLACE Teamviewer remote connection attempt""",501C38A9,10.0.2.15,34.175.160.10,51130,5938,40741
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,36332,53,60228
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,60660,53,54995
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,57899,53,53987
+Talos,24094,"""APP-DETECT Teamviewer control server ping""",,10.0.2.15,100.100.1.1,60409,53,24116
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,10.0.2.15,150.214.5.121,57858,123,15410
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,10.0.2.15,150.214.5.121,57858,123,15410
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,150.214.5.121,10.0.2.15,123,57858,11633
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,108.61.171.103,10.0.2.15,21116,35800,11635
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,100.100.1.1,10.0.2.15,53,58378,11639
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A4EAC01,142.250.184.10,10.0.2.15,443,45894,11641
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A7E8601,20.61.57.156,10.0.2.15,443,60870,11683
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A807A01,34.120.208.123,10.0.2.15,443,51610,11701
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A817401,34.117.188.166,10.0.2.15,443,33994,11719
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,34.149.97.1,10.0.2.15,443,35017,11720
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A855C01,95.100.100.65,10.0.2.15,80,36274,11746
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A8D2C01,20.4.69.136,10.0.2.15,443,58674,12013
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A920E01,104.16.63.16,10.0.2.15,443,33910,13857
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A940201,142.250.184.163,10.0.2.15,443,50768,13939
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A95F601,142.250.200.131,10.0.2.15,80,46780,13952
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A97EA01,142.250.184.3,10.0.2.15,443,42400,13973
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A9CCC01,142.250.184.164,10.0.2.15,443,48884,14359
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A9DC601,216.58.215.163,10.0.2.15,443,37348,14364
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,B239001,104.19.178.52,10.0.2.15,443,49094,20048
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,B248A01,2.21.177.22,10.0.2.15,443,45302,20049
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,B287201,2.21.176.77,10.0.2.15,443,44980,20183
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,B296C01,23.47.188.42,10.0.2.15,443,33034,20184
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,B565801,34.175.160.10,10.0.2.15,5938,51130,20964
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,213.227.186.137,10.0.2.15,5938,33875,21284
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,94.16.6.173,10.0.2.15,5938,33875,21311
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,188.172.233.167,10.0.2.15,5938,33875,21312
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,188.172.246.171,10.0.2.15,5938,33875,21315
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,37.252.224.72,10.0.2.15,5938,33875,21318
