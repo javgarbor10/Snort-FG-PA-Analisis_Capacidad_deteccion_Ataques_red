@@ -1,0 +1,31 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2027792,ET TROJAN Covenant Framework Default HTTP Beacon,4FD92A2B,192.168.10.5,192.168.10.1,38636,80,23134
+ETOpen,2027794,ET TROJAN Covenant Framework HTTP Hello World Server Response,B2A07E9D,192.168.10.1,192.168.10.5,80,38636,23135
+ETOpen,2027793,ET TROJAN Covenant Framework HTTP Beacon,4FD92F96,192.168.10.5,192.168.10.1,38636,80,23139
+ETOpen,2027794,ET TROJAN Covenant Framework HTTP Hello World Server Response,6334B0F7,192.168.10.5,192.168.10.2,80,50388,25908
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+ETOpenOpt,2027792,ET TROJAN Covenant Framework Default HTTP Beacon,4FD92A2B,192.168.10.5,192.168.10.1,38636,80,23134
+ETOpenOpt,2027794,ET TROJAN Covenant Framework HTTP Hello World Server Response,B2A07E9D,192.168.10.1,192.168.10.5,80,38636,23135
+ETOpenOpt,2027793,ET TROJAN Covenant Framework HTTP Beacon,4FD92F96,192.168.10.5,192.168.10.1,38636,80,23139
+ETOpenOpt,2027794,ET TROJAN Covenant Framework HTTP Hello World Server Response,6334B0F7,192.168.10.5,192.168.10.2,80,50388,25908
+ETOpenOpt,2100628,GPL SCAN nmap TCP,6334B0F7,192.168.10.5,192.168.10.2,80,50388,25908
+ETOpenOpt,2100628,GPL SCAN nmap TCP,633537E5,192.168.10.5,192.168.10.2,80,50388,25933
