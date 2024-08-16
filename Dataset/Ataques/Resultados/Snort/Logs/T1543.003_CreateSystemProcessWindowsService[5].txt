@@ -1,0 +1,26 @@
+Talos Community:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen:
+Nº alertas = 3
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2018959:4] ET POLICY PE EXE or DLL Windows file download HTTP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+Nº de alertas totales: 6
+
+Talos Registered:
+Nº alertas = 1
+ [1:53331:1] "POLICY-OTHER Wake-on-LAN magic packet attempt" 
+Nº de alertas totales: 1
+
+ETOpen Optimizado:
+Nº alertas = 7
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2018959:4] ET POLICY PE EXE or DLL Windows file download HTTP 
+ [1:2009080:8] ET TROJAN VMProtect Packed Binary Inbound via HTTP - Likely Hostile 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+ [1:2000419:20] ET POLICY PE EXE or DLL Windows file download Non-HTTP 
+Nº de alertas totales: 11
