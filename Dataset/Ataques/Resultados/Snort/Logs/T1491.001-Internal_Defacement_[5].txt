@@ -1,0 +1,25 @@
+Talos Community:
+Nº alertas = 1
+ [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
+Nº de alertas totales: 12
+
+ETOpen:
+Nº alertas = 2
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+Nº de alertas totales: 2
+
+Talos Registered:
+Nº alertas = 1
+ [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
+Nº de alertas totales: 12
+
+ETOpen Optimizado:
+Nº alertas = 6
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2000419:20] ET POLICY PE EXE or DLL Windows file download Non-HTTP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+ [1:2101917:7] GPL MISC UPnP service discover attempt 
+Nº de alertas totales: 19
