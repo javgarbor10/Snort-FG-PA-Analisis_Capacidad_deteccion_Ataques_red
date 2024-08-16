@@ -1,0 +1,4 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2006443,ET WEB_SERVER Possible SQL Injection Attempt DELETE FROM,E93D5BC3,172.16.1.2,172.16.2.2,39046,8080,30122
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+ETOpenOpt,2006443,ET WEB_SERVER Possible SQL Injection Attempt DELETE FROM,E93D5BC3,172.16.1.2,172.16.2.2,39046,8080,30122
