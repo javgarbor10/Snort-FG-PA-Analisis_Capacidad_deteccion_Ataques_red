@@ -1,26 +1,25 @@
-RS1:
-N�mero de alertas: 2
+Talos Community:
+Nº alertas: 2
 [1:1411:21] "PROTOCOL-SNMP public access udp"
 [1:1417:18] "PROTOCOL-SNMP request udp"
+Nº de alertas totales: 792
 
-RS2:
-N�mero de alertas: 3
-[1:1411:21] "PROTOCOL-SNMP public access udp"
-[1:1417:18] "PROTOCOL-SNMP request udp"
+ETOpen:
+Nº alertas: 1
 [1:2101411:12] GPL SNMP public access udp
+Nº de alertas totales: 396
 
-RS3:
-N�mero de alertas: 3
+Talos Registered:
+Nº alertas: 2
 [1:1411:21] "PROTOCOL-SNMP public access udp"
 [1:1417:18] "PROTOCOL-SNMP request udp"
-[1:2101411:12] GPL SNMP public access udp
+Nº de alertas totales: 792
 
-RS4:
-N�mero de alertas: 6
-[1:1411:21] "PROTOCOL-SNMP public access udp"
-[1:1417:18] "PROTOCOL-SNMP request udp"
+ETOpen Optimizado:
+Nº alertas: 4
 [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
 [1:2002752:4] ET POLICY Reserved Internal IP Traffic
 [1:2101411:12] GPL SNMP public access udp
 [1:2101417:11] GPL SNMP request udp
+Nº de alertas totales: 796
 
