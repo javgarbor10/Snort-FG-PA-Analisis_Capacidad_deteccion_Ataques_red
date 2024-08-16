@@ -1,0 +1,27 @@
+Talos Community:
+Nº alertas = 1
+ [1:650:15] "INDICATOR-SHELLCODE x86 setuid 0" 
+Nº de alertas totales: 1
+
+ETOpen:
+Nº alertas = 2
+ [1:2003068:6] ET SCAN Potential SSH Scan OUTBOUND 
+ [1:2001219:19] ET SCAN Potential SSH Scan 
+Nº de alertas totales: 18568
+
+Talos Registered:
+Nº alertas = 3
+ [1:19559:16] "INDICATOR-SCAN SSH brute force login attempt" 
+ [1:17317:11] "SERVER-OTHER OpenSSH sshd identical blocks DoS attempt" 
+ [1:650:15] "INDICATOR-SHELLCODE x86 setuid 0" 
+Nº de alertas totales: 91648
+
+ETOpen Optimizado:
+Nº alertas = 6
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2003068:6] ET SCAN Potential SSH Scan OUTBOUND 
+ [1:2001219:19] ET SCAN Potential SSH Scan 
+ [1:2036752:1] ET TROJAN Suspected BPFDoor TCP Magic Packet (Inbound) 
+ [1:2100650:10] GPL SHELLCODE x86 setuid 0 
+Nº de alertas totales: 18621
