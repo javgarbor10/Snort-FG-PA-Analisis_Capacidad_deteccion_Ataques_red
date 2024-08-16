@@ -1,0 +1,9 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2000418,ET POLICY Executable and linking format (ELF) file download,7A945B5E,192.168.0.30,192.168.0.20,1234,51962,1406
+ETOpen,2014906,ET INFO .exe File requested over FTP,16CF2B14,192.168.0.20,192.168.0.30,49884,21,37818
+ETOpen,2000418,ET POLICY Executable and linking format (ELF) file download,2EB71962,192.168.0.30,192.168.0.20,44524,50408,50756
+ETOpen,2000418,ET POLICY Executable and linking format (ELF) file download,EF26BA87,192.168.0.30,192.168.0.20,57888,40270,59950
+ETOpenOpt,2000418,ET POLICY Executable and linking format (ELF) file download,7A945B5E,192.168.0.30,192.168.0.20,1234,51962,1406
+ETOpenOpt,2014906,ET INFO .exe File requested over FTP,16CF2B14,192.168.0.20,192.168.0.30,49884,21,37818
+ETOpenOpt,2000418,ET POLICY Executable and linking format (ELF) file download,2EB71962,192.168.0.30,192.168.0.20,44524,50408,50756
+ETOpenOpt,2000418,ET POLICY Executable and linking format (ELF) file download,EF26BA87,192.168.0.30,192.168.0.20,57888,40270,59950
