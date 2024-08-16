@@ -1,3 +1,6 @@
 PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,19559,"""INDICATOR-SCAN SSH brute force login attempt""",,,,,,
 ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,405B7BBD,172.16.17.3,172.16.17.2,47840,22,11731
 ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,405B7BBD,172.16.17.3,172.16.17.2,47840,22,11731
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,D1ED8139,172.16.17.2,172.16.17.3,22,47840,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,D1ED8139,172.16.17.2,172.16.17.3,22,47840,0
