@@ -1,0 +1,30 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,55261,1900,27971
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,55261,1900,27976
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,55261,1900,27981
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,55261,1900,27986
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,61978,1900,28589
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,61978,1900,28595
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,61978,1900,28600
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,61978,1900,28606
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,52487,1900,29111
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,52487,1900,29119
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,52487,1900,29124
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,52487,1900,29132
+ETOpen,2035480,ET INFO PE EXE Download over raw TCP,FD36475E,192.168.0.30,192.168.0.20,1234,49614,50121
+ETOpen,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),FD3844D6,192.168.0.30,192.168.0.20,1234,49614,50211
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,55261,1900,27971
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,55261,1900,27976
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,55261,1900,27981
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,55261,1900,27986
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,61978,1900,28589
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,61978,1900,28595
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,61978,1900,28600
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,61978,1900,28606
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,52487,1900,29111
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,52487,1900,29119
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,52487,1900,29124
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.20,239.255.255.250,52487,1900,29132
+ETOpenOpt,2035480,ET INFO PE EXE Download over raw TCP,FD36475E,192.168.0.30,192.168.0.20,1234,49614,50121
+ETOpenOpt,2000419,ET POLICY PE EXE or DLL Windows file download Non-HTTP,FD36475E,192.168.0.30,192.168.0.20,1234,49614,50121
+ETOpenOpt,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),FD3844D6,192.168.0.30,192.168.0.20,1234,49614,50211
