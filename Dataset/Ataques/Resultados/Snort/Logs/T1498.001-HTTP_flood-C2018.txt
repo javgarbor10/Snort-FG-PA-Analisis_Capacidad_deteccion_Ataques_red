@@ -1,0 +1,19 @@
+Talos Community:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen:
+Nº alertas = 1
+ [1:2019348:2] ET DOS Terse HTTP GET Likely AnonMafiaIC DDoS tool 
+Nº de alertas totales: 63
+
+Talos Registered:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen Optimizado:
+Nº alertas = 3
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2019348:2] ET DOS Terse HTTP GET Likely AnonMafiaIC DDoS tool 
+Nº de alertas totales: 195
