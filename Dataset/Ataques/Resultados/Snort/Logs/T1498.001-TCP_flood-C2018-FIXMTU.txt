@@ -1,0 +1,30 @@
+Talos Community:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen:
+Nº alertas = 4
+ [1:2016877:2] ET POLICY Unsupported/Fake FireFox Version 2. 
+ [1:2016870:12] ET POLICY Unsupported/Fake Internet Explorer Version MSIE 5. 
+ [1:2014153:5] ET DOS High Orbit Ion Cannon (HOIC) Attack Inbound Generic Detection Double Spaced UA 
+ [1:2050746:1] ET INFO Googlebot User-Agent Observed in Outbound HTTP Request 
+Nº de alertas totales: 2308
+
+Talos Registered:
+Nº alertas = 1
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+Nº de alertas totales: 1074363
+
+ETOpen Optimizado:
+Nº alertas = 10
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2016877:2] ET POLICY Unsupported/Fake FireFox Version 2. 
+ [1:2016870:12] ET POLICY Unsupported/Fake Internet Explorer Version MSIE 5. 
+ [1:2014153:5] ET DOS High Orbit Ion Cannon (HOIC) Attack Inbound Generic Detection Double Spaced UA 
+ [1:2003394:9] ET USER_AGENTS User Agent Containing http Suspicious - Likely Spyware/Trojan 
+ [1:2015529:2] ET INFO Googlebot User-Agent Outbound (likely malicious) 
+ [1:2015526:5] ET WEB_SERVER Fake Googlebot UA 1 Inbound 
+ [1:2002828:8] ET POLICY Googlebot User Agent 
+ [1:2002829:6] ET POLICY Googlebot Crawl 
+Nº de alertas totales: 271167
