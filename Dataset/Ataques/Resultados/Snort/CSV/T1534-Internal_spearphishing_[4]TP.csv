@@ -1,0 +1,44 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26916
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26917
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26918
+Community,3065,"""PROTOCOL-IMAP append literal overflow attempt""",,,,,,
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26919
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26916
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26917
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26918
+Talos,3065,"""PROTOCOL-IMAP append literal overflow attempt""",,,,,,
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26919
+Talos,38043,"""POLICY-OTHER PDF containing Action key download detected""",,,,,,
+Talos,38043,"""POLICY-OTHER PDF containing Action key download detected""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,23858,"""FILE-OTHER heapspray characters detected - binary""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,

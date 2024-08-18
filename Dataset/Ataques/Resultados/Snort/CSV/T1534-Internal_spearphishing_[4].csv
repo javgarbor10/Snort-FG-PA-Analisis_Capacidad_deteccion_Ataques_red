@@ -1,0 +1,57 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26916
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26917
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26918
+Community,3065,"""PROTOCOL-IMAP append literal overflow attempt""",,,,,,
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26919
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Community,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26916
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26917
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26918
+Talos,3065,"""PROTOCOL-IMAP append literal overflow attempt""",,,,,,
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.10.20,239.255.255.250,61083,1900,26919
+Talos,38043,"""POLICY-OTHER PDF containing Action key download detected""",,,,,,
+Talos,38043,"""POLICY-OTHER PDF containing Action key download detected""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,1394,"""INDICATOR-SHELLCODE x86 inc ecx NOOP""",,,,,,
+Talos,23858,"""FILE-OTHER heapspray characters detected - binary""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+Talos,655,"""SERVER-MAIL Sendmail 8.6.9 exploit""",,,,,,
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.10.20,239.255.255.250,61083,1900,26916
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.10.20,239.255.255.250,61083,1900,26916
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.10.20,239.255.255.250,61083,1900,26917
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.10.20,239.255.255.250,61083,1900,26918
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,AAB66068,192.168.10.20,192.168.10.10,50323,25,57581
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,900CC228,192.168.10.10,192.168.10.20,25,50323,54939
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,900CC228,192.168.10.10,192.168.10.20,25,50323,54939
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.10.20,239.255.255.250,61083,1900,26919
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.10.21,192.168.10.10,60564,53,43827
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.10.21,192.168.10.10,60564,53,43827
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.10.10,192.168.10.21,53,60564,49751
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.10.10,192.168.10.21,53,54078,49753
+ETOpenOpt,2001117,"ET DNS Standard query response, Name Error",,192.168.10.10,192.168.10.20,53,59630,54989

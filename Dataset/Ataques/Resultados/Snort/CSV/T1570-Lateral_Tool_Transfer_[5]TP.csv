@@ -1,0 +1,11 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2000418,ET POLICY Executable and linking format (ELF) file download,B44BCC37,192.168.0.15,192.168.0.10,52170,445,48055
+ETOpen,2000418,ET POLICY Executable and linking format (ELF) file download,B44BD56A,192.168.0.15,192.168.0.10,52170,445,48074
+ETOpen,2000418,ET POLICY Executable and linking format (ELF) file download,27841FF6,192.168.0.15,192.168.0.20,1234,39846,16814
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,B44BB706,192.168.0.15,192.168.0.10,52170,445,48021
+ETOpenOpt,2000418,ET POLICY Executable and linking format (ELF) file download,B44BCC37,192.168.0.15,192.168.0.10,52170,445,48055
+ETOpenOpt,2000418,ET POLICY Executable and linking format (ELF) file download,B44BD56A,192.168.0.15,192.168.0.10,52170,445,48074
+ETOpenOpt,2000418,ET POLICY Executable and linking format (ELF) file download,27841FF6,192.168.0.15,192.168.0.20,1234,39846,16814
+ETOpenOpt,2011803,ET SHELLCODE Possible TCP x86 JMP to CALL Shellcode Detected,278574AE,192.168.0.15,192.168.0.20,1234,39846,16875
+ETOpenOpt,2011803,ET SHELLCODE Possible TCP x86 JMP to CALL Shellcode Detected,278A7E4E,192.168.0.15,192.168.0.20,1234,39846,17103
+ETOpenOpt,2011803,ET SHELLCODE Possible TCP x86 JMP to CALL Shellcode Detected,278C0A3E,192.168.0.15,192.168.0.20,1234,39846,17173

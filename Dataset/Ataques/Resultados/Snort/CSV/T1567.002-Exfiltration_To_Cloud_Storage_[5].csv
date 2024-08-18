@@ -1,0 +1,12 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,142.250.200.74,10.0.2.15,443,53638,27421
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,216.58.215.142,10.0.2.15,443,35638,27426
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,108.61.171.103,10.0.2.15,21116,47978,27435
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,142.250.184.3,10.0.2.15,443,37307,27451
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,100.100.1.1,10.0.2.15,53,44415,27548
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,3894601,172.217.168.161,10.0.2.15,443,54254,27550
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,142.250.200.110,10.0.2.15,443,34653,27552
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,D6FB93C2,10.0.2.15,172.217.168.161,54254,443,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,D6FB93C2,10.0.2.15,172.217.168.161,54254,443,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,34.117.188.166,10.0.2.15,443,59251,28168
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,142.250.200.138,10.0.2.15,443,58017,30002

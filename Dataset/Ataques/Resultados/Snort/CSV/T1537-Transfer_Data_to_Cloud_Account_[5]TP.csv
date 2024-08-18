@@ -1,0 +1,13 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,45714,9440
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,58025,9726
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,40100,9872
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,42074,9982
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,58762,10145
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",DDDF578C,10.0.2.15,142.250.200.202,52448,443,15282
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,45714,9440
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,58025,9726
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,40100,9872
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,42074,9982
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,58762,10145
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",CDE081E5,10.0.2.15,142.250.200.202,55618,443,49277

@@ -1,0 +1,111 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,65460,98
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,65460,99
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,50260,100
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,50260,101
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,65460,98
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,65460,99
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,50260,100
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,50260,101
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53836,102
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53471,103
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53836,102
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53471,103
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53836,104
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53471,105
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53836,104
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53471,105
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,52437,106
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,52437,106
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53636,107
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53636,107
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,52437,108
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53636,109
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,52437,108
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53636,109
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,57508,110
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,57508,110
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,59364,111
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,59364,111
+ETOpen,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37181
+ETOpen,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37181
+ETOpen,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37182
+ETOpen,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37183
+ETOpen,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37182
+ETOpen,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37183
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,65460,98
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,65460,99
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,50260,100
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,50260,101
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,65460,98
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,65460,99
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,50260,100
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,50260,101
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53836,102
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53471,103
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53836,102
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53471,103
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53836,104
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53471,105
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53836,104
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53471,105
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,52437,106
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,52437,106
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53636,107
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53636,107
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,52437,108
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53636,109
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,52437,108
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,53636,109
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,57508,110
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,57508,110
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,59364,111
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,80.58.61.250,10.0.2.15,53,59364,111
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,3F066112,192.168.10.1,192.168.10.2,53985,22,757
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,3F066112,192.168.10.1,192.168.10.2,53985,22,757
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,728ABEDD,192.168.10.2,192.168.10.1,22,53985,38116
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,728ABEDD,192.168.10.2,192.168.10.1,22,53985,38116
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,10.0.2.15,80.58.61.250,65460,53,28876
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,10.0.2.15,80.58.61.250,65460,53,28876
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,80.58.61.250,10.0.2.15,53,65460,11252
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,142.250.184.14,10.0.2.15,443,60446,11254
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,142.250.184.4,10.0.2.15,443,58965,11281
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,65460,98
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,65460,99
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,50260,100
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,50260,101
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,65460,98
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,65460,99
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,50260,100
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,50260,101
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53836,102
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53471,103
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,216.58.215.142,10.0.2.15,443,53497,11305
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53836,102
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53471,103
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53836,104
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53471,105
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53836,104
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53471,105
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,142.250.184.161,10.0.2.15,443,64202,11341
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,52437,106
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,52437,106
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53636,107
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53636,107
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,52437,108
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53636,109
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,52437,108
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,53636,109
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,209.250.254.15,10.0.2.15,21116,57978,11694
+ETOpenOpt,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37181
+ETOpenOpt,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37181
+ETOpenOpt,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37182
+ETOpenOpt,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37183
+ETOpenOpt,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37182
+ETOpenOpt,2044073,ET INFO RustDesk Register Public Key,,10.0.2.15,209.250.254.15,57978,21116,37183
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,57508,110
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,80.58.61.250,10.0.2.15,53,57508,110
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,80.58.61.250,10.0.2.15,53,57508,110
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,57508,110
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,59364,111
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,80.58.61.250,10.0.2.15,53,59364,111

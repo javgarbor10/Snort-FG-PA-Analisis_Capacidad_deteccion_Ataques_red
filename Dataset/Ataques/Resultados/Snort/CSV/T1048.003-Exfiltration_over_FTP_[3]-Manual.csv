@@ -1,0 +1,2 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2015016,ET INFO FTP STOR to External Network,9E0D025,172.16.2.2,172.16.1.2,52566,21,39795

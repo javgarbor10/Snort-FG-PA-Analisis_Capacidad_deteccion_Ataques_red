@@ -1,0 +1,4 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2003303,ET POLICY FTP Login Attempt (non-anonymous),9E0CFE9,172.16.2.2,172.16.1.2,52566,21,39783
+ETOpenOpt,2003410,ET POLICY FTP Login Successful,95CD5B80,172.16.1.2,172.16.2.2,21,52566,14650
+ETOpenOpt,2015016,ET INFO FTP STOR to External Network,9E0D025,172.16.2.2,172.16.1.2,52566,21,39795

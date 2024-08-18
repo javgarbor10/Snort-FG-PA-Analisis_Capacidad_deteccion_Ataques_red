@@ -1,0 +1,8 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,44489,"""POLICY-OTHER SMBv1 protocol detection attempt""",9E7B89C1,,,,,0
+ETOpenOpt,2044666,ET INFO Outbound SMB Protocol Request to External Address,9E7B89C1,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,9E7B8B8A,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,9E7B9130,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,9E7B9B1A,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,9E7BA9E0,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,9E7BB3CA,,,,,0

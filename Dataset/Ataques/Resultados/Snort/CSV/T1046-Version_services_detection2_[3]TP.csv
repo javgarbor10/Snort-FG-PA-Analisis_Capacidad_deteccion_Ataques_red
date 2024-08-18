@@ -1,0 +1,59 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,39075
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,39075
+Community,453,"""PROTOCOL-ICMP Timestamp Request""",,,,,,57925
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,53848
+Community,451,"""PROTOCOL-ICMP Timestamp Reply""",,,,,,53849
+Community,1421,"""PROTOCOL-SNMP AgentX/tcp request""",4DD14B5F,192.168.1.3,192.168.2.2,40171,705,54627
+Community,1420,"""PROTOCOL-SNMP trap tcp""",4DD14B5F,192.168.1.3,192.168.2.2,40171,162,26848
+Community,1418,"""PROTOCOL-SNMP request tcp""",4DD14B5F,192.168.1.3,192.168.2.2,40171,161,9596
+Community,257,"""PROTOCOL-DNS named version attempt""",,,,,,
+Community,598,"""PROTOCOL-RPC portmap listing TCP 111""",,,,,,
+ETOpen,2010939,ET SCAN Suspicious inbound to PostgreSQL port 5432,4DD14B5F,192.168.1.3,192.168.2.2,40171,5432,42396
+ETOpen,2010938,ET SCAN Suspicious inbound to mSQL port 4333,4DD14B5F,192.168.1.3,192.168.2.2,40171,4333,7686
+ETOpen,2010936,ET SCAN Suspicious inbound to Oracle SQL port 1521,4DD14B5F,192.168.1.3,192.168.2.2,40171,1521,23315
+ETOpen,2100257,GPL DNS named version attempt,264A215,192.168.1.3,192.168.2.2,41128,53,64250
+ETOpen,2100598,GPL RPC portmap listing TCP 111,2FCDE174,192.168.1.3,192.168.2.2,727,111,22667
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),4630F704,192.168.1.3,192.168.2.2,51072,80,58716
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,4630F704,192.168.1.3,192.168.2.2,51072,80,58716
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),E931787D,192.168.1.3,192.168.2.2,51074,80,5986
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,E931787D,192.168.1.3,192.168.2.2,51074,80,5986
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),81D024C0,192.168.1.3,192.168.2.2,51078,80,32722
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,81D024C0,192.168.1.3,192.168.2.2,51078,80,32722
+ETOpen,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),91FEEE5F,192.168.1.3,192.168.2.2,51080,80,31302
+ETOpen,2024364,ET SCAN Possible Nmap User-Agent Observed,91FEEE5F,192.168.1.3,192.168.2.2,51080,80,31302
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,39075
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,39075
+Talos,36650,"""PROTOCOL-ICMP Squid Pinger IPv6 denial of service attempt""",,,,,,57925
+Talos,453,"""PROTOCOL-ICMP Timestamp Request""",,,,,,57925
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,53848
+Talos,36650,"""PROTOCOL-ICMP Squid Pinger IPv6 denial of service attempt""",,,,,,53849
+Talos,451,"""PROTOCOL-ICMP Timestamp Reply""",,,,,,53849
+Talos,1421,"""PROTOCOL-SNMP AgentX/tcp request""",4DD14B5F,192.168.1.3,192.168.2.2,40171,705,54627
+Talos,1420,"""PROTOCOL-SNMP trap tcp""",4DD14B5F,192.168.1.3,192.168.2.2,40171,162,26848
+Talos,1418,"""PROTOCOL-SNMP request tcp""",4DD14B5F,192.168.1.3,192.168.2.2,40171,161,9596
+Talos,13586,"""APP-DETECT SSH server detected on non-standard port""",B7C23CD1,192.168.2.2,192.168.1.3,2200,33404,23208
+Talos,257,"""PROTOCOL-DNS named version attempt""",,,,,,
+Talos,598,"""PROTOCOL-RPC portmap listing TCP 111""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+ETOpenOpt,2100453,GPL ICMP_INFO Timestamp Request,,,,,,57925
+ETOpenOpt,2100451,GPL ICMP_INFO Timestamp Reply,,,,,,53849
+ETOpenOpt,2010939,ET SCAN Suspicious inbound to PostgreSQL port 5432,4DD14B5F,192.168.1.3,192.168.2.2,40171,5432,42396
+ETOpenOpt,2010938,ET SCAN Suspicious inbound to mSQL port 4333,4DD14B5F,192.168.1.3,192.168.2.2,40171,4333,7686
+ETOpenOpt,2010936,ET SCAN Suspicious inbound to Oracle SQL port 1521,4DD14B5F,192.168.1.3,192.168.2.2,40171,1521,23315
+ETOpenOpt,2101420,GPL SNMP trap tcp,4DD14B5F,192.168.1.3,192.168.2.2,40171,162,26848
+ETOpenOpt,2101418,GPL SNMP request tcp,4DD14B5F,192.168.1.3,192.168.2.2,40171,161,9596
+ETOpenOpt,2100257,GPL DNS named version attempt,264A215,192.168.1.3,192.168.2.2,41128,53,64250
+ETOpenOpt,2100598,GPL RPC portmap listing TCP 111,2FCDE174,192.168.1.3,192.168.2.2,727,111,22667
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),4630F704,192.168.1.3,192.168.2.2,51072,80,58716
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,4630F704,192.168.1.3,192.168.2.2,51072,80,58716
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),E931787D,192.168.1.3,192.168.2.2,51074,80,5986
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,E931787D,192.168.1.3,192.168.2.2,51074,80,5986
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),81D024C0,192.168.1.3,192.168.2.2,51078,80,32722
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,81D024C0,192.168.1.3,192.168.2.2,51078,80,32722
+ETOpenOpt,2009358,ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine),91FEEE5F,192.168.1.3,192.168.2.2,51080,80,31302
+ETOpenOpt,2024364,ET SCAN Possible Nmap User-Agent Observed,91FEEE5F,192.168.1.3,192.168.2.2,51080,80,31302

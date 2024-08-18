@@ -1,0 +1,149 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,7306
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,7306
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,1258
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,18475
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,18475
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,1505
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,34744
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,34744
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,1650
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,42941
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,42941
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,1804
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,23133
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,23133
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2047
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,4167
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,4167
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2145
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,7798
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,7798
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2156
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,57827
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,57827
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2283
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,43537
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,43537
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2287
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,21746
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,21746
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2383
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,18206
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,18206
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2410
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,12213
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,12213
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2638
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,64127
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,64127
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2820
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,61285
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,61285
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2881
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,10901
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,10901
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2945
+Community,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,2841
+Community,384,"""PROTOCOL-ICMP PING""",,,,,,2841
+Community,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2992
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,7306
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,7306
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,1258
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,1258
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,18475
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,18475
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,1505
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,1505
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,34744
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,34744
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,1650
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,1650
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,42941
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,42941
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,1804
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,1804
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,23133
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,23133
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2047
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2047
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,4167
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,4167
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2145
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2145
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,7798
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,7798
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2156
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2156
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,57827
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,57827
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2283
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2283
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,43537
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,43537
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2287
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2287
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,21746
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,21746
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2383
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2383
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,18206
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,18206
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2410
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2410
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,12213
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,12213
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2638
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2638
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,64127
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,64127
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2820
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2820
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,61285
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,61285
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2881
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2881
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,10901
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,10901
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2945
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2945
+Talos,29456,"""PROTOCOL-ICMP Unusual PING detected""",,,,,,2841
+Talos,384,"""PROTOCOL-ICMP PING""",,,,,,2841
+Talos,31767,"""SERVER-OTHER MRLG fastping echo reply memory corruption attempt""",,,,,,2992
+Talos,408,"""PROTOCOL-ICMP Echo Reply""",,,,,,2992
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,7306
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,,,,,7306
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,,,,,7306
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,1258
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,,,,,1258
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,,,,,1258
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,18475
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,1505
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,34744
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,1650
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,42941
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,1804
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,23133
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2047
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,4167
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2145
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,7798
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2156
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,57827
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2283
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,43537
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2287
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,21746
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2383
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,18206
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2410
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,12213
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2638
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,64127
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2820
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,61285
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2881
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,10901
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2945
+ETOpenOpt,2100384,GPL ICMP_INFO PING,,,,,,2841
+ETOpenOpt,2100408,GPL ICMP_INFO Echo Reply,,,,,,2992

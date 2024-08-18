@@ -1,0 +1,4 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",19944A42,192.168.10.8,192.168.10.10,65494,389,55181
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",19944BA0,192.168.10.8,192.168.10.10,65494,389,55189
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",CF863EDE,192.168.10.8,192.168.10.10,65496,389,55197

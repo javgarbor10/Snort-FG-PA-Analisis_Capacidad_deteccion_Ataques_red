@@ -1,0 +1,27 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,45714,9440
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,58025,9726
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,40100,9872
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,42074,9982
+Community,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,58762,10145
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",DDDF578C,10.0.2.15,142.250.200.202,52448,443,15282
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,45714,9440
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,58025,9726
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,40100,9872
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,42074,9982
+Talos,254,"""PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority""",,192.168.18.1,10.0.2.15,53,58762,10145
+Talos,59597,"""SERVER-OTHER WolfSSL PSK extension buffer overflow attempt""",CDE081E5,10.0.2.15,142.250.200.202,55618,443,49277
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,10.0.2.15,209.250.254.15,41772,21116,11500
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,10.0.2.15,209.250.254.15,41772,21116,11500
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,209.250.254.15,10.0.2.15,21116,41772,8151
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.18.1,10.0.2.15,53,49757,8154
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.18.1,10.0.2.15,53,49757,8154
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,DF53E01,142.250.200.202,10.0.2.15,443,52448,8159
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,DF73201,13.69.116.109,10.0.2.15,443,43744,8178
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,DFB1A01,13.107.136.10,10.0.2.15,443,53330,8210
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,DFE0801,40.126.49.24,10.0.2.15,443,36116,8233
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,150.214.5.121,10.0.2.15,123,55699,8248
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,E36AC01,23.47.188.120,10.0.2.15,443,43748,9685
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,34.117.188.166,10.0.2.15,443,40893,9823
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,34.149.97.1,10.0.2.15,443,53003,9831
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,E629E01,52.97.233.82,10.0.2.15,443,53858,10030
