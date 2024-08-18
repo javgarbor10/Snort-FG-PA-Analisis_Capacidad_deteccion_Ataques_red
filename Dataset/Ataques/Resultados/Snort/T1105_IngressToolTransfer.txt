@@ -1,6 +1,0 @@
-RS4:
-Número de alertas: 3
-[1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets
-[1:2002752:4] ET POLICY Reserved Internal IP Traffic
-[1:2027768:2] ET EXPLOIT Possible VXWORKS Urgent11 RCE Attempt - Urgent Flag
-
