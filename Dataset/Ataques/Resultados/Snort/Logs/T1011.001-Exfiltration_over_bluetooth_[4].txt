@@ -1,15 +1,15 @@
-RS1:
+Talos Community:
 Nº alertas = 0
 Nº de alertas totales: 0
 
-RS2:
+ETOpen:
 Nº alertas = 0
 Nº de alertas totales: 0
 
-RS3:
+Talos Registered:
 Nº alertas = 0
 Nº de alertas totales: 0
 
-RS4:
+ETOpen Optimizado:
 Nº alertas = 0
 Nº de alertas totales: 0
