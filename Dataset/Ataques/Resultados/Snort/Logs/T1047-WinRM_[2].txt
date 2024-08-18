@@ -1,0 +1,29 @@
+Talos Community:
+Nº alertas = 1
+ [1:1394:17] "INDICATOR-SHELLCODE x86 inc ecx NOOP" 
+Nº de alertas totales: 18
+
+ETOpen:
+Nº alertas = 3
+ [1:2033952:2] ET EXPLOIT Microsoft OMI RCE Exploit Attempt (CVE-2021-38647) M1 
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+Nº de alertas totales: 456
+
+Talos Registered:
+Nº alertas = 2
+ [1:1394:17] "INDICATOR-SHELLCODE x86 inc ecx NOOP" 
+ [1:20619:6] "SERVER-WEBAPP CoreHTTP Long buffer overflow attempt" 
+Nº de alertas totales: 22
+
+ETOpen Optimizado:
+Nº alertas = 8
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2033952:2] ET EXPLOIT Microsoft OMI RCE Exploit Attempt (CVE-2021-38647) M1 
+ [1:2006409:8] ET POLICY HTTP POST on unusual Port Possibly Hostile 
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2000419:20] ET POLICY PE EXE or DLL Windows file download Non-HTTP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+ [1:2101620:7] GPL POLICY TRAFFIC Non-Standard IP protocol 
+Nº de alertas totales: 1373

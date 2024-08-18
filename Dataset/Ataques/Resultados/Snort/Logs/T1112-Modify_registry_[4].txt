@@ -1,0 +1,17 @@
+Nº alertas = 1
+ [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" 
+Nº de alertas totales: 1
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 3
+ [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" 
+ [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
+ [1:38319:2] "NETBIOS SMB winreg named pipe creation attempt" 
+Nº de alertas totales: 6
+Nº alertas = 5
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2100402:8] GPL ICMP_INFO Destination Unreachable Port Unreachable 
+ [1:2044666:2] ET INFO Outbound SMB Protocol Request to External Address 
+ [1:2051116:1] ET INFO Outbound SMB2 NTLM Auth Attempt to External Address 
+Nº de alertas totales: 11

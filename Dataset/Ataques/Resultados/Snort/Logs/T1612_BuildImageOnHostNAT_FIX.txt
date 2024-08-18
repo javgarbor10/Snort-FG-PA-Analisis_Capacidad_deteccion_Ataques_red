@@ -1,0 +1,17 @@
+Nº alertas = 1
+ [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
+Nº de alertas totales: 3
+Nº alertas = 1
+ [1:2013504:3] ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management 
+Nº de alertas totales: 157
+Nº alertas = 1
+ [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
+Nº de alertas totales: 3
+Nº alertas = 6
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2022218:3] ET POLICY Lets Encrypt Free SSL Cert Observed 
+ [1:2101620:7] GPL POLICY TRAFFIC Non-Standard IP protocol 
+ [1:2001117:6] ET DNS Standard query response, Name Error 
+ [1:2013504:3] ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management 
+Nº de alertas totales: 288

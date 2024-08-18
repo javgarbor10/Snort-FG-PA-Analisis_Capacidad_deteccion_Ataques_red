@@ -1,0 +1,15 @@
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 0
+Nº de alertas totales: 0
+Nº alertas = 4
+ [1:44604:1] "SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt" 
+ [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
+ [1:53374:2] "POLICY-OTHER Microsoft Active Directory DrsAddEntry attempt" 
+ [1:53375:2] "POLICY-OTHER Microsoft Active Directory DRSUAPI_REPLICA_ADD attempt" 
+Nº de alertas totales: 34
+Nº alertas = 3
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2044666:2] ET INFO Outbound SMB Protocol Request to External Address 
+Nº de alertas totales: 5

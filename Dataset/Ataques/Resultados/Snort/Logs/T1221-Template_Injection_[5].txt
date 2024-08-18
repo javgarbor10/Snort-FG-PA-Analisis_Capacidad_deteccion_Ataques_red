@@ -1,0 +1,41 @@
+Talos Community:
+Nº alertas = 3
+ [1:46979:2] "INDICATOR-COMPROMISE Microsoft Office Discovery User-Agent to a potential URL shortener service" 
+ [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" 
+ [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
+Nº de alertas totales: 8
+
+ETOpen:
+Nº alertas = 5
+ [1:2031379:2] ET INFO Doc Requesting Remote Template (.dotm) 
+ [1:2041131:1] ET USER_AGENTS Microsoft Office Existence Discovery User-Agent 
+ [1:2016141:5] ET INFO Executable Download from dotted-quad Host 
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+Nº de alertas totales: 5
+
+Talos Registered:
+Nº alertas = 4
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+ [1:46979:2] "INDICATOR-COMPROMISE Microsoft Office Discovery User-Agent to a potential URL shortener service" 
+ [1:402:16] "PROTOCOL-ICMP destination unreachable port unreachable packet detected" 
+ [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" 
+Nº de alertas totales: 14
+
+ETOpen Optimizado:
+Nº alertas = 14
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2031379:2] ET INFO Doc Requesting Remote Template (.dotm) 
+ [1:2041131:1] ET USER_AGENTS Microsoft Office Existence Discovery User-Agent 
+ [1:2013491:4] ET POLICY NetBIOS nbtstat Type Query Inbound 
+ [1:2013490:4] ET POLICY NetBIOS nbtstat Type Query Outbound 
+ [1:2009768:6] ET SCAN NBTStat Query Response to External Destination, Possible Windows Network Enumeration 
+ [1:2100402:8] GPL ICMP_INFO Destination Unreachable Port Unreachable 
+ [1:2101917:7] GPL MISC UPnP service discover attempt 
+ [1:2016141:5] ET INFO Executable Download from dotted-quad Host 
+ [1:2003595:5] ET POLICY exe download via HTTP - Informational 
+ [1:2035480:3] ET INFO PE EXE Download over raw TCP 
+ [1:2000419:20] ET POLICY PE EXE or DLL Windows file download Non-HTTP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+Nº de alertas totales: 25
