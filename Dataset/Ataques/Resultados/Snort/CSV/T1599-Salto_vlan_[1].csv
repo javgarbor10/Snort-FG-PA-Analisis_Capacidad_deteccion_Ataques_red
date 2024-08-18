@@ -1,0 +1,7 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,0
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,0
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,6A081055,10.10.20.100,10.10.20.2,2441,80,57625
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,6A081055,10.10.20.100,10.10.20.2,2441,80,57625
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,97F3F70F,10.10.20.2,10.10.20.100,80,2441,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,97F3F70F,10.10.20.2,10.10.20.100,80,2441,0

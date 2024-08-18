@@ -1,0 +1,6 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,13586,"""APP-DETECT SSH server detected on non-standard port""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,A6D432B,192.168.1.3,192.168.2.2,33400,2200,63373
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,A6D432B,192.168.1.3,192.168.2.2,33400,2200,63373
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,2424B6A8,192.168.2.2,192.168.1.3,2200,33400,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,2424B6A8,192.168.2.2,192.168.1.3,2200,33400,0

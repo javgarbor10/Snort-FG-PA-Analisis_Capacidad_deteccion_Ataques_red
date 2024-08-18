@@ -1,0 +1,5 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,4A9D42,192.168.0.20,192.168.0.35,60998,443,53999
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,4A9D42,192.168.0.20,192.168.0.35,60998,443,53999
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,0,192.168.0.35,192.168.0.20,443,60998,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,0,192.168.0.35,192.168.0.20,443,60998,0

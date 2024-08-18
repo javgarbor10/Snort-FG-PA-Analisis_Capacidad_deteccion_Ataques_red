@@ -1,0 +1,2 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,13586,"""APP-DETECT SSH server detected on non-standard port""",,,,,,

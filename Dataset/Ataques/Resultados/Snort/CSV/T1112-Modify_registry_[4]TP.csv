@@ -1,0 +1,14 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,192.168.10.2,192.168.10.1,5355,52766,31892
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,192.168.10.2,192.168.10.1,5355,52766,31892
+Talos,44489,"""POLICY-OTHER SMBv1 protocol detection attempt""",A834EF5F,,,,,0
+Talos,38319,"""NETBIOS SMB winreg named pipe creation attempt""",,,,,,
+Talos,38319,"""NETBIOS SMB winreg named pipe creation attempt""",,,,,,
+Talos,38319,"""NETBIOS SMB winreg named pipe creation attempt""",,,,,,
+Talos,38319,"""NETBIOS SMB winreg named pipe creation attempt""",,,,,,
+ETOpenOpt,2044666,ET INFO Outbound SMB Protocol Request to External Address,A834EF5F,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,A834F128,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,A834F6BC,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,A834FEE3,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,A8350B3A,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,A8351781,,,,,0

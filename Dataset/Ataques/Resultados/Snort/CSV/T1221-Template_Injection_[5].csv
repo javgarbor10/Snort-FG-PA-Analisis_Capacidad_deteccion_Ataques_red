@@ -1,0 +1,53 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,46979,"""INDICATOR-COMPROMISE Microsoft Office Discovery User-Agent to a potential URL shortener service""",,,,,,
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,192.168.0.50,192.168.0.2,137,137,27234
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,192.168.0.50,192.168.0.2,137,137,27541
+Community,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,192.168.0.50,192.168.0.2,137,137,27773
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.50,239.255.255.250,65314,1900,23005
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.50,239.255.255.250,65314,1900,23006
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.50,239.255.255.250,65314,1900,23007
+Community,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.50,239.255.255.250,65314,1900,23008
+ETOpen,2031379,ET INFO Doc Requesting Remote Template (.dotm),AB5F822C,192.168.0.50,192.168.0.2,50358,80,56931
+ETOpen,2041131,ET USER_AGENTS Microsoft Office Existence Discovery User-Agent,835A16B1,192.168.0.50,192.168.0.2,50359,80,4330
+ETOpen,2016141,ET INFO Executable Download from dotted-quad Host,C7FFE16E,192.168.0.50,192.168.0.2,50373,80,9587
+ETOpen,2035480,ET INFO PE EXE Download over raw TCP,B6005350,192.168.0.3,192.168.0.50,1234,50380,26621
+ETOpen,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),B601F3A4,192.168.0.3,192.168.0.50,1234,50380,26694
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,46979,"""INDICATOR-COMPROMISE Microsoft Office Discovery User-Agent to a potential URL shortener service""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,192.168.0.50,192.168.0.2,137,137,27234
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,192.168.0.50,192.168.0.2,137,137,27541
+Talos,402,"""PROTOCOL-ICMP destination unreachable port unreachable packet detected""",,192.168.0.50,192.168.0.2,137,137,27773
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.50,239.255.255.250,65314,1900,23005
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.50,239.255.255.250,65314,1900,23006
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.50,239.255.255.250,65314,1900,23007
+Talos,1917,"""INDICATOR-SCAN UPnP service discover attempt""",,192.168.0.50,239.255.255.250,65314,1900,23008
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,8947EEC3,192.168.0.50,192.168.0.2,50355,80,50955
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,8947EEC3,192.168.0.50,192.168.0.2,50355,80,50955
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,E3414A42,192.168.0.2,192.168.0.50,80,50355,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,E3414A42,192.168.0.2,192.168.0.50,80,50355,0
+ETOpenOpt,2031379,ET INFO Doc Requesting Remote Template (.dotm),AB5F822C,192.168.0.50,192.168.0.2,50358,80,56931
+ETOpenOpt,2041131,ET USER_AGENTS Microsoft Office Existence Discovery User-Agent,835A16B1,192.168.0.50,192.168.0.2,50359,80,4330
+ETOpenOpt,2013491,ET POLICY NetBIOS nbtstat Type Query Inbound,,192.168.0.50,192.168.0.2,137,137,50981
+ETOpenOpt,2013490,ET POLICY NetBIOS nbtstat Type Query Outbound,,192.168.0.50,192.168.0.2,137,137,50981
+ETOpenOpt,2009768,"ET SCAN NBTStat Query Response to External Destination, Possible Windows Network Enumeration",,192.168.0.50,192.168.0.2,137,137,50981
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,192.168.0.50,192.168.0.2,137,137,27234
+ETOpenOpt,2009768,"ET SCAN NBTStat Query Response to External Destination, Possible Windows Network Enumeration",,192.168.0.50,192.168.0.2,137,137,50982
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,192.168.0.50,192.168.0.2,137,137,27541
+ETOpenOpt,2009768,"ET SCAN NBTStat Query Response to External Destination, Possible Windows Network Enumeration",,192.168.0.50,192.168.0.2,137,137,50983
+ETOpenOpt,2100402,GPL ICMP_INFO Destination Unreachable Port Unreachable,,192.168.0.50,192.168.0.2,137,137,27773
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.50,239.255.255.250,65314,1900,23005
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.50,239.255.255.250,65314,1900,23006
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.50,239.255.255.250,65314,1900,23007
+ETOpenOpt,2101917,GPL MISC UPnP service discover attempt,,192.168.0.50,239.255.255.250,65314,1900,23008
+ETOpenOpt,2016141,ET INFO Executable Download from dotted-quad Host,C7FFE16E,192.168.0.50,192.168.0.2,50373,80,9587
+ETOpenOpt,2003595,ET POLICY exe download via HTTP - Informational,C7FFE16E,192.168.0.50,192.168.0.2,50373,80,9587
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,0,192.168.0.3,192.168.0.50,1234,50380,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,0,192.168.0.3,192.168.0.50,1234,50380,0
+ETOpenOpt,2035480,ET INFO PE EXE Download over raw TCP,B6005350,192.168.0.3,192.168.0.50,1234,50380,26621
+ETOpenOpt,2000419,ET POLICY PE EXE or DLL Windows file download Non-HTTP,B6005350,192.168.0.3,192.168.0.50,1234,50380,26621
+ETOpenOpt,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),B601F3A4,192.168.0.3,192.168.0.50,1234,50380,26694

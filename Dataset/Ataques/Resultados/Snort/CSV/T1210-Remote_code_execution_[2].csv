@@ -1,0 +1,14 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,34225,"""PROTOCOL-FTP ProFTPD mod_copy remote code execution attempt""",,,,,,
+Talos,34447,"""POLICY-OTHER ProFTPD mod_copy unauthenticated file copy attempt""",,,,,,
+Talos,34447,"""POLICY-OTHER ProFTPD mod_copy unauthenticated file copy attempt""",,,,,,
+Talos,34224,"""INDICATOR-SHELLCODE Metasploit payload cmd_unix_reverse_perl""",,,,,,
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,D661E262,192.168.1.3,192.168.2.2,36273,21,52602
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,D661E262,192.168.1.3,192.168.2.2,36273,21,52602
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,392E7916,192.168.2.2,192.168.1.3,21,36273,0
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,392E7916,192.168.2.2,192.168.1.3,21,36273,0
+ETOpenOpt,2010732,ET FTP FTP SITE command attempt without login,D661E263,192.168.1.3,192.168.2.2,36273,21,52605
+ETOpenOpt,2010732,ET FTP FTP SITE command attempt without login,D661E281,192.168.1.3,192.168.2.2,36273,21,52607
+ETOpenOpt,2010732,ET FTP FTP SITE command attempt without login,D661E2B4,192.168.1.3,192.168.2.2,36273,21,52609
+ETOpenOpt,2010732,ET FTP FTP SITE command attempt without login,D661E2E7,192.168.1.3,192.168.2.2,36273,21,52610

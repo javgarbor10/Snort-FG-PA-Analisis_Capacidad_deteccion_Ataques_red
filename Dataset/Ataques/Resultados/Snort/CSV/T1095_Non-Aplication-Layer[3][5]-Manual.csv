@@ -1,0 +1,3 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2044770,ET INFO Whoami Command Inbound On High Port,3E4E0C5C,172.16.1.2,172.16.2.2,7010,53296,26754
+ETOpenOpt,2044770,ET INFO Whoami Command Inbound On High Port,3E4E0C5C,172.16.1.2,172.16.2.2,7010,53296,26754

@@ -1,0 +1,40 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",B1842F35,192.168.10.8,192.168.10.10,49683,389,51776
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",B1843093,192.168.10.8,192.168.10.10,49683,389,51778
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",F4433760,192.168.10.8,192.168.10.10,49684,389,51785
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",E7BF5184,192.168.10.8,192.168.10.10,49687,389,51798
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",E7BF52E2,192.168.10.8,192.168.10.10,49687,389,51815
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",257D4C5D,192.168.10.8,192.168.10.10,49695,389,51837
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",257D4DBB,192.168.10.8,192.168.10.10,49695,389,51839
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",3D948872,192.168.10.8,192.168.10.10,49697,389,51850
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",59573764,192.168.10.8,192.168.10.10,49711,389,51918
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",595738C2,192.168.10.8,192.168.10.10,49711,389,51920
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",63549A5,192.168.10.8,192.168.10.10,49715,389,51931
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",951979CB,192.168.10.8,192.168.10.10,49734,389,51992
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",CD6777D,192.168.10.8,192.168.10.10,49735,389,51996
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",C4222252,192.168.10.8,192.168.10.10,49736,389,52001
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",A4FE3DA3,192.168.10.8,192.168.10.10,49737,389,52011
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",97C5F8D7,192.168.10.8,192.168.10.10,49746,389,52061
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",97C5FA35,192.168.10.8,192.168.10.10,49746,389,52063
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",E22C510C,192.168.10.8,192.168.10.10,49747,389,52070
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",6F4703A1,192.168.10.8,192.168.10.10,49757,389,52113
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",6F4704FF,192.168.10.8,192.168.10.10,49757,389,52115
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",726BEE41,192.168.10.8,192.168.10.10,49758,389,52122
+Talos,44489,"""POLICY-OTHER SMBv1 protocol detection attempt""",E263A032,192.168.10.8,192.168.10.10,49768,445,52150
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",45FDE3D2,192.168.10.8,192.168.10.10,49779,389,52211
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",45FDE530,192.168.10.8,192.168.10.10,49779,389,52213
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",277FA970,192.168.10.8,192.168.10.10,49780,389,52220
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",102DC3A9,192.168.10.8,192.168.10.10,49794,389,52250
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",102DC507,192.168.10.8,192.168.10.10,49794,389,52258
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",1A4A701F,192.168.10.8,192.168.10.10,49808,389,52331
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",1A4A717D,192.168.10.8,192.168.10.10,49808,389,52333
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",13AC3B21,192.168.10.8,192.168.10.10,49809,389,52340
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",AF9CD266,192.168.10.8,192.168.10.10,49811,389,52353
+Talos,44604,"""SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt""",AF9CD3C4,192.168.10.8,192.168.10.10,49811,389,52361
+Talos,53374,"""POLICY-OTHER Microsoft Active Directory DrsAddEntry attempt""",,,,,,
+Talos,53375,"""POLICY-OTHER Microsoft Active Directory DRSUAPI_REPLICA_ADD attempt""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.10.8,192.168.10.10,56238,389,51738
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.10.8,192.168.10.10,56238,389,51738
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.10.10,192.168.10.8,389,56238,56725
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.10.10,192.168.10.8,389,56238,56725
+ETOpenOpt,2044666,ET INFO Outbound SMB Protocol Request to External Address,E263A032,192.168.10.8,192.168.10.10,49768,445,52150

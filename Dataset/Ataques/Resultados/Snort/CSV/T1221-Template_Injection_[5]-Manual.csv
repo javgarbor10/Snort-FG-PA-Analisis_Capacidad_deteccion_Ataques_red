@@ -1,0 +1,7 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,46979,"""INDICATOR-COMPROMISE Microsoft Office Discovery User-Agent to a potential URL shortener service""",,,,,,
+ETOpen,2031379,ET INFO Doc Requesting Remote Template (.dotm),AB5F822C,192.168.0.50,192.168.0.2,50358,80,56931
+ETOpen,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),B601F3A4,192.168.0.3,192.168.0.50,1234,50380,26694
+Talos,46979,"""INDICATOR-COMPROMISE Microsoft Office Discovery User-Agent to a potential URL shortener service""",,,,,,
+ETOpenOpt,2031379,ET INFO Doc Requesting Remote Template (.dotm),AB5F822C,192.168.0.50,192.168.0.2,50358,80,56931
+ETOpenOpt,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),B601F3A4,192.168.0.3,192.168.0.50,1234,50380,26694

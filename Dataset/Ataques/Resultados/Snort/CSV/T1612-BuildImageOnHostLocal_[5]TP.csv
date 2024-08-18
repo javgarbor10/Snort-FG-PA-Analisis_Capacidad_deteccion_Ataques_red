@@ -1,0 +1,15 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2044770,ET INFO Whoami Command Inbound On High Port,B0A9AF2,172.168.0.10,172.168.0.20,1234,42770,21798
+ETOpen,2019240,ET POLICY Executable and linking format (ELF) file download Over HTTP,FC00B4B6,172.168.0.10,172.168.0.20,80,42846,28733
+Talos,15259,"""PROTOCOL-DNS DNS root query traffic amplification attempt""",,172.168.0.10,199.9.14.201,43532,53,23299
+Talos,15259,"""PROTOCOL-DNS DNS root query traffic amplification attempt""",,172.168.0.10,198.41.0.4,39526,53,61282
+Talos,15259,"""PROTOCOL-DNS DNS root query traffic amplification attempt""",,172.168.0.10,192.58.128.30,47776,53,48549
+Talos,15259,"""PROTOCOL-DNS DNS root query traffic amplification attempt""",,172.168.0.10,192.33.4.12,35695,53,35276
+Talos,15259,"""PROTOCOL-DNS DNS root query traffic amplification attempt""",,172.168.0.10,192.203.230.10,58878,53,48602
+Talos,15259,"""PROTOCOL-DNS DNS root query traffic amplification attempt""",,172.168.0.10,199.7.83.42,34526,53,55069
+Talos,15259,"""PROTOCOL-DNS DNS root query traffic amplification attempt""",,172.168.0.10,199.7.91.13,45979,53,36789
+Talos,15259,"""PROTOCOL-DNS DNS root query traffic amplification attempt""",,172.168.0.10,198.97.190.53,57946,53,37102
+Talos,50447,"""POLICY-OTHER HTTP request by IPv4 address attempt""",,,,,,
+ETOpenOpt,2044770,ET INFO Whoami Command Inbound On High Port,B0A9AF2,172.168.0.10,172.168.0.20,1234,42770,21798
+ETOpenOpt,2002822,ET POLICY Wget User Agent,E34BAF71,172.168.0.20,172.168.0.10,42846,80,28731
+ETOpenOpt,2019240,ET POLICY Executable and linking format (ELF) file download Over HTTP,FC00B4B6,172.168.0.10,172.168.0.20,80,42846,28733
