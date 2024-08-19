@@ -1,4 +1,1 @@
 PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
-Community,46983,"""INDICATOR-COMPROMISE Microsoft cmd.exe banner""",,,,,,
-Talos,47398,"""INDICATOR-COMPROMISE Microsoft cmd.exe outbound shell attempt""",34045388,172.31.69.24,13.58.225.34,54751,31337,18432
-Talos,46983,"""INDICATOR-COMPROMISE Microsoft cmd.exe banner""",,,,,,
