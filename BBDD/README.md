@@ -14,7 +14,7 @@ del estudio.
 
           IMPLEMENTACIÓN CON HyperSQL y GUI HyperSQL Database Manager Swing
           
-          1º) Descarga de ficheros
+          1º) Descarga de ficheros (preferiblemente en la carpeta /lib del directorio de instalación de hsqldb)
           2º) Puesta en marcha del servidor en la carpeta /lib con comando "java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file:tfg  --dbname.0 tfg"
           3º) Arranque de la interfáz gráfica (GUI) con el comando "java -cp hsqldb.jar org.hsqldb.util.DatabaseManagerSwing"
           4º) Conexión a la BBDD. Dirección hsql://localhost/tfg
