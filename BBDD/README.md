@@ -15,8 +15,8 @@ del estudio.
 A continuación se proporciona una guía para la replicación de la BBDD.
 
 ------- SECCIÓN A: FICHEROS INVOLUCRADOS -------
-          1 - Scripts SQL: tablas.sql y datos.sql
-          2 - CSVs: alertas_ataque_fortigate.csv, alertas_ataque_snort.csv, alertas_ataque_paloalto.csv, caracterizacion_pcaps_ataque.csv, caracterizacion_pcaps_legitimo.csv, deteccion_snort.csv, deteccion_fortigate.csv, deteccion_paloalto.csv, alertas_legitimo_snort.csv
+1 - Scripts SQL: tablas.sql y datos.sql
+2 - CSVs: alertas_ataque_fortigate.csv, alertas_ataque_snort.csv, alertas_ataque_paloalto.csv, caracterizacion_pcaps_ataque.csv, caracterizacion_pcaps_legitimo.csv, deteccion_snort.csv, deteccion_fortigate.csv, deteccion_paloalto.csv, alertas_legitimo_snort.csv
           
 IMPLEMENTACIÓN CON HyperSQL y GUI HyperSQL Database Manager Swing
           
