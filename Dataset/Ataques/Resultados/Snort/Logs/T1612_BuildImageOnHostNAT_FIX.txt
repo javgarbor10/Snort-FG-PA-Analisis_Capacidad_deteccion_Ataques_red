@@ -1,12 +1,19 @@
+Talos Community:
 Nº alertas = 1
  [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
 Nº de alertas totales: 3
+
+ETOpen:
 Nº alertas = 1
  [1:2013504:3] ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management 
 Nº de alertas totales: 157
+
+Talos Registered:
 Nº alertas = 1
  [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
 Nº de alertas totales: 3
+
+ETOpen Optimizado:
 Nº alertas = 6
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
