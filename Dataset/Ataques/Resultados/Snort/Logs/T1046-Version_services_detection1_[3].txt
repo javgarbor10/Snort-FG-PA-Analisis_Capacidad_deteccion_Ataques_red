@@ -1,3 +1,4 @@
+Talos Community:
 Nº alertas = 318
  [1:1071:15] "SERVER-WEBAPP .htpasswd access attempt" 
  [1:1242:24] "SERVER-IIS ISAPI .ida access" 
@@ -318,6 +319,8 @@ Nº alertas = 318
  [1:1254:16] "SERVER-WEBAPP PHPLIB remote command attempt" 
  [1:43285:2] "SERVER-WEBAPP /.svn/entries file access attempt" 
 Nº de alertas totales: 1761
+
+ETOpen:
 Nº alertas = 111
  [1:2002677:14] ET SCAN Nikto Web App Scan in Progress 
  [1:2101071:7] GPL WEB_SERVER .htpasswd access 
@@ -431,6 +434,8 @@ Nº alertas = 111
  [1:2010254:3] ET WEB_SPECIFIC_APPS Ve-EDIT edit_htmlarea.php highlighter Parameter Remote File Inclusion 
  [1:2017436:1] ET WEB_SERVER PHP SERVER SuperGlobal in URI 
 Nº de alertas totales: 838
+
+Talos Registered:
 Nº alertas = 407
  [1:43238:4] "SERVER-WEBAPP Imatix Xitami web server head processing denial of service attempt" 
  [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
@@ -840,6 +845,8 @@ Nº alertas = 407
  [1:22064:8] "SERVER-WEBAPP PHP-CGI command injection attempt" 
  [1:43285:2] "SERVER-WEBAPP /.svn/entries file access attempt" 
 Nº de alertas totales: 9538
+
+ETOpen Optimizado:
 Nº alertas = 322
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
