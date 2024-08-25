@@ -1,3 +1,4 @@
+Talos Community:
 Nº alertas = 10
  [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" 
  [1:384:8] "PROTOCOL-ICMP PING" 
@@ -10,6 +11,8 @@ Nº alertas = 10
  [1:257:18] "PROTOCOL-DNS named version attempt" 
  [1:598:23] "PROTOCOL-RPC portmap listing TCP 111" 
 Nº de alertas totales: 10
+
+ETOpen:
 Nº alertas = 11
  [1:2010937:3] ET SCAN Suspicious inbound to mySQL port 3306 
  [1:2010939:3] ET SCAN Suspicious inbound to PostgreSQL port 5432 
@@ -23,6 +26,8 @@ Nº alertas = 11
  [1:2009358:5] ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine) 
  [1:2024364:3] ET SCAN Possible Nmap User-Agent Observed 
 Nº de alertas totales: 17
+
+Talos Registered:
 Nº alertas = 13
  [1:29456:3] "PROTOCOL-ICMP Unusual PING detected" 
  [1:384:8] "PROTOCOL-ICMP PING" 
@@ -38,6 +43,8 @@ Nº alertas = 13
  [1:598:23] "PROTOCOL-RPC portmap listing TCP 111" 
  [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
 Nº de alertas totales: 18
+
+ETOpen Optimizado:
 Nº alertas = 22
  [1:2100469:4] GPL SCAN PING NMAP 
  [1:2100384:6] GPL ICMP_INFO PING 
