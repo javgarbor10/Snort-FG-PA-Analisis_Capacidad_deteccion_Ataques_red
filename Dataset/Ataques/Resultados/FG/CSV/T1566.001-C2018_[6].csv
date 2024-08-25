@@ -1,0 +1,4 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
+29247,4883641,1,high,Malicious.Shellcode.Detection,tcp/31337,172.31.69.24,13.58.225.34,54751,31337,ips,signature
+12449,4883641,1,critical,Remote.CMD.Shell,tcp/31337,172.31.69.24,13.58.225.34,54751,31337,ips,signature
+29247,4883641,1,high,Malicious.Shellcode.Detection,tcp/31337,172.31.69.24,13.58.225.34,54751,31337,ips,signature

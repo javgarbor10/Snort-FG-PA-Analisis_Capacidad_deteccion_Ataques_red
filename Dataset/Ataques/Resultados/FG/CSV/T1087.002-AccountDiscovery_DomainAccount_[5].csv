@@ -1,0 +1,3 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+52676,1259,1,high,Backdoor.MITRE.CALDERA.Manx.Agent,HTTP,192.168.0.100,172.16.1.2,49257,8888,ips,signature,/beacon
+52676,1259,3,high,Backdoor.MITRE.CALDERA.Manx.Agent,HTTP,192.168.0.100,172.16.1.2,49257,8888,ips,signature,

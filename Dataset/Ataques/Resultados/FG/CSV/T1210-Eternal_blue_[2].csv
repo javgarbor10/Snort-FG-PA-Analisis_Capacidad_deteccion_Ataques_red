@@ -1,0 +1,4 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
+43799,51,1,medium,MS.SMB.Server.Trans.Peeking.Data.Information.Disclosure,NBSS,192.168.1.3,192.168.2.2,34875,445,ips,signature
+43963,51,1,critical,Backdoor.DoublePulsar,NBSS,192.168.1.3,192.168.2.2,34875,445,ips,signature
+43796,53,1,critical,MS.SMB.Server.SMB1.Trans2.Secondary.Handling.Code.Execution,NBSS,192.168.1.3,192.168.2.2,35325,445,ips,signature

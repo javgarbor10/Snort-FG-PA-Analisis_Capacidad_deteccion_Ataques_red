@@ -1,0 +1,7 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+12449,3311711,1,critical,Remote.CMD.Shell,HTTP,192.168.0.10,192.168.0.35,48006,80,ips,signature,/02IvW30l3zm7-7r63ayGJgM1UUNeKe7B5CuAAI1OlYD6IiiYh0qFjCkQ6Q-X0pXz088bUliwDkB/
+12449,3311712,1,critical,Remote.CMD.Shell,HTTP,192.168.0.20,192.168.0.10,49411,80,ips,signature,/02IvW30l3zm7-7r63ayGJgM1UUNeKe7B5CuAAI1OlYD6IiiYh0qFjCkQ6Q-X0pXz088bUliwDkB/
+12449,3311712,1,critical,Remote.CMD.Shell,HTTP,192.168.0.20,192.168.0.10,49411,80,ips,signature,/02IvW30l3zm7-7r63ayGJgM1UUNeKe7B5CuAAI1OlYD6IiiYh0qFjCkQ6Q-X0pXz088bUliwDkB/
+12449,3311711,1,critical,Remote.CMD.Shell,HTTP,192.168.0.10,192.168.0.35,48006,80,ips,signature,/02IvW30l3zm7-7r63ayGJgM1UUNeKe7B5CuAAI1OlYD6IiiYh0qFjCkQ6Q-X0pXz088bUliwDkB/
+12449,3311712,2,critical,Remote.CMD.Shell,HTTP,192.168.0.20,192.168.0.10,49411,80,ips,signature,
+12449,3311711,2,critical,Remote.CMD.Shell,HTTP,192.168.0.10,192.168.0.35,48006,80,ips,signature,

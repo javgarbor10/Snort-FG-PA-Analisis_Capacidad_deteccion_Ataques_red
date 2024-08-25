@@ -1,0 +1,2 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+15621,49,1,high,HTTP.URI.SQL.Injection,HTTP,172.16.1.2,172.16.2.2,34366,80,ips,signature,/accion.php

@@ -1,0 +1,3 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
+12449,3310954,1,critical,Remote.CMD.Shell,tcp/1234,192.168.0.20,192.168.0.30,44042,1234,ips,signature
+12449,3310954,2,critical,Remote.CMD.Shell,tcp/1234,192.168.0.20,192.168.0.30,44042,1234,ips,signature

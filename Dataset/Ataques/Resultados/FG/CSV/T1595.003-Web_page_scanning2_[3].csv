@@ -1,0 +1,2 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+12648,358989,1,medium,HTPasswd.Access,HTTP,172.16.1.2,172.16.2.2,55522,80,ips,signature,/.htpasswd

@@ -1,0 +1,7 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
+43814,156528,1,low,Port.Scanning,tcp/13,172.16.17.3,172.16.17.2,55706,13,ips,signature
+43814,156556,1,low,Port.Scanning,tcp/9,172.16.17.3,172.16.17.2,58766,9,ips,signature
+43814,156662,1,low,Port.Scanning,tcp/37,172.16.17.3,172.16.17.2,42566,37,ips,signature
+43814,156674,1,low,Port.Scanning,tcp/19,172.16.17.3,172.16.17.2,48044,19,ips,signature
+43814,156684,1,low,Port.Scanning,tcp/26,172.16.17.3,172.16.17.2,34576,26,ips,signature
+43814,156751,1,low,Port.Scanning,FINGER,172.16.17.3,172.16.17.2,42032,79,ips,signature

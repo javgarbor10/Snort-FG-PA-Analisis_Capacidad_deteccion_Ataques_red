@@ -1,0 +1,4 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+49480,3309545,1,high,Mozilla.IonMonkey.Array.Elements.Setting.Type.Confusion,HTTP,192.168.10.1,192.168.10.2,52349,80,ips,signature,/shadyantra/exploits/calc.html
+49480,3309546,1,high,Mozilla.IonMonkey.Array.Elements.Setting.Type.Confusion,HTTP,192.168.10.1,192.168.10.2,52350,80,ips,signature,/shadyantra/exploits/calc.html
+49480,3309547,1,high,Mozilla.IonMonkey.Array.Elements.Setting.Type.Confusion,HTTP,192.168.10.1,192.168.10.2,52351,80,ips,signature,/shadyantra/exploits/calc.html

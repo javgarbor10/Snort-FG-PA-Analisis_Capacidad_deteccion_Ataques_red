@@ -1,0 +1,7 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+52169,3309120,1,high,Backdoor.Covenant,HTTP,192.168.10.150,192.168.10.140,64480,80,ips,signature,/en-us/index.html
+52169,3309120,1,high,Backdoor.Covenant,HTTP,192.168.10.150,192.168.10.140,64480,80,ips,signature,
+52169,3309120,1,high,Backdoor.Covenant,HTTP,192.168.10.150,192.168.10.140,64480,80,ips,signature,
+52169,3309120,1,high,Backdoor.Covenant,HTTP,192.168.10.150,192.168.10.140,64480,80,ips,signature,
+52169,3309120,1,high,Backdoor.Covenant,HTTP,192.168.10.150,192.168.10.140,64480,80,ips,signature,
+52169,3309120,1,high,Backdoor.Covenant,HTTP,192.168.10.150,192.168.10.140,64480,80,ips,signature,
