@@ -9,8 +9,10 @@
 
 Este directorio es alternativo al directorio "Hojas". En lugar de proporcionar hojas
 de cálculo para la representación de los datos se ofrecen ficheros csv y scripts sql
-que permiten reconstruir una base de datos local con la que manejar toda la información
+que permiten reconstruir una base de datos de forma local con la que manejar toda la información
 del estudio.
+
+A continuación se proporciona una guía para la replicación de la BBDD.
 
           IMPLEMENTACIÓN CON HyperSQL y GUI HyperSQL Database Manager Swing
           
