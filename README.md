@@ -9,14 +9,11 @@
     ||   \|_________|                                                                                                            ||
     >>===========================================================================================================================<<
 
-El foco principal de este estudio se centra en las capacidades de detección del IDS Snort, un cortafuegos OpenSource, junto con FortiGate y PaloAlto. Para ello, se lleva a cabo la implementación de más de 70 técnicas de 
-ataque diferentes definidas por la matriz MITRE ATT&CK® para poner a prueba el rendimiento de los mismos.
+Este estudio tiene como finalidad establecer conclusiones fiables, contundentes y exhaustivas acerca de la capacidad de detección de los IDS Snort, FortiGate y PaloAlto. Para lograr este objetivo se implementan todas las técnicas conocidas y recogidas por la matriz MITRE ATT&CK, que abarcan el amplio rango de ataques en red existentes en la actualidad.
 
-En este repositorio se encuentra toda la información relacionada con los Trabajos Fin de Grado elaborados en 2024 y con titulos "Análisis de la capacidad de detección de ataques en red mediante los IDS Snort y XXXX", siendo XXXX uno de los dos cortafuegos adicionales (FortiGate y PaloAlto) así como partes de otros TFC elaborados con anterioridad. 
+En este repositorio se encuentra toda la información relacionada con este estudio, vinculada con los Trabajos Fin de Grado elaborados en 2024 y con títulos "Análisis de la capacidad de detección de ataques en red mediante los IDS Snort y XXXX", siendo XXXX uno de los dos IDS complementarios (FortiGate y PaloAlto). Este estudio también se encuentra vinculado a otros TFGs elaborados con anterioridad.
 
-El abanico es amplio, en este repositorio podrá localizar todo tipo de elementos, desde capturas de los ataques y detecciones hasta ficheros auxiliares, personalizados y elaborados manualmente
-que intervienen en ciertas técnicas que puedan requerir de una configuración más extensa de lo 
-habitual.
+El catálogo es amplio. En este repositorio podrá localizar todo tipo de archivos, desde capturas de los ataques y detecciones hasta ficheros auxiliares que intervienen en la implementación de los ataques. Para mantener una estructura concisa, cada directorio viene acompañado de su correspondiente fichero de texto README, para identificar la naturaleza de los elementos que se encuentran en él.
 
 Los ficheros que por cuestiones de tamaño no aparecen en este repositorio se encuentran subidos en el siguiente enlace:
 https://drive.google.com/drive/folders/1RQE7id31t0QD8Xh_DSOGcCun2tVjKAr1?usp=sharing
