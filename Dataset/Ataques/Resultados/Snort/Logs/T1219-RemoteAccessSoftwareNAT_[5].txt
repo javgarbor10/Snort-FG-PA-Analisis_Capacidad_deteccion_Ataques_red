@@ -1,15 +1,22 @@
+Talos Community:
 Nº alertas = 1
  [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
 Nº de alertas totales: 1
+
+ETOpen:
 Nº alertas = 0
 Nº de alertas totales: 0
+
+Talos Registered:
 Nº alertas = 5
  [1:59597:1] "SERVER-OTHER WolfSSL PSK extension buffer overflow attempt" 
  [1:24094:3] "APP-DETECT Teamviewer control server ping" 
  [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
  [1:24097:6] "CONTENT-REPLACE Teamviewer remote connection attempt" 
  [1:24096:6] "CONTENT-REPLACE Teamviewer remote connection attempt" 
-Nº de alertas totales: 43
+Nº de alertas totales: 7
+
+ETOpen Optimizado:
 Nº alertas = 2
  [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
  [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
