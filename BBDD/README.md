@@ -16,10 +16,10 @@ A continuación se proporciona una guía para la replicación de la BBDD.
 
      ------- SECCIÓN A: FICHEROS INVOLUCRADOS -------
      
-     1 - Scripts SQL
+     1 - Scripts SQL (Directorio "/SQL")
       --> tablas.sql: contiene la definición de la estructura de las tablas y vistas
       --> datos.sql: contiene la inserción de los datos en las tablas (IMPORTANTE - ajustar manualmente los directorios 
-     2 - CSVs
+     2 - CSVs (Directorio "/CSV")
       --> alertas_ataque_fortigate.csv, alertas_ataque_snort.csv, alertas_ataque_paloalto.csv 
       --> caracterizacion_pcaps_ataque.csv, caracterizacion_pcaps_legitimo.csv 
       --> deteccion_snort.csv, deteccion_fortigate.csv, deteccion_paloalto.csv
