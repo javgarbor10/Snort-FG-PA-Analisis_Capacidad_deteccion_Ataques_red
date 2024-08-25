@@ -17,7 +17,7 @@ Nº alertas = 4
  [1:44489:4] "POLICY-OTHER SMBv1 protocol detection attempt" 
  [1:30281:4] "POLICY-OTHER use of psexec remote administration tool SMBv2" 
  [1:26385:3] "FILE-EXECUTABLE Microsoft Windows executable file save onto SMB share attempt" 
-Nº de alertas totales: 10
+Nº de alertas totales: 9
 
 ETOpen Optimizado:
 Nº alertas = 12
@@ -33,4 +33,4 @@ Nº alertas = 12
  [1:2025699:2] ET POLICY SMB Executable File Transfer 
  [1:2027237:2] ET NETBIOS DCERPC SVCCTL - Remote Service Control Manager Access 
  [1:2024510:2] ET DOS Possible SMBLoris NBSS Length Mem Exhaustion Vuln Inbound 
-Nº de alertas totales: 21
+Nº de alertas totales: 22
