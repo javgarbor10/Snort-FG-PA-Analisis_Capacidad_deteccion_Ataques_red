@@ -7,4 +7,4 @@
      |___|                       |___| 
     (_____)---------------------(_____)
 
-Este directorio, dividido en Tráfico de Ataques y Tráfico Legítimo, podrá encontrar las implementaciones de ambas secciones (capturas de paquetes) así como los resultados de las detecciones generadas por los cortafuegos.
+Este directorio está dividido en dos subdirectorios, subdirectorio de "Ataques" (definidos por la matriz MITRE ATT&CK) y subdirectorio "Legítimo" (capturas de tráfico legítimo). 
