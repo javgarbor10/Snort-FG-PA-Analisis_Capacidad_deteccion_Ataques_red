@@ -32,3 +32,13 @@ Para poder entender su funcionamiento se proporciona la siguiente guía.
     -> sacasids.py: script que extrae de un fichero de texto (preferiblemente un fichero ordenado con la lista de alertas) los SIDs. Devuelve la lista en formato SID, SID, SID, útil para la representación en la hoja "Detecciones".
 
     -> une_sids.py: script usado para la unión de SIDs de diferentes logs.
+
+    -> deteccionSYN/detector_syn.sh: este script está elaborado para efectuar un análisis de flujos con tranalyzer para los pcaps que se encuentren en el mismo directorio de ejecución. Está pensado para tan sólo generar los ficheros de texto necesarios para el estudio de flujos truncados.
+
+    -> deteccionSYN/txt_to_csv.py: este script convierte los ficheros de texto generados por el script "detector_syn.sh" en CSVs.
+
+    -> deteccionSYN/checkSYN.py: este script acude a los ficheros CSV generados por el script "txt_to_csv.py" y comprueba si alguno de los flujos está truncado. Para ello, analiza las banderas de las sesiones TCP en busca de coincidencias que alerten de un flujo incompleto. Como resultado, se crea un CSV final con los flujos truncados. Si este CSV se encuentra vacío, el ataque no contiene ningún flujo truncado.
+
+    -> deteccionSYN/script_deteccion_falta_SYN.py: este script engloba la tarea de los tres scripts anteriores
+
+    
