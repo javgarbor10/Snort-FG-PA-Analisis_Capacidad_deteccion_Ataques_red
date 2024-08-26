@@ -21,6 +21,10 @@ A continuación se proporciona una guía para entender la información que se en
        --> Caracterización de pcaps: información variada acerca del ataque implementado, sin relación con los IDS
        --> Resultados de Detecciones: resultados devueltos por los distintos IDS para cada uno de los ataques
       -> (C) - Detecciones - Tráfico Legítimo: similar a la pestaña (B), pero aplicada a las capturas de tráfico legítimo
+      -> (D) - Análisis Resultados I - Snort: gráficas y análisis de resultados relativos al IDS Snort. Es posible encontrar información extraída de otras pestañas de esta misma hoja
+      -> (D) - Análisis Resultados II - FortiGate: gráficas y análisis de resultados relativos al IDS FortiGate. Es posible encontrar información extraída de otras pestañas de esta misma hoja
+      -> (D) - Análisis Resultados III - PaloAlto: gráficas y análisis de resultados relativos al IDS PaloAlto. Es posible encontrar información extraída de otras pestañas de esta misma hoja
+      -> (D) - Análisis Resultados IV - Conjunto: gráficas y análisis de resultados relativos a todos los IDS. Es posible encontrar información extraída de otras pestañas de esta misma hoja
       -> (E) - Referencias: esta pestaña contiene un breve anexo con la leyenda de la procedencia de los pcaps. En la pestaña (B) existen varias columnas relacionadas con la caracterización de los pcaps con referencias como valores. Estas referencias se encuentran detalladas en esta pestaña
      
      ------------ SECCIÓN A.2: COLUMNAS PESTAÑA (B) HOJA DETECCIONES ------------
