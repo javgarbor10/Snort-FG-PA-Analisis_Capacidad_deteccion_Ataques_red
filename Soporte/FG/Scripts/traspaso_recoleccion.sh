@@ -9,7 +9,7 @@ for fichero in "/opt/pcaps-nuevos/red/revisados/Red2/"*.pcapng; do
         fi
 
 scp -oPort=17651 "$fichero" forti-usu1@172.16.17.115://opt/fg/forti-usu1/pcaps/
-ssh -t -oPort=17651 forti-usu1@172.16.17.115 "/opt/fg/forti-usu1/pcaps/fg.sh"
+ssh -t -oPort=17651 forti-usu1@172.16.17.115 "/opt/fg/forti-usu1/pcaps/reproduccion.sh"
 scp -oPort=17651 forti-usu1@172.16.17.115://opt/fg/forti-usu1/pcaps/file.log /opt/pcaps-nuevos/logs/file.log
 mv /opt/pcaps-nuevos/logs/file.log /opt/pcaps-nuevos/logs/"$nuevo_fichero.log"
 
