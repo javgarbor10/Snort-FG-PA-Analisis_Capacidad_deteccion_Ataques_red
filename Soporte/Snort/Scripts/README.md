@@ -19,6 +19,8 @@ Para poder entender su funcionamiento se proporciona la siguiente guía.
      --> CSV: para mayor accesibilidad visual, el script también transforma las alertas en formato log a formato CSV (carpeta /CSV)
      --> Contaje: para recolectar resultados el script también lleva a cabo un recuento automático de los flujos, mensajes e instancias detectadas por Snort, para cada uno de los RuleSets. ¡IMPORTANTE! El apartado de flujos no se usa, pues el cálculo no está bien desarrollado. El resto de datos son válidos. Mensajes e instancias se calculan a partir del campo 'IDPaq', identificable en los logs de ambas versiones de Snort.
 
+    -> convertir_pcapng_a_pcapng_y_truncar_MTU.sh: este script se centra en el aspecto de la limitación de MTU de los entornos de los IDS FortiGate y PaloAlto. El funcionamiento es sencillo, tan sólo ajusta la MTU máxima de los paquetes a la especificada por la variable de entorno MTU (ajustada previamente)
+    
     -> analiza_snort.sh: script obsoleto, pero capaz de realizar las detecciones para los ataques. Incluye la funcionalidad de llamar al script sacarreglas.py. Desarrollado en Shell.
 
     -> calculaFlujos.py: script utilizado para el recuento de flujos de un fichero .pcapng. Para el cálculo hace uso de la herramnienta tranalyzer y tras transformar los resultados en un CSV comprueba el número de flujos distintos que tienen una cabecera válida (campo hdrDesc).
@@ -26,6 +28,10 @@ Para poder entender su funcionamiento se proporciona la siguiente guía.
     -> extrae_sid.py: script obsoleto pero operativo. Puede ser usado en determinados contextos de la detección para extraer únicamente los SIDs.
 
     -> filtradoTPv4.py: script vinculado al script hermano "analisis_snortv5.py". Este script accede al CSV generado por el otro script, y filtra las alertas en base a los SIDs que se pasan como argumento. Usado fundamentalmente para el análisis automático, pues permite discriminar las alertas que comparten SID con el tráfico legítimo.
+
+    -> analisis_completo.py: script que combina el script "analisis_snortv5.py" con el script "filtradoTPv4.py". De esta forma, no resulta necesario realizar las dos tareas por separado. Además, incluye la lista de SIDs de tráfico legítimo, por lo que ahorra una gran cantidad de tiempo en lo que a ejecución se refiere.
+
+    -> contarFlujosCSV.py: este script sustituye la funcionalidad de cálculo de flujos del script "analisis_snortv5.py". Para el calculo almacena una lista de valores relacionados con las direcciones y puertos (que se encuentran almacenados en el CSV correspondiente). Posteriormente calcula el número de combinaciones distintas para ofrecer el número total de flujos en el CSV (aplicado a los distintos RuleSets)
 
     -> sacarreglas.py: script que extrae de un log de salida de Snort el número de alertas distintas y el número total de alertas, atendiendo al marcador [**] que distingue las alertas de ataque del resto de lineas.
 
