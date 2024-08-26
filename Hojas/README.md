@@ -21,6 +21,7 @@ A continuación se proporciona una guía para entender la información que se en
        --> Caracterización de pcaps: información variada acerca del ataque implementado, sin relación con los IDS
        --> Resultados de Detecciones: resultados devueltos por los distintos IDS para cada uno de los ataques
       -> (C) - Detecciones - Tráfico Legítimo: similar a la pestaña (B), pero aplicada a las capturas de tráfico legítimo
+      -> (E) - Referencias: esta pestaña contiene un breve anexo con la leyenda de la procedencia de los pcaps. En la pestaña (B) existen varias columnas relacionadas con la caracterización de los pcaps con referencias como valores. Estas referencias se encuentran detalladas en esta pestaña
      
      ------------ SECCIÓN A.2: COLUMNAS PESTAÑA (B) HOJA DETECCIONES ------------
      
