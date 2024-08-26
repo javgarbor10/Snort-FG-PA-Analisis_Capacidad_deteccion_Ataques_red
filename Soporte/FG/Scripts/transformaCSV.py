@@ -20,7 +20,7 @@ def extract_alerts_to_excel(log_file_path):
     with open(log_file_path, 'r') as log_file:
         for line in log_file:
             # Ignorar líneas que no son de nivel "alert"
-            if 'level="alert"' not in line:
+            if 'attackid=' not in line:
                 continue
 
             total_alerts += 1
