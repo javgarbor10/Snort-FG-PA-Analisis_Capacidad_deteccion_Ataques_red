@@ -25,34 +25,34 @@ A continuación se proporciona una guía para entender la información que se en
      ------------ SECCIÓN A.2: COLUMNAS PESTAÑA (B) HOJA DETECCIONES ------------
      
      Para entender los datos insertados en la pestaña de ataques de la hoja de detecciones, se adjunta una lista de las columnas con su definición.
-      -> Táctica: táctica a la que pertenece el ataque
-      -> Otras Tácticas: resto de tácticas a las que también pertenece el ataque
-      -> ID Táctica: ID de la táctica a la que pertenece el ataque
-      -> Técnica: técnica a la que pertenece el ataque
-      -> ID Técnica: ID de la técnica a la que pertenece el ataque
-      -> Subtécnica: subtécnica a la que pertenece el ataque (puede no tener subtécnica asociada)
-      -> ID Subtécnica: ID de la subtécnica a la que pertenece el ataque (puede no tener subtécnica asociada)
-      -> Ataque: resumen breve del objetivo del ataque
-      -> Herramienta: herramienta/s empleadas para la implementación del ataque
-      -> Fichero Pcap: nombre del fichero PCAP que recoge los paquetes generados durante la implementación del ataque
-      -> Nº Total de Flujos: número total de flujos en el fichero pcap. Calculado haciendo uso de la herramienta tranalyzer, descartando aquellos flujos que no tienen una Cabecera asociada (descartando así la mayoría de flujos de capa <L3)
-      -> Nº de Flujos con Ataque/s: número de flujos que contienen paquetes vinculados al ataque implementado
-      -> Nº de Mensajes de Red con Ataque/s: número de mensajes/paquetes que contienen al ataque implementado o parte de él.
-      -> Nº de Ataques (Instancias) Totales: número total de instancias de ataque principales y colaterales. Una instancia es la unidad mínima de un ataque, pudiéndose tratar, por ejemplo, de un comando, una inyección SQL o un escaneo a un puerto concreto
-      -> Nº de Ataques (Instancias) Principales: número de instancias de ataque en la captura de paquetes
-      -> Nº de Ataques (Instancias) Colaterales: número de instancias en la captura de paquetes que constituyen amenaza y pueden generar alertas pero no están relacionadas con el propio ataque en sí.
-      -> Detectable por Patrones: SI o NO en función de si el ataque puede o podría ser detectado por patrones por un IDS
-      -> Mecanismo de Detección: define el mecanismo usado o que podría usarse para detectar satisfactoriamente el ataque
-      -> Detalles de Implementación de Ataque: descripción más extensa del proceso de implementación del ataque. Opcional
-      -> Proceso de Generación del Pcap: contiene una referencia donde poder consultar detalladamente el proceso de generación del pcap
-      -> Validación de Pcap: contiene una referencia donde poder consultar detalladamente la validación del pcap, analizando los paquetes y comprobando que el ataque verdaderamente se encuentra correctamente capturado
-      -> Análisis de Detecciones de Pcap (Snort): contiene una referencia donde poder consultar detalladamente el análisis de detecciones del pcap para el IDS Snort
-      -> Formato PCAPNG: ✔ o ✘ en función de si la captura del ataque tiene formato .pcapng
-      -> Detectabilidad: SI o NO (con matices) dependiendo de si el ataque es detectable por un IDS
-      -> Ataques Colaterales: ✔ o ✘ en función de si la captura de paquetes contiene ataques colaterales
-      -> Verificación MTU Máxima: ✔ o ✘ en función de si la captura de paquetes ha sufrido el ajuste de MTU para los entornos de los IDS
-      -> Error TCP_Replay: ✔ o ✘ en función de si la captura de paquetes ha devuelto errores en la reproducción de paquetes dentro de los entornos de los IDS
-      -> Contiene Sólo Flujos Completos con SYN Inicial: ✔ o ✘ en función de si la captura de paquetes tan sólo contiene flujos completos, es decir, no incluye flujos truncados
+      -> TÁCTICA: táctica a la que pertenece el ataque
+      -> OTRAS TÁCTICAS: resto de tácticas a las que también pertenece el ataque
+      -> ID TÁCTICA: ID de la táctica a la que pertenece el ataque
+      -> TÉCNICA: técnica a la que pertenece el ataque
+      -> ID TÉCNICA: ID de la técnica a la que pertenece el ataque
+      -> SUBTÉCNICA: subtécnica a la que pertenece el ataque (puede no tener subtécnica asociada)
+      -> ID SUBTÉCNICA: ID de la subtécnica a la que pertenece el ataque (puede no tener subtécnica asociada)
+      -> ATAQUE: resumen breve del objetivo del ataque
+      -> HERRAMIENTA: herramienta/s empleadas para la implementación del ataque
+      -> FICHERO PCAP: nombre del fichero PCAP que recoge los paquetes generados durante la implementación del ataque
+      -> Nº TOTAL DE FLUJOS: número total de flujos en el fichero pcap. Calculado haciendo uso de la herramienta tranalyzer, descartando aquellos flujos que no tienen una Cabecera asociada (descartando así la mayoría de flujos de capa <L3)
+      -> Nº DE FLUJOS CON ATAQUE/S: número de flujos que contienen paquetes vinculados al ataque implementado
+      -> Nº DE MENSAJES DE RED CON ATAQUE/S: número de mensajes/paquetes que contienen al ataque implementado o parte de él.
+      -> Nº DE ATAQUES (INSTANCIAS) TOTALES: número total de instancias de ataque principales y colaterales. Una instancia es la unidad mínima de un ataque, pudiéndose tratar, por ejemplo, de un comando, una inyección SQL o un escaneo a un puerto concreto
+      -> Nº DE ATAQUES (INSTANCIAS) PRINCIPALES: número de instancias de ataque en la captura de paquetes
+      -> Nº DE ATAQUES (INSTANCIAS) COLATERALES: número de instancias en la captura de paquetes que constituyen amenaza y pueden generar alertas pero no están relacionadas con el propio ataque en sí.
+      -> DETECTABLE POR PATRONES: SI o NO en función de si el ataque puede o podría ser detectado por patrones por un IDS
+      -> MECANISMO DE DETECCIÓN: define el mecanismo usado o que podría usarse para detectar satisfactoriamente el ataque
+      -> DETALLES DE IMPLEMENTACIÓN DE ATAQUE: descripción más extensa del proceso de implementación del ataque. Opcional
+      -> PROCESO DE GENERACIÓN DE PCAP: contiene una referencia donde poder consultar detalladamente el proceso de generación del pcap
+      -> VALIDACIÓN DE PCAP: contiene una referencia donde poder consultar detalladamente la validación del pcap, analizando los paquetes y comprobando que el ataque verdaderamente se encuentra correctamente capturado
+      -> ANÁLISIS DE DETECCIONES DE PCAP (Snort): contiene una referencia donde poder consultar detalladamente el análisis de detecciones del pcap para el IDS Snort
+      -> FORMATO PCAPNG: ✔ o ✘ en función de si la captura del ataque tiene formato .pcapng
+      -> DETECTABILIDAD: SI o NO (con matices) dependiendo de si el ataque es detectable por un IDS
+      -> ATAQUES COLATERALES: ✔ o ✘ en función de si la captura de paquetes contiene ataques colaterales
+      -> VERIFICACIÓN MTU MÁXIMA: ✔ o ✘ en función de si la captura de paquetes ha sufrido el ajuste de MTU para los entornos de los IDS
+      -> ERROR TCP_Replay: ✔ o ✘ en función de si la captura de paquetes ha devuelto errores en la reproducción de paquetes dentro de los entornos de los IDS
+      -> CONTIENE SÓLO FLUJOS COMPLETOS CON SYN INICIAL: ✔ o ✘ en función de si la captura de paquetes tan sólo contiene flujos completos, es decir, no incluye flujos truncados
       -> SIDs (sin repetición): para cada RS de Snort, esta sección enumera los SIDs de las alertas devueltos por Snort para el RuleSet correspondiente
       -> #SIDs: para cada RS de Snort, número de SIDs diferentes de las alertas devueltos por Snort para el RuleSet correspondiente
       -> Número total de alertas: para cada RS de Snort, número total de alertas (con repetición) generadas por Snort para el RuleSet correspondiente.
