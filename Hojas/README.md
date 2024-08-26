@@ -108,6 +108,19 @@ A continuación se proporciona una guía para entender la información que se en
       -> Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE: número de sessionids diferentes que tienen asociado un attackid en el log generado por FortiGate.
       -> % DETECCIÓN FORTIGATE: número de flujos con ataque detectados por FortiGate entre número de flujos con ataque en la captura
       -> USADO PARA CÁLCULO DE CAPACIDAD DE DETECCIÓN: ✔ o ✘ en función de si los resultados obtenidos para un ataque acaban siendo usados para elaborar los análisis finales o no. Esta decisión se basa en parámetros como la detectabilidad, si es detectable por patrones y si se ha producido algún error en la reproducción de paquetes
+
+     ------------ SECCIÓN B: HOJA MAPEOS ------------
+
+     En esta hoja puede encontrarse información relacionada con las asociaciones táctica/técnica/subtécnica/IDs de ataques, así como contadores particulares y globales. A continuación se describen las pestañas que componen la hoja.
+
+     -> (A) - Mapeo Tácticas/Técnicas: contiene una tabla con la asociación entre técnicas implementadas en el estudio y la/s táctica/s a la/s que pertenece/n
+     -> (B) - Mapeo Tácticas/Subtécnicas: contiene una tabla con la asociación entre subtécnicas implementadas en el estudio y la/s táctica/s a la/s que pertenece/n
+     -> (C) - Tabla Táctica/Técnica/Subtécnica: contiene una descripción detallada de toda la matriz MITRE ATT&CK, filtrando los campos que resultan de mayor interés para el estudio
+     -> (D) - Recuento Total: contiene toda clase de contadores relacionados con las tácticas, técnicas y subtécnicas de la matriz, tanto las que han sido implementadas como las que no (porque no son detectables por red)
+     -> Otras pestañas: el resto de pestañas están centradas en la asociación SIDs <-> Tácticas/Técnicas, tanto para Snort como para el resto de IDS
+
+
+
       
 
 
