@@ -50,7 +50,49 @@ A continuación se proporciona una guía para entender la información que se en
       -> Formato PCAPNG: ✔ o ✘ en función de si la captura del ataque tiene formato .pcapng
       -> Detectabilidad: SI o NO (con matices) dependiendo de si el ataque es detectable por un IDS
       -> Ataques Colaterales: ✔ o ✘ en función de si la captura de paquetes contiene ataques colaterales
-      -> 
+      -> Verificación MTU Máxima: ✔ o ✘ en función de si la captura de paquetes ha sufrido el ajuste de MTU para los entornos de los IDS
+      -> Error TCP_Replay: ✔ o ✘ en función de si la captura de paquetes ha devuelto errores en la reproducción de paquetes dentro de los entornos de los IDS
+      -> Contiene Sólo Flujos Completos con SYN Inicial: ✔ o ✘ en función de si la captura de paquetes tan sólo contiene flujos completos, es decir, no incluye flujos truncados
+      -> SIDs (sin repetición): para cada RS de Snort, esta sección enumera los SIDs de las alertas devueltos por Snort para el RuleSet correspondiente
+      -> #SIDs: para cada RS de Snort, número de SIDs diferentes de las alertas devueltos por Snort para el RuleSet correspondiente
+      -> Número total de alertas: para cada RS de Snort, número total de alertas (con repetición) generadas por Snort para el RuleSet correspondiente.
+      -> SIDs en legítimo y ataque: para cada RS de Snort, SIDs que aparecen tanto en las detecciones de tráfico legítimo como en el propio ataque
+      -> SIDs sólo en ataque: para cada RS de Snort, SIDs que sólo aparecen en las detecciones del ataque
+      -> SIDs FP (Manual): para cada RS de Snort, SIDs que manualmente han sido calificados como FP, ya sea por tratarse de simples eventos de red o por no estar relacionados
+      -> SIDs FP (Automático): para cada RS de Snort, SIDs que aparecen en tráfico legítimo y que se usan para la metodología automática para calificar los SIDs del ataque como FP
+      -> SIDs FP: para cada RS de Snort, contendrá los SIDs de la columna "SIDs FP (Manual)" si esta no es igual a "-". En tal caso (no se ha realizado el análisis manual) contendrá los SIDs de la columna "SIDs FP (Automático)"
+      -> SIDs FP "No Relacionados": para cada RS de Snort, contendrá los SIDs que han sido considerados de forma manual como No Relacionados
+      -> SIDs FP "Eventos de Red": para cada RS de Snort, contendrá los SIDs que han sido considerados de forma manual como Eventos de Red
+      -> SIDs TP "Todas las Alertas" (Manual): para cada RS de Snort, SIDs que manualmente se ha comprobado que siempre son TP
+      -> SIDs TP "Algunas Alertas" (Manual): para cada RS de Snort, SIDs que manualmente se ha comprobado que en ocasiones son TP y en otras FP
+      -> Nº TOTAL DE FLUJOS DETECTADOS SNORTv3: para cada RS de Snort, número de flujos totales analizados por Snortv3
+      -> Nº TOTAL DE FLUJOS DETECTADOS SNORTv2: para cada RS de Snort, número de flujos totales analizados por Snortv2
+      -> Nº TOTAL DE FLUJOS CON ATAQUE/S TOTALES DETECTADOS: para cada RS de Snort, número de flujos con ataque detectados por el RuleSet. Para este cálculo, se cuenta el número de flujos totales dentro de los logs de alertas
+      -> Nº DE MENSAJES DE RED CON ATAQUE/S TOTALES DETECTADOS: para cada RS de Snort, número de mensajes de red con ataque detectados por el RuleSet. Para este cálculo, se cuenta el número total de paquetes diferentes dentro de los logs de alertas
+      -> Nº ATAQUES (INSTANCIAS) TOTALES DETECTADOS: para el RS1 de Snort, número de instancias de ataque totales detectadas. Para este cálculo, se cuenta el número total de alertas dentro de los logs de alertas.
+      -> Nº ATAQUES (INSTANCIAS) DETECTADOS POR TALOS: para los RS2, RS3 y RS4 número de instancias de ataque totales detectadas por el paquete de reglas de Talos respectivo
+      -> Nº ATAQUES (INSTANCIAS) DETECTADOS POR ETOPEN: para los RS2, RS3 y RS4 número de instancias de ataque totales detectadas por el paquete de reglas de ETOpen respectivo
+      -> Nº TOTAL DE FLUJOS CON ATAQUE/S TP DETECTADOS (Manual): para cada RS de Snort, número de flujos con ataques manualmente calificados como TP detectados por el RuleSet
+      -> Nº DE MENSAJES DE RED CON ATAQUE/S TP DETECTADOS (Manual): para cada RS de Snort, número de mensajes de red con ataques manualmente calificados como TP detectados por el RuleSet
+      -> Nº ATAQUES (INSTANCIAS) TP DETECTADOS (Manual): para cada RS de Snort, número de instancias de ataques calificadas manualmente como TP totales detectadas
+      -> Nº TOTAL DE FLUJOS CON ATAQUE/S TP DETECTADOS (Automático): para cada RS de Snort, número de flujos con ataques automáticamente calificados como TP detectados por el RuleSet. Para el cálculo, se discriminan todas aquellas alertas cuyo SID se encuentre también en los SIDs de tráfico legítimo
+      -> Nº DE MENSAJES DE RED CON ATAQUE/S TP DETECTADOS (Automático): para cada RS de Snort, número de mensajes con ataques automáticamente calificados como TP detectados por el RuleSet. Para el cálculo, se discriminan todas aquellas alertas cuyo SID se encuentre también en los SIDs de tráfico legítimo
+      -> Nº ATAQUES (INSTANCIAS) TP DETECTADOS (Automático): para el RS1 de Snort, número de instancias de ataques automáticamente calificadas como TP detectadas por el RuleSet. Para el cálculo, se discriminan todas aquellas alertas cuyo SID se encuentre también en los SIDs de tráfico legítimo
+      -> Nº ATAQUES (INSTANCIAS) TP DETECTADOS POR TALOS (Automático): para los RS2, RS3 y RS4, número de instancias de ataques automáticamente calificadas como TP detectadas por el paquete de reglas Talos respectivo. Para el cálculo, se discriminan todas aquellas alertas cuyo SID se encuentre también en los SIDs de tráfico legítimo
+      -> Nº ATAQUES (INSTANCIAS) TP DETECTADOS POR ETOPEN (Automático): para los RS2, RS3 y RS4, número de instancias de ataques automáticamente calificadas como TP detectadas por el paquete de reglas ETOpen respectivo. Para el cálculo, se discriminan todas aquellas alertas cuyo SID se encuentre también en los SIDs de tráfico legítimo
+      -> Nº ATAQUES (INSTANCIAS) TP TOTALES DETECTADOS (Automático + Manual): para los RS2, RS3 y RS4, número de instancias de ataques automáticamente calificadas como TP detectadas en total. Para el cálculo, se discriminan todas aquellas alertas cuyo SID se encuentre también en los SIDs de tráfico legítimo así como se realiza una puesta en conjunto manual para asociar las alertas de cada paquete de reglas a una instancia.
+      -> % DETECCIÓN FLUJOS: para cada RS, número de flujos con ataques detectados entre número de flujos con ataques de la captura
+      -> % DETECCIÓN FLUJOS TP (Automático): para cada RS, número de flujos con ataques TP filtrados automáticamente detectados entre número de flujos con ataques de la captura
+      -> % DETECCIÓN FLUJOS TP (Manual): para cada RS, número de flujos con ataques TP filtrados manualmente detectados entre número de flujos con ataques de la captura
+      -> % DETECCIÓN MENSAJES: para cada RS, número de mensajes con ataques detectados entre número de mensajes con ataques de la captura
+      -> % DETECCIÓN MENSAJES TP (Automático): para cada RS, número de mensajes con ataques TP filtrados automáticamente detectados entre número de mensajes con ataques de la captura
+      -> % DETECCIÓN MENSAJES TP (Manual): para cada RS, número de mensajes con ataques TP filtrados manualmente detectados entre número de mensajes con ataques de la captura
+      -> % DETECCIÓN INSTANCIAS: para el RS1, número de instancias de ataques detectadas entre número de instancias de ataques de la captura
+      -> % DETECCIÓN INSTANCIAS TP (Automático): para el RS1, número de instancias de ataques TP filtrados automáticamente detectas entre número de instancias de ataques de la captura
+      -> % DETECCIÓN INSTANCIAS (Manual): para los RS2, RS3 y RS4, número de instancias de ataques detectadas calculadas manualmente entre número de instancias de ataques en la captura
+      -> % DETECCIÓN INSTANCIAS (Automático + Manual): para los RS2, RS3 y RS4, número de instancias de ataques TP filtrados automáticamente y calculados manualmente entre número de instancias de ataques de la captura
+      -> % DETECCIÓN INSTANCIAS TP (Manual): para cada RS, número de instancias de ataques TP filtrados manualmente detectadas entre número de instancias de ataques de la captura
+      
 
 
 
