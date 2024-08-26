@@ -16,7 +16,7 @@ Para poder entender su funcionamiento se proporciona la siguiente guía.
     -> analisis_snortvX.py: estos scripts tienen como finalidad principal elaborar un log resultante para cada pcap analizado, que condense las alertas generadas para los distintos paquetes de reglas. La versión 5 (la más reciente y la realmente operativa) realiza las siguientes tareas:
      --> Detecciones: el script realiza las detecciones del ataque para todos los RuleSets disponibles.
      --> Alertas: el script almacena tanto la salida estándar de las detecciones (fichero de texto "salida") como todas las alertas generadas (carpeta /DETECCIONES).
-     --> CSV: para mayor accesibilidad visual, el script también transforma las alertas en formato de log a formato CSV (carpeta /CSV)
+     --> CSV: para mayor accesibilidad visual, el script también transforma las alertas en formato log a formato CSV (carpeta /CSV)
      --> Contaje: para recolectar resultados el script también lleva a cabo un recuento automático de los flujos, mensajes e instancias detectadas por Snort, para cada uno de los RuleSets. ¡IMPORTANTE! El apartado de flujos no se usa, pues el cálculo no está bien desarrollado. El resto de datos son válidos. Mensajes e instancias se calculan a partir del campo 'IDPaq', identificable en los logs de ambas versiones de Snort.
 
     -> analiza_snort.sh: script obsoleto, pero capaz de realizar las detecciones para los ataques. Incluye la funcionalidad de llamar al script sacarreglas.py. Desarrollado en Shell.
