@@ -1,2 +1,2 @@
-attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
-15621,352536,1,high,HTTP.URI.SQL.Injection,HTTP,172.16.1.2,172.16.2.2,39046,8080,ips,signature
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+15621,352536,1,high,HTTP.URI.SQL.Injection,HTTP,172.16.1.2,172.16.2.2,39046,8080,ips,signature,/contacto?apellidos=Fernandez%27;%20DELETE%20FROM%20contactos%20WHERE%20num=3--

@@ -1,2 +1,2 @@
-attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
-15621,352486,1,high,HTTP.URI.SQL.Injection,HTTP,172.16.1.2,172.16.2.2,39250,8080,ips,signature
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+15621,352486,1,high,HTTP.URI.SQL.Injection,HTTP,172.16.1.2,172.16.2.2,39250,8080,ips,signature,"/contacto?apellidos=Fernandez%27;%20INSERT%20INTO%20contactos%20values%20(3,%20%27Atacante%27,%20%27Atacante%27,%20%27Atacante%27,%20100)--"
