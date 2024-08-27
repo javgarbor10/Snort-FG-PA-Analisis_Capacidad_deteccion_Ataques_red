@@ -10,9 +10,9 @@
 Este directorio es alternativo al directorio "Hojas". En lugar de proporcionar hojas
 de cálculo para la representación de los datos se ofrecen ficheros csv y scripts sql
 que permiten reconstruir una base de datos de forma local con la que manejar toda la información
-del estudio.
+del estudio, además de scripts que facilitan el manejo de los elementos.
 
-A continuación se proporciona una guía para la replicación de la BBDD.
+A continuación se proporciona una guía de los elementos disponibles en este directorio así como los pasos para la replicación de la BBDD
 
      ------- SECCIÓN A: FICHEROS INVOLUCRADOS -------
      
@@ -24,6 +24,10 @@ A continuación se proporciona una guía para la replicación de la BBDD.
       --> caracterizacion_pcaps_ataque.csv, caracterizacion_pcaps_legitimo.csv 
       --> deteccion_snort.csv, deteccion_fortigate.csv, deteccion_paloalto.csv
       --> alertas_legitimo_snort.csv
+     3 - Scripts (Directorio "/Scripts")
+      --> csv_comas.py: en ciertos sistemas operativos, los ficheros CSV tienen un formato de separación de celdas basada en punto y coma, en vez de coma. Para evitar errores sintácticos y separaciones no deseadas este script convierte un csv con separación de punto y coma en uno con separación de comas
+      --> transformaAlertasFG.py: este script se encarga de adaptar el formato de las alertas generadas por FortiGate en la hoja "Detecciones" al formato de las tablas de la BBDD
+      --> trasnformaAlertasv2.py: este script se encarga de adaptar el formato de las alertas generadas por Snort en la hoja "Detecciones" al formato de las tablas de la BBDD
                
      ------- SECCIÓN B: IMPLEMENTACIÓN CON HyperSQL y GUI HyperSQL Database Manager Swing ------
                
@@ -34,3 +38,4 @@ A continuación se proporciona una guía para la replicación de la BBDD.
      5º) Preparación de las tablas. Carga del script "tablas.sql" y ejecución. 
      6º) Inserción de los datos. Carga del script "datos.sql" y ejecución.
      7º) Indagación libre: la BBDD debería estar completamente activa y operativa en este punto. Puede realizar todas las consultas que precise para recoger los datos.
+
