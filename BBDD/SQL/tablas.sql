@@ -272,6 +272,7 @@ ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
 sid INTEGER,
 ruleset INTEGER,
 TP INTEGER,
+PRIMARY KEY (ficheropcap, sid)
 );
 
 CREATE TEXT TABLE temp_alertas_ataque_snort (
@@ -285,7 +286,7 @@ CREATE TABLE alertas_legitimo_snort (
 ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_legitimo(ficheropcap),
 sid INTEGER,
 ruleset INTEGER,
-
+PRIMARY KEY (ficheropcap, sid)
 );
 
 CREATE TEXT TABLE temp_alertas_legitimo_snort (
@@ -298,7 +299,8 @@ ruleset INTEGER,
 CREATE TABLE alertas_ataque_FG (
 ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
 attackid INTEGER,
-TP INTEGER
+TP INTEGER,
+PRIMARY KEY (ficheropcap, attackid)
 );
 
 CREATE TEXT TABLE temp_alertas_ataque_FG (
