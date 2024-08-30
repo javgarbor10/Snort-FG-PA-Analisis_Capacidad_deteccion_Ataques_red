@@ -102,7 +102,12 @@ A continuación se proporciona una guía para entender la información que se en
       -> #Attackid: para FortiGate, número de attackids diferentes
       -> Attackids FP Dataset_Legítimo_XX: para FortiGate, attackids que aparecen tanto en la captura del ataque como en el dataset legitimo XX
       -> #Attackids FP Dataset_Legítimo_XX: para FortiGate, número de attackids que aparecen tanto en la captura del ataque como en el dataset legitimo XX
-      -> Attackids FP Totales: para FortiGate, Attackids considerados como FP totales
+      -> Attackids FP (Manual): attackids que han sido considerados como FP de forma manual
+      -> Attackids FP (Automático): attackids que han sido considerados como FP de forma automática, es decir, en base a los attackids que han aparecido también en el tráfico legítimo
+      -> Attackids TP (Manual): attackids que han sido considerados como TP de forma manual
+      -> Attackids TP (Automático): attackids que han sido considerados como TP de forma automática, es decir, aquellos que no han aparecido en las detecciones del tráfico legítimo.
+      -> Attackids FP Totales: para FortiGate, Attackids considerados como FP totales. Para esta columna se usará siempre que se haya podido efectuar el análisis manual los attackids que aparezcan en la columna "Attackids FP (Manual)". En su defecto se usarán los valores del análisis automático.
+      -> #Attackids FP Totales: número de attackids FP que han acabado identificándose.
       -> COMENTARIOS DE LAS DETECCIONES FG: es posible que en determinados casos resulte necesario añadir comentarios acerca de un ataque en particular. En esta columna podrá encontrar dichos comentarios para el caso de FortiGate
       -> Nº FLUJOS IDENTIFICADOS POR FORTIGATE: número de sessionids diferentes que aparecen en el log generado para un ataque. Este parámetro sirve para identificar el número total de flujos detectados por FortiGate.
       -> Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE: número de sessionids diferentes que tienen asociado un attackid en el log generado por FortiGate.
