@@ -1,3 +1,0 @@
-PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
-ETOpen,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),FD3844D6,192.168.0.30,192.168.0.20,1234,49614,50211
-ETOpenOpt,2025644,ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server),FD3844D6,192.168.0.30,192.168.0.20,1234,49614,50211

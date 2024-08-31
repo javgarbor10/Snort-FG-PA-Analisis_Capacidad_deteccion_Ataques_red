@@ -1,6 +1,0 @@
-PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
-Talos,44489,"""POLICY-OTHER SMBv1 protocol detection attempt""",DB45DF28,,,,,0
-ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.10.140,192.168.10.255,138,138,43599
-ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.10.140,192.168.10.255,138,138,43599
-ETOpenOpt,2044666,ET INFO Outbound SMB Protocol Request to External Address,DB45DF28,,,,,0
-ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,DB45E0F1,,,,,0
