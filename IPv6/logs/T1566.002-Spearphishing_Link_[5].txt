@@ -1,0 +1,36 @@
+Talos Community:
+Nº alertas = 0
+Nº de alertas totales: 0
+
+ETOpen:
+Nº alertas = 6
+ [1:2043343:1] ET INFO RustDesk Domain in DNS Lookup 
+ [1:2044076:2] ET INFO RustDesk Relay Domain in DNS Lookup 
+ [1:2016141:5] ET INFO Executable Download from dotted-quad Host 
+ [1:2021076:1] ET INFO SUSPICIOUS Dotted Quad Host MZ Response 
+ [1:2018959:4] ET POLICY PE EXE or DLL Windows file download HTTP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+Nº de alertas totales: 29
+
+Talos Registered:
+Nº alertas = 3
+ [1:15935:7] "PROTOCOL-DNS dns response for rfc1918 192.168/16 address detected" 
+ [1:59597:1] "SERVER-OTHER WolfSSL PSK extension buffer overflow attempt" 
+ [1:50447:1] "POLICY-OTHER HTTP request by IPv4 address attempt" 
+Nº de alertas totales: 7
+
+ETOpen Optimizado:
+Nº alertas = 12
+ [1:2043343:1] ET INFO RustDesk Domain in DNS Lookup 
+ [1:2044076:2] ET INFO RustDesk Relay Domain in DNS Lookup 
+ [1:2002752:4] ET POLICY Reserved Internal IP Traffic 
+ [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets 
+ [1:2001117:6] ET DNS Standard query response, Name Error 
+ [1:2016141:5] ET INFO Executable Download from dotted-quad Host 
+ [1:2003595:5] ET POLICY exe download via HTTP - Informational 
+ [1:2021076:1] ET INFO SUSPICIOUS Dotted Quad Host MZ Response 
+ [1:2018959:4] ET POLICY PE EXE or DLL Windows file download HTTP 
+ [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) 
+ [1:2101200:12] GPL ATTACK_RESPONSE Invalid URL 
+ [1:2101620:7] GPL POLICY TRAFFIC Non-Standard IP protocol 
+Nº de alertas totales: 57
