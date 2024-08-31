@@ -1,0 +1,47 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+Community,459,"""PROTOCOL-ICMP unassigned type 1 undefined code""",,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB7E4BA2,,,,,0
+ETOpen,2025701,ET POLICY SMB2 NT Create AndX Request For an Executable File,CB7E4BA2,,,,,0
+ETOpen,2025699,ET POLICY SMB Executable File Transfer,CB7E4CEA,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB80FC32,,,,,0
+ETOpen,2027237,ET NETBIOS DCERPC SVCCTL - Remote Service Control Manager Access,8505024E,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB8147EA,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB83597C,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB835A34,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB835B4A,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB835C04,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB835D1C,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB835DD6,,,,,0
+ETOpen,2010781,ET POLICY PsExec service created,CB8363AA,,,,,0
+ETOpen,2025701,ET POLICY SMB2 NT Create AndX Request For an Executable File,CB8363AA,,,,,0
+Talos,459,"""PROTOCOL-ICMP unassigned type 1 undefined code""",,,,,,0
+Talos,44489,"""POLICY-OTHER SMBv1 protocol detection attempt""",CB7E4584,,,,,0
+Talos,30281,"""POLICY-OTHER use of psexec remote administration tool SMBv2""",,,,,,
+Talos,26385,"""FILE-EXECUTABLE Microsoft Windows executable file save onto SMB share attempt""",,,,,,
+Talos,30281,"""POLICY-OTHER use of psexec remote administration tool SMBv2""",,,,,,
+Talos,30281,"""POLICY-OTHER use of psexec remote administration tool SMBv2""",,,,,,
+Talos,30281,"""POLICY-OTHER use of psexec remote administration tool SMBv2""",,,,,,
+Talos,30281,"""POLICY-OTHER use of psexec remote administration tool SMBv2""",,,,,,
+Talos,30281,"""POLICY-OTHER use of psexec remote administration tool SMBv2""",,,,,,
+ETOpenOpt,2002752,ET POLICY Reserved Internal IP Traffic,,192.168.10.2,224.0.0.251,5353,5353,12760
+ETOpenOpt,2002749,ET POLICY Unallocated IP Space Traffic - Bogon Nets,,192.168.10.2,224.0.0.251,5353,5353,12760
+ETOpenOpt,2101620,GPL POLICY TRAFFIC Non-Standard IP protocol,,,,,,0
+ETOpenOpt,2100459,GPL ICMP unassigned type 1 undefined code,,,,,,0
+ETOpenOpt,2044666,ET INFO Outbound SMB Protocol Request to External Address,CB7E4584,,,,,0
+ETOpenOpt,2051116,ET INFO Outbound SMB2 NTLM Auth Attempt to External Address,CB7E474D,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB7E4BA2,,,,,0
+ETOpenOpt,2025701,ET POLICY SMB2 NT Create AndX Request For an Executable File,CB7E4BA2,,,,,0
+ETOpenOpt,2027191,ET POLICY Executable Transfer in SMB,CB7E4CEA,,,,,0
+ETOpenOpt,2025699,ET POLICY SMB Executable File Transfer,CB7E4CEA,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB80FC32,,,,,0
+ETOpenOpt,2027237,ET NETBIOS DCERPC SVCCTL - Remote Service Control Manager Access,8505024E,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB8147EA,,,,,0
+ETOpenOpt,2024510,ET DOS Possible SMBLoris NBSS Length Mem Exhaustion Vuln Inbound,CB814EF6,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB83597C,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB835A34,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB835B4A,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB835C04,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB835D1C,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB835DD6,,,,,0
+ETOpenOpt,2010781,ET POLICY PsExec service created,CB8363AA,,,,,0
+ETOpenOpt,2025701,ET POLICY SMB2 NT Create AndX Request For an Executable File,CB8363AA,,,,,0

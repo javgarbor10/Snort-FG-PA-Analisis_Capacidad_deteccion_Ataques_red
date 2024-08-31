@@ -1,0 +1,4 @@
+PaqueteReglas,SID,Detalles,Seq,IPOrigen,IPDestino,PrtOrigen,PrtDestino,IDPaq
+ETOpen,2027413,ET POLICY Inbound RDP Connection with Minimal Security Protocol Requested,1DC37F9,192.168.0.70,192.168.0.20,64985,3389,574
+ETOpenOpt,2027413,ET POLICY Inbound RDP Connection with Minimal Security Protocol Requested,1DC37F9,192.168.0.70,192.168.0.20,64985,3389,574
+ETOpenOpt,2034857,ET INFO RDP Authentication Bypass Attempt,E4AA6214,192.168.0.20,192.168.0.70,49219,3389,1960
