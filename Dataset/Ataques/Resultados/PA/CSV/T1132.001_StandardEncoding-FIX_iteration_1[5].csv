@@ -1,0 +1,6 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,689377,1,1,,N/A,tcp,192.168.0.30,192.168.0.20,url,192.168.0.20/?data=c3RhcnQK
+9999,689378,1,1,,N/A,tcp,192.168.0.30,192.168.0.20,url,192.168.0.20/?data=c3RvcAo=
+9999,689379,1,1,,N/A,tcp,192.168.0.30,192.168.0.20,url,192.168.0.20/?data=c2xlZXAK
+9999,689380,1,1,,N/A,tcp,192.168.0.30,192.168.0.20,url,192.168.0.20/?data=YXR0YWNrCg==
+9999,689381,1,1,,N/A,tcp,192.168.0.30,192.168.0.20,url,192.168.0.20/?data=dGZnc25vcnQK

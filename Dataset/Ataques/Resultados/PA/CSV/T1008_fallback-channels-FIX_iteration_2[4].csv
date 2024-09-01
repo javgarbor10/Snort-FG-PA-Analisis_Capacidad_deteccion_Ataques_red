@@ -1,0 +1,12 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,491974,1,1,,N/A,tcp,192.168.10.130,192.168.10.140,url,192.168.10.140/en-us/test.html
+9999,491974,1,1,,N/A,tcp,192.168.10.130,192.168.10.140,url,192.168.10.140/en-us/docs.html
+9999,491974,1,1,,N/A,tcp,192.168.10.130,192.168.10.140,url,192.168.10.140/en-us/test.html
+85585,491974,3,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.130,192.168.10.140,spyware,192.168.10.140/en-us/docs.html
+9999,491974,1,1,,N/A,tcp,192.168.10.130,192.168.10.140,url,192.168.10.140/en-us/test.html
+9999,491940,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/index.html
+9999,491940,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/test.html
+9999,491940,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/docs.html
+85585,491940,3,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.150,192.168.10.140,spyware,192.168.10.140/en-us/test.html
+92322,491989,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,fe80::b601:4373:4663:c635,fe80::672f:318d:610:4233,vulnerability,
+9999,491940,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/docs.html

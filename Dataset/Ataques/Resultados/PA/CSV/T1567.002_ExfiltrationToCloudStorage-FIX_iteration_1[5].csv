@@ -1,0 +1,5 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+93031,692819,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,142.250.184.3,vulnerability,ssl.gstatic.com/
+93031,692822,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,172.217.168.161,vulnerability,drive-thirdparty.googleusercontent.com/
+9999,692819,1,1,,N/A,tcp,10.0.2.15,142.250.184.3,url,ssl.gstatic.com/
+9999,692822,1,1,,N/A,tcp,10.0.2.15,172.217.168.161,url,drive-thirdparty.googleusercontent.com/

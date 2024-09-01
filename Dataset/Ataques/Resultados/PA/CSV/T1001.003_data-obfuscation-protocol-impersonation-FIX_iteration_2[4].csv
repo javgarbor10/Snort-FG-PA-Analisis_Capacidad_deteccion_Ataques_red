@@ -1,0 +1,3 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+14978,689042,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,10.0.2.7,spyware,www.bing.com/
+9999,689042,1,1,,N/A,tcp,10.0.2.15,10.0.2.7,url,www.bing.com/

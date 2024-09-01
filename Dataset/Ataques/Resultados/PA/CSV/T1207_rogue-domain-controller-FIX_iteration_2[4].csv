@@ -1,0 +1,9 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+92322,493850,2,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,
+92322,493362,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,
+92322,493836,3,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,
+92322,493826,4,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,
+92322,493941,3,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,
+92322,493961,2,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,
+92322,491588,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,
+54410,491588,2,1,MS Active Directory DrsAddEntry/DrsReplicaAdd Vulnerability,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,

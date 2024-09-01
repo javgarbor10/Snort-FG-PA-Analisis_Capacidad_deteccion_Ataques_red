@@ -1,0 +1,7 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,496601,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/index.html
+92322,495307,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,fe80::41ca:6bd7:a0c6:a9e9,fe80::a395:ac54:a15c:32aa,vulnerability,
+33836,495307,1,2,Microsoft Windows RPC Encrypted Data Detected,code-execution,tcp,fe80::41ca:6bd7:a0c6:a9e9,fe80::a395:ac54:a15c:32aa,vulnerability,
+33836,495307,1,2,Microsoft Windows RPC Encrypted Data Detected,code-execution,tcp,fe80::41ca:6bd7:a0c6:a9e9,fe80::a395:ac54:a15c:32aa,vulnerability,
+33836,495307,1,2,Microsoft Windows RPC Encrypted Data Detected,code-execution,tcp,fe80::41ca:6bd7:a0c6:a9e9,fe80::a395:ac54:a15c:32aa,vulnerability,
+33836,495307,1,2,Microsoft Windows RPC Encrypted Data Detected,code-execution,tcp,fe80::41ca:6bd7:a0c6:a9e9,fe80::a395:ac54:a15c:32aa,vulnerability,

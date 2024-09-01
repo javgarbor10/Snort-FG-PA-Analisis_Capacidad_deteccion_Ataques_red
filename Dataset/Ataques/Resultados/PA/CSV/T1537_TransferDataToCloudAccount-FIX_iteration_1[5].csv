@@ -1,0 +1,18 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+93031,690414,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,142.250.200.202,vulnerability,safebrowsing.googleapis.com/
+93031,690415,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,13.69.116.109,vulnerability,eu-mobile.events.data.microsoft.com/
+93031,690418,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,13.107.136.10,vulnerability,uses0-my.sharepoint.com/
+93031,690421,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,40.126.49.24,vulnerability,graph.microsoft.com/
+9999,690414,1,1,,N/A,tcp,10.0.2.15,142.250.200.202,url,safebrowsing.googleapis.com/
+9999,690415,1,1,,N/A,tcp,10.0.2.15,13.69.116.109,url,eu-mobile.events.data.microsoft.com/
+9999,690418,1,1,,N/A,tcp,10.0.2.15,13.107.136.10,url,uses0-my.sharepoint.com/
+9999,690421,1,1,,N/A,tcp,10.0.2.15,40.126.49.24,url,graph.microsoft.com/
+93031,690446,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,23.47.188.120,vulnerability,res-1.cdn.office.net/
+93031,690456,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,34.149.97.1,vulnerability,firefox-api-proxy.cdn.mozilla.net/
+9999,690446,1,1,,N/A,tcp,10.0.2.15,23.47.188.120,url,res-1.cdn.office.net/
+9999,690456,1,1,,N/A,tcp,10.0.2.15,34.149.97.1,url,firefox-api-proxy.cdn.mozilla.net/
+93031,690466,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,52.97.233.82,vulnerability,outlook.office.com/
+14978,690475,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,142.250.200.202,spyware,safebrowsing.googleapis.com/
+93031,690475,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,142.250.200.202,vulnerability,safebrowsing.googleapis.com/
+9999,690466,1,1,,N/A,tcp,10.0.2.15,52.97.233.82,url,outlook.office.com/
+9999,690475,1,1,,N/A,tcp,10.0.2.15,142.250.200.202,url,safebrowsing.googleapis.com/

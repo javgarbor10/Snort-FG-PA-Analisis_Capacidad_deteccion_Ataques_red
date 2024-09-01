@@ -1,0 +1,2 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+92322,689308,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,fe80::fe26:cfe0:c796:d19e,fe80::672f:318d:610:4233,vulnerability,

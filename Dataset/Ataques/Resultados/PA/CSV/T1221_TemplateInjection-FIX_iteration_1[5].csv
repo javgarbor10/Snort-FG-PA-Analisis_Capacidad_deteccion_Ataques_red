@@ -1,0 +1,6 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,690368,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/
+9999,690369,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/
+30520,690368,2,1,HTTP OPTIONS Method,info-leak,tcp,192.168.0.50,192.168.0.2,vulnerability,192.168.0.2/
+9999,690371,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/MACRO.dotm
+9999,690374,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/payload.exe

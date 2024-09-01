@@ -1,0 +1,6 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,800962,1,1,,N/A,tcp,192.168.0.2,192.168.0.3,url,192.168.0.3/
+9999,801003,1,1,,N/A,tcp,192.168.0.2,192.168.0.3,url,192.168.0.3/
+56610,801002,1,1,IP Address Disclosure Detection,info-leak,tcp,192.168.0.2,192.168.0.3,vulnerability,192.168.0.3/ServiceLoginAuth
+9999,800993,1,1,,N/A,tcp,192.168.0.2,192.168.0.3,url,192.168.0.3/favicon.ico
+9999,801002,1,1,,N/A,tcp,192.168.0.2,192.168.0.3,url,192.168.0.3/ServiceLoginAuth

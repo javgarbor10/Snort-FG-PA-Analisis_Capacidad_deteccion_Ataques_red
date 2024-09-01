@@ -1,0 +1,48 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,495242,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/test.html?message=&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=&v=1
+9999,496602,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,496602,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,496634,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+85585,496659,3,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.2,192.168.10.5,spyware,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+85585,496602,3,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.5,192.168.10.1,spyware,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,495242,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/test.html?message=&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=&v=1
+9999,496634,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496634,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496602,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,496602,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,496659,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,496619,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496591,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496634,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,495261,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,495187,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,496578,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,496634,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496655,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496634,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,494657,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+85585,496659,2,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.2,192.168.10.5,spyware,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+85585,496634,2,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.5,192.168.10.1,spyware,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,495242,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/test.html?message=dae80cc2e5&v=1
+9999,494657,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1
+9999,495242,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/test.html?message=dae80cc2e5&v=1
+9999,495101,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1
+9999,496578,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496602,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,495614,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,496634,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,495614,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,496602,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,495273,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,495242,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/test.html?message=dae80cc2e5&v=1
+9999,495239,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1
+85585,495614,1,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.2,192.168.10.5,spyware,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+85585,496634,1,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.5,192.168.10.1,spyware,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1

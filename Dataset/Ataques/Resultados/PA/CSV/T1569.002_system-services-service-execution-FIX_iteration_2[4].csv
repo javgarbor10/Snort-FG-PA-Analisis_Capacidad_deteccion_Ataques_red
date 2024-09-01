@@ -1,0 +1,3 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+92322,560487,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,fe80::2b14:3be:3d23:e37f,fe80::ca8c:e0e8:31e2:93e5,vulnerability,
+36540,560487,1,1,PSEXEC SMB V2 Remote Execution Found,code-execution,tcp,fe80::2b14:3be:3d23:e37f,fe80::ca8c:e0e8:31e2:93e5,vulnerability,PSEXESVC.exe

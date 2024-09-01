@@ -1,0 +1,5 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,689858,1,1,,N/A,tcp,192.168.10.1,192.168.10.2,url,192.168.10.2/shadyantra/exploitselector.php
+56610,689858,1,1,IP Address Disclosure Detection,info-leak,tcp,192.168.10.1,192.168.10.2,vulnerability,192.168.10.2/shadyantra/exploitselector.php
+9999,689858,1,1,,N/A,tcp,192.168.10.1,192.168.10.2,url,192.168.10.2/shadyantra/exploits/archivo.html
+9999,689858,1,1,,N/A,tcp,192.168.10.1,192.168.10.2,url,192.168.10.2/shadyantra/malicious.exe

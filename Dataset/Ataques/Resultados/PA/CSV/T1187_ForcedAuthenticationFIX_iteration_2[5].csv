@@ -1,0 +1,7 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+92322,561093,2,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.0.10,192.168.0.30,vulnerability,
+31696,561093,2,1,Windows SMB Login Attempt,brute-force,tcp,192.168.0.10,192.168.0.30,vulnerability,
+92322,560881,2,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.0.10,192.168.0.30,vulnerability,
+31696,560881,2,1,Windows SMB Login Attempt,brute-force,tcp,192.168.0.10,192.168.0.30,vulnerability,
+92322,561156,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.0.10,192.168.0.30,vulnerability,
+31696,561156,1,1,Windows SMB Login Attempt,brute-force,tcp,192.168.0.10,192.168.0.30,vulnerability,
