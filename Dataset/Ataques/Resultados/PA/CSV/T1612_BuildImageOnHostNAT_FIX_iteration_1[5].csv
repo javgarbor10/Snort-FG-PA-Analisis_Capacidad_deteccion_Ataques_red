@@ -1,0 +1,35 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+52175,801075,1,4,ELF File,N/A,tcp,172.168.0.20,172.168.0.10,wildfire,payload.elf
+14978,801162,3,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,54.236.113.205,spyware,registry-1.docker.io/
+14978,801163,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,54.198.86.24,spyware,registry-1.docker.io/
+14978,801166,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,54.227.20.253,spyware,registry-1.docker.io/
+9999,801158,1,1,,N/A,tcp,10.0.2.15,54.227.20.253,url,registry-1.docker.io/
+9999,801163,1,1,,N/A,tcp,10.0.2.15,54.198.86.24,url,registry-1.docker.io/
+9999,801161,1,1,,N/A,tcp,10.0.2.15,54.198.86.24,url,auth.docker.io/
+9999,801162,1,1,,N/A,tcp,10.0.2.15,54.236.113.205,url,registry-1.docker.io/
+9999,801164,1,1,,N/A,tcp,10.0.2.15,54.236.113.205,url,registry-1.docker.io/
+9999,801165,1,1,,N/A,tcp,10.0.2.15,54.236.113.205,url,registry-1.docker.io/
+9999,801166,1,1,,N/A,tcp,10.0.2.15,54.227.20.253,url,registry-1.docker.io/
+9999,801169,1,1,,N/A,tcp,10.0.2.15,104.16.100.215,url,production.cloudflare.docker.com/
+9999,801170,1,1,,N/A,tcp,10.0.2.15,104.16.100.215,url,production.cloudflare.docker.com/
+14978,801181,3,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,54.236.113.205,spyware,registry-1.docker.io/
+14978,801182,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,54.227.20.253,spyware,registry-1.docker.io/
+14978,801183,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,54.198.86.24,spyware,registry-1.docker.io/
+9999,801177,1,1,,N/A,tcp,10.0.2.15,54.236.113.205,url,registry-1.docker.io/
+9999,801180,1,1,,N/A,tcp,10.0.2.15,54.198.86.24,url,auth.docker.io/
+9999,801181,1,1,,N/A,tcp,10.0.2.15,54.236.113.205,url,registry-1.docker.io/
+9999,801182,1,1,,N/A,tcp,10.0.2.15,54.227.20.253,url,registry-1.docker.io/
+9999,801183,1,1,,N/A,tcp,10.0.2.15,54.198.86.24,url,registry-1.docker.io/
+9999,801185,1,1,,N/A,tcp,10.0.2.15,54.236.113.205,url,registry-1.docker.io/
+9999,801184,1,1,,N/A,tcp,10.0.2.15,54.236.113.205,url,registry-1.docker.io/
+9999,801186,1,1,,N/A,tcp,10.0.2.15,104.16.99.215,url,production.cloudflare.docker.com/
+9999,801187,1,1,,N/A,tcp,10.0.2.15,104.16.99.215,url,production.cloudflare.docker.com/
+9999,801202,1,1,,N/A,tcp,10.0.2.15,185.125.190.39,url,security.ubuntu.com/ubuntu/dists/focal-security/InRelease
+9999,801201,1,1,,N/A,tcp,10.0.2.15,91.189.91.83,url,archive.ubuntu.com/ubuntu/dists/focal/InRelease
+9999,801206,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
+14984,801208,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd-timesyncd
+9999,801209,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.38-4_amd64.deb
+14984,801211,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/l/lsb/lsb-release_11.1.0ubu
+14984,801212,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/libc/libcbor/libcbor0.6_0.6
+14984,801213,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb1_1.14-2_
+14984,801214,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-sftp-serv

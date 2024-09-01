@@ -1,0 +1,4 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,494902,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,google.es/
+9999,495021,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,google.es/favicon.ico
+14984,495021,2,1,Suspicious HTTP Evasion Found,spyware,tcp,192.168.0.10,192.168.0.2,spyware,google.es/favicon.ico
