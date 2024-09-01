@@ -1,0 +1,5 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+18870,801892,3,3,DNSCat2 Command and Control Traffic Detection,spyware,udp,10.10.1.9,10.10.1.6,spyware,
+18870,801964,3,3,DNSCat2 Command and Control Traffic Detection,spyware,udp,10.10.1.9,10.10.1.6,spyware,
+18870,802023,3,3,DNSCat2 Command and Control Traffic Detection,spyware,udp,10.10.1.9,10.10.1.6,spyware,
+18870,802079,1,3,DNSCat2 Command and Control Traffic Detection,spyware,udp,10.10.1.9,10.10.1.6,spyware,
