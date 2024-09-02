@@ -1,6 +1,6 @@
 TÁCTICA,Técnica,ID,Táctica Adicional,Implementada,Subtécnica,ID.1,Técnicas Adicionales,Detectable por Red,Sólo Detectable por Red,Detectable mediante patrones,Mecanismo de detección,Implementada.1
 Reconnaissance,Active Scanning,T1595,-,1,Scanning IP Blocks,T1595.001,-,1,1,-,-,0
-Reconnaissance,Active Scanning,T1595,-,1,Vulnerability Scanning,T1595.002,-,1,1,SI,Regla genérica que detecte el envío de paquetes TCP con flag SYN activado a varios puertos diferentes,1
+Reconnaissance,Active Scanning,T1595,-,1,Vulnerability Scanning,T1595.002,-,1,1,SI,"Regla genérica que detecte el envío de paquetes TCP con flag SYN activado a varios puertos diferentes, sin respuesta del atacante a los ACK posteriores.",1
 Reconnaissance,Active Scanning,T1595,-,1,Wordlist Scanning,T1595.003,-,1,1,SI,Regla genérica que detecte peticiones HTTP hacia muchas URLs diferentes con destino el mismo servidor,1
 Reconnaissance,Gather Victim Host Information,T1592,-,0,Hardware,T1592.001,-,0,0,-,-,0
 Reconnaissance,Gather Victim Host Information,T1592,-,0,Software,T1592.002,-,0,0,-,-,0
@@ -19,10 +19,10 @@ Reconnaissance,Gather Victim Org Information,T1591,-,0,Determine Physical Locati
 Reconnaissance,Gather Victim Org Information,T1591,-,0,Business Relationships,T591.002,-,0,0,-,-,0
 Reconnaissance,Gather Victim Org Information,T1591,-,0,Identify Business Tempo,T591.003,-,0,0,-,-,0
 Reconnaissance,Gather Victim Org Information,T1591,-,0,Identify Roles,T591.004,-,0,0,-,-,0
-Reconnaissance,Phishing for Information,T1598,-,1,Spearphishing Attachment,T1598.002,-,1,0,0,-,0
-Reconnaissance,Phishing for Information,T1598,-,1,Spearphishing Link,T1598.003,-,1,0,0,Detección por listas negras/anomalías que permitan detectar tráfico de red correspondiente a correos electrónicos con enlaces maliciosos,1
-Reconnaissance,Phishing for Information,T1598,-,1,Spearphishing via Service,T1598.001,-,1,0,0,-,0
-Reconnaissance,Phishing for Information,T1598,-,1,Spearphishing Voice,T1598.004,-,0,0,0,-,0
+Reconnaissance,Phishing for Information,T1598,-,1,Spearphishing Attachment,T1598.002,-,1,0,NO,-,0
+Reconnaissance,Phishing for Information,T1598,-,1,Spearphishing Link,T1598.003,-,1,0,SI,Detección de macros o plantillas comúnmente usadas para llevar a cabo ataques de Phishing,1
+Reconnaissance,Phishing for Information,T1598,-,1,Spearphishing via Service,T1598.001,-,1,0,NO,-,0
+Reconnaissance,Phishing for Information,T1598,-,1,Spearphishing Voice,T1598.004,-,0,0,NO,-,0
 Reconnaissance,Search Closed Sources,T1597,-,0,Threat Intel Vendor,T1597.001,-,0,0,-,-,0
 Reconnaissance,Search Closed Sources,T1597,-,0,Purchase Technical Data,T1597.002,-,0,0,-,-,0
 Reconnaissance,Search Open Technical Databases,T1596,-,1,DNS/Pasive DNS,T1596.001,-,0,0,SI,"Regla genérica que detecte paquetes TCP dirigidos al puerto 53 que tengan los bytes ""Question"" igual a 1 y el resto a cero. Además, el campo ""Type"" debe tomar el valor ""00 FC""",1
@@ -75,15 +75,15 @@ Resource Development,Stage Capabilities,T1608,-,0,Drive-by Target,T1608.004,-,0,
 Resource Development,Stage Capabilities,T1608,-,0,Link Target,T1608.005,-,0,0,-,-,0
 Resource Development,Stage Capabilities,T1608,-,0,SEO Poisoning,T1608.006,-,0,0,-,-,0
 Initial Access,Content Injection,T1659,Command and Control,1,-,-,-,1,0,"NO, salvo circunstancias concretas del ataque",La detección de esta técnica será más o menos viales dependiendo del objetivo y método del atacante. Si el ataque se realiza en conjunto con protocolos de gestion(DHCP) dificultará la detección. Resultará necesario monitorizar por la distribución a traves del tráfico de red de archivos malware,1
-Initial Access,Drive-by Compromise,T1189,-,1,-,-,-,1,0,"NO, salvo circunstancias concretas del ataque","La detección de esta técnica será más o menos viable dependiendo del objetivo y método del atacante. Si el foco está fijado en la obtención de credenciales, si el ataque está elaborado resulta prácticamente imposible su detección. En caso de que se busque un acceso a la red de manera directa mediante ejecutables y/o malware, el tipo de contenido marcará su grado de detección.",1
+Initial Access,Drive-by Compromise,T1189,-,1,-,-,-,1,0,SI*,"La detección de esta técnica será más o menos viable dependiendo del objetivo y método del atacante. Si el foco está fijado en la obtención de credenciales, si el ataque está elaborado resulta prácticamente imposible su detección. En caso de que se busque un acceso a la red de manera directa mediante ejecutables y/o malware, el tipo de contenido marcará su grado de detección.",1
 Initial Access,Exploit Public-Facing Application,T1190,-,1,-,-,-,1,0,SI,Regla que detecte un posible intento al esquema de informacion de un servidor MySQL. Regla que detecte una sentencia SQL pudiendose tratar de una posible inyeccion SQL. Regla que detecte posible escaneo de vulnerabilidades de inyeccion SQL.,1
 Initial Access,External Remote Services,T1133,Persistence,1,-,-,-,1,0,"NO, salvo circunstancias concretas y reglas personalizadas","Existen varias variantes.
  Circunstancias concretas del ataque: el atacante realiza algún ataque posterior una vez ha logrado acceder a la red (no aplicable a esta técnica) como un escaneo de red o mensajes de anuncio de Host.
  Reglas personalizadas: regla que compruebe si las direcciones IP involucradas en los paquetes se corresponden con las autorizadas dentro de la red VPN (debe ser configurada manualmente).
 ",1
 Initial Access,Hardware Additions,T1200,-,1,-,-,-,1,0,NO,"Detección por anomalías que identifique desviaciones en el tráfico de red, tales como metadatos o protocolos de gestión (DHCP,...) fuera de los habituales",1
-Initial Access,Phishing,T1566,-,1,Spearphishing Attachment,T1566.001,-,1,0,NO,Detección por listas negras/anomalías que permitan detectar tráfico de red correspondiente a correos electrónicos con archivos adjuntos maliciosos,1
-Initial Access,Phishing,T1566,-,1,Spearphishing Link,T1566.002,-,1,0,"NO, salvo circunstancias concretas",Detección por listas negras/anomalías que permitan detectar tráfico de red correspondiente a correos electrónicos con enlaces maliciosos que contengan contenido malware,1
+Initial Access,Phishing,T1566,-,1,Spearphishing Attachment,T1566.001,-,1,0,SI*,Si los mensajes contienen determinados patrones como intentos de creación de Shells remotos sí que pueden ser detectados por los cortafuegos en base a reglas que detecten cadenas específicas en los paquetes,1
+Initial Access,Phishing,T1566,-,1,Spearphishing Link,T1566.002,-,1,0,NO,Detección por listas negras/anomalías que permitan detectar tráfico de red correspondiente a correos electrónicos con enlaces maliciosos que contengan contenido malware,1
 Initial Access,Phishing,T1566,-,1,Spearphishing via Service,T1566.003,-,1,0,NO,-,0
 Initial Access,Phishing,T1566,-,1,Spearphishing Voice,T1566.004,-,1,0,NO,-,0
 Initial Access,Replication Through Removable Media,T1091,Initial Access,0,-,-,-,0,0,-,-,0
@@ -113,7 +113,7 @@ Execution,Inter-Process Communication,T1559,-,0,Component Object Model,T1559.001
 Execution,Inter-Process Communication,T1559,-,0,Dynamic Data Exchange,T1559.002,-,0,0,-,-,0
 Execution,Inter-Process Communication,T1559,-,0,XPC Services,T1559.003,-,0,0,-,-,0
 Execution,Native API,T1106,-,0,-,-,-,0,0,-,-,0
-Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",0,At,T1053.002,-,1,0,-,-,0
+Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",0,At,T1053.002,-,1,0,SI,Regla genérica que detecte el uso de comando At para programar tareas a una determinada hora o momento,0
 Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",0,Cron,T1053.003,-,0,0,-,-,0
 Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",0,Scheduled Task,T1053.005,-,1,0,-,-,0
 Execution,Scheduled Task/Job,T1053,"Persistence, Privilege Escalation",0,Systemd Timers,T1053.006,-,0,0,-,-,0
@@ -129,14 +129,14 @@ Execution,System Services,T1569,-,1,Service Execution,T1569.002,-,1,0,SI,"Múlti
 Execution,User Execution,T1204,-,1,Malicious Link,T1204.001,-,1,0,NO,Deteccion por listas negras/anomalías,1
 Execution,User Execution,T1204,-,1,Malicous File,T1204.002,-,0,0,-,-,0
 Execution,User Execution,T1204,-,1,Malicious Image,T1204.003,-,0,0,-,-,0
-Execution,Windows Management Instrumentation,T1047,-,1,-,-,-,1,0,SI,Regla genérica que detecte intento de ejecucion de código shell en un equipo,1
+Execution,Windows Management Instrumentation,T1047,-,1,-,-,-,1,0,SI,Regla genérica que detecte intento de ejecucion de código shell en un equipo aprovechando vulnerabilidades en WinRM,1
 Persistence,Account Manipulation,T1098,Privilege Escalation,0,Additional Cloud Credentials,T1098.001,,0,0,-,-,0
 Persistence,Account Manipulation,T1098,Privilege Escalation,0,Additional Email Delegate Permissions,T1098.002,,0,0,-,-,0
 Persistence,Account Manipulation,T1098,Privilege Escalation,0,Additional Cloud Roles,T1098.003,,0,0,-,-,0
 Persistence,Account Manipulation,T1098,Privilege Escalation,0,SSH Authorized Keys,T1098.004,,0,0,-,-,0
 Persistence,Account Manipulation,T1098,Privilege Escalation,0,Device Registration,T1098.005,,0,0,-,-,0
 Persistence,Account Manipulation,T1098,Privilege Escalation,0,Additional Container Cluster Roles,T1098.006,,0,0,-,-,0
-Persistence,BITS Jobs,T1197,Defense Evasion,1,-,-,-,1,0,SI,Regla genérica que detecte mensajes del protocolo BITS,1
+Persistence,BITS Jobs,T1197,Defense Evasion,1,-,-,-,1,0,SI,"Regla genérica que detecte la presencia de cadenas en el contenido de los paquetes como ""Microsoft BITS"" y "".exe"", alertando del intento de creación de una tarea BITS",1
 Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,0,Registry Run Keys / Startup Folder,T1547.001,-,0,0,-,-,0
 Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,0,Authentication Package,T1547.002,-,0,0,-,-,0
 Persistence,Boot or Logon Autostart Execution,T1547,Privilege Escalation,0,Time Providers,T1547.003,-,0,0,-,-,0
@@ -272,7 +272,7 @@ Privilege Escalation,Boot or Logon Initialization Scripts,T1037,Persistence,0,RC
 Privilege Escalation,Boot or Logon Initialization Scripts,T1037,Persistence,0,Startup Items,T1037.005,-,0,0,-,-,0
 Privilege Escalation,Create or Modify System Process,T1543,Persistence,1,Launch Agent,T1543.001,-,0,0,-,-,0
 Privilege Escalation,Create or Modify System Process,T1543,Persistence,1,Systemd Service,T1543.002,-,0,0,-,-,0
-Privilege Escalation,Create or Modify System Process,T1543,Persistence,1,Windows Service,T1543.003,-,1,0,NO,Deteccion por anomalias,1
+Privilege Escalation,Create or Modify System Process,T1543,Persistence,1,Windows Service,T1543.003,-,1,0,NO,Detección por anomalías,1
 Privilege Escalation,Create or Modify System Process,T1543,Persistence,1,Launch Daemon,T1543.004,-,0,0,-,-,0
 Privilege Escalation,Create or Modify System Process,T1543,Persistence,1,Container Service,T1543.005,-,0,0,-,-,0
 Privilege Escalation,Escape to Host,T1611,-,0,-,-,-,0,0,-,-,0
@@ -338,7 +338,7 @@ Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,0,Create Pr
 Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,0,Make and Impersonate Token,T1134.003,,0,0,-,-,0
 Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,0,Parent PID Spoofing,T1134.004,,0,0,-,-,0
 Defense Evasion,Access Token Manipulation,T1134,Privilege Escalation,0,SID-History Injection,T1134.005,,0,0,-,-,0
-Defense Evasion,BITS Jobs,T1197,Persistence,1,-,-,-,1,0,SI,Regla genérica que detecte paquetes SMB desde un orígen a un destino/servidor,1
+Defense Evasion,BITS Jobs,T1197,Persistence,1,-,-,-,1,0,SI,"Regla genérica que detecte la presencia de cadenas en el contenido de los paquetes como ""Microsoft BITS"" y "".exe"", alertando del intento de creación de una tarea BITS",1
 Defense Evasion,Build Image on Host,T1612,-,1,-,-,-,1,0,SI,Regla genérica que detecte descargas de contenedores mediante Docker API,1
 Defense Evasion,Debugger Evasion,T1622,Discovery,0,-,-,-,0,0,-,-,0
 Defense Evasion,Deobfuscate/Decode Files or Information,T1140,-,0,-,-,-,0,0,-,-,0
@@ -410,7 +410,7 @@ Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persiste
 Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",0,Password Filter DLL,T1556.002,-,0,0,-,-,0
 Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",0,Pluggable Authentication Modules,T1556.003,-,0,0,-,-,0
 Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",0,Network Device Authentication,T1556.004,-,0,0,-,-,0
-Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",0,Reversible Encryption,T1556.005,-,0,0,-,--,0
+Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",0,Reversible Encryption,T1556.005,-,0,0,-,-,0
 Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",0,Multi-Factor Authentication,T1556.006,-,0,0,-,-,0
 Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",0,Hybrid Identity,T1556.007,-,0,0,-,-,0
 Defense Evasion,Modify Authentication Process,T1556,"Credential Access, Persistence",0,Network Provider DLL,T1556.008,-,0,0,-,-,0
@@ -442,7 +442,7 @@ Defense Evasion,Pre-OS Boot,T1542,Persistence,1,System Firmware,T1542.001,-,0,0,
 Defense Evasion,Pre-OS Boot,T1542,Persistence,1,Component Firmware,T1542.002,-,0,0,-,-,0
 Defense Evasion,Pre-OS Boot,T1542,Persistence,1,Bootkit,T1542.003,-,0,0,-,-,0
 Defense Evasion,Pre-OS Boot,T1542,Persistence,1,ROMMONkit,T1542.004,-,0,0,-,-,0
-Defense Evasion,Pre-OS Boot,T1542,Persistence,1,TFTP Boot,T1542.005,-,1,0,NO,-,1
+Defense Evasion,Pre-OS Boot,T1542,Persistence,1,TFTP Boot,T1542.005,-,1,0,"NO, salvo uso de reglas personalizadas o circunstancias concretas del ataque",**Regla personalizada que comprueba si la IP del servidor TFTP es la del servidor legítimo ** Que el SO enviado por el atacante contenga algun tipo de malware detectable por un IDS,1
 Defense Evasion,Process Injection,T1055,Privilege Escalation,0,Dynamic-link Library Injection,T1055.001,-,0,0,-,-,0
 Defense Evasion,Process Injection,T1055,Privilege Escalation,0,Portable Executable Injection,T1055.002,-,0,0,-,-,0
 Defense Evasion,Process Injection,T1055,Privilege Escalation,0,Thread Execution Hijacking,T1055.003,-,0,0,-,-,0
@@ -456,7 +456,7 @@ Defense Evasion,Process Injection,T1055,Privilege Escalation,0,Process Doppelgä
 Defense Evasion,Process Injection,T1055,Privilege Escalation,0,VDSO Hijacking,T1055.014,-,0,0,-,-,0
 Defense Evasion,Process Injection,T1055,Privilege Escalation,0,ListPlanting,T1055.015,-,0,0,-,-,0
 Defense Evasion,Reflective Code Loading,T1620,-,0,-,-,-,0,0,-,-,0
-Defense Evasion,Rogue Domain Controller,T1207,-,1,-,-,-,1,0,SI,Regla que detecte una llamada a la función DRSUAPI_REPLICA_ADD (5),1
+Defense Evasion,Rogue Domain Controller,T1207,-,1,-,-,-,1,0,SÍ,"Regla que detecte una llamada a la función DRSUAPI_REPLICA_ADD (5), o un intento de aprovechamiento de una vulnerabilidad de la misma",1
 Defense Evasion,Rootkit,T1014,-,0,-,-,-,0,0,-,-,0
 Defense Evasion,Suvert Trust Controls,T1553,-,0,Gatekeeper Bypass,T1553.001,-,0,0,-,-,0
 Defense Evasion,Suvert Trust Controls,T1553,-,0,Code Signing,T1553.002,-,0,0,-,-,0
@@ -472,7 +472,7 @@ Defense Evasion,System Binary Proxy Execution,T1218,-,1,Mshta,T1218.005,-,1,0,-,
 Defense Evasion,System Binary Proxy Execution,T1218,-,1,Msiexec,T1218.007,-,1,0,-,-,0
 Defense Evasion,System Binary Proxy Execution,T1218,-,1,Obdconf,T1218.008,-,0,0,-,-,0
 Defense Evasion,System Binary Proxy Execution,T1218,-,1,Regsvcs/Regasm,T1218.009,-,0,0,-,-,0
-Defense Evasion,System Binary Proxy Execution,T1218,-,1,Regsvr32,T1218.010,-,1,0,NO,-,1
+Defense Evasion,System Binary Proxy Execution,T1218,-,1,Regsvr32,T1218.010,-,1,0,SI,Regla genérica que detecte un intento de aprovechamiento de la vulnerabilidad del servicio regsvr32 de Windows,1
 Defense Evasion,System Binary Proxy Execution,T1218,-,1,Rundll32,T1218.011,-,0,0,-,-,0
 Defense Evasion,System Binary Proxy Execution,T1218,-,1,Verclsid,T1218.012,-,0,0,-,-,0
 Defense Evasion,System Binary Proxy Execution,T1218,-,1,Mavinject,T1218.013,-,0,0,-,-,0
@@ -480,8 +480,8 @@ Defense Evasion,System Binary Proxy Execution,T1218,-,1,MMC,T1218.014,-,0,0,-,-,
 Defense Evasion,System Binary Proxy Execution,T1218,-,1,Electron Applications,T1218.015,-,0,0,-,-,0
 Defense Evasion,System Script Proxy Execution,T1216,-,0,PubPrn,T1216.001,-,0,0,-,-,0
 Defense Evasion,System Script Proxy Execution,T1216,-,0,SyncAppvPublishingServer,T1216.002,-,0,0,-,-,0
-Defense Evasion,Template Injection,T1221,-,1,-,-,-,1,0,"NO, salvo circunstancias concretas del ataque","Detección por lista negra/anomalías. Debería monitorizarse y detectar tráfico de red hacia direcciones o dominios marcados en listas negras. En algún caso concreto, se puede descargar y ejecutar malware por lo que se debe monitorizar y detectar la descarga de este tipo de ficheros",1
-Defense Evasion,Traffic Signaling,T1205,"Persistence, Command and Control",1,Port Knocking,T1205.001,-,1,0,SI,-,1
+Defense Evasion,Template Injection,T1221,-,1,-,-,-,1,0,SI,"Regla genérica que detecte la inyección de macros o plantillas para llevar a cabo un ataque de Phishing, usando como medio mecanismos convencionales de comunicación (mensajes SMTP, por ejemplo)",1
+Defense Evasion,Traffic Signaling,T1205,"Persistence, Command and Control",1,Port Knocking,T1205.001,-,1,0,NO,-,1
 Defense Evasion,Traffic Signaling,T1205,"Persistence, Command and Control",1,Socket Filters,T1205.002,-,1,0,-,-,0
 Defense Evasion,Trusted Developer Utilities Proxy Execution,T1127,-,0,MSBuild,T1127.001,-,0,0,-,-,0
 Defense Evasion,Unused/Unsupported Cloud Regions,T1535,-,0,-,-,-,0,0,-,-,0
@@ -502,7 +502,7 @@ Defense Evasion,XSL Script Processing,T1220,-,0,-,-,-,0,0,-,-,0
 Credential Access,Adversary-in-the-Middle,T1557,Collection,1,LLMNR/NBT-NS Poisoning and SMB Relay,T1557.001,-,1,0,-,-,0
 Credential Access,Adversary-in-the-Middle,T1557,Collection,1,ARP Cache Poisoning,T1557.002,-,1,1,SI,"Mediante el uso de preprocesadores, la detección de este ataque es posible estableciendo un asociación entre la IP a proteger y su dirección MAC correspondiente. De esta forma, se puede fundar una regla que detecte mensajes ARP que incumplen esta asociación y que avistan de un posible ataque por suplantación MAC",1
 Credential Access,Adversary-in-the-Middle,T1557,Collection,1,DHCP Spoofing,T1557.003,-,1,0,SI,"Regla genérica que detecte un envío masivo de procedimientos DHCP completos (DISCOVERY, OFFER, REQUEST, ACK). Otra alternativa es una regla personalizada que analice mensajes DHCP ACK con direcciones IP de servidores DNS distinta a la establecida en la red",1
-Credential Access,Brute Force,T1110,-,1,Password Guessing,T1110.001,-,0,0,NO,-,1
+Credential Access,Brute Force,T1110,-,1,Password Guessing,T1110.001,-,0,0,SI,"Dependiendo del mecanismo usado para el acceso por fuerza se podrá un mecanismo de detecciión u otro. Por lo general, existen reglas genéricas que detectan un envío masivo de peticiones a un servicio concreto",1
 Credential Access,Brute Force,T1110,-,1,Password Cracking,T1110.002,-,0,0,NO,-,1
 Credential Access,Brute Force,T1110,-,1,Password Spraying,T1110.003,-,0,0,NO,-,1
 Credential Access,Brute Force,T1110,-,1,Credential Stuffing,T1110.004,-,0,0,-,-,0
@@ -599,12 +599,12 @@ Lateral Movement,Exploitation of Remote Services,T1210,-,1,-,-,-,1,0,SI,Regla ge
 Lateral Movement,Internal Spearphishing,T1534,-,1,-,-,-,1,0,NO,"Detección por anomalías, análisis de la estructura de correos electrónicos, petición de información confidencial, etc",1
 Lateral Movement,Lateral Tool Transfer,T1570,-,1,-,-,-,1,0,SI,"Reglas genéricas que detecten un traspaso de archivos entre equipos utilizando protocolos de transferencia de ficheros como SMB, FTP... Dependiendo de las circunstancias del ataque tambien es importante detectar la transferencia de archivos malware que sean detectables mediante tráfico de red.",1
 Lateral Movement,Remote Service Session Hijacking,T1563,-,1,SSH Hijacking,T1563.001,-,1,0,SI,Regla genérica para detectar conexiones SSH entre un orígen y un servidor o destino,1
-Lateral Movement,Remote Service Session Hijacking,T1563,-,1,RDP Hijacking,T1563.002,-,1,0,SI,Regla genérica para detectar conexiones RDP entre un orígen y un servidor o destino,1
+Lateral Movement,Remote Service Session Hijacking,T1563,-,1,RDP Hijacking,T1563.002,-,1,0,SI,"Regla genérica que detecte el intento de establecimiento de sesiones RDP poco convenciales, haciendo uso de los protocolos mínimos de seguridad.",1
 Lateral Movement,Remote Services,T1021,-,1,Remote Desktop Protocol,T1021.001,-,1,0,SI,Regla genérica para detectar conexiones RDP entre un orígen y un servidor o destino,0
 Lateral Movement,Remote Services,T1021,-,1,SMB/Windows Admin Shares,T1021.002,-,1,0,SI,Regla genérica para detectar conexiones SMB entre un orígen y un servidor/destino,0
 Lateral Movement,Remote Services,T1021,-,1,Distributed Component Object Model,T1021.003,-,1,0,SI,Regla genérica que monitorice puerto 135,0
-Lateral Movement,Remote Services,T1021,-,1,SSH,T1021.004,-,1,0,SI,"Regla genérica para detectar conexiones SSH entre un orígen y un servidor o destino dentro de la red a proteger. *Este ataque, si bien es detectable por red, es idéntico a un acceso legítimo, por lo que no es posible diferenciar uno de otro (salvo por anomalías relacionadas con direcciones IP o usuarios poco comunes)",1
-Lateral Movement,Remote Services,T1021,-,1,VNC,T1021.005,-,1,0,SI,Regla genérica para detectar conexiones construidas mediante VNC entre un orígen y un servidor/destino,0
+Lateral Movement,Remote Services,T1021,-,1,SSH,T1021.004,-,1,0,SI*,"Regla genérica para detectar conexiones SSH entre un orígen y un servidor o destino dentro de la red a proteger. *Este ataque, si bien es detectable por red, es idéntico a un acceso legítimo, por lo que no es posible diferenciar uno de otro (salvo por anomalías relacionadas con direcciones IP o usuarios poco comunes)",1
+Lateral Movement,Remote Services,T1021,-,1,VNC,T1021.005,-,1,0,SI,"Regla genérica para detectar conexiones SSH entre un orígen y un servidor o destino dentro de la red a proteger. *Este ataque, si bien es detectable por red, es idéntico a un acceso legítimo, por lo que no es posible diferenciar uno de otro (salvo por anomalías relacionadas con direcciones IP o usuarios poco comunes)",0
 Lateral Movement,Remote Services,T1021,-,1,Windows Remote Management,T1021.006,--,1,0,SI,Regla genérica que monitorice conexiones mediante WinRM y puertos 5985 y 5986,0
 Lateral Movement,Remote Services,T1021,-,1,Cloud Services,T1021.007,-,0,0,-,-,0
 Lateral Movement,Remote Services,T1021,-,1,Direct Cloud VM Connections,T1021.008,-,0,0,-,-,0
@@ -637,7 +637,7 @@ Collection,Data from Removable Media,T1025,-,0,-,-,-,0,0,-,-,0
 Collection,Data Staged,T1074,-,0,Local Data Staging,T1074.001,-,0,0,-,-,0
 Collection,Data Staged,T1074,-,0,Remote Data Staging,T1074.002,-,0,0,-,-,0
 Collection,Email Collection,T1114,-,1,Local Email Collection,T1114.001,-,0,0,-,-,0
-Collection,Email Collection,T1114,-,1,Remote Email Collection,T1114.002,-,1,0,NO,"Detección por anomalías, peticiones LDAP espontáneas desde un equipo de la red, haciendo uso de una cuenta con credenciales válidas.",1
+Collection,Email Collection,T1114,-,1,Remote Email Collection,T1114.002,-,1,0,SI,Regla genérica que detecte el intento de extracción de información relacionada con los correos electrónicos de una empresa alojados en un servidor Microsoft Exchange,1
 Collection,Email Collection,T1114,-,1,Email Forwarding Rule,T1114.003,-,0,0,-,-,0
 Collection,Input Capture,T1056,Credential Access,0,Keylogging,T1056.001,-,0,0,-,-,0
 Collection,Input Capture,T1057,Credential Access,0,GUI Input Capture,T1056.002,-,0,0,-,-,0
@@ -655,7 +655,7 @@ Command and Control,Data Encoding,T1132,-,1,Standard Encoding,T1132.001,-,1,1,SI
 Command and Control,Data Encoding,T1132,-,1,Non-Standard Encoding,T1132.002,-,1,1,-,-,0
 Command and Control,Data Obfuscation,T1001,-,1,Junk Data,T1001.001,-,1,1,-,-,0
 Command and Control,Data Obfuscation,T1001,-,1,Steganography,T1001.002,-,1,1,NO,"Detección por anomalías y/o estegoanálisis, envío de imágenes o ficheros con formato poco común entre equipos, existencia de ficheros comprimidos sospechosos, etc.",1
-Command and Control,Data Obfuscation,T1001,-,1,Protocol Impersonation,T1001.003,-,1,1,"NO, salvo uso de reglas personalizadas",Regla personalizada que compruebe el campo Server Name y mediante DNS asegure si se corresponde con la dirección IP a la que se está accediendo.,1
+Command and Control,Data Obfuscation,T1001,-,1,Protocol Impersonation,T1001.003,-,1,1,SI,Regla genérica que analice el contenido y la estructura de los paquetes enviados para detectar una falsificación de protocolo. Adicionalmente se puede detectar con una regla personalizada que compruebe el campo Server Name y mediante DNS asegure si se corresponde con la dirección IP a la que se está accediendo.,1
 Command and Control,Dynamic Resolution,T1568,-,1,Fast Flux DNS,T1568.001,-,1,1,SI,Regla genérica que detecte consultas DNS de un mismo origen a un mismo destino y que la respuesta DNS devuelva diferentes IPs en cada respuesta,1
 Command and Control,Dynamic Resolution,T1568,-,1,Domain Generation Algorithms,T1568.002,-,1,1,-,-,0
 Command and Control,Dynamic Resolution,T1568,-,1,DNS Calculation,T1568.003,-,1,1,-,-,0
@@ -663,17 +663,17 @@ Command and Control,Encrypted Channel,T1573,-,1,Symmetric Cryptography,T1573.001
 Command and Control,Encrypted Channel,T1573,-,1,Asymmetric Cryptography,T1573.002,-,1,1,SI,Monitorizar por la creación de nuevas conexiones encriptadas al exterior,1
 Command and Control,Fallback Channels,T1008,-,1,-,-,-,1,1,SI*,"La detección de la creación del canal es posible para este caso concreto. Sin embargo, si ambos canales, tanto primario como secundario están establecidos, y no se ha detectado su creación, el cambio de uno a otro es inapreciable por el cortafuegos.",1
 Command and Control,Hide Infrastructure,T1665,-,1,-,-,-,1,0,"NO, salvo circunstancias concretas del ataque","Detección por reglas/anomalías. Resulta importante monitorizar tráfico de red con destino a dominios incluidos en listas negras, conexiones a equpos externos...",1
-Command and Control,Ingress Tool Transfer,T1105,-,1,-,-,-,1,0,NO,"Reglas genéricas que detecten un traspaso de archivos entre equipos utilizando protocolos de transferencia de ficheros como SMB, FTP... Dependiendo de las circunstancias del ataque tambien es importante detectar la transferencia de archivos malware que sean detectables mediante tráfico de red.",1
+Command and Control,Ingress Tool Transfer,T1105,-,1,-,-,-,1,0,SI,"Reglas genéricas que detecten un traspaso de archivos entre equipos utilizando protocolos de transferencia de ficheros como SMB, FTP... Dependiendo de las circunstancias del ataque tambien es importante detectar la transferencia de archivos malware que sean detectables mediante tráfico de red.",1
 Command and Control,Multi-Stage Channels,T1104,-,1,-,-,-,1,1,NO,Detección por anomalías. Investigación de las sesiones establecidas en el equipo atacante (siempre que sea posible) para identificar un rastro de otra dirección.,1
-Command and Control,Non-Application Layer Protocol,T1095,-,1,-,-,-,1,1,SI,Regla genérica que detecte paquetes UDP/ICMP entre un orígen y un servidor,1
+Command and Control,Non-Application Layer Protocol,T1095,-,1,-,-,-,1,1,SI,Regla genérica que detecte el envío de comandos o comunicaciones C&C en puertos no comunes o haciendo uso de servicios distintos de capa de aplicación,1
 Command and Control,Non-Standard Port,T1571,-,1,-,-,-,1,1,SI,Regla genérica que detecte paquetes que se dirijana un puerto que no es el habitual,1
 Command and Control,Protocol Tunneling,T1572,-,1,-,-,-,1,1,SI,Regla genérica que detecte nuevas conexiones,1
 Command and Control,Proxy,T1090,-,1,Internal Proxy,T1090.001,-,1,1,NO,"Aunque sí es detectable la conexión C2 directa con el atacante, no existe un mecanismo de detección concreto que pueda identificar el uso de un proxy, más allá de una detección por anomalías, como la repetición de paquetes, dando a entender que un equipo interno está replicando paquetes, y por tanto está actuando como proxy",1
 Command and Control,Proxy,T1090,-,1,External Proxy,T1090.002,-,1,1,-,-,0
 Command and Control,Proxy,T1090,-,1,Multi-hop Proxy,T1090.003,-,1,1,-,-,0
 Command and Control,Proxy,T1090,-,1,Domain Fronting,T1090.004,-,1,1,-,-,0
-Command and Control,Remote Access Software,T1219,-,1,-,-,-,1,0,NO,"Deteccion por listas negras/anomalías. Monitorizar tráfico de red correspondiente a softwares de acesso remoto(AnyDesk, TeamViewer...)",1
-Command and Control,Traffic Signaling,T1205,"Persistence, Defense Evasion",1,Port Knocking,T1205.001,-,1,0,-,-,1
+Command and Control,Remote Access Software,T1219,-,1,-,-,-,1,0,SI*,"En determinadas circunstancias, es posible su detección en base a una regla genérica que detecte el uso de herramientas como TeamViewer o Anydesk para obtener el control del software víctima de forma remota",1
+Command and Control,Traffic Signaling,T1205,"Persistence, Defense Evasion",1,Port Knocking,T1205.001,-,1,0,NO,Detección por anomalías en base a una actividad sospechosa en un puerto concreto,1
 Command and Control,Traffic Signaling,T1205,"Persistence, Defense Evasion",1,Socket Filters,T1205.002,-,1,0,-,-,0
 Command and Control,Web Service,T1102,-,1,Dead Drop Resolver,T1102.001,-,1,1,-,-,0
 Command and Control,Web Service,T1102,-,1,Bidirectional Communication,T1102.002,-,1,1,-,-,0
@@ -702,14 +702,14 @@ Impact,Defacement,T1491,-,1,Internal Defacement,T1491.001,-,1,0,NO,Deteccion por
 Impact,Defacement,T1491,-,1,External Defacement,T1491.002,-,1,0,-,-,0
 Impact,Disk Wipe,T1561,-,0,Disk Content Wipe,T1561.001,-,0,0,-,-,0
 Impact,Disk Wipe,T1561,-,0,Disk Structure Wipe,T1561.002,-,0,0,-,-,0
-Impact,Endpoint Denial of Service,T1499,-,1,OS Exhaustion Flood,T1499.001,-,1,0,,,1
-Impact,Endpoint Denial of Service,T1499,-,1,Service Exhaustion Flood,T1499.002,-,1,0,-,-,1
+Impact,Endpoint Denial of Service,T1499,-,1,OS Exhaustion Flood,T1499.001,-,1,0,SI,Regla que detecte el uso de herramientas para llevar a cabo una denegación de servicio al equipo víctima,1
+Impact,Endpoint Denial of Service,T1499,-,1,Service Exhaustion Flood,T1499.002,-,1,0,SI,"Regla que detecte el uso de herramientas como Slowloris, SlowHTTPTest o Hulk para realizar ataque DDos mediante la comprobación de campos de bytes típicos de las mismas",1
 Impact,Endpoint Denial of Service,T1499,-,1,Application Exhaustion Flood,T1499.003,-,1,0,SI,Reglas que detecen envío masivo de solicitudes a servidor web,1
 Impact,Endpoint Denial of Service,T1499,-,1,Application or System Exploitation,T1499.004,-,1,0,SI,"Mediante el uso de preprocesadores, la detección de este ataque es posible estableciendo un asociación entre la IP a proteger y su dirección MAC correspondiente. De esta forma, se puede fundar una regla que detecte mensajes ARP que incumplen esta asociación y que avistan de un posible ataque por suplantación MAC",1
 Impact,Financial Theft,T1657,-,0,-,-,-,0,0,-,-,0
 Impact,Firmware Corruption,T1495,-,0,-,-,-,0,0,-,-,0
 Impact,Inhibit System Recovery,T1490,-,0,-,-,-,0,0,-,-,0
-Impact,Network Denial of Service,T1498,-,1,Direct Network Flood,T1498.001,-,1,0,1,Regla genérica que detecte un número elevado de intentos de conexión y mensajes UDP/MAC procedentes de un mismo orígen y hacia un mismo servidor o destinatario,1
+Impact,Network Denial of Service,T1498,-,1,Direct Network Flood,T1498.001,-,1,0,SI,Regla genérica que detecte un número elevado de intentos de conexión y mensajes UDP/MAC procedentes de un mismo orígen y hacia un mismo servidor o destinatario,1
 Impact,Network Denial of Service,T1498,-,1,Reflection Amplification,T1498.002,-,1,0,-,-,0
 Impact,Resource Hijacking,T1496,-,1,-,-,-,1,0,SI,Regla genérica que detecte envíos a un destino a/desde puertos extraños,1
 Impact,Service Stop,T1489,-,0,-,-,-,0,0,-,-,0
