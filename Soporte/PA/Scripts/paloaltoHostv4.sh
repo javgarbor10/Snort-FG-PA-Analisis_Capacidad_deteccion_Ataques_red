@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Variables
-REMOTE_USER="palo-usu1"
-REMOTE_IP="172.16.17.111"
-REMOTE_PORT="17651"
+REMOTE_USER=""
+REMOTE_IP=""
+REMOTE_PORT=""
 REMOTE_PCAP_DIR="/opt/pa/palo-usu1/pcaps/"
 LOCAL_PCAP_DIR="/opt/pcaps-nuevos/"
 LOCAL_LOG_DIR="/opt/pcaps-nuevos/logs"
-VNET_INTERFACE="vnet3"
+VNET_INTERFACE=""
 REMOTE_COMMAND="/opt/pa/palo-usu1/pcaps/PA.sh"
-SSH_PASSWORD="palo-usu1-103"
+SSH_PASSWORD=""
 
 # Función para enviar archivo pcap
 send_pcap() {
