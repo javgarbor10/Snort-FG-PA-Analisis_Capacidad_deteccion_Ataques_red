@@ -10,6 +10,9 @@ INSERT INTO deteccion_snort SELECT * FROM temp_deteccion_snort;
 SET TABLE temp_deteccion_fortigate SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/deteccion_fortigate.csv;ignore_first=true"
 INSERT INTO deteccion_fortigate SELECT * FROM temp_deteccion_fortigate;
 
+SET TABLE temp_deteccion_paloalto SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/deteccion_paloalto.csv;ignore_first=true"
+INSERT INTO deteccion_paloalto SELECT * FROM temp_deteccion_paloalto;
+
 SET TABLE temp_alertas_ataque_snort SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_ataque_snort.csv;ignore_first=true"
 INSERT INTO alertas_ataque_snort SELECT * FROM temp_alertas_ataque_snort;
 
@@ -21,3 +24,6 @@ INSERT INTO resumen SELECT * FROM temp_resumen;
 
 SET TABLE temp_alertas_ataque_fg SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_ataque_fortigate.csv;ignore_first=true"
 INSERT INTO alertas_ataque_fg SELECT * FROM temp_alertas_ataque_fg;
+
+SET TABLE temp_alertas_ataque_pa SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_ataque_paloalto.csv;ignore_first=true"
+INSERT INTO alertas_ataque_pa SELECT * FROM temp_alertas_ataque_pa;

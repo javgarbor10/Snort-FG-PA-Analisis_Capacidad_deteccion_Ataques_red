@@ -1,5 +1,7 @@
 DROP TABLE if exists alertas_ataque_FG;
 DROP TABLE if exists temp_alertas_ataque_FG;
+DROP TABLE if exists alertas_ataque_PA;
+DROP TABLE if exists temp_alertas_ataque_PA;
 DROP TABLE if exists alertas_ataque_snort;
 DROP TABLE if exists temp_alertas_ataque_snort;
 DROP TABLE if exists alertas_legitimo_snort;
@@ -7,11 +9,14 @@ DROP TABLE if exists temp_alertas_legitimo_snort;
 
 DROP VIEW if exists calculo_detecciones_snort;
 DROP VIEW if exists calculo_detecciones_fortigate;
+DROP VIEW if exists calculo_detecciones_paloalto;
 
 DROP TABLE if exists deteccion_snort;
 DROP TABLE if exists deteccion_fortigate;
+DROP TABLE if exists deteccion_paloalto;
 DROP TABLE if exists temp_deteccion_snort;
 DROP TABLE if exists temp_deteccion_fortigate;
+DROP TABLE if exists temp_deteccion_paloalto;
 
 DROP TABLE if exists resumen;
 DROP TABLE if exists temp_resumen;
@@ -21,6 +26,7 @@ DROP TABLE if exists caracterizacion_pcaps_ataque;
 DROP TABLE if exists temp_caracterizacion_pcaps_ataque;
 DROP TABLE if exists caracterizacion_pcaps_legitimo;
 DROP TABLE if exists temp_caracterizacion_pcaps_legitimo;
+
 
 CREATE TABLE resumen (
 tactica varchar(1000),
@@ -250,7 +256,21 @@ nflujosconataquedetectados INTEGER,
 comentariosdetecciones varchar(4000)
 );
 
+CREATE TABLE deteccion_paloalto (
+ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
+nflujosidentificados INTEGER,
+nflujosconataquedetectados INTEGER,
+comentariosdetecciones varchar(4000)
+);
+
 CREATE TEXT TABLE temp_deteccion_fortigate (
+ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
+nflujosidentificados INTEGER,
+nflujosconataquedetectados INTEGER,
+comentariosdetecciones varchar(4000)
+);
+
+CREATE TEXT TABLE temp_deteccion_paloalto(
 ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
 nflujosidentificados INTEGER,
 nflujosconataquedetectados INTEGER,
@@ -309,6 +329,18 @@ attackid INTEGER,
 TP INTEGER
 );
 
+CREATE TABLE alertas_ataque_PA (
+ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
+attackid INTEGER,
+TP INTEGER,
+PRIMARY KEY (ficheropcap, attackid)
+);
+
+CREATE TEXT TABLE temp_alertas_ataque_PA (
+ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
+attackid INTEGER,
+TP INTEGER
+);
 
 CREATE TEXT TABLE temp_caracterizacion_pcaps_legitimo (
 ficheropcap varchar(1000) PRIMARY KEY,
@@ -432,3 +464,17 @@ JOIN
     deteccion_fortigate fortigate
 ON
     captura.ficheropcap = fortigate.ficheropcap;
+
+
+CREATE VIEW calculo_detecciones_paloalto AS
+SELECT
+    captura.ficheropcap AS ficheropcap_captura,
+    (CAST(paloalto.nflujosconataquedetectados  AS DECIMAL(16, 4)) / 
+     CAST(captura.nflujosconataque AS DECIMAL(16, 4))) AS deteccionflujos
+
+FROM
+    caracterizacion_pcaps_ataque captura
+JOIN
+    deteccion_paloalto paloalto
+ON
+    captura.ficheropcap = paloalto.ficheropcap;
