@@ -1,0 +1,13 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,335559,1,1,,N/A,tcp,172.16.2.2,172.16.1.2,url,172.16.1.2:8888/beacon
+86782,335559,9,5,Caldera Sandcat Plugin Command and Control Traffic Detection,hacktool,tcp,172.16.2.2,172.16.1.2,spyware,172.16.1.2:8888/beacon

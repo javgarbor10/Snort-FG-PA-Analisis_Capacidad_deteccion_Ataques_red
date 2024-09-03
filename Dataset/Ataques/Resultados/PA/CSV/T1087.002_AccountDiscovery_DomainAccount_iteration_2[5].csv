@@ -1,0 +1,10 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+86781,359174,1,5,Caldera Sandcat Plugin Executable Download Detection,hacktool,tcp,192.168.0.100,172.16.1.2,spyware,download
+9999,358015,1,1,,N/A,tcp,192.168.0.100,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,358015,1,1,,N/A,tcp,192.168.0.100,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,358015,1,1,,N/A,tcp,192.168.0.100,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,358015,1,1,,N/A,tcp,192.168.0.100,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,358015,1,1,,N/A,tcp,192.168.0.100,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,358015,1,1,,N/A,tcp,192.168.0.100,172.16.1.2,url,172.16.1.2:8888/beacon
+9999,358015,1,1,,N/A,tcp,192.168.0.100,172.16.1.2,url,172.16.1.2:8888/beacon
+86782,358015,4,5,Caldera Sandcat Plugin Command and Control Traffic Detection,hacktool,tcp,192.168.0.100,172.16.1.2,spyware,172.16.1.2:8888/beacon

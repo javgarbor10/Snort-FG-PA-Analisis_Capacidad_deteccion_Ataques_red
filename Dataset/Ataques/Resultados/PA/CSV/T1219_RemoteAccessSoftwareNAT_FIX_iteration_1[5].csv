@@ -1,0 +1,51 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+93031,495810,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,142.250.184.10,vulnerability,safebrowsing.googleapis.com/
+93031,495831,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,20.61.57.156,vulnerability,login.teamviewer.com/
+93031,496608,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,34.120.208.123,vulnerability,incoming.telemetry.mozilla.org/
+93031,495876,2,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,34.117.188.166,vulnerability,contile.services.mozilla.com/
+9999,495810,1,1,,N/A,tcp,10.0.2.15,142.250.184.10,url,safebrowsing.googleapis.com/
+9999,495831,1,1,,N/A,tcp,10.0.2.15,20.61.57.156,url,login.teamviewer.com/
+9999,496608,1,1,,N/A,tcp,10.0.2.15,34.120.208.123,url,incoming.telemetry.mozilla.org/
+9999,495876,1,1,,N/A,tcp,10.0.2.15,34.117.188.166,url,contile.services.mozilla.com/
+9999,495967,1,1,,N/A,tcp,10.0.2.15,34.117.188.166,url,spocs.getpocket.com/
+93031,495987,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,34.149.97.1,vulnerability,firefox-api-proxy.cdn.mozilla.net/
+93031,495304,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,20.4.69.136,vulnerability,wsp.teamviewer.com/
+14984,495741,3,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,95.100.100.65,spyware,r3.o.lencr.org/
+9999,495987,1,1,,N/A,tcp,10.0.2.15,34.149.97.1,url,firefox-api-proxy.cdn.mozilla.net/
+9999,495304,1,1,,N/A,tcp,10.0.2.15,20.4.69.136,url,wsp.teamviewer.com/
+93031,495213,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,104.16.63.16,vulnerability,www.teamviewer.com/
+9999,495213,1,1,,N/A,tcp,10.0.2.15,104.16.63.16,url,www.teamviewer.com/
+93031,496795,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,142.250.184.163,vulnerability,www.recaptcha.net/
+93031,496409,2,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,142.250.184.3,vulnerability,www.gstatic.com/
+14984,495295,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,142.250.200.131,spyware,ocsp.pki.goog/gts1c3
+9999,496795,1,1,,N/A,tcp,10.0.2.15,142.250.184.163,url,www.recaptcha.net/
+9999,496409,1,1,,N/A,tcp,10.0.2.15,142.250.184.3,url,www.gstatic.com/
+14978,495727,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,142.250.184.3,spyware,www.gstatic.com/
+93031,496723,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,142.250.184.164,vulnerability,www.google.com/
+93031,496518,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,216.58.215.163,vulnerability,fonts.gstatic.com/
+9999,495727,1,1,,N/A,tcp,10.0.2.15,142.250.184.3,url,www.gstatic.com/
+9999,496723,1,1,,N/A,tcp,10.0.2.15,142.250.184.164,url,www.google.com/
+9999,496518,1,1,,N/A,tcp,10.0.2.15,216.58.215.163,url,fonts.gstatic.com/
+93031,497760,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,104.16.63.16,vulnerability,www.teamviewer.com/
+93031,496586,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,104.19.178.52,vulnerability,cdn.cookielaw.org/
+14978,496586,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,104.19.178.52,spyware,cdn.cookielaw.org/
+93031,495775,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,2.21.177.22,vulnerability,assets.adobedtm.com/
+14978,495742,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,142.250.184.164,spyware,www.google.com/
+93031,495742,1,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,142.250.184.164,vulnerability,www.google.com/
+93031,495803,6,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,2.21.176.77,vulnerability,s7g10.scene7.com/
+93031,495830,3,1,TLS Encrypted Client Hello Extension Detection,info-leak,tcp,10.0.2.15,23.47.188.42,vulnerability,teamviewer.scene7.com/
+14978,495830,1,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,23.47.188.42,spyware,teamviewer.scene7.com/
+14978,496761,5,1,Suspicious TLS Evasion Found,spyware,tcp,10.0.2.15,2.21.176.77,spyware,s7g10.scene7.com/
+9999,497760,1,1,,N/A,tcp,10.0.2.15,104.16.63.16,url,www.teamviewer.com/
+9999,496586,1,1,,N/A,tcp,10.0.2.15,104.19.178.52,url,cdn.cookielaw.org/
+9999,495775,1,1,,N/A,tcp,10.0.2.15,2.21.177.22,url,assets.adobedtm.com/
+9999,495742,1,1,,N/A,tcp,10.0.2.15,142.250.184.164,url,www.google.com/
+9999,495803,1,1,,N/A,tcp,10.0.2.15,2.21.176.77,url,s7g10.scene7.com/
+9999,495830,1,1,,N/A,tcp,10.0.2.15,23.47.188.42,url,teamviewer.scene7.com/
+9999,496582,1,1,,N/A,tcp,10.0.2.15,23.47.188.42,url,teamviewer.scene7.com/
+9999,495843,1,1,,N/A,tcp,10.0.2.15,23.47.188.42,url,teamviewer.scene7.com/
+9999,496761,1,1,,N/A,tcp,10.0.2.15,2.21.176.77,url,s7g10.scene7.com/
+9999,496531,1,1,,N/A,tcp,10.0.2.15,2.21.176.77,url,s7g10.scene7.com/
+9999,495245,1,1,,N/A,tcp,10.0.2.15,2.21.176.77,url,s7g10.scene7.com/
+9999,496526,1,1,,N/A,tcp,10.0.2.15,2.21.176.77,url,s7g10.scene7.com/
+9999,495770,1,1,,N/A,tcp,10.0.2.15,2.21.176.77,url,s7g10.scene7.com/
