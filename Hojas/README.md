@@ -70,8 +70,8 @@ A continuación se proporciona una guía para entender la información que se en
       -> SIDs FP "Eventos de Red": para cada RS de Snort, contendrá los SIDs que han sido considerados de forma manual como Eventos de Red
       -> SIDs TP "Todas las Alertas" (Manual): para cada RS de Snort, SIDs que manualmente se ha comprobado que siempre son TP
       -> SIDs TP "Algunas Alertas" (Manual): para cada RS de Snort, SIDs que manualmente se ha comprobado que en ocasiones son TP y en otras FP
-      -> Nº TOTAL DE FLUJOS DETECTADOS SNORTv3: para cada RS de Snort, número de flujos totales analizados por Snortv3
-      -> Nº TOTAL DE FLUJOS DETECTADOS SNORTv2: para cada RS de Snort, número de flujos totales analizados por Snortv2
+      -> Nº TOTAL DE FLUJOS DETECTADOS SNORTv3: para el RS1 y RS3, número de flujos totales analizados por Snortv3
+      -> Nº TOTAL DE FLUJOS DETECTADOS SNORTv2: para cada RS2 y RS4 de Snort, número de flujos totales analizados por Snortv2
       -> Nº TOTAL DE FLUJOS CON ATAQUE/S TOTALES DETECTADOS: para cada RS de Snort, número de flujos con ataque detectados por el RuleSet. Para este cálculo, se cuenta el número de flujos totales dentro de los logs de alertas
       -> Nº DE MENSAJES DE RED CON ATAQUE/S TOTALES DETECTADOS: para cada RS de Snort, número de mensajes de red con ataque detectados por el RuleSet. Para este cálculo, se cuenta el número total de paquetes diferentes dentro de los logs de alertas
       -> Nº ATAQUES (INSTANCIAS) TOTALES DETECTADOS: para el RS1 de Snort, número de instancias de ataque totales detectadas. Para este cálculo, se cuenta el número total de alertas dentro de los logs de alertas.
@@ -97,6 +97,7 @@ A continuación se proporciona una guía para entender la información que se en
       -> % DETECCIÓN INSTANCIAS (Manual): para los RS2, RS3 y RS4, número de instancias de ataques detectadas calculadas manualmente entre número de instancias de ataques en la captura
       -> % DETECCIÓN INSTANCIAS (Automático + Manual): para los RS2, RS3 y RS4, número de instancias de ataques TP filtrados automáticamente y calculados manualmente entre número de instancias de ataques de la captura
       -> % DETECCIÓN INSTANCIAS TP (Manual): para cada RS, número de instancias de ataques TP filtrados manualmente detectadas entre número de instancias de ataques de la captura
+      -> ANÁLISIS MANUAL REALIZADO: para cada ataque, esta columna indica si se ha podido realizar el análisis manual basado en flujos, mensajes e instancias. Debido a la existencia de pcaps de gran tamaño y que por consiguiente pueden generar un gran número de alertas, su manejo y clasificación puede resultar inabordable, por lo que se deja indicado en esta columna. Aquellos ataques con una ✘ en esta celda no serán contemplados para los registros manuales (además disponen de "-" en los apartados manuales)
       -> COMENTARIOS DE LAS DETECCIONES SNORT: es posible que en determinados casos resulte necesario añadir comentarios acerca de un ataque en particular. En esta columna podrá encontrar dichos comentarios para el caso de Snort.
       -> Attackids (sin repetición): para FortiGate, muestra la lista de los attackids devueltos por la detección de FortiGate para un ataque concreto
       -> #Attackid: para FortiGate, número de attackids diferentes
