@@ -113,6 +113,20 @@ A continuación se proporciona una guía para entender la información que se en
       -> Nº FLUJOS IDENTIFICADOS POR FORTIGATE: número de sessionids diferentes que aparecen en el log generado para un ataque. Este parámetro sirve para identificar el número total de flujos detectados por FortiGate.
       -> Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE: número de sessionids diferentes que tienen asociado un attackid en el log generado por FortiGate.
       -> % DETECCIÓN FORTIGATE: número de flujos con ataque detectados por FortiGate entre número de flujos con ataque en la captura
+      -> threat_ids (sin repetición): para PaloAlto, muestra la lista de los threat_ids devueltos por la detección de PaloAlto para un ataque concreto
+      -> #threat_id: para PaloAlto, número de threat_ids diferentes
+      -> threat_ids FP Dataset_Legítimo_XX: para PaloAlto, threat_ids que aparecen tanto en la captura del ataque como en el dataset legitimo XX
+      -> #threat_ids FP Dataset_Legítimo_XX: para PaloAlto, número de threat_ids que aparecen tanto en la captura del ataque como en el dataset legitimo XX
+      -> threat_ids FP (Manual): threat_ids que han sido considerados como FP de forma manual
+      -> threat_ids FP (Automático): threat_ids que han sido considerados como FP de forma automática, es decir, en base a los threat_ids que han aparecido también en el tráfico legítimo
+      -> threat_ids TP (Manual): threat_ids que han sido considerados como TP de forma manual
+      -> threat_ids TP (Automático): threat_ids que han sido considerados como TP de forma automática, es decir, aquellos que no han aparecido en las detecciones del tráfico legítimo.
+      -> threat_ids FP Totales: para PaloAlto, threat_ids considerados como FP totales. Para esta columna se usará siempre que se haya podido efectuar el análisis manual los threat_ids que aparezcan en la columna "threat_ids FP (Manual)". En su defecto se usarán los valores del análisis automático.
+      -> #threat_ids FP Totales: número de threat_ids FP que han acabado identificándose.
+      -> COMENTARIOS DE LAS DETECCIONES PA: es posible que en determinados casos resulte necesario añadir comentarios acerca de un ataque en particular. En esta columna podrá encontrar dichos comentarios para el caso de PaloAlto
+      -> Nº FLUJOS IDENTIFICADOS POR PaloAlto: número de sessionids diferentes que aparecen en el log generado para un ataque. Este parámetro sirve para identificar el número total de flujos detectados por PaloAlto.
+      -> Nº FLUJOS CON ATAQUE DETECTADOS POR PaloAlto: número de sessionids diferentes que tienen asociado un threat_id en el log generado por PaloAlto.
+      -> % DETECCIÓN PALOALTO: número de flujos con ataque detectados por PaloAlto entre número de flujos con ataque en la captura
       -> USADO PARA CÁLCULO DE CAPACIDAD DE DETECCIÓN: ✔ o ✘ en función de si los resultados obtenidos para un ataque acaban siendo usados para elaborar los análisis finales o no. Esta decisión se basa en parámetros como la detectabilidad, si es detectable por patrones y si se ha producido algún error en la reproducción de paquetes
 
      ------------ SECCIÓN B: HOJA MAPEOS ------------
