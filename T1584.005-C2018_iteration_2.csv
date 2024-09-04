@@ -1,0 +1,53 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,335644,1,1,,N/A,tcp,172.31.69.14,23.15.8.131,url,detectportal.firefox.com/success.txt
+9999,338232,1,1,,N/A,tcp,172.31.69.12,23.15.8.131,url,detectportal.firefox.com/success.txt
+9999,338810,1,1,,N/A,tcp,172.31.69.14,23.218.49.211,url,www.web.mit.edu/
+9999,337935,1,1,,N/A,tcp,172.31.69.14,34.210.37.21,url,tiles.services.mozilla.com/
+9999,337323,1,1,,N/A,tcp,172.31.69.14,23.218.49.211,url,web.mit.edu/
+14984,338232,1,1,Suspicious HTTP Evasion Found,spyware,tcp,172.31.69.12,23.15.8.131,spyware,detectportal.firefox.com/success.txt
+14978,338568,2,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,54.230.36.144,spyware,getpocket.cdn.mozilla.net/
+14978,337323,2,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.14,23.218.49.211,spyware,web.mit.edu/
+9999,338475,1,1,,N/A,tcp,172.31.69.17,104.96.220.112,url,detectportal.firefox.com/success.txt
+14978,337067,5,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,104.208.232.49,spyware,www.faxbetter.com/
+14978,336930,3,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,108.161.189.121,spyware,maxcdn.bootstrapcdn.com/
+14978,335784,1,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,104.19.195.102,spyware,cdnjs.cloudflare.com/
+9999,337067,1,1,,N/A,tcp,172.31.69.12,104.208.232.49,url,www.faxbetter.com/
+9999,338077,1,1,,N/A,tcp,172.31.69.12,54.230.36.144,url,getpocket.cdn.mozilla.net/
+9999,338568,1,1,,N/A,tcp,172.31.69.12,54.230.36.144,url,getpocket.cdn.mozilla.net/
+9999,336117,1,1,,N/A,tcp,172.31.69.14,23.218.49.211,url,web.mit.edu/
+9999,336930,1,1,,N/A,tcp,172.31.69.12,108.161.189.121,url,maxcdn.bootstrapcdn.com/
+9999,335707,1,1,,N/A,tcp,172.31.69.12,108.161.189.121,url,maxcdn.bootstrapcdn.com/
+9999,337117,1,1,,N/A,tcp,172.31.69.12,108.161.189.121,url,maxcdn.bootstrapcdn.com/
+9999,335784,1,1,,N/A,tcp,172.31.69.12,104.19.195.102,url,cdnjs.cloudflare.com/
+9999,337989,1,1,,N/A,tcp,172.31.69.12,216.58.211.170,url,ajax.googleapis.com/
+9999,337256,1,1,,N/A,tcp,172.31.69.12,209.85.202.154,url,www.googleadservices.com/
+14978,337989,1,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,216.58.211.170,spyware,ajax.googleapis.com/
+14978,337256,1,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,209.85.202.154,spyware,www.googleadservices.com/
+14984,336674,1,1,Suspicious HTTP Evasion Found,spyware,tcp,172.31.69.12,72.21.91.29,spyware,ocsp.digicert.com/
+14978,337260,2,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,151.101.34.109,spyware,f.vimeocdn.com/
+14978,337128,3,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,216.58.217.130,spyware,googleads.g.doubleclick.net/
+14978,337512,1,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,172.217.7.136,spyware,www.googletagmanager.com/
+14984,337021,3,1,Suspicious HTTP Evasion Found,spyware,tcp,172.31.69.12,172.217.7.142,spyware,ocsp.pki.goog/GTSGIAG3
+14978,338016,1,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,209.85.202.102,spyware,www.google-analytics.com/
+9999,335785,1,1,,N/A,tcp,172.31.69.12,54.187.159.180,url,tiles.services.mozilla.com/
+9999,336472,1,1,,N/A,tcp,172.31.69.12,104.208.232.49,url,www.faxbetter.com/
+9999,338191,1,1,,N/A,tcp,172.31.69.12,104.208.232.49,url,www.faxbetter.com/
+9999,337290,1,1,,N/A,tcp,172.31.69.12,104.208.232.49,url,www.faxbetter.com/
+9999,337799,1,1,,N/A,tcp,172.31.69.12,104.208.232.49,url,www.faxbetter.com/
+9999,336458,1,1,,N/A,tcp,172.31.69.12,151.101.192.217,url,player.vimeo.com/
+9999,337260,1,1,,N/A,tcp,172.31.69.12,151.101.34.109,url,f.vimeocdn.com/
+9999,336367,1,1,,N/A,tcp,172.31.69.12,151.101.34.109,url,i.vimeocdn.com/
+9999,337512,1,1,,N/A,tcp,172.31.69.12,172.217.7.136,url,www.googletagmanager.com/
+9999,337128,1,1,,N/A,tcp,172.31.69.12,216.58.217.130,url,googleads.g.doubleclick.net/
+9999,335825,1,1,,N/A,tcp,172.31.69.12,216.58.217.130,url,pagead2.googlesyndication.com/
+9999,338016,1,1,,N/A,tcp,172.31.69.12,209.85.202.102,url,www.google-analytics.com/
+9999,338589,1,1,,N/A,tcp,172.31.69.12,216.58.217.130,url,adservice.google.com/
+9999,335745,1,1,,N/A,tcp,172.31.69.12,173.194.203.106,url,www.google.com/
+9999,338400,1,1,,N/A,tcp,172.31.69.17,52.44.192.243,url,www.cyberoam.com/
+9999,336604,1,1,,N/A,tcp,172.31.69.17,52.84.90.188,url,getpocket.cdn.mozilla.net/
+14978,335745,1,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.12,173.194.203.106,spyware,www.google.com/
+14984,338475,1,1,Suspicious HTTP Evasion Found,spyware,tcp,172.31.69.17,104.96.220.112,spyware,detectportal.firefox.com/success.txt
+14978,336604,2,1,Suspicious TLS Evasion Found,spyware,tcp,172.31.69.17,52.84.90.188,spyware,getpocket.cdn.mozilla.net/
+14984,335384,1,1,Suspicious HTTP Evasion Found,spyware,tcp,172.31.69.12,209.85.202.139,spyware,clients1.google.com/ocsp
+9999,338267,1,1,,N/A,tcp,172.31.69.17,52.84.90.188,url,getpocket.cdn.mozilla.net/
+9999,337773,1,1,,N/A,tcp,172.31.69.17,104.31.75.124,url,ocsp2.globalsign.com/gsorganizationvalsha2g2
