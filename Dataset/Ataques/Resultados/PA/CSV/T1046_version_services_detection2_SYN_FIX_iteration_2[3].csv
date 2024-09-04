@@ -1,0 +1,13 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,546833,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/
+9999,546837,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/sdk
+9999,546838,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/nmaplowercheck1656060575
+9999,546839,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/
+9999,546841,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/HNAP1
+9999,546840,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/evox/about
+9999,546842,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/
+9999,546847,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/
+31914,546835,1,1,SSH2 Login Attempt,brute-force,tcp,192.168.1.3,192.168.2.2,vulnerability,
+32796,546836,1,3,RPC Portmapper DUMP Request Detected,info-leak,tcp,192.168.1.3,192.168.2.2,vulnerability,
+58433,546837,4,3,Nmap Scripting Engine Detection,hacktool,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/sdk
+94317,546838,1,2,Nmap Service Detection,hacktool,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/nmaplowercheck1656060575

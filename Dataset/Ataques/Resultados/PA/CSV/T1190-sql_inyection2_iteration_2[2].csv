@@ -1,0 +1,101 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,548763,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548762,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548764,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548765,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,"192.168.2.2/payroll_app.php?bebQ=8781%20AND%201=1%20UNION%20ALL%20SELECT%201,NULL,'<script>alert("
+9999,548766,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548767,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548768,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548769,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548770,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548771,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548773,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548772,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548774,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548775,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548776,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548777,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548778,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548779,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548781,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548780,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548782,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548783,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+36248,548763,23,2,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+31477,548765,1,3,Generic HTTP Cross Site Scripting Attempt,code-execution,tcp,192.168.1.3,192.168.2.2,vulnerability,"192.168.2.2/payroll_app.php?bebQ=8781%20AND%201=1%20UNION%20ALL%20SELECT%201,NULL,'<script>alert("
+32658,548765,1,3,HTTP Cross Site Scripting Attempt,code-execution,tcp,192.168.1.3,192.168.2.2,vulnerability,"192.168.2.2/payroll_app.php?bebQ=8781%20AND%201=1%20UNION%20ALL%20SELECT%201,NULL,'<script>alert("
+33338,548765,1,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,"192.168.2.2/payroll_app.php?bebQ=8781%20AND%201=1%20UNION%20ALL%20SELECT%201,NULL,'<script>alert("
+30514,548765,1,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,"192.168.2.2/payroll_app.php?bebQ=8781%20AND%201=1%20UNION%20ALL%20SELECT%201,NULL,'<script>alert("
+58005,548765,3,2,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,"192.168.2.2/payroll_app.php?bebQ=8781%20AND%201=1%20UNION%20ALL%20SELECT%201,NULL,'<script>alert("
+9999,548784,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548785,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548786,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548787,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548789,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548788,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548790,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548792,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548791,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548793,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548794,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548795,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+54608,548781,20,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+91528,548781,15,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+91523,548782,5,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+9999,548796,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548798,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548797,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+36248,548785,18,2,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+9999,548799,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548800,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548801,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548802,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548803,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548804,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548805,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+36242,548787,10,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+9999,548806,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548807,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548808,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548809,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548810,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548811,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548812,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548813,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+36241,548798,6,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+9999,548814,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548815,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548816,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548817,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548818,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548819,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548820,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+54608,548800,3,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+91528,548800,2,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+9999,548821,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548823,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548822,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548825,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+36248,548803,22,2,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+38195,548803,8,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+35823,548804,8,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+57735,548807,1,4,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+94307,548807,4,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+9999,548824,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548826,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548828,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548827,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548829,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548831,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548830,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548832,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548833,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+59128,548815,4,3,HTTP SQL Injection Attempt,code-execution,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+9999,548835,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548834,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548836,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+9999,548837,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,192.168.2.2/payroll_app.php
+36248,548824,13,2,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+30514,548824,13,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+58005,548828,1,2,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php
+54608,548827,6,3,HTTP SQL Injection Attempt,sql-injection,tcp,192.168.1.3,192.168.2.2,vulnerability,192.168.2.2/payroll_app.php

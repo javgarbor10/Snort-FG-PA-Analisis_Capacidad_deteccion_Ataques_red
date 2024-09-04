@@ -1,0 +1,2 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+31914,669879,1,1,SSH2 Login Attempt,brute-force,tcp,192.168.1.3,192.168.2.2,vulnerability,

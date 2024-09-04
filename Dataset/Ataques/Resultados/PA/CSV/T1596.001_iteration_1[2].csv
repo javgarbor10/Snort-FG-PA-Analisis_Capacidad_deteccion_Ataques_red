@@ -1,0 +1,3 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+33337,689037,1,1,DNS Zone Transfer AXFR Attempt,info-leak,tcp,192.168.1.3,192.168.2.2,vulnerability,
+35287,689037,1,1,DNS Zone Transfer AXFR Response,info-leak,tcp,192.168.1.3,192.168.2.2,vulnerability,

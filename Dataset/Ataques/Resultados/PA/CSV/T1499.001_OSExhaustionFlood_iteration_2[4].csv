@@ -1,0 +1,9 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+54547,623253,94,1,HTTP GET Request Without Header Detection,dos,tcp,172.16.1.2,172.16.2.2,vulnerability,/?485
+40094,623426,76,5,Slowloris HTTP Flooding Denial-of-Service Brute Force Attempt Detection,brute-force,tcp,172.16.1.2,172.16.2.2,vulnerability,/?1679
+40094,622704,56,5,Slowloris HTTP Flooding Denial-of-Service Brute Force Attempt Detection,brute-force,tcp,172.16.1.2,172.16.2.2,vulnerability,/?1122
+54547,622704,56,1,HTTP GET Request Without Header Detection,dos,tcp,172.16.1.2,172.16.2.2,vulnerability,/?1122
+54547,622091,83,1,HTTP GET Request Without Header Detection,dos,tcp,192.168.1.3,192.168.2.2,vulnerability,/?1137
+40094,623766,81,5,Slowloris HTTP Flooding Denial-of-Service Brute Force Attempt Detection,brute-force,tcp,192.168.1.3,192.168.2.2,vulnerability,/?1124
+54547,621091,67,1,HTTP GET Request Without Header Detection,dos,tcp,192.168.1.3,192.168.2.2,vulnerability,/?1397
+40094,621098,42,5,Slowloris HTTP Flooding Denial-of-Service Brute Force Attempt Detection,brute-force,tcp,192.168.1.3,192.168.2.2,vulnerability,/?172
