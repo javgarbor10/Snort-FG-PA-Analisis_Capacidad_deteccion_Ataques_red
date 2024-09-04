@@ -1,0 +1,19 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+35364,632986,3,1,Microsoft Windows SMB Negotiate Request,brute-force,tcp,172.16.1.2,172.16.2.2,vulnerability,
+9999,633204,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/
+9999,630339,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2:139/
+30520,629227,2,1,HTTP OPTIONS Method,info-leak,tcp,172.16.1.2,172.16.2.2,vulnerability,172.16.2.2/
+59582,633295,1,1,Non-RFC Compliant RTSP Traffic,protocol-anomaly,tcp,172.16.1.2,172.16.2.2,vulnerability,
+94318,633120,1,2,Nmap Aggressive Option Print Detection,hacktool,tcp,172.16.1.2,172.16.2.2,vulnerability,172.16.2.2:8080/
+9999,633388,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/nmaplowercheck1654276090
+9999,633272,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/nmaplowercheck1654276092
+9999,633368,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/sdk
+9999,632996,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2:8080/
+9999,633120,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2:8080/
+9999,633376,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/evox/about
+9999,633358,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/HNAP1
+9999,633197,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/
+94317,633200,4,2,Nmap Service Detection,hacktool,tcp,172.16.1.2,172.16.2.2,vulnerability,nmaplowercheck1654276088
+58433,633200,10,3,Nmap Scripting Engine Detection,hacktool,tcp,172.16.1.2,172.16.2.2,vulnerability,nmaplowercheck1654276088
+9999,633384,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/
+9999,633404,1,1,,N/A,tcp,172.16.1.2,172.16.2.2,url,172.16.2.2/
