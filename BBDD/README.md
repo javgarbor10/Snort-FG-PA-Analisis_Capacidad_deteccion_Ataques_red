@@ -24,6 +24,7 @@ A continuación se proporciona una guía de los elementos disponibles en este di
       --> caracterizacion_pcaps_ataque.csv, caracterizacion_pcaps_legitimo.csv 
       --> deteccion_snort.csv, deteccion_fortigate.csv, deteccion_paloalto.csv
       --> alertas_legitimo_snort.csv
+      --> Adicionalmente dispone de los ficheros Excel originales a partir de los cuales se extraen los CSV finales. Ocasionalmente podría experimentar errores de formato según condiciones de sistema operativo, tecnología de BBDD empleada, etc., por lo que se recomienda tener estos ficheros en caso de problema. Con el uso de los scripts puede obtener los CSV a partir de estos ficheros en formato Excel.
      3 - Scripts (Directorio "/Scripts")
       --> csv_comas.py: en ciertos sistemas operativos, los ficheros CSV tienen un formato de separación de celdas basada en punto y coma, en vez de coma. Para evitar errores sintácticos y separaciones no deseadas este script convierte un csv con separación de punto y coma en uno con separación de comas
       --> transformaAlertasFG.py: este script se encarga de adaptar el formato de las alertas generadas por FortiGate en la hoja "Detecciones" al formato de las tablas de la BBDD
