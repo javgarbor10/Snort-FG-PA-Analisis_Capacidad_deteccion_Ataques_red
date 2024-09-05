@@ -1,8 +1,0 @@
-attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
-52169,3309083,1,high,Backdoor.Covenant,HTTP,192.168.10.2,192.168.10.5,50388,80,ips,signature
-52169,3309086,1,high,Backdoor.Covenant,HTTP,192.168.10.5,192.168.10.1,38636,80,ips,signature
-52169,3309087,1,high,Backdoor.Covenant,HTTP,192.168.10.5,192.168.10.1,38640,80,ips,signature
-52169,3309083,4,high,Backdoor.Covenant,HTTP,192.168.10.2,192.168.10.5,50388,80,ips,signature
-52169,3309096,1,high,Backdoor.Covenant,HTTP,192.168.10.2,192.168.10.5,50416,80,ips,signature
-52169,3309086,1,high,Backdoor.Covenant,HTTP,192.168.10.5,192.168.10.1,38636,80,ips,signature
-52169,3309087,3,high,Backdoor.Covenant,HTTP,192.168.10.5,192.168.10.1,38640,80,ips,signature
