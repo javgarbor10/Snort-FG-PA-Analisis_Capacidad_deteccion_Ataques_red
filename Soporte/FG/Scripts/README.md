@@ -19,6 +19,8 @@ Para poder entender su funcionamiento se proporciona la siguiente guía.
 
     -> transformaCSV.py: desarrollado en Python, este script se encarga de la última parte del proceso completo de generación y recolección de los logs. Su función es la de transformar los logs (que contienen una gran variedad de alertas) en un CSV con las alertas filtradas a tan sólo las que hacen referencia a amenazas. Especificando a nivel de código, se atiende tan sólo a aquellas lineas que contienen la cadena "attackid". Tras efectuar el filtrado se agrupan los valores de cada uno de los campos de interés y se elabora el fichero CSV, en el que se insertan todos los datos
 
+    -> transformaCSVv4-VIRUS.py: desarrollado en Python, integra los ataques basados en virus. Para este estudio tan sólo el ataque T1105-Ingress_Transfer_Tool_[5].pcapng incluye esta categoría de ataques. Este script busca, además de los campos característicos de los ataques corrientes de IPS, los asociados a virus, (virusid y virus).
+
     -> recuentaFlujosTotales.py: desarrollado en Python, este script cuenta el número total de flujos en el log, atendiendo al campo sessionid
 
     -> recuentaFlujosDetectados.py: desarrollado en Python, este script cuenta el número total de flujos detectados (flujos para los que existen lineas con attackid) en el log
