@@ -10,7 +10,7 @@ def extract_alerts_to_excel(log_file_path):
 
     # Expresión regular para encontrar "repeated n times"
     repeated_pattern = re.compile(r'(.*)repeated (\d+) times(.*)')
-    
+
     # Inicializamos variables para determinar si los campos están presentes
     url_present = False
     srcport_present = False
@@ -33,14 +33,19 @@ def extract_alerts_to_excel(log_file_path):
 
             # Extraer los campos de interés de la línea
             alert = {}
-            parts = line.split()
+
+            # Cambiamos el método para dividir la línea, usando una expresión regular para capturar valores entre comillas
+            parts = re.findall(r'(\w+)="([^"]+)"|(\w+)=([^\s]+)', line)
             for part in parts:
-                key_value = part.split("=")
-                if len(key_value) == 2:
-                    key = key_value[0]
-                    value = key_value[1].strip('"')
-                    if key in ["attackid", "sessionid", "repeated", "severity", "attack", "service", "srcip", "dstip", "subtype", "eventtype", "url", "srcport", "dstport"]:
-                        alert[key] = value
+                if part[0]:  # Para coincidencias con comillas
+                    key = part[0]
+                    value = part[1]
+                else:  # Para coincidencias sin comillas
+                    key = part[2]
+                    value = part[3]
+
+                if key in ["attackid", "sessionid", "repeated", "severity", "attack", "service", "srcip", "dstip", "subtype", "eventtype", "url", "srcport", "dstport"]:
+                    alert[key] = value
 
             # Añadir el valor "repeated" a la alerta
             alert["repeated"] = repeated_value
@@ -55,15 +60,6 @@ def extract_alerts_to_excel(log_file_path):
 
             # Añadir la alerta a la lista
             alerts.append(alert)
-
-    # Si no se encontraron alertas, retornar
-    if not alerts:
-        print("No se encontraron alertas en el archivo de registro.")
-        return
-
-    num_unique_alerts = len(alerts)
-    print(f"Se encontraron {total_alerts} alertas en el archivo de registro.")
-    print(f"Se registrarán {num_unique_alerts} alertas en el archivo de Excel.")
 
     # Crear un libro y hoja de Excel
     wb = openpyxl.Workbook()
@@ -86,10 +82,11 @@ def extract_alerts_to_excel(log_file_path):
         cell.value = header
         cell.font = bold_font
 
-    # Escribir datos en la hoja de Excel
-    for row_idx, alert in enumerate(alerts, start=2):
-        for col_idx, header in enumerate(headers, start=1):
-            sheet.cell(row=row_idx, column=col_idx).value = alert.get(header, "")
+    # Si hay alertas, escribir datos en la hoja de Excel
+    if alerts:
+        for row_idx, alert in enumerate(alerts, start=2):
+            for col_idx, header in enumerate(headers, start=1):
+                sheet.cell(row=row_idx, column=col_idx).value = alert.get(header, "")
 
     # Ajustar el tamaño de las columnas automáticamente
     for col in sheet.columns:
@@ -107,15 +104,16 @@ def extract_alerts_to_excel(log_file_path):
     # Guardar el libro de Excel
     excel_file_path = log_file_path.replace('.log', '.xlsx')
     wb.save(excel_file_path)
-    print(f"Las alertas con level='alert' se han guardado en {excel_file_path}")
+    print(f"El archivo Excel se ha guardado en {excel_file_path}")
 
     # Convertir Excel a CSV
     csv_file_path = excel_file_path.replace('.xlsx', '.csv')
     with open(csv_file_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(headers)  # Escribir encabezados
-        for alert in alerts:
-            writer.writerow([alert.get(header, "") for header in headers])
+        if alerts:
+            for alert in alerts:
+                writer.writerow([alert.get(header, "") for header in headers])
 
     print(f"{excel_file_path} se ha convertido a {csv_file_path}")
 
