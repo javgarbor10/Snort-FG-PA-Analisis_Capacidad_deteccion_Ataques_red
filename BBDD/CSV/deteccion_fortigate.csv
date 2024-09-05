@@ -11,10 +11,10 @@ T1029-Scheduled_transfer_[4].pcapng,7,0,"Ataques Colaterales: FortiGate detecta 
 T1030-Transfer_Size_Limits_[5].pcapng,36,0,-
 T1033-System_owner_[4].pcapng,4,0,"Flujos Detectados FG: FortiGate no identifica los flujos con direcciones IPv6, causando esta variación en los resultados"
 T1039-Data_from_network_shared_drive_[4].pcapng,0,0,-
-T1040-Autenticacion_[1].pcapng,-,0,-
-T1040-Chopchop_[1].pcapng,-,0,-
-T1040-Fragmentacion_[1].pcapng,-,0,-
-T1040-Mac_flood_[1].pcapng,-,0,-
+T1040-Autenticacion_[1].pcapng,0,0,-
+T1040-Chopchop_[1].pcapng,0,0,-
+T1040-Fragmentacion_[1].pcapng,0,0,-
+T1040-Mac_flood_[1].pcapng,0,0,-
 T1041-exfiltration_over_c2_channel_[3].pcapng,1,0,-
 T1046-Version_services_detection1_[3].pcapng,159,158,Instancias Ataque: cada URL escaneada se considera como una instancia de ataque independiente. 
 T1046-Version_services_detection2_[3].pcapng,65420,4,-
@@ -34,10 +34,10 @@ T1105-Ingress_Tool_Transfer_[5].pcapng,3,0,-
 T1110.001-Hydra_[3].pcapng,3,0,-
 T1110.001-FTP-C2018_[6].pcapng,27710,0,-
 T1110.001-SSH-C2018_[6].pcapng,92430,0,-
-T1110-Wps_[1].pcapng,-,0,-
-T1110-pmkid_[1].pcapng,-,0,-
-T1110-Ptw_korek_[1].pcapng,-,0,-
-T1110-Diccionario_[1].pcapng,-,0,-
+T1110-Wps_[1].pcapng,0,0,-
+T1110-pmkid_[1].pcapng,0,0,-
+T1110-Ptw_korek_[1].pcapng,0,0,-
+T1110-Diccionario_[1].pcapng,0,0,-
 T1112-Modify_registry_[4].pcapng,5,0,-
 T1114-Email_collection_remote_email_collection_[4].pcapng,9,0,-
 T1132.001-Standard_Encoding_[5].pcapng,7,0,-
