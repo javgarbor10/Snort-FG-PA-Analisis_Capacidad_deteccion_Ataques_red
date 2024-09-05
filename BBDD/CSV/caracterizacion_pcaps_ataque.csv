@@ -141,4 +141,4 @@ Execution,-,TA0002,System Services,T1569,Service Execution,T1569.002,Ejecución 
  Regla que detecte la cadena “PSEXESVC” en el contenido de mensajes SMBv2
  Regla que detecte archivos ejecutables en mensajes SMB
 ",-,Manual [4] / 3.6,Manual [4] / B.6,Manual [4] / 4.6,1,1,0,1,0,1,1
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
