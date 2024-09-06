@@ -130,7 +130,7 @@ A continuación se proporciona una guía para entender la información que se en
       -> % DETECCIÓN PALOALTO: número de flujos con ataque detectados por PaloAlto entre número de flujos con ataque en la captura
       -> USADO PARA CÁLCULO DE CAPACIDAD DE DETECCIÓN: ✔ o ✘ en función de si los resultados obtenidos para un ataque acaban siendo usados para elaborar los análisis finales o no. Esta decisión se basa en parámetros como la detectabilidad, si es detectable por patrones y si se ha producido algún error en la reproducción de paquetes
 
-     ------------ SECCIÓN B: HOJA MAPEOS ------------
+     ------------ SECCIÓN B: VISTA GENERAL HOJA MAPEOS ------------
 
      En esta hoja puede encontrarse información relacionada con las asociaciones táctica/técnica/subtécnica/IDs de ataques, así como contadores particulares y globales. A continuación se describen las pestañas que componen la hoja.
 
