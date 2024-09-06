@@ -16,16 +16,16 @@ def transform_excel(input_file):
         fp_column = row['FP']  # Columna con los FP
 
         # Convertir attackids en lista de ATTACKIDs
-        attackid_list = [aid.strip() for aid in str(attackids).split(',')]
+        attackid_list = [aid.strip() for aid in str(attackids).split(',') if aid.strip()]
 
-        # Convertir fp_column en conjunto de ATTACKIDs de FP
-        fp_sids = {aid.strip() for aid in str(fp_column).split(',')} if pd.notna(fp_column) else set()
+        # Convertir fp_column en conjunto de ATTACKIDs de FP, convirtiendo a enteros si es posible
+        fp_sids = {int(aid.strip()) for aid in str(fp_column).split(',') if pd.notna(fp_column) and aid.strip().isdigit()} if pd.notna(fp_column) else set()
 
         # Crear un registro para cada ATTACKID
         for attackid in attackid_list:
             try:
-                attackid_int = int(attackid)
-                tp_value = 0 if attackid in fp_sids else 1
+                attackid_int = int(attackid)  # Convertir ATTACKID a entero
+                tp_value = 0 if attackid_int in fp_sids else 1  # TP es 0 si está en FP, 1 si no está
                 records.append([pcap, attackid_int, tp_value])
             except ValueError:
                 # Ignorar valores no convertibles a int
