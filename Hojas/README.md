@@ -26,6 +26,7 @@ A continuación se proporciona una guía para entender la información que se en
       -> (D) - Análisis Resultados III - PaloAlto: gráficas y análisis de resultados relativos al IDS PaloAlto. Es posible encontrar información extraída de otras pestañas de esta misma hoja
       -> (D) - Análisis Resultados IV - Conjunto: gráficas y análisis de resultados relativos a todos los IDS. Es posible encontrar información extraída de otras pestañas de esta misma hoja
       -> (E) - Referencias: esta pestaña contiene un breve anexo con la leyenda de la procedencia de los pcaps. En la pestaña (B) existen varias columnas relacionadas con la caracterización de los pcaps con referencias como valores. Estas referencias se encuentran detalladas en esta pestaña
+      -> (F) - Leyenda: esta pestaña contiene un anexo con la descripción detallada del contenido de las pestañas B, C y D, de forma similar a como se presenta en la sección A.2 de este fichero README.md
      
      ------------ SECCIÓN A.2: COLUMNAS PESTAÑA (B) HOJA DETECCIONES ------------
      
