@@ -1,137 +1,137 @@
-FICHERO PCAP,Nº FLUJOS IDENTIFICADOS POR FORTIGATE,Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE,COMENTARIOS DE LAS DETECCIONES FG
-T1001.002-Data_obfuscation_steganography_[4].pcapng,1,0,-
-T1001.003-Data_obfuscation_protocol_impersonation_[4].pcapng,1,0,-
-T1003-Os_credential_dumping_dcsync_[4].pcapng,3,0,-
-T1008-Fallback_channels_[4].pcapng,2,0,"Ataques Colaterales: FortiGate detecta el establecimiento del canal principal realizado con la herramienta Covenant. Sin embargo, no detecta el establecimiento del canal alternativo (basado en comunicaciones SMB). Por tanto, los correspondientes flujos no cuentan para los resultados finales"
-T1011-Exfiltration_over_bluetooth_[4].pcapng,0,0,Flujos Detectados FG: debido al error en la reproducción de la captura no se detectan flujos
-T1018-service_discovery_[3].pcapng,1002,6,-
-T1020.001-Automated_exfiltration_traffic_duplication_[4].pcapng,23,0,-
-T1021-remote_services_ssh_[3].pcapng,1,,-
-T1029-Scheduled_transfer_[4].pcapng,7,0,"Ataques Colaterales: FortiGate detecta el establecimiento del canal C&C, pero no detecta la programación de la extracción como tal. Por ello, sólo puede considerarse que FortiGate detecta adecuadamente el ataque colateral pero no el principal."
-T1030-Transfer_Size_Limits_[5].pcapng,36,0,-
-T1033-System_owner_[4].pcapng,4,0,"Flujos Detectados FG: FortiGate no identifica los flujos con direcciones IPv6, causando esta variación en los resultados"
-T1039-Data_from_network_shared_drive_[4].pcapng,0,0,-
-T1040-Autenticacion_[1].pcapng,0,0,-
-T1040-Chopchop_[1].pcapng,0,0,-
-T1040-Fragmentacion_[1].pcapng,0,0,-
-T1040-Mac_flood_[1].pcapng,0,0,-
-T1041-exfiltration_over_c2_channel_[3].pcapng,1,0,-
-T1046-Version_services_detection1_[3].pcapng,159,158,Instancias Ataque: cada URL escaneada se considera como una instancia de ataque independiente. 
-T1046-Version_services_detection2_[3].pcapng,65420,4,-
-T1046-C2018_[6].pcapng,1,0,"Ataques Colaterales: FortiGate detecta el uso de comandos de forma remota, aunque esto se trata de una acción meramente residual, que no está relacionada con la naturaleza del ataque."
-T1047-WinRM_[2].pcapng,911,0,-
-T1048.003-Exfiltration_over_ICMP_[2].pcapng,1,0,-
-T1048.003-Exfiltration_over_FTP_[3].pcapng,8,0,-
-T1053.002-Scheduled_TaskJob_At_[5].pcapng,2,0,"Ataques Colaterales: FortiGate detecta el uso de la herramienta CALDERA para el establecimiento de la sesión, pero no detecta la programación de la tarea"
-T1070-Indicator_removal_network_share_connection_removal_[4].pcapng,1,0,-
-T1071-Tunel_[1].pcapng,198,1,-
-T1087.002-AccountDiscovery_DomainAccount_[5].pcapng,2,0,"Ataques Colaterales: FortiGate detecta el uso del agente Caldera, pero no detecta el descubrimiento de cuentas de dominio en sí"
-T1090-Proxy_internal_proxy_[4].pcapng,20,0,"Ataques Colaterales: FortiGate detecta el establecimiento del canal C&C, pero no detecta el uso de un equipo interno como Proxy"
-T1095-Non_Application_Layer_[3].pcapng,2,0,"Ataques Colaterales: FortiGate detecta el uso del agente Caldera, por lo que se puede afirmar que es válida la detección del ataque colateral, no así del uso de una capa distinta de aplicación para el establecimiento del canal C&C (naturaleza del ataque)"
-T1102.003-Web_service-one_way_communication_[4].pcapng,2,0,"Ataques Colaterales: FortiGate detecta el establecimiento del canal C&C, pero no detecta el canal de regreso de la información basado en el uso de servicios Web"
-T1104-Multi_stage_channels_[4].pcapng,1,0,"Ataques Colaterales: FortIGate detecta el establecimiento del canal de comunicación con la víctima. Sin embargo, no está detectando adecuadamente el uso de un frente de ataque, y la división del ataque en varias fases (lógico atendiendo a la naturaleza de la técnica)"
-T1105-Ingress_Tool_Transfer_[5].pcapng,3,0,-
-T1110.001-Hydra_[3].pcapng,3,0,-
-T1110.001-FTP-C2018_[6].pcapng,27710,0,-
-T1110.001-SSH-C2018_[6].pcapng,92430,0,-
-T1110-Wps_[1].pcapng,0,0,-
-T1110-pmkid_[1].pcapng,0,0,-
-T1110-Ptw_korek_[1].pcapng,0,0,-
-T1110-Diccionario_[1].pcapng,0,0,-
-T1112-Modify_registry_[4].pcapng,5,0,-
-T1114-Email_collection_remote_email_collection_[4].pcapng,9,0,-
-T1132.001-Standard_Encoding_[5].pcapng,7,0,-
-T1133-External_remote_services_[4].pcapng,22,0,-
-T1176-Browser-extension_[4].pcapng,185,0,-
-T1187-Forced_Authentication_[5].pcapng,7,0,-
-T1187-Forced_Authentication2_[5].pcapng,3,0,-
-T1189-Drive-by_compromise_v1_[4].pcapng,4,3,-
-T1189-Drive-by_compromise_v2_[4].pcapng,1,0,-
-T1190-Sql_inyection1_[3].pcapng,1,1,-
-T1190-Sql_inyection2_[2].pcapng,77,76,-
-T1190-Sql_injection-C2018_[6].pcapng,50,35,-
-T1197-BITS_Jobs_[5].pcapng,117,0,-
-T1199-Trusted_relationship_[4].pcapng,7,0,-
-T1200-Hardware_Additions_[5].pcapng,0,0,-
-T1203-C2018_[6].pcapng,116,0,-
-T1204.001-malicious_link_[3].pcapng,1,0,-
-T1205.001-Port_Knocking_[3].pcapng,5,0,-
-T1207-Rogue_domain_controller_[4].pcapng,96,0,-
-T1210-Eternal_blue_[2].pcapng,24,2,-
-T1210-Web_attack-C2018_[6].pcapng,260,0,-
-T1210-Remote_code_execution_[2].pcapng,3,1,-
-T1213-SQL_inyection_[3].pcapng,0,0,-
-T1218.010-COM_Scriptlet_[2].pcapng,2,0,-
-T1219-RemoteAccessSoftwareLocal_[5].pcapng,1,0,-
-T1219-RemoteAccessSoftwareNAT_[5].pcapng,144,0,-
-T1221-Template_Injection_[5].pcapng,34,0,-
-T1482-Domain_trust_discovery_[4].pcapng,4,0,-
-T1491.001-Internal_Defacement_[5].pcapng,7,0,-
-T1496-Cryptomining_[2].pcapng,11,0,-
-T1498-Tcbpdu_[1].pcapng,0,0,-
-T1498.001-MAC_table_flood_[3].pcapng,2,0,-
-T1498.001-UDP_flood_1-C2018_[6].pcapng,52733,0,-
-T1498.001-UDP_flood_2-C2018_[6].pcapng,10,0,-
-T1498.001-HTTP_flood-C2018_[6].pcapng,141737,0,-
-T1498.001-TCP_flood-C2018_[6].pcapng,514819,0,-
-T1498.001-UDP_flood_[2].pcapng,1,0,-
-T1498-Amplif_dns_[1].pcapng,26,0,"Ataques Colaterales: dentro de la captura hay un flujo DNS que usa tunelización DNS con la herramienta dnscat. Sin embargo, estos paquetes no están relacionados con el ataque en sí"
-T1498-Fraggle_[1].pcapng,2,0,-
-T1498-Smurf_[1].pcapng,2,0,-
-T1499.001-OS_Exhaustion_Flood_[3].pcapng,340,0,-
-T1499-Syn_suplantacion_[1].pcapng,2096,0,-
-T1499-Land_[1].pcapng,7,0,-
-T1499-Reseteo_[1].pcapng,3,0,-
-T1499-Dhcp_flood_[1].pcapng,2,0,-
-T1499-Reflexion_synack_[1].pcapng,952,0,-
-T1499.02-Slowhttptest-C2018_[6].pcapng,19300,0,-
-T1499.02-Slowloris-C2018_[6].pcapng,6224,350,-
-T1499.03-Hulk-C2018_[6].pcapng,737050,0,-
-T1499.03-GoldenEye-C2018_[6].pcapng,10658,0,-
-T1499-Mac_spoof_[1].pcapng,2,0,-
-T1505.001-SQL_inyection_[3].pcapng,7,1,-
-T1505.005-Shell_Web_[2].pcapng,3,0,-
-T1534-Internal_spearphishing_[4].pcapng,10,0,-
-T1537-Transfer_Data_to_Cloud_Account_[5].pcapng,75,0,-
-T1542.005-TFTP_Boot_[5].pcapng,6,0,-
-T1543.003-CreateSystemProcessWindowsService_[5].pcapng,2,0,-
-T1557-Puente_raiz_[1].pcapng,1,0,-
-T1557-Redireccion_[1].pcapng,4,0,-
-T1557.002-ARP_poisoning1_[2].pcapng,13,0,-
-T1557.002-ARP_poisoning2_[3].pcapng,0,0,-
-T1557-Arp_spoof_[1].pcapng,3,0,-
-T1557-Hole196_[1].pcapng,4,0,-
-T1557-Dhcp_spoofing_[1].pcapng,6,0,-
-T1563.002-RDPHijacking_[5].pcapng,14,0,-
-T1565.001-SQL_inyection_[3].pcapng,11,1,-
-T1566.001-C2018_[6].pcapng,1,1,-
-T1566.002-Spearphishing_Link_[5].pcapng,168,0,-
-T1567.002-Exfiltration_To_Cloud_Storage_[5].pcapng,186,0,-
-T1568-fastFluxDNS_[5].pcapng,263,0,-
-T1569-System_services_service_execution_[4].pcapng,144,0,-
-T1570-Lateral_Tool_Transfer_[5].pcapng,1,0,"Ataques Colaterales: FortiGate detecta adecuadamente el uso de comandos de forma remota, pero la técnica no tiene como objetivo del ataque esta acción, sino la transferencia lateral de herramientas. Esta última no es detectada por FortiGate."
-T1571-SSH_[2].pcapng,1,0,-
-T1572-Protocol_Tunneling_[5].pcapng,3,0,"Ataques Colaterales: FortiGate detecta el uso de comandos de forma remota, pero no detecta el uso de SSH como túnel para el envío de comandos. Por tanto, esto se considera una detección de ataque colateral satisfactoria, pero no así para el ataque principal"
-T1573.002_AssymetricCryptography_[5].pcapng,2,0,-
-T1584-Cache_dns_[1].pcapng,7,0,-
-T1584-Secuestro_dns_[1].pcapng,6,0,-
-T1584.005-C2018_[6].pcapng,142,0,-
-T1585.001-Establish_social_accounts_[4].pcapng,129,0,-
-T1586.001-Compromise_Accounts_[2].pcapng,6925,153,-
-T1589.002-Gather_victim_identity_information_[4].pcapng,7,0,-
-T1595.002-Port_Scanning_[3].pcapng,2059,19,-
-T1595.003-Web_page_scanning1_[2].pcapng,181,0,-
-T1595.003-Web_page_scanning2_[3].pcapng,385,1,-
-T1596.001-DNS_Transfer_[2].pcapng,1,0,-
-T1598.003-Spearphishing_Link_[5].pcapng,57,0,-
-T1599-Salto_vlan_[1].pcapng,0,0,-
-T1599-NBB1_[5].pcapng,5,0,-
-T1599-NBB2_[5].pcapng,1,0,-
-T1602.001-MIB_Dump_[2].pcapng,1,0,-
-T1612-BuildImageOnHostLocal_[5].pcapng,53,0,-
-T1612-BuildImageOnHostNAT_[5].pcapng,117,0,-
-T1615-Group_Policy_Discovery_[5].pcapng,70,0,-
-T1659-Content_Injection_[5].pcapng,83,0,-
-T1659_Inyeccion_[1].pcapng,11,0,-
-T1665-Hide_Infrastructure_[5].pcapng,9,0,"Ataques Colaterales: FortiGate detecta el uso de comandos de forma remota. Sin embargo, este es el medio previo para poder llevar a cabo el ataque principal, el cual no es detectado"
-,,,
+"FICHERO PCAP,Nº FLUJOS IDENTIFICADOS POR FORTIGATE,Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE,COMENTARIOS DE LAS DETECCIONES FG"
+"T1001.002-Data_obfuscation_steganography_[4].pcapng,1,0,-"
+"T1001.003-Data_obfuscation_protocol_impersonation_[4].pcapng,1,0,-"
+"T1003-Os_credential_dumping_dcsync_[4].pcapng,3,0,-"
+"T1008-Fallback_channels_[4].pcapng,2,0,""Ataques Colaterales: FortiGate detecta el establecimiento del canal principal realizado con la herramienta Covenant. Sin embargo, no detecta el establecimiento del canal alternativo (basado en comunicaciones SMB). Por tanto, los correspondientes flujos no cuentan para los resultados finales"""
+"T1011-Exfiltration_over_bluetooth_[4].pcapng,0,0,Flujos Detectados FG: debido al error en la reproducción de la captura no se detectan flujos"
+"T1018-service_discovery_[3].pcapng,1002,6,-"
+"T1020.001-Automated_exfiltration_traffic_duplication_[4].pcapng,23,0,Flujos Detectados FG: la diferencia de flujos se debe a la presencia de reseteos de conexión. No hay pérdida de información"
+"T1021-remote_services_ssh_[3].pcapng,1,,-"
+"T1029-Scheduled_transfer_[4].pcapng,7,0,""Ataques Colaterales: FortiGate detecta el establecimiento del canal C&C, pero no detecta la programación de la extracción como tal. Por ello, sólo puede considerarse que FortiGate detecta adecuadamente el ataque colateral pero no el principal. Flujos Detectados FG: dos flujos con protocolo BROWSER (Windows) no son detectados. Estos flujos son irrelevantes para el ataques"""
+"T1030-Transfer_Size_Limits_[5].pcapng,36,0,-"
+"T1033-System_owner_[4].pcapng,4,0,""Flujos Detectados FG: FortiGate no identifica los flujos con direcciones IPv6, causando esta variación en los resultados"""
+"T1039-Data_from_network_shared_drive_[4].pcapng,0,0,-"
+"T1040-Autenticacion_[1].pcapng,0,0,-"
+"T1040-Chopchop_[1].pcapng,0,0,-"
+"T1040-Fragmentacion_[1].pcapng,0,0,-"
+"T1040-Mac_flood_[1].pcapng,0,0,-"
+"T1041-exfiltration_over_c2_channel_[3].pcapng,1,0,Flujos Detectados FG: hay un flujo que FortiGate no detecta. No hay causa aparente "
+"T1046-Version_services_detection1_[3].pcapng,159,158,Instancias Ataque: cada URL escaneada se considera como una instancia de ataque independiente. "
+"T1046-Version_services_detection2_[3].pcapng,65420,4,-"
+"T1046-C2018_[6].pcapng,1,0,""Ataques Colaterales: FortiGate detecta el uso de comandos de forma remota, aunque esto se trata de una acción meramente residual, que no está relacionada con la naturaleza del ataque."""
+"T1047-WinRM_[2].pcapng,911,0,-"
+"T1048.003-Exfiltration_over_ICMP_[2].pcapng,1,0,-"
+"T1048.003-Exfiltration_over_FTP_[3].pcapng,8,0,Flujos Detectados FG: la diferencia de flujos se debe a la presencia de retransmisiones. No afecta a los resultados"
+"T1053.002-Scheduled_TaskJob_At_[5].pcapng,2,0,""Ataques Colaterales: FortiGate detecta el uso de la herramienta CALDERA para el establecimiento de la sesión, pero no detecta la programación de la tarea"""
+"T1070-Indicator_removal_network_share_connection_removal_[4].pcapng,1,0,-"
+"T1071-Tunel_[1].pcapng,198,1,Flujos Detectados FG: la diferencia entre flujos se debe a la presencia de un flujo htext y un flujo dirigido hacia el puerto 67 (bootps)"
+"T1087.002-AccountDiscovery_DomainAccount_[5].pcapng,2,0,""Ataques Colaterales: FortiGate detecta el uso del agente Caldera, pero no detecta el descubrimiento de cuentas de dominio en sí"""
+"T1090-Proxy_internal_proxy_[4].pcapng,20,0,""Ataques Colaterales: FortiGate detecta el establecimiento del canal C&C, pero no detecta el uso de un equipo interno como Proxy"""
+"T1095-Non_Application_Layer_[3].pcapng,2,0,""Ataques Colaterales: FortiGate detecta el uso del agente Caldera, por lo que se puede afirmar que es válida la detección del ataque colateral, no así del uso de una capa distinta de aplicación para el establecimiento del canal C&C (naturaleza del ataque)"""
+"T1102.003-Web_service-one_way_communication_[4].pcapng,2,0,""Ataques Colaterales: FortiGate detecta el establecimiento del canal C&C, pero no detecta el canal de regreso de la información basado en el uso de servicios Web"""
+"T1104-Multi_stage_channels_[4].pcapng,1,0,""Ataques Colaterales: FortIGate detecta el establecimiento del canal de comunicación con la víctima. Sin embargo, no está detectando adecuadamente el uso de un frente de ataque, y la división del ataque en varias fases (lógico atendiendo a la naturaleza de la técnica)"""
+"T1105-Ingress_Tool_Transfer_[5].pcapng,3,0,-"
+"T1110.001-Hydra_[3].pcapng,3,0,-"
+"T1110.001-FTP-C2018_[6].pcapng,27710,0,-"
+"T1110.001-SSH-C2018_[6].pcapng,92430,0,-"
+"T1110-Wps_[1].pcapng,0,0,-"
+"T1110-pmkid_[1].pcapng,0,0,-"
+"T1110-Ptw_korek_[1].pcapng,0,0,-"
+"T1110-Diccionario_[1].pcapng,0,0,-"
+"T1112-Modify_registry_[4].pcapng,5,0,-"
+"T1114-Email_collection_remote_email_collection_[4].pcapng,9,0,-"
+"T1132.001-Standard_Encoding_[5].pcapng,7,0,-"
+"T1133-External_remote_services_[4].pcapng,22,0,-"
+"T1176-Browser-extension_[4].pcapng,185,0,-"
+"T1187-Forced_Authentication_[5].pcapng,7,0,-"
+"T1187-Forced_Authentication2_[5].pcapng,3,0,-"
+"T1189-Drive-by_compromise_v1_[4].pcapng,4,3,-"
+"T1189-Drive-by_compromise_v2_[4].pcapng,1,0,-"
+"T1190-Sql_inyection1_[3].pcapng,1,1,-"
+"T1190-Sql_inyection2_[2].pcapng,77,76,-"
+"T1190-Sql_injection-C2018_[6].pcapng,50,35,-"
+"T1197-BITS_Jobs_[5].pcapng,117,0,-"
+"T1199-Trusted_relationship_[4].pcapng,7,0,-"
+"T1200-Hardware_Additions_[5].pcapng,0,0,-"
+"T1203-C2018_[6].pcapng,116,0,-"
+"T1204.001-malicious_link_[3].pcapng,1,0,-"
+"T1205.001-Port_Knocking_[3].pcapng,5,0,-"
+"T1207-Rogue_domain_controller_[4].pcapng,96,0,-"
+"T1210-Eternal_blue_[2].pcapng,24,2,-"
+"T1210-Web_attack-C2018_[6].pcapng,260,0,-"
+"T1210-Remote_code_execution_[2].pcapng,3,1,-"
+"T1213-SQL_inyection_[3].pcapng,0,0,-"
+"T1218.010-COM_Scriptlet_[2].pcapng,2,0,-"
+"T1219-RemoteAccessSoftwareLocal_[5].pcapng,1,0,-"
+"T1219-RemoteAccessSoftwareNAT_[5].pcapng,144,0,-"
+"T1221-Template_Injection_[5].pcapng,34,0,-"
+"T1482-Domain_trust_discovery_[4].pcapng,4,0,-"
+"T1491.001-Internal_Defacement_[5].pcapng,7,0,-"
+"T1496-Cryptomining_[2].pcapng,11,0,-"
+"T1498-Tcbpdu_[1].pcapng,0,0,-"
+"T1498.001-MAC_table_flood_[3].pcapng,2,0,-"
+"T1498.001-UDP_flood_1-C2018_[6].pcapng,52733,0,-"
+"T1498.001-UDP_flood_2-C2018_[6].pcapng,10,0,-"
+"T1498.001-HTTP_flood-C2018_[6].pcapng,141737,0,-"
+"T1498.001-TCP_flood-C2018_[6].pcapng,514819,0,-"
+"T1498.001-UDP_flood_[2].pcapng,1,0,-"
+"T1498-Amplif_dns_[1].pcapng,26,0,""Ataques Colaterales: dentro de la captura hay un flujo DNS que usa tunelización DNS con la herramienta dnscat. Sin embargo, estos paquetes no están relacionados con el ataque en sí"""
+"T1498-Fraggle_[1].pcapng,2,0,-"
+"T1498-Smurf_[1].pcapng,2,0,-"
+"T1499.001-OS_Exhaustion_Flood_[3].pcapng,340,0,-"
+"T1499-Syn_suplantacion_[1].pcapng,2096,0,-"
+"T1499-Land_[1].pcapng,7,0,-"
+"T1499-Reseteo_[1].pcapng,3,0,-"
+"T1499-Dhcp_flood_[1].pcapng,2,0,-"
+"T1499-Reflexion_synack_[1].pcapng,952,0,-"
+"T1499.02-Slowhttptest-C2018_[6].pcapng,19300,0,-"
+"T1499.02-Slowloris-C2018_[6].pcapng,6224,350,-"
+"T1499.03-Hulk-C2018_[6].pcapng,737050,0,-"
+"T1499.03-GoldenEye-C2018_[6].pcapng,10658,0,-"
+"T1499-Mac_spoof_[1].pcapng,2,0,-"
+"T1505.001-SQL_inyection_[3].pcapng,7,1,-"
+"T1505.005-Shell_Web_[2].pcapng,3,0,-"
+"T1534-Internal_spearphishing_[4].pcapng,10,0,-"
+"T1537-Transfer_Data_to_Cloud_Account_[5].pcapng,75,0,-"
+"T1542.005-TFTP_Boot_[5].pcapng,6,0,-"
+"T1543.003-CreateSystemProcessWindowsService_[5].pcapng,2,0,-"
+"T1557-Puente_raiz_[1].pcapng,1,0,-"
+"T1557-Redireccion_[1].pcapng,4,0,-"
+"T1557.002-ARP_poisoning1_[2].pcapng,13,0,-"
+"T1557.002-ARP_poisoning2_[3].pcapng,0,0,-"
+"T1557-Arp_spoof_[1].pcapng,3,0,-"
+"T1557-Hole196_[1].pcapng,4,0,-"
+"T1557-Dhcp_spoofing_[1].pcapng,6,0,-"
+"T1563.002-RDPHijacking_[5].pcapng,14,0,-"
+"T1565.001-SQL_inyection_[3].pcapng,11,1,-"
+"T1566.001-C2018_[6].pcapng,1,1,-"
+"T1566.002-Spearphishing_Link_[5].pcapng,168,0,-"
+"T1567.002-Exfiltration_To_Cloud_Storage_[5].pcapng,186,0,-"
+"T1568-fastFluxDNS_[5].pcapng,263,0,-"
+"T1569-System_services_service_execution_[4].pcapng,144,0,-"
+"T1570-Lateral_Tool_Transfer_[5].pcapng,1,0,""Ataques Colaterales: FortiGate detecta adecuadamente el uso de comandos de forma remota, pero la técnica no tiene como objetivo del ataque esta acción, sino la transferencia lateral de herramientas. Esta última no es detectada por FortiGate."""
+"T1571-SSH_[2].pcapng,1,0,-"
+"T1572-Protocol_Tunneling_[5].pcapng,3,0,""Ataques Colaterales: FortiGate detecta el uso de comandos de forma remota, pero no detecta el uso de SSH como túnel para el envío de comandos. Por tanto, esto se considera una detección de ataque colateral satisfactoria, pero no así para el ataque principal"""
+"T1573.002_AssymetricCryptography_[5].pcapng,2,0,-"
+"T1584-Cache_dns_[1].pcapng,7,0,-"
+"T1584-Secuestro_dns_[1].pcapng,6,0,-"
+"T1584.005-C2018_[6].pcapng,142,0,-"
+"T1585.001-Establish_social_accounts_[4].pcapng,129,0,-"
+"T1586.001-Compromise_Accounts_[2].pcapng,6925,153,-"
+"T1589.002-Gather_victim_identity_information_[4].pcapng,7,0,-"
+"T1595.002-Port_Scanning_[3].pcapng,2059,19,-"
+"T1595.003-Web_page_scanning1_[2].pcapng,181,0,-"
+"T1595.003-Web_page_scanning2_[3].pcapng,385,1,-"
+"T1596.001-DNS_Transfer_[2].pcapng,1,0,-"
+"T1598.003-Spearphishing_Link_[5].pcapng,57,0,-"
+"T1599-Salto_vlan_[1].pcapng,0,0,-"
+"T1599-NBB1_[5].pcapng,5,0,-"
+"T1599-NBB2_[5].pcapng,1,0,-"
+"T1602.001-MIB_Dump_[2].pcapng,1,0,-"
+"T1612-BuildImageOnHostLocal_[5].pcapng,53,0,-"
+"T1612-BuildImageOnHostNAT_[5].pcapng,117,0,-"
+"T1615-Group_Policy_Discovery_[5].pcapng,70,0,-"
+"T1659-Content_Injection_[5].pcapng,83,0,-"
+"T1659_Inyeccion_[1].pcapng,11,0,-"
+"T1665-Hide_Infrastructure_[5].pcapng,9,0,""Ataques Colaterales: FortiGate detecta el uso de comandos de forma remota. Sin embargo, este es el medio previo para poder llevar a cabo el ataque principal, el cual no es detectado"""
+",,,"
