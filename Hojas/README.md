@@ -130,6 +130,19 @@ A continuación se proporciona una guía para entender la información que se en
       -> % DETECCIÓN PALOALTO: número de flujos con ataque detectados por PaloAlto entre número de flujos con ataque en la captura
       -> USADO PARA CÁLCULO DE CAPACIDAD DE DETECCIÓN: ✔ o ✘ en función de si los resultados obtenidos para un ataque acaban siendo usados para elaborar los análisis finales o no. Esta decisión se basa en parámetros como la detectabilidad, si es detectable por patrones y si se ha producido algún error en la reproducción de paquetes
 
+     ------------ SECCIÓN A.3: COLUMNAS PESTAÑA (C) HOJA DETECCIONES ------------
+     
+     Para entender la estructura de la pestaña dedicada al tráfico legítimo se explican las columnas que intervienen en ella
+
+     -> Fichero pcap: nombre del fichero pcap correspondiente a la captura de tráfico legítimo
+     -> Tipo de tráfico: clasifica la captura de tráfico (por lo general será REAL)
+     -> Categoría: Dataset al que pertenece la captura de paquetes
+     -> Tamaño real del tráfico: tamaño del fichero PCAP
+     -> Nº de flujos: número de flujos totales calculados con la herramienta tranalyzer del fichero PCAP
+     -> Nº de Direcciones Distintas: nº de direcciones IP distintas que aparecen en la captura de paquetes
+     -> SIDs en Tráfico Legítimo (RS1, RS2, RS3, RS4, FortiGate, PaloAlto): SIDs que ha generado el IDS correspondiente (para el RuleSet correspondiente en caso de Snort) para la detección del fichero PCAP
+     -> #SIDs en Tráfico Legítimo (RS1, RS2, RS3, RS4, FortiGate, PaloAlto): Nº SIDs que ha generado el IDS correspondiente (para el RuleSet correspondiente en caso de Snort) para la detección del fichero PCAP
+
      ------------ SECCIÓN B: VISTA GENERAL HOJA MAPEOS ------------
 
      En esta hoja puede encontrarse información relacionada con las asociaciones táctica/técnica/subtécnica/IDs de ataques, así como contadores particulares y globales. A continuación se describen las pestañas que componen la hoja.
