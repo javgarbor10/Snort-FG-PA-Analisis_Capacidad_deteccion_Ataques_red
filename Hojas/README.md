@@ -144,6 +144,22 @@ A continuación se proporciona una guía para entender la información que se en
      -> #SIDs en Tráfico Legítimo (RS1, RS2, RS3, RS4, FortiGate, PaloAlto): Nº SIDs que ha generado el IDS correspondiente (para el RuleSet correspondiente en caso de Snort) para la detección del fichero PCAP
      -> Contiene Flujos Truncados (Sin SYN): indica si dentro de la captura hay al menos un flujo incompleto, por la falta del SYN inicial
 
+     ------------ SECCIÓN A.4: REGISTROS PESTAÑA (D) - I HOJA DETECCIONES ------------
+
+     Con fin de proporcionar una visión general de los distintos registros que se exponen en la pestaña (D) - I se detalla a continuación la temática de cada uno
+
+     -> Nº Único de Reglas por Paquete: este registro concierne al número exclusivo de reglas (reglas que no aparecen en ningún otro paquete de reglas) de cada uno de los paquetes que intervienen en el estudio. Contiene un gráfico de cascada.
+     -> Registros Totales - Valores Absolutos: este registro almacena sumas y cálculos totales, sin hacer uso de porcentajes, para todos los datos del estudio (sin atender a categorías del estilo táctica o técnica)
+     -> Registros Totales - Porcentajes Totales: este registro almacena porcentajes relativos a los valores absolutos de todos los datos del estudio (sin atender a categorías del estilo táctica o técnica)
+     -> Registros Totales - Porcentajes Promedio: este registro almacena porcentajes obtenidos a partir de promedios calculados directamente de los valores de la pestaña (B) - Detecciones - Ataques. Los promedios se realizan sobre todos los datos del estudio (sin atender a categorías del estilo táctica o técnica)
+     -> Registros Particulares - Valores Absolutos (Táctica / Técnica): este registro almacena sumas y cálculos totales, sin hacer uso de porcentajes, para todos los datos del estudio, clasificándolos por táctica o técnica según corresponda
+     -> Registros Particulares - Porcentajes Totales (Táctica / Técnica): este registro almacena porcentajes relativos a los valores absolutos de todos los datos del estudio, clasificándolos por táctica o técnica según corresponda
+     -> Registros Particulares - Porcentajes Promedio (Táctica / Técnica): este registro almacena porcentajes obtenidos a partir de promedios calculados directamente de los valores de la pestaña (B) - Detecciones - Ataques. Los promedios se realizan sobre todos los datos del estudio, clasificándolos por táctica o técnica según corresponda
+     -> Técnicas que generan Alertas (TP): este registro recoge para cada RuleSet y Táctica el número de técnicas que han generado al menos un TP
+     -> Ataques que generan Alertas (TP): este registro recoge para cada RuleSet y Táctica el número de ataques que han generado al menos un TP
+     -> Alertas Totales (SIDs): este registro recoge para cada RuleSet y táctica el número de SIDs diferentes generados para cada ataque (sumados en caso de existir más de un ataque por combinación)
+     -> TP Totales (SIDs): este registro recoge para cada RuleSet y táctica el número de SIDs calificados como TP.
+     
      ------------ SECCIÓN B: VISTA GENERAL HOJA MAPEOS ------------
 
      En esta hoja puede encontrarse información relacionada con las asociaciones táctica/técnica/subtécnica/IDs de ataques, así como contadores particulares y globales. A continuación se describen las pestañas que componen la hoja.
