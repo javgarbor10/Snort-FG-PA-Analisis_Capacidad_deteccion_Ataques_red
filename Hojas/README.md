@@ -142,6 +142,7 @@ A continuación se proporciona una guía para entender la información que se en
      -> Nº de Direcciones Distintas: nº de direcciones IP distintas que aparecen en la captura de paquetes
      -> SIDs en Tráfico Legítimo (RS1, RS2, RS3, RS4, FortiGate, PaloAlto): SIDs que ha generado el IDS correspondiente (para el RuleSet correspondiente en caso de Snort) para la detección del fichero PCAP
      -> #SIDs en Tráfico Legítimo (RS1, RS2, RS3, RS4, FortiGate, PaloAlto): Nº SIDs que ha generado el IDS correspondiente (para el RuleSet correspondiente en caso de Snort) para la detección del fichero PCAP
+     -> Contiene Flujos Truncados (Sin SYN): indica si dentro de la captura hay al menos un flujo incompleto, por la falta del SYN inicial
 
      ------------ SECCIÓN B: VISTA GENERAL HOJA MAPEOS ------------
 
