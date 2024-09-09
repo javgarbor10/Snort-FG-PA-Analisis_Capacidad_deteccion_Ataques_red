@@ -13,6 +13,8 @@ todos los conceptos entre sí, conformando el culmen del estudio.
 
 A continuación se proporciona una guía para entender la información que se encuentra almacenada en estas hojas de cálculo.
 
+¡¡¡ RECOMENDACIÓN !!! - Si se desea ver las gráficas con claridad y sin errores de formato se recomienda acudir al enlace proporcionado al fichero Google Sheets correspondiente.
+
      ------------ SECCIÓN A.1: VISTA GENERAL HOJA DETECCIONES ------------
      
      Esta hoja concentra numerosos aspectos relacionados con el estudio, divididos en pestañas:
