@@ -159,7 +159,28 @@ A continuación se proporciona una guía para entender la información que se en
      -> Ataques que generan Alertas (TP): este registro recoge para cada RuleSet y Táctica el número de ataques que han generado al menos un TP
      -> Alertas Totales (SIDs): este registro recoge para cada RuleSet y táctica el número de SIDs diferentes generados para cada ataque (sumados en caso de existir más de un ataque por combinación)
      -> TP Totales (SIDs): este registro recoge para cada RuleSet y táctica el número de SIDs calificados como TP.
-     
+
+     ------------ SECCIÓN A.5: REGISTROS PESTAÑA (D) - II HOJA DETECCIONES ------------
+
+     -> Registros Totales - Valores Absolutos: este registro almacena sumas y cálculos totales, sin hacer uso de porcentajes, para todos los datos del estudio (sin atender a categorías del estilo táctica o técnica)
+     -> Registros Totales - Porcentajes Totales: este registro almacena porcentajes relativos a los valores absolutos de todos los datos del estudio (sin atender a categorías del estilo táctica o técnica)
+     -> Registros Totales - Porcentajes Promedio: este registro almacena porcentajes obtenidos a partir de promedios calculados directamente de los valores de la pestaña (B) - Detecciones - Ataques. Los promedios se realizan sobre todos los datos del estudio (sin atender a categorías del estilo táctica o técnica)
+     -> Registros Particulares - Valores Absolutos (Táctica / Técnica): este registro almacena sumas y cálculos totales, sin hacer uso de porcentajes, para todos los datos del estudio, clasificándolos por táctica o técnica según corresponda
+     -> Registros Particulares - Porcentajes Totales (Táctica / Técnica): este registro almacena porcentajes relativos a los valores absolutos de todos los datos del estudio, clasificándolos por táctica o técnica según corresponda
+     -> Registros Particulares - Porcentajes Promedio (Táctica / Técnica): este registro almacena porcentajes obtenidos a partir de promedios calculados directamente de los valores de la pestaña (B) - Detecciones - Ataques. Los promedios se realizan sobre todos los datos del estudio, clasificándolos por táctica o técnica según corresponda
+     -> Alertas totales TP (attackids): esta tabla muestra el número de alertas totales que son consideradas como TP para cada táctica
+     -> Alertas TP promedio (attackids) por Ataque: esta tabla muestra el número de alertas promedio que son consideradas como TP y que se generan para cada ataque dentro de una táctica
+     -> Efectividad de Alertas: esta tabla muestra el porcentaje de efectividad que presentan las alertas generadas para cada táctica, calculadas dividiendo el número de TPs entre el número de alertas totales.
+
+     ------------ SECCIÓN A.6: REGISTROS PESTAÑA (D) - III HOJA DETECCIONES ------------
+
+     ------------ SECCIÓN A.7: REGISTROS PESTAÑA (D) - IV HOJA DETECCIONES ------------
+
+     -> Registros de Detecciones: esta tabla muestra diferentes contadores y gráficas acerca de las categorías que intervienen en el estudio
+     -> Comparación Snort vs FG - Detección de Flujos: este registro compara en diferentes secciones los resultados obtenidos a nivel de flujos por Snort y FG, para totales, tácticas y técnicas
+     -> Comparación Snort vs PA - Detección de Flujos: este registro compara en diferentes secciones los resultados obtenidos a nivel de flujos por Snort y PA, para totales, tácticas y técnicas
+
+      
      ------------ SECCIÓN B: VISTA GENERAL HOJA MAPEOS ------------
 
      En esta hoja puede encontrarse información relacionada con las asociaciones táctica/técnica/subtécnica/IDs de ataques, así como contadores particulares y globales. A continuación se describen las pestañas que componen la hoja.
