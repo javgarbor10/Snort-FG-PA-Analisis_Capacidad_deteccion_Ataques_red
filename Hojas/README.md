@@ -219,7 +219,10 @@ A continuación se proporciona una guía para entender la información que se en
      -> Mecanismo de detección: determina el mecanismo de detección del ataque
      -> Implementada: SI o NO en función de si el ataque ha sido implementado o no
       
+     ------------ SECCIÓN B.5: TABLA (D) HOJA MAPEOS ------------
 
-
+     -> Listado: Se enumeran para cada táctica las técnicas (si no tienen subtécnicas) y subtécnicas y se marca con una casilla de verificación si han sido implementadas o no
+     -> Recuento (Tácticas): Se elaboran recuentos para cada táctica
+     -> Recuento (Total): Se elaboran recuentos totales del estudio
 
  
