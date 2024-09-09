@@ -181,7 +181,7 @@ A continuación se proporciona una guía para entender la información que se en
      -> Comparación Snort vs PA - Detección de Flujos: este registro compara en diferentes secciones los resultados obtenidos a nivel de flujos por Snort y PA, para totales, tácticas y técnicas
 
       
-     ------------ SECCIÓN B: VISTA GENERAL HOJA MAPEOS ------------
+     ------------ SECCIÓN B.1: VISTA GENERAL HOJA MAPEOS ------------
 
      En esta hoja puede encontrarse información relacionada con las asociaciones táctica/técnica/subtécnica/IDs de ataques, así como contadores particulares y globales. A continuación se describen las pestañas que componen la hoja.
 
@@ -191,8 +191,33 @@ A continuación se proporciona una guía para entender la información que se en
      -> (D) - Recuento Total: contiene toda clase de contadores relacionados con las tácticas, técnicas y subtécnicas de la matriz, tanto las que han sido implementadas como las que no (porque no son detectables por red)
      -> Otras pestañas: el resto de pestañas están centradas en la asociación SIDs <-> Tácticas/Técnicas, tanto para Snort como para el resto de IDS
 
+     ------------ SECCIÓN B.2: TABLA (A) HOJA MAPEOS ------------
 
+     -> Columna: cada columna representa una táctica del estudio
+     -> Fila: cada fila representa una técnica del estudio
+     -> Celda: cada celda está marcada con ✔ si existe la asociación marcado entre columna y fila correspondiente
 
+     ------------ SECCIÓN B.3: TABLA (B) HOJA MAPEOS ------------
+
+     -> Columna: cada columna representa una táctica del estudio
+     -> Fila: cada fila representa una subtécnica del estudio
+     -> Celda: cada celda está marcada con ✔ si existe la asociación marcado entre columna y fila correspondiente
+
+     ------------ SECCIÓN B.4: TABLA (C) HOJA MAPEOS ------------
+
+     -> Táctica: nombre de la táctica a la que pertenece el ataque
+     -> Técnica: nombre de la técnica a la que pertenece el ataque
+     -> ID: ID de la técnica a la que pertenece el ataque
+     -> Táctica Adicional: nombres de las tácticas adicionales a las que pertenece el ataque
+     -> Implementada: nombres de las tácticas adicionales a las que pertenece el ataque
+     -> Subtécnica: SI o NO en función de si la técnica a la que pertenece el ataque ha sido implementada
+     -> ID: ID de la subtécnica a la que pertenece o "-" si no tiene subtécnica asociada (se trata de una técnica única)
+     -> Técnicas Adicionales: nombre de las técnicas adicionales a las que pertenece el ataque
+     -> Detectable por Red: SI o NO dependiendo de si el ataque es detectable por red
+     -> Sólo Detectable por Red: SI o NO dependiendo de si el ataque es exclusivamente detectable por red (no existe otro método de detección)
+     -> Detectable mediante patrones: determina si el ataque es detectable o no mediante patrones (puede contener excepciones)
+     -> Mecanismo de detección: determina el mecanismo de detección del ataque
+     -> Implementada: SI o NO en función de si el ataque ha sido implementado o no
       
 
 
