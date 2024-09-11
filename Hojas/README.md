@@ -61,6 +61,7 @@ A continuación se proporciona una guía para entender la información que se en
       -> VERIFICACIÓN MTU MÁXIMA: ✔ o ✘ en función de si la captura de paquetes ha sufrido el ajuste de MTU para los entornos de los IDS
       -> ERROR TCP_Replay: ✔ o ✘ en función de si la captura de paquetes ha devuelto errores en la reproducción de paquetes dentro de los entornos de los IDS
       -> CONTIENE SÓLO FLUJOS COMPLETOS CON SYN INICIAL: ✔ o ✘ en función de si la captura de paquetes tan sólo contiene flujos completos, es decir, no incluye flujos truncados
+      -> NIVEL DE ATAQUE: para cada ataque se especifica si el ataque pertenece al nivel L1 (el ataque siempre será ataque y no puede ser confundido con actividad legítima) o si pertenece al L2 (el ataque puede ser interpretado en ciertos contextos como actividad legítima realizada por la propia "víctima")
       -> SIDs (sin repetición): para cada RS de Snort, esta sección enumera los SIDs de las alertas devueltos por Snort para el RuleSet correspondiente
       -> #SIDs: para cada RS de Snort, número de SIDs diferentes de las alertas devueltos por Snort para el RuleSet correspondiente
       -> Número total de alertas: para cada RS de Snort, número total de alertas (con repetición) generadas por Snort para el RuleSet correspondiente.
