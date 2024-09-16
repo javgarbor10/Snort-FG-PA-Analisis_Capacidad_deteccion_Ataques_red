@@ -14,7 +14,7 @@ Nº alertas = 5
  [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" 
  [1:24097:6] "CONTENT-REPLACE Teamviewer remote connection attempt" 
  [1:24096:6] "CONTENT-REPLACE Teamviewer remote connection attempt" 
-Nº de alertas totales: 7
+Nº de alertas totales: 43
 
 ETOpen Optimizado:
 Nº alertas = 2
