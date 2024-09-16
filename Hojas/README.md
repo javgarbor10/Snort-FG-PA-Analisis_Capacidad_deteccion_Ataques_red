@@ -66,7 +66,7 @@ A continuación se proporciona una guía para entender la información que se en
       -> #SIDs: para cada RS de Snort, número de SIDs diferentes de las alertas devueltos por Snort para el RuleSet correspondiente
       -> Número total de alertas: para cada RS de Snort, número total de alertas (con repetición) generadas por Snort para el RuleSet correspondiente.
       -> SIDs en legítimo y ataque: para cada RS de Snort, SIDs que aparecen tanto en las detecciones de tráfico legítimo como en el propio ataque
-      -> SIDs sólo en ataque: para cada RS de Snort, SIDs que sólo aparecen en las detecciones del ataque
+      -> SIDs sólo en ataque - SIDs TP ( Automático):  para cada RS de Snort, SIDs que sólo aparecen en las detecciones del ataque, equivalente a decir que los SIDs que aparecen en esta coluimna son todos los SIDs considerados como TP en el método de identificación de alertas automático
       -> SIDs FP (Manual): para cada RS de Snort, SIDs que manualmente han sido calificados como FP, ya sea por tratarse de simples eventos de red o por no estar relacionados
       -> SIDs FP (Automático): para cada RS de Snort, SIDs que aparecen en tráfico legítimo y que se usan para la metodología automática para calificar los SIDs del ataque como FP
       -> SIDs FP: para cada RS de Snort, contendrá los SIDs de la columna "SIDs FP (Manual)" si esta no es igual a "-". En tal caso (no se ha realizado el análisis manual) contendrá los SIDs de la columna "SIDs FP (Automático)"
