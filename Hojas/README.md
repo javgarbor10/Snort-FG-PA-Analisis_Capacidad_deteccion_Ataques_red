@@ -67,6 +67,8 @@ A continuación se proporciona una guía para entender la información que se en
       -> Número total de alertas: para cada RS de Snort, número total de alertas (con repetición) generadas por Snort para el RuleSet correspondiente.
       -> SIDs en legítimo y ataque: para cada RS de Snort, SIDs que aparecen tanto en las detecciones de tráfico legítimo como en el propio ataque
       -> SIDs sólo en ataque - SIDs TP ( Automático):  para cada RS de Snort, SIDs que sólo aparecen en las detecciones del ataque, equivalente a decir que los SIDs que aparecen en esta coluimna son todos los SIDs considerados como TP en el método de identificación de alertas automático
+      -> #SIDs TP (Automático): para cada RS de Snort, nº de SIDs diferentes que han sido calificados como TP para el método automático de identificación de alertas
+      -> Nº Total de Alertas TP (Automático): para cada RS de Snort, nº total de alertas TP generadas, atendiendo al procedimiento automático de identificación de alertas
       -> SIDs FP (Manual): para cada RS de Snort, SIDs que manualmente han sido calificados como FP, ya sea por tratarse de simples eventos de red o por no estar relacionados
       -> SIDs FP (Automático): para cada RS de Snort, SIDs que aparecen en tráfico legítimo y que se usan para la metodología automática para calificar los SIDs del ataque como FP
       -> SIDs FP: para cada RS de Snort, contendrá los SIDs de la columna "SIDs FP (Manual)" si esta no es igual a "-". En tal caso (no se ha realizado el análisis manual) contendrá los SIDs de la columna "SIDs FP (Automático)"
@@ -74,6 +76,8 @@ A continuación se proporciona una guía para entender la información que se en
       -> SIDs FP "Eventos de Red": para cada RS de Snort, contendrá los SIDs que han sido considerados de forma manual como Eventos de Red
       -> SIDs TP "Todas las Alertas" (Manual): para cada RS de Snort, SIDs que manualmente se ha comprobado que siempre son TP
       -> SIDs TP "Algunas Alertas" (Manual): para cada RS de Snort, SIDs que manualmente se ha comprobado que en ocasiones son TP y en otras FP
+      -> #SIDs TP (Manual): para cada RS de Snort, nº de SIDs diferentes que han sido calificados como TP para el método manual de identificación de alertas
+      -> Nº Total de Alertas (Manual): para cada RS de Snort, nº total de alertas TP generadas, atendiendo al procedimiento manual de identificación de alertas
       -> Nº TOTAL DE FLUJOS DETECTADOS SNORTv3: para el RS1 y RS3, número de flujos totales analizados por Snortv3
       -> Nº TOTAL DE FLUJOS DETECTADOS SNORTv2: para cada RS2 y RS4 de Snort, número de flujos totales analizados por Snortv2
       -> Nº TOTAL DE FLUJOS CON ATAQUE/S TOTALES DETECTADOS: para cada RS de Snort, número de flujos con ataque detectados por el RuleSet. Para este cálculo, se cuenta el número de flujos totales dentro de los logs de alertas
