@@ -14,8 +14,7 @@ El apartado de detecciones del IDS Snort sigue el siguiente esquema:
      El segundo, con el sufijo "TP" ha sufrido un filtrado automático de alertas en base a los SIDs de tráfico legítimo. 
      En algunos pcaps podrá encontrar un tercer archivo CSV asociado, con el sufijo "-Manual". 
      Para estos casos, se ha analizado manualmente cuáles de las alertas mostradas en el CSV sin filtrado se corresponden con TP, manteniéndolas y eliminando los FP. 
-     Este CSV, por lo general, sólo se encontrará para ataques manejables de no mucho tamaño. 
-     Como aclaración, si el análisis manual coincide con el automático no encontrará este archivo. En caso de duda puede acudir a la hoja "Detecciones" para comprobar qué ataques no han sido analizados manualmente. 
+     Este CSV, por lo general, sólo se encontrará para ataques manejables de no mucho tamaño, por lo que si no encuentra dicho archivo para un ataque, la razón es que no se ha podido efectuar dicho análisis
      Los CSVs siguen la siguiente estructura de columnas:
      
       -> PaqueteReglas: esta columna determina el paquete de reglas al que pertenece la alerta generada. Las opciones son Community (Talos Community), ETOpen, Talos (Talos Registered) y/o ETOpenOpt (ETOpen Optimizado)
