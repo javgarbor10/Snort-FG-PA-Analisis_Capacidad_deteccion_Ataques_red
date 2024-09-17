@@ -45,9 +45,9 @@ T1482-Domain_trust_discovery_[4].pcapng,1,1,0,-,-,L2
 T1491.001-Internal_Defacement_[5].pcapng,1,-,0,-,-,L2
 T1498-Tcbpdu_[1].pcapng,1,-,0,-,-,L1
 T1498.001-MAC_table_flood_[3].pcapng,21711,-,0,-,-,L1
-T1498.001-UDP_flood_1-C2018_[6].pcapng,110,-,0,,-,L1
-T1498.001-UDP_flood_2-C2018_[6].pcapng,1473,-,0,,-,L1
-T1498.001-UDP_flood_[2].pcapng,1,-,0,,-,L1
+T1498.001-UDP_flood_1-C2018_[6].pcapng,110,-,0,,8502,L1
+T1498.001-UDP_flood_2-C2018_[6].pcapng,1473,-,0,,8502,L1
+T1498.001-UDP_flood_[2].pcapng,1,-,0,,8502,L1
 T1498-Fraggle_[1].pcapng,1,1,0,-,-,L1
 T1498-Smurf_[1].pcapng,1,-,0,-,-,L1
 T1499-Syn_suplantacion_[1].pcapng,2332,-,0,-,-,L1
