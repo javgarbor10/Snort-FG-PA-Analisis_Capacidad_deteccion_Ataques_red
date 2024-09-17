@@ -1,0 +1,23 @@
+#!/usr/bin/expect -f
+
+# Variables de entrada
+set timeout -1
+set user [lindex $argv 0]
+set password [lindex $argv 1]
+set vnet_interface [lindex $argv 2]
+set rate [lindex $argv 3]
+set pcap_file [lindex $argv 4]
+
+# Ejecutar el comando con sudo
+spawn sudo tcpreplay-edit -i $vnet_interface -d 1 --mtu-trunc --mbps $rate $pcap_file
+
+# Esperar la solicitud de contraseña y enviarla
+expect {
+    "password for $user:" {
+        send "$password\r"
+    }
+}
+
+# Interactuar con el proceso después de la autenticación
+interact
+
