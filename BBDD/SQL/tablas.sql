@@ -91,6 +91,7 @@ ataquescolaterales INTEGER,
 mtumaxima INTEGER,
 error_tcp_replay INTEGER,
 flujos_completos INTEGER,
+nivel_ataque varchar(1000),
 usado_analisis INTEGER
 );
 
@@ -123,6 +124,7 @@ ataquescolaterales INTEGER,
 mtumaxima INTEGER,
 error_tcp_replay INTEGER,
 flujos_completos INTEGER,
+nivel_ataque varchar(1000),
 usado_analisis INTEGER
 );
 
@@ -291,7 +293,8 @@ CREATE TABLE alertas_ataque_snort (
 ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
 sid INTEGER,
 ruleset INTEGER,
-TP INTEGER,
+TP_manual INTEGER,
+TP_automatico INTEGER,
 PRIMARY KEY (ficheropcap, sid)
 );
 
@@ -299,7 +302,8 @@ CREATE TEXT TABLE temp_alertas_ataque_snort (
 ficheropcap varchar(1000) REFERENCES caracterizacion_pcaps_ataque(ficheropcap),
 sid INTEGER,
 ruleset INTEGER,
-TP INTEGER
+TP_manual INTEGER,
+TP_automatico INTEGER
 );
 
 CREATE TABLE alertas_legitimo_snort (
