@@ -1,19 +1,19 @@
-Fichero PCAP,Nº de Flujos con Ataque NO DETECTADOS,Nº Flujos con Ataque en el PCAP,Nº Alertas IPS (Ataque) generadas (Attackids),Attackids de Alertas IPS generadas,Nº Alertas APP-CTRL generadas (Appid),Nº Flujos con Ataque Detectados por IPS,Nº Flujos con Ataque Detectados por APP-CTRL,Nº Flujos con Ataque Detectados Totales,Alerta Identificada (Ataque) que NO está saltando,Categoría del Ataque,Explicación
-T1008-Fallback_channels_[4].pcapng,2,2,1,52169,6,0,0,0,,L1,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1018-service_discovery_[3].pcapng,996,1002,1,43814,0,6,0,6,,L1,
-T1029-Scheduled_transfer_[4].pcapng,1,1,1,52169,3,0,0,0,,L1,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1046-Version_services_detection2_[3].pcapng,65673,65680,1,45360,7,4,3,7,,L1,
-T1046-C2018_[6].pcapng,1,1,1,12449,0,0,0,0,,L1,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1053.002-Scheduled_TaskJob_At_[5].pcapng,1,1,1,52676,1,0,0,0,,L1,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1071-Tunel_[1].pcapng,9,10,1,48370,2,1,0,1,,L1,
-T1087.002-AccountDiscovery_DomainAccount_[5].pcapng,1,1,1,52676,1,0,0,0,,L2,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1090-Proxy_internal_proxy_[4].pcapng,1,1,1,52169,4,0,0,0,,L1,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1095-Non_Application_Layer_[3].pcapng,1,1,1,52676,1,0,0,0,,L1,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1498-Amplif_dns_[1].pcapng,5173,5173,1,48370,2,0,0,0,DNS.Amplification.Detection,L1,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1499.02-Slowloris-C2018_[6].pcapng,6629,6979,1,17533,1,350,0,350,Slowloris.DoS,L1,
-T1570-Lateral_Tool_Transfer_[5].pcapng,1,1,1,12449,0,0,0,0,,L2,
-T1572-Protocol_Tunneling_[5].pcapng,1,1,1,12449,1,0,0,0,,L2,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
-T1586.001-Compromise_Accounts_[2].pcapng,6798,6951,1,12648,1,153,0,153,,L1,
-T1595.002-Port_Scanning_[3].pcapng,2030,2049,2,"43814, 45360",13,19,0,19,,L1,
-T1595.003-Web_page_scanning2_[3].pcapng,384,385,1,12648,1,1,0,1,,L1,
-T1665-Hide_Infrastructure_[5].pcapng,1,1,1,12449,7,0,0,0,,L1,"La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal"
+﻿Fichero PCAP;Nº de Flujos con Ataque NO DETECTADOS;Nº Flujos con Ataque en el PCAP;Nº Alertas IPS (Ataque) generadas (Attackids);Attackids de Alertas IPS generadas;Nº Alertas APP-CTRL generadas (Appid);Nº Flujos con Ataque Detectados por IPS;Nº Flujos con Ataque Detectados por APP-CTRL;Nº Flujos con Ataque Detectados Totales;Alerta Identificada (Ataque) que NO está saltando;Categoría del Ataque;Explicación
+T1008-Fallback_channels_[4].pcapng;2;2;1;52169;6;0;0;0;;L1;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1018-service_discovery_[3].pcapng;996;1002;1;43814;0;6;0;6;;L1;Se generan alertas pero no cubren el ataque entero
+T1029-Scheduled_transfer_[4].pcapng;1;1;1;52169;3;0;0;0;;L1;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1046-Version_services_detection2_[3].pcapng;65673;65680;1;45360;7;4;3;7;;L1;Se generan alertas pero no cubren el ataque entero
+T1046-C2018_[6].pcapng;1;1;1;12449;0;0;0;0;;L1;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1053.002-Scheduled_TaskJob_At_[5].pcapng;1;1;1;52676;1;0;0;0;;L1;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1071-Tunel_[1].pcapng;9;10;1;48370;2;1;0;1;;L1;Las alertas no cubren el ataque entero
+T1087.002-AccountDiscovery_DomainAccount_[5].pcapng;1;1;1;52676;1;0;0;0;;L2;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1090-Proxy_internal_proxy_[4].pcapng;1;1;1;52169;4;0;0;0;;L1;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1095-Non_Application_Layer_[3].pcapng;1;1;1;52676;1;0;0;0;;L1;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1498-Amplif_dns_[1].pcapng;5173;5173;1;48370;2;0;0;0;DNS.Amplification.Detection;L1;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1499.02-Slowloris-C2018_[6].pcapng;6629;6979;1;17533;1;350;0;350;Slowloris.DoS;L1;Las alertas no cubren el ataque entero
+T1570-Lateral_Tool_Transfer_[5].pcapng;1;1;1;12449;0;0;0;0;;L2;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1572-Protocol_Tunneling_[5].pcapng;1;1;1;12449;1;0;0;0;;L2;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
+T1586.001-Compromise_Accounts_[2].pcapng;6798;6951;1;12648;1;153;0;153;;L1;Las alertas no cubren el ataque entero
+T1595.002-Port_Scanning_[3].pcapng;2030;2049;2;43814, 45360;13;19;0;19;;L1;Las alertas no cubren el ataque entero
+T1595.003-Web_page_scanning2_[3].pcapng;384;385;1;12648;1;1;0;1;;L1;Las alertas no cubren el ataque entero
+T1665-Hide_Infrastructure_[5].pcapng;1;1;1;12449;7;0;0;0;;L1;La/s alerta/s generadas hacen referencia a ataques colaterales, no al ataque principal
