@@ -17,7 +17,8 @@ A continuación se proporciona una guía de los elementos disponibles en este di
      ------- SECCIÓN A: FICHEROS INVOLUCRADOS -------
      
      1 - Scripts SQL (Directorio "/SQL")
-      --> tablas.sql: contiene la definición de la estructura de las tablas y vistas
+      --> tablas.sql: contiene la definición de la estructura de las tablas
+      --> views.sql: contiene la definición de la estructura de las vistas
       --> datos.sql: contiene la inserción de los datos en las tablas (IMPORTANTE - ajustar manualmente los directorios 
      2 - CSVs (Directorio "/CSV")
       --> alertas_ataque_fortigate.csv, alertas_ataque_snort.csv, alertas_ataque_paloalto.csv 
