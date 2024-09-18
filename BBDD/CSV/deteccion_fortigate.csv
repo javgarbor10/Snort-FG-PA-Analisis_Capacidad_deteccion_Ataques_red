@@ -6,7 +6,7 @@ T1008-Fallback_channels_[4].pcapng,2,0,0,0,"Ataques Colaterales: FortiGate detec
 T1011-Exfiltration_over_bluetooth_[4].pcapng,0,0,0,0,Flujos Detectados FG: debido al error en la reproducción de la captura no se detectan flujos
 T1018-service_discovery_[3].pcapng,1002,6,6,0,-
 T1020.001-Automated_exfiltration_traffic_duplication_[4].pcapng,23,0,0,0,Flujos Detectados FG: la diferencia de flujos se debe a la presencia de reseteos de conexión. No hay pérdida de información
-T1021-remote_services_ssh_[3].pcapng,1,,0,1,-
+T1021-remote_services_ssh_[3].pcapng,1,0,0,1,-
 T1029-Scheduled_transfer_[4].pcapng,7,0,0,0,"Ataques Colaterales: FortiGate detecta el establecimiento del canal C&C, pero no detecta la programación de la extracción como tal. Por ello, sólo puede considerarse que FortiGate detecta adecuadamente el ataque colateral pero no el principal. Flujos Detectados FG: dos flujos con protocolo BROWSER (Windows) no son detectados. Estos flujos son irrelevantes para el ataques"
 T1030-Transfer_Size_Limits_[5].pcapng,36,0,0,0,-
 T1033-System_owner_[4].pcapng,4,0,0,0,"Flujos Detectados FG: FortiGate no identifica los flujos con direcciones IPv6, causando esta variación en los resultados"
