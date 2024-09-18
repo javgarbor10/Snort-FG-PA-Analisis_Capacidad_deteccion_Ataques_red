@@ -1,0 +1,72 @@
+Fichero PCAP,Nº de Flujos con Ataque NO DETECTADOS,Nº Flujos con Ataque en el PCAP,Nº Alertas IPS (Ataque) generadas (Attackids),Attackids de Alertas IPS generadas,Nº Alertas APP-CTRL generadas (Appid),Nº Flujos con Ataque Detectados por IPS,Nº Flujos con Ataque Detectados por APP-CTRL,Nº Flujos con Ataque Detectados Totales,Alerta Identificada (Ataque) que NO está saltando,Categoría del Ataque,Explicación
+T1001.002-Data_obfuscation_steganography_[4].pcapng,1,1,0,-,1,0,0,0,,L1,"El control de aplicaciones sólo detecta el uso de SSH, siendo insuficiente"
+T1001.003-Data_obfuscation_protocol_impersonation_[4].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones no detecta el uso del protocolo falso TLS
+T1020.001-Automated_exfiltration_traffic_duplication_[4].pcapng,1,1,0,-,4,0,0,0,,L1,"Las alertas de control de aplicaciones sólo muestran los protocolos usados, pero no indagan en la ejecución del script de duplicado"
+T1030-Transfer_Size_Limits_[5].pcapng,1,1,0,-,4,0,0,0,,L2,El control de aplicaciones sólo indica el uso de FTP
+T1033-System_owner_[4].pcapng,1,1,0,-,5,0,0,0,,L2,El control de aplicaciones sólo indica el uso de SMB o funciones de compartición de archivos. No es suficiente para determinar que se está recogiendo información de usuarios del sistema
+T1047-WinRM_[2].pcapng,450,450,0,-,3,0,0,0,MS.WinRM.Script.Exec.Remote.Code.Execution,L1,
+T1048.003-Exfiltration_over_ICMP_[2].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo detecta el uso de Ping
+T1048.003-Exfiltration_over_FTP_[3].pcapng,1,1,0,-,2,0,0,0,,L1,El control de aplicaciones sólo detecta el uso de FTP
+T1112-Modify_registry_[4].pcapng,1,1,0,-,6,0,0,0,,L2,El control de aplicaciones no marca el uso de la funcionalidad de registro remoto
+T1114-Email_collection_remote_email_collection_[4].pcapng,3,3,0,-,5,0,0,0,,L2,
+T1132.001-Standard_Encoding_[5].pcapng,5,5,0,-,3,0,0,0,,L1,
+T1133-External_remote_services_[4].pcapng,1,1,0,-,7,0,0,0,,L2,El control de aplicaciones no marca el acceso a la VPN
+T1176-Browser-extension_[4].pcapng,212,212,0,-,3,0,0,0,,L1,"El control de aplicaciones no marca el uso de una extensión, sino el uso de un navegador. No se puede determinar como válida"
+T1187-Forced_Authentication_[5].pcapng,1,1,0,-,3,0,0,0,,L1,"El control de aplicaciones sólo marca la funcionalidad de compartición de archivos, nada más"
+T1187-Forced_Authentication2_[5].pcapng,1,1,0,-,2,0,0,0,,L1,"El control de aplicaciones sólo marca la funcionalidad de compartición de archivos, nada más"
+T1189-Drive-by_compromise_v2_[4].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo marca el uso del navegador y las peticiones HTTP
+T1197-BITS_Jobs_[5].pcapng,9,9,0,-,9,0,0,0,,L1,
+T1199-Trusted_relationship_[4].pcapng,2,2,0,-,4,0,0,0,,L2,
+T1200-Hardware_Additions_[5].pcapng,1,1,0,-,3,0,0,0,,L1,"El control de aplicaciones sólo marca el uso de RDP, nada más"
+T1203-C2018_[6].pcapng,116,116,0,-,1,0,0,0,,L1,
+T1205.001-Port_Knocking_[3].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo marca el uso de SSH
+T1210-Web_attack-C2018_[6].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo marca el uso deL navegador Firefox
+T1213-SQL_inyection_[3].pcapng,1,1,0,-,1,0,0,0,URI.SQL.Injection,L1,El control de aplicaciones sólo marca el uso deL navegador Firefox
+T1218.010-COM_Scriptlet_[2].pcapng,1,1,0,-,2,0,0,0,,L1,"El control de aplicaciones sólo marca el uso de Github, pero no es suficiente para detectar el ataque"
+T1221-Template_Injection_[5].pcapng,1,1,0,-,6,0,0,0,,L2,El control de aplicaciones sólo detecta navegadores y otros
+T1482-Domain_trust_discovery_[4].pcapng,1,1,0,-,3,0,0,0,,L2,"El control de aplicaciones detecta el uso de Kerberos y LDAP, pero no indica nada de un acceso a los dominios de confianza"
+T1491.001-Internal_Defacement_[5].pcapng,1,1,0,-,4,0,0,0,,L2,
+T1496-Cryptomining_[2].pcapng,1,1,0,-,5,0,0,0,,L1,
+T1498.001-MAC_table_flood_[3].pcapng,21711,21711,0,-,1,0,0,0,,L1,
+T1498.001-UDP_flood_1-C2018_[6].pcapng,110,110,0,-,6,0,0,0,,L1,
+T1498.001-UDP_flood_2-C2018_[6].pcapng,1473,1473,0,-,1,0,0,0,,L1,
+T1498.001-HTTP_flood-C2018_[6].pcapng,29179,29179,0,-,1,0,0,0,,L1,
+T1498.001-TCP_flood-C2018_[6].pcapng,536494,536494,0,-,6,0,0,0,,L1,
+T1498.001-UDP_flood_[2].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1498-Fraggle_[1].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1498-Smurf_[1].pcapng,1,1,0,-,2,0,0,0,,L1,
+T1499.001-OS_Exhaustion_Flood_[3].pcapng,150,150,0,-,6,0,0,0,Slowloris.DoS,L1,
+T1499-Reseteo_[1].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1499-Dhcp_flood_[1].pcapng,1,1,0,-,2,0,0,0,,L1,
+T1499.03-Hulk-C2018_[6].pcapng,44878,44878,0,-,4,0,0,0,,L1,
+T1499.03-GoldenEye-C2018_[6].pcapng,27772,27772,0,-,5,0,0,0,,L1,
+T1499-Mac_spoof_[1].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1505.005-Shell_Web_[2].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1534-Internal_spearphishing_[4].pcapng,1,1,0,-,4,0,0,0,,L2,
+T1542.005-TFTP_Boot_[5].pcapng,1,1,0,-,9,0,0,0,,L1,
+T1543.003-CreateSystemProcessWindowsService_[5].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1557-Puente_raiz_[1].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1557-Redireccion_[1].pcapng,1,1,0,-,2,0,0,0,,L1,
+T1557.002-ARP_poisoning1_[2].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1557-Arp_spoof_[1].pcapng,1,1,0,-,1,0,0,0,,L1,
+T1557-Hole196_[1].pcapng,1,1,0,-,2,0,0,0,,L1,
+T1557-Dhcp_spoofing_[1].pcapng,1,1,0,-,4,0,0,0,,L1,
+T1563.002-RDPHijacking_[5].pcapng,2,2,0,-,3,0,0,0,,L1,
+T1566.002-Spearphishing_Link_[5].pcapng,1,1,0,-,6,0,0,0,,L1,
+T1567.002-Exfiltration_To_Cloud_Storage_[5].pcapng,1,1,0,-,5,0,0,0,,L2,
+T1568-fastFluxDNS_[5].pcapng,123,123,0,-,5,0,0,0,DNS.Fast.Flux,L1,
+T1571-SSH_[2].pcapng,1,1,0,-,1,0,0,0,,L2,
+T1584-Cache_dns_[1].pcapng,1,1,0,-,2,0,0,0,,L1,
+T1584-Secuestro_dns_[1].pcapng,1,1,0,-,2,0,0,0,,L1,
+T1584.005-C2018_[6].pcapng,81521,81521,0,-,11,0,0,0,,L1,
+T1585.001-Establish_social_accounts_[4].pcapng,1,1,0,-,1,0,0,0,,L2,
+T1589.002-Gather_victim_identity_information_[4].pcapng,1,1,0,-,1,0,0,0,,L2,
+T1595.003-Web_page_scanning1_[2].pcapng,181,181,0,-,1,0,0,0,,L1,
+T1598.003-Spearphishing_Link_[5].pcapng,2,2,0,-,6,0,0,0,,L1,
+T1599-NBB1_[5].pcapng,1,1,0,-,2,0,0,0,,L2,
+T1599-NBB2_[5].pcapng,1,1,0,-,1,0,0,0,,L2,
+T1602.001-MIB_Dump_[2].pcapng,1,1,0,-,2,0,0,0,,L2,
+T1612-BuildImageOnHostLocal_[5].pcapng,1,1,0,-,1,0,0,0,,L2,
+T1615-Group_Policy_Discovery_[5].pcapng,41,41,0,-,4,0,0,0,,L2,
+T1659-Content_Injection_[5].pcapng,2,2,0,-,9,0,0,0,,L1,
+T1659_Inyeccion_[1].pcapng,1,1,0,-,2,0,0,0,,L1,
