@@ -6,7 +6,7 @@ T1020.001-Automated_exfiltration_traffic_duplication_[4].pcapng,1,2,0,-,-,L1,Eje
 T1029-Scheduled_transfer_[4].pcapng,1,8,0,-,-,L1,Comunicación C2 para el establecimiento de extracción programada
 T1033-System_owner_[4].pcapng,1,5,0,-,-,L2,Descubrimiento de sesión de usuario en equipo remoto
 T1046-Version_services_detection1_[3].pcapng,158,7336,157,-,-,L1,Mútliples actividades de escaneo, incluidas el intento de Shell Remoto aprovechando el conocimiento de la red victima
-T1046-Version_services_detection2_[3].pcapng,65680,7,65467,""proto=""""tcp"""" app=""""incomplete"""""",-,L1,Descubrimiento de servicios y version
+T1046-Version_services_detection2_[3].pcapng,65680,7,65467,proto=tcp app=incomplete,-,L1,Descubrimiento de servicios y version
 T1046-C2018_[6].pcapng,1,1,0,-,-,L1,Descubrimiento de servicios y version
 T1053.002-Scheduled_TaskJob_At_[5].pcapng,1,20,0,-,-,L1,Ejecución de tarea mediante uso de comando at para programar la hora de la ejecución
 T1070-Indicator_removal_network_share_connection_removal_[4].pcapng,1,1,0,-,-,L2,Eliminación de conexiones establecidas via Network Share en Windows
