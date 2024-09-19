@@ -1,101 +1,50 @@
-﻿Fichero PCAP,Nº Flujos con Ataque en el PCAP,Nº Alertas IPS (Ataque) generadas,Nº Flujos con Ataque Detectados (Principales) IPS,¿Alerta de firmas de aplicación?,Alerta Identificada que NO está saltando,Categoría del Ataque,Explicacion
-T1001.002-Data_obfuscation_steganography_[4].pcapng,1,1,0,-,-,L1,Inserción de información confidencial en una imagen JPG
-T1001.003-Data_obfuscation_protocol_impersonation_[4].pcapng,1,2,0,-,-,L1,Falsificación de protocolos de conexión segura como SSL o TLS
-T1008-Fallback_channels_[4].pcapng,2,15,0,-,-,L1,Traspaso de canal primario C2 a canal alternativo
-T1020.001-Automated_exfiltration_traffic_duplication_[4].pcapng,1,2,0,-,-,L1,Ejecución de script en Python para activar el reenvío de paquetes en el equipo víctima
-T1029-Scheduled_transfer_[4].pcapng,1,8,0,-,-,L1,Comunicación C2 para el establecimiento de extracción programada
-T1033-System_owner_[4].pcapng,1,5,0,-,-,L2,Descubrimiento de sesión de usuario en equipo remoto
-T1046-Version_services_detection1_[3].pcapng,158,7336,157,-,-,L1,Mútliples actividades de escaneo incluidas el intento de Shell Remoto aprovechando el conocimiento de la red victima
-T1046-Version_services_detection2_[3].pcapng,65680,7,65467,proto=tcp app=incomplete,-,L1,Descubrimiento de servicios y version
-T1046-C2018_[6].pcapng,1,1,0,-,-,L1,Descubrimiento de servicios y version
-T1053.002-Scheduled_TaskJob_At_[5].pcapng,1,20,0,-,-,L1,Ejecución de tarea mediante uso de comando at para programar la hora de la ejecución
-T1070-Indicator_removal_network_share_connection_removal_[4].pcapng,1,1,0,-,-,L2,Eliminación de conexiones establecidas via Network Share en Windows
-T1087.002-AccountDiscovery_DomainAccount_[5].pcapng,1,11,0,-,-,L2,Descubrimiento de cuentas de dominio en entorno Active Directory
-T1090-Proxy_internal_proxy_[4].pcapng,1,53,0,-,-,L1,Uso de Equipo interno como Proxy para el ataque C2
-T1095-Non_Application_Layer_[3].pcapng,1,2,0,-,-,L1,Usar un protocolo que no sea de la capa de Aplicacion en el modelo OSI para esconder la conexión de C2. En este caso utilizamos TCP
-T1102.003-Web_service-one_way_communication_[4].pcapng,1,8,0,Google-base,-,L1,Subida de información confidencial a Workspace de Google Drive
-T1104-Multi_stage_channels_[4].pcapng,1,6,0,-,-,L1,Sesión Remota + Ataque C2
-T1110.001-SSH-C2018_[6].pcapng,91642,366860,14147,SSH,-,L1,PTW/KoreK/FMS
-T1112-Modify_registry_[4].pcapng,1,6,0,-,-,L2,Modificación del Registro de forma remota
-T1114-Email_collection_remote_email_collection_[4].pcapng,3,6,0,-,-,L2,Recolección de correos electrónicos de un servidor Microsoft Exchange haciendo uso de credenciales robadas
-T1189-Drive-by_compromise_v1_[4].pcapng,3,5,0,,-,L1,HTML Exploit I - HTML Compilador
-T1189-Drive-by_compromise_v2_[4].pcapng,1,4,0,,-,L1,HTML Exploit II - Descarga de Ejecutable
-T1203-C2018_[6].pcapng,116,345,0,-,-,L1,Ataque con Botnet
-T1205.001-Port_Knocking_[3].pcapng,1,1,0,-,-,L1,Esconder y activar un puerto de forma remota
-T1213-SQL_inyection_[3].pcapng,1,2,0,-,-,L1,Inyección SQL
-T1218.010-COM_Scriptlet_[2].pcapng,1,1,0,-,-,L1,Ejecución de COM scriptlet remoto
-T1221-Template_Injection_[5].pcapng,1,6,0,-,-,L2,Inyectar un fichero mediante Phishing .docx con macros modificadas que permita pasar desapercibido
-T1482-Domain_trust_discovery_[4].pcapng,1,1,0,-,-,L2,Descubrimiento de dominios de confianza en entorno Active Directory
-T1498.001-HTTP_flood-C2018_[6].pcapng,29179,288572,16335,,-,L1,Inundación HTTP
-T1498.001-TCP_flood-C2018_[6].pcapng,536494,22559,22559,-,-,L1,Inundación tabla MAC
-T1498-Fraggle_[1].pcapng,1,1,0,-,-,L1,Inundación UDP
-T1499.02-Slowloris-C2018_[6].pcapng,6979,19039,4789,-,-,L1,Envio solicitudes HTTP a baja tasa
-T1499.03-GoldenEye-C2018_[6].pcapng,27772,54526,14116,-,-,L1,Denegación de servicio a servidor web
-T1537-Transfer_Data_to_Cloud_Account_[5].pcapng,2,17,0,ms-onedrive-business -- file sharing,-,L2,Transferir archivos de una cuenta a otra mediante un servicio en la nube
-T1542.005-TFTP_Boot_[5].pcapng,1,3,0,tftp -- file sharing,-,L1,Modificación de imagen de SO mediante la suplantación de un Server TFTP
-T1566.001-C2018_[6].pcapng,1,2,0,-,-,L1,Envío de emails con documentos maliciosos
-T1566.002-Spearphishing_Link_[5].pcapng,1,1,0,-,-,L1,Obtener un acceso inicial mediante ingeniería social utilizando un enlace adjunto en un correo que descargue un fichero que establezca una sesión al equipo víctima
-T1567.002-Exfiltration_To_Cloud_Storage_[5].pcapng,1,4,0,google-drive-web-base -- file sharing,-,L2,Exfiltrar datos de un equipo a la nube
-T1568-fastFluxDNS_[5].pcapng,123,17,0,-,-,L1,Esconder un C2 Server mediante un servidor DNS con bajo TTL y modo Fast Flux
-T1569-System_services_service_execution_[4].pcapng,11,2,1,-,-,L2,Ejecución de un Servicio / Fichero Ejecutable de manera remota
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-T1584.005-C2018_[6].pcapng,81521,66,0,vimeo-base -- photo video / ms-rdp -- remote access /,-,L1,Uso de Botnet
-T1585.001-Establish_social_accounts_[4].pcapng,1,248,0,-,-,L2,Creación de cuentas de redes sociales
-T1586.001-Compromise_Accounts_[2].pcapng,6951,697509,6949,-,-,L1,Fuerza bruta para acceso a web
-T1598.003-Spearphishing_Link_[5].pcapng,2,5,0,-,-,L1,Recogida de información de la víctima mediante ingeniería social
-T1599-Salto_vlan_[1].pcapng,1,-,0,-,-,L1,Modificación de políticas de red para permitir tráfico externo a la red interna
-T1599-NBB1_[5].pcapng,1,2,0,-,-,L2,Modificación de políticas de red para permitir tráfico externo a la red interna
-T1599-NBB2_[5].pcapng,1,1,0,-,-,L2,Salto de VLAN
-
-T1659-Content_Injection_[5].pcapng,2,4,0,-,-,L1,Inyección
-
-T1665-Hide_Infrastructure_[5].pcapng,1,9,0,-,-,L1,Esconder el servidor C2 utilizando un Proxy
+﻿Fichero PCAP,Nº Flujos con Ataque en el PCAP,Nº Alertas IPS (Ataque) generadas,Threat ID,Nº Flujos con Ataque Detectados (Principales) IPS,Nº Flujos con Ataque Detectados (PaloAlto IPS),Nº Flujos con Ataque Detectados (PaloAlto Control de Aplicaciones),¿Alerta de firmas de aplicación?,Alerta Identificada que NO está saltando,Categoría del Ataque,Explicacion
+T1001.002-Data_obfuscation_steganography_[4].pcapng,1,1,31914,0,0,0.0,-,-,L1,Inserción de información confidencial en una imagen JPG
+T1001.003-Data_obfuscation_protocol_impersonation_[4].pcapng,1,2,14978  9999,0,0,0.0,-,-,L1,Falsificación de protocolos de conexión segura como SSL o TLS
+T1008-Fallback_channels_[4].pcapng,2,15,9999  85585  92322,0,0,0.0,-,-,L1,Traspaso de canal primario C2 a canal alternativo
+T1020.001-Automated_exfiltration_traffic_duplication_[4].pcapng,1,2,31914,0,0,0.0,-,-,L1,Ejecución de script en Python para activar el reenvío de paquetes en el equipo víctima
+T1029-Scheduled_transfer_[4].pcapng,1,8,9999  85585  31914,0,0,0.0,-,-,L1,Comunicación C2 para el establecimiento de extracción programada
+T1033-System_owner_[4].pcapng,1,5,92322  33836,0,0,0.0,-,-,L2,Descubrimiento de sesión de usuario en equipo remoto
+"T1046-C2018_[6].pcapng,1,1,33515,0,0,0.0,-,-,L1,""Mútliples actividades de escaneo, incluidas el intento de Shell Remoto aprovechando el conocimiento de la red victima"""
+"T1046-Version_services_detection1_[3].pcapng,158,7336,9999  30092  30120  30323  30350  30444  30510  30514  30520  30798  30815  30818  30844  30851  30852  30853  30888  30903  30914  30921  31476  31477  31932  32190  32194  32451  32622  32658  32672  32688  32689  32691  32696  32701  32703  32712  33327  33330  33339  33467  33645  33756  33779  33783  34200  34439  34519  34804  35010  35107  35298  36096  36102  36280  36315  38402  38531  39455  39766  39810  54469  54701  55558  55834  58209  58461  58618  90136  91328  91655  92485  93646  94328  94849,157,157,0.0,""proto=""""tcp"""" app=""""incomplete"""""",-,L1,Descubrimiento de servicios y version"
+T1046-Version_services_detection2_[3].pcapng,65680,7,31914  32796  58433  94317,65467,10,65457.0,-,-,L1,Descubrimiento de servicios y version
+T1053.002-Scheduled_TaskJob_At_[5].pcapng,1,20,9999  86782,0,0,0.0,-,-,L1,Ejecución de tarea mediante uso de comando at para programar la hora de la ejecución
+T1070-Indicator_removal_network_share_connection_removal_[4].pcapng,1,1,92322,0,0,0.0,-,-,L2,Eliminación de conexiones establecidas via Network Share en Windows
+T1087.002-AccountDiscovery_DomainAccount_[5].pcapng,1,11,9999  86782,0,0,0.0,-,-,L2,Descubrimiento de cuentas de dominio en entorno Active Directory
+T1090-Proxy_internal_proxy_[4].pcapng,1,53,9999.85585,0,0,0.0,-,-,L1,Uso de Equipo interno como Proxy para el ataque C2
+T1095-Non_Application_Layer_[3].pcapng,1,2,86786  86787,0,0,0.0,-,-,L1,Usar un protocolo que no sea de la capa de Aplicacion en el modelo OSI para esconder la conexión de C2. En este caso utilizamos TCP
+T1102.003-Web_service-one_way_communication_[4].pcapng,1,8,9999  85585,0,0,0.0,Google-base,-,L1,Subida de información confidencial a Workspace de Google Drive
+T1104-Multi_stage_channels_[4].pcapng,1,6,9999  85585,0,0,0.0,-,-,L1,Sesión Remota + Ataque C2
+T1110.001-SSH-C2018_[6].pcapng,91642,366860,31914  40104  55873  40015,14147,2503,11644.0,-,-,L1,Obtención de contraseña por fuerza bruta (adivinación)
+T1112-Modify_registry_[4].pcapng,1,6,9999  92322  33836,0,0,0.0,-,-,L2,Modificación del Registro de forma remota
+T1114-Email_collection_remote_email_collection_[4].pcapng,3,6,92322  9999,0,0,0.0,-,-,L2,Recolección de correos electrónicos de un servidor Microsoft Exchange haciendo uso de credenciales robadas
+T1189-Drive-by_compromise_v1_[4].pcapng,3,5,56610  9999,0,0,0.0,,-,L1,HTML Exploit I - HTML Compilador
+T1189-Drive-by_compromise_v2_[4].pcapng,1,4,56610  9999,0,0,0.0,,-,L1,HTML Exploit II - Descarga de Ejecutable
+T1203-C2018_[6].pcapng,116,345,53310  14984  94328,0,0,0.0,-,-,L1,Ataque con Botnet
+T1205.001-Port_Knocking_[3].pcapng,1,1,31914,0,0,0.0,-,-,L1,Esconder y activar un puerto de forma remota
+T1213-SQL_inyection_[3].pcapng,1,2,9999,0,0,0.0,-,-,L1,Inyección SQL
+T1218.010-COM_Scriptlet_[2].pcapng,1,1,9999,0,0,0.0,-,-,L1,Ejecución de COM scriptlet remoto
+T1221-Template_Injection_[5].pcapng,1,6,9999  30520,0,0,0.0,-,-,L2,Inyectar un fichero mediante Phishing .docx con macros modificadas que permita pasar desapercibido
+T1482-Domain_trust_discovery_[4].pcapng,1,1,92322,0,0,0.0,-,-,L2,Descubrimiento de dominios de confianza en entorno Active Directory
+T1498-Amplif_dns_[1].pcapng,5173,1,18870,5161,1,5160.0,-,-,L1,Amplificación DNS
+T1498-Fraggle_[1].pcapng,1,1,56497,0,0,0.0,-,-,L1,Fraggle
+T1498.001-HTTP_flood-C2018_[6].pcapng,29179,288572,9999,16335,16335,0.0,,-,L1,Inundación HTTP
+T1498.001-TCP_flood-C2018_[6].pcapng,536494,22559,9999  14984  34767  40032,22559,22559,0.0,,-,L1,Inundación TCP
+T1499-Reseteo_[1].pcapng,1,-,31914,0,0,0.0,-,-,L1,Reseteo de Conexión
+T1499.02-Slowloris-C2018_[6].pcapng,6979,19039,9999,4789,4789,0.0,-,-,L1,Envio solicitudes HTTP parciales
+T1499.03-GoldenEye-C2018_[6].pcapng,27772,54526,9999  14984,14116,14116,0.0,-,-,L1,Denegación de servicio a servidor web
+T1537-Transfer_Data_to_Cloud_Account_[5].pcapng,2,17,93031  9999  14978,0,0,0.0,ms-onedrive-business -- file sharing,-,L2,Transferir archivos de una cuenta a otra mediante un servicio en la nube
+T1542.005-TFTP_Boot_[5].pcapng,1,3,9999  31914,0,0,0.0,tftp -- file sharing,-,L1,Modificación de imagen de SO mediante la suplantación de un Server TFTP
+T1566.001-C2018_[6].pcapng,1,2,32296  54790,0,0,0.0,-,-,L1,Envío de emails con documentos maliciosos
+T1566.002-Spearphishing_Link_[5].pcapng,1,1,86533,0,0,0.0,-,-,L1,Obtener un acceso inicial mediante ingeniería social utilizando un enlace adjunto en un correo que descargue un fichero que establezca una sesión al equipo víctima
+T1567.002-Exfiltration_To_Cloud_Storage_[5].pcapng,1,4,93031  9999,0,0,0.0,google-drive-web-base -- file sharing,-,L2,Exfiltrar datos de un equipo a la nube
+T1568-fastFluxDNS_[5].pcapng,123,17,9999,0,0,0.0,-,-,L1,Esconder un C2 Server mediante un servidor DNS con bajo TTL y modo Fast Flux
+T1569-System_services_service_execution_[4].pcapng,11,2,92322  36540,1,1,0.0,-,-,L2,Ejecución de un Servicio / Fichero Ejecutable de manera remota
+T1584.005-C2018_[6].pcapng,81521,66,9999  14984  14978 ,0,0,0.0,vimeo-base -- photo video / ms-rdp -- remote access /,-,L1,Uso de Botnet
+T1585.001-Establish_social_accounts_[4].pcapng,1,248,93031  9999,0,0,0.0,-,-,L2,Creación de cuentas de redes sociales
+T1586.001-Compromise_Accounts_[2].pcapng,6951,697509,9999,6949,6949,0.0,-,-,L1,Fuerza bruta para acceso a web
+T1598.003-Spearphishing_Link_[5].pcapng,2,5,9999  56610,0,0,0.0,-,-,L1,Recogida de información de la víctima mediante ingeniería social
+T1599-NBB1_[5].pcapng,1,2,31914,0,0,0.0,-,-,L1,Modificación de políticas de red para permitir tráfico externo a la red interna
+T1599-NBB2_[5].pcapng,1,1,31914,0,0,0.0,-,-,L2,Modificación de políticas de red para permitir tráfico externo a la red interna
+"T1659-Content_Injection_[5].pcapng,2,4,14984  9999,0,0,0.0,-,-,L1,""Realizar una suplantación de identidad DHCP, saturando el servidor DHCP verdadero para que el servidor DHCP del atacante procese las consultas de un usuario. Posteriormente se manipula alguna consulta inyectando contenido malicioso"""
+T1665-Hide_Infrastructure_[5].pcapng,1,9,9999  14984,0,0,0.0,-,-,L1,Esconder el servidor C2 utilizando un Proxy
