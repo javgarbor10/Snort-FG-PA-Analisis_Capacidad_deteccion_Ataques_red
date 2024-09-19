@@ -1,23 +1,48 @@
-FICHERO PCAP,Nº DE FLUJOS CON ATAQUE/S,Número total de alertas,Nº FLUJOS CON ATAQUE DETECTADOS POR PALOALTO- TOTAL,App (Control de Aplicaciones),NIVEL DE ATAQUE,EXPLICACIÓN
-T1040-Autenticacion_[1].pcapng,1,-,0,-,L1,
-T1040-Fragmentacion_[1].pcapng,1,-,0,-,L1,
-T1040-Mac_flood_[1].pcapng,10674,-,0,-,L1,
-T1040-Chopchop_[1].pcapng,1,-,0,-,L1,
-T1110-Wps_[1].pcapng,1,-,0,-,L1,
-T1110-pmkid_[1].pcapng,1,-,0,-,L1,
-T1110-Ptw_korek_[1].pcapng,1,-,0,-,L1,
-T1110-Diccionario_[1].pcapng,1,-,0,-,L1,
-T1498.001-MAC_table_flood_[3].pcapng,21711,-,0,-,L1,
-T1498-Tcbpdu_[1].pcapng,1,-,0,-,L1,
-T1498-Smurf_[1].pcapng,1,-,0,-,L1,
-T1499-Syn_suplantacion_[1].pcapng,2332,-,0,-,L1,
-T1499-Land_[1].pcapng,1,-,0,-,L1,
-T1499-Reseteo_[1].pcapng,1,-,0,-,L1,
-T1499-Dhcp_flood_[1].pcapng,1,-,0,-,L1,
-T1499-Reflexion_synack_[1].pcapng,952,-,0,-,L1,
-T1557-Arp_spoof_[1].pcapng,1,-,0,-,L1,
-T1557-Dhcp_spoofing_[1].pcapng,1,-,0,-,L1,
-T1557-Hole196_[1].pcapng,1,-,0,-,L1,
-T1557-Puente_raiz_[1].pcapng,1,-,0,-,L1,
-T1557-Redireccion_[1].pcapng,1,-,0,-,L1,
-T1599-Salto_vlan_[1].pcapng,1,-,0,-,L1,
+﻿Fichero PCAP,Nº Flujos con Ataque en el PCAP,Nº Alertas IPS (Ataque) generadas,Nº Flujos con Ataque Detectados (Principales) IPS,¿Alerta de firmas de aplicación?,Alerta Identificada que NO está saltando,Categoría del Ataque,Explicacion
+T1003-Os_credential_dumping_dcsync_[4].pcapng,1,-,0,-,-,L1,Obtención de credenciales del usuario krbtgt (Usuario Kerberos Active Directory)
+T1011-Exfiltration_over_bluetooth_[4].pcapng,1,-,0,-,-,L1,Extracción via Bluetooth
+T1018-service_discovery_[3].pcapng,1002,-,0,-,-,L1,Descubrimiento de servicios y puertos
+T1040-Autenticacion_[1].pcapng,1,-,0,-,-,L1,Falsa autenticación
+T1040-Fragmentacion_[1].pcapng,1,-,0,-,-,L1,Fragmentacion
+T1040-Mac_flood_[1].pcapng,10674,-,0,-,-,L1,Inundacion MAC
+T1040-Chopchop_[1].pcapng,1,-,0,-,-,L1,IChopChop
+T1047-WinRM_[2].pcapng,450,-,0,-,-,L1,Ejecución de carga por WinRM
+T1110-Wps_[1].pcapng,1,-,0,-,-,L1,Ataque sobre WPS
+T1110-pmkid_[1].pcapng,1,-,0,-,-,L1,Obtención de contraseña por fuerza bruta (adivinación)
+T1110-Ptw_korek_[1].pcapng,1,-,0,-,-,L1,Obtención de contraseña por fuerza bruta (adivinación)
+T1110-Diccionario_[1].pcapng,1,-,0,-,-,L1,Obtención de contraseña por fuerza bruta (adivinación)
+T1133-External_remote_services_[4].pcapng,1,-,0,-,-,L2,Acceso a red VPN desde dispositivo no autorizado con credenciales robadas
+T1197-BITS_Jobs_[5].pcapng,9,-,0,-,-,L1,Establecimiento de tarea BITS en equipo Windows para garantizar persistencia trás reinicio del equipo
+T1200-Hardware_Additions_[5].pcapng,1,-,0,-,-,L1,Adición de Hardware
+T1204.001-malicious_link_[3].pcapng,1,-,0,-,-,L1,Enlace malicioso
+T1491.001-Internal_Defacement_[5].pcapng,1,-,0,-,-,L2,Modificar fondo de pantalla equipo victima
+T1498-Tcbpdu_[1].pcapng,1,-,0,-,-,L1,Amplificación DNS
+T1498.001-MAC_table_flood_[3].pcapng,21711,-,0,-,-,L1,Fraggle
+T1498.001-UDP_flood_1-C2018_[6].pcapng,110,-,0,,-,L1,Smurf
+T1498.001-UDP_flood_2-C2018_[6].pcapng,1473,-,0,,-,L1,Inundación de TCBPDU
+T1498.001-UDP_flood_[2].pcapng,1,-,0,,-,L1,Inundación TCP
+T1498-Smurf_[1].pcapng,1,-,0,-,-,L1,Inundación UDP
+T1499-Syn_suplantacion_[1].pcapng,2332,-,0,-,-,L1,LAND
+T1499-Land_[1].pcapng,1,-,0,-,-,L1,Suplantación MAC
+T1499-Reseteo_[1].pcapng,1,-,0,-,-,L1,Reflexión SYN-ACK
+T1499-Dhcp_flood_[1].pcapng,1,-,0,-,-,L1,Reseteo de Conexión
+T1499-Reflexion_synack_[1].pcapng,952,-,0,-,-,L1,Inundación SYN con suplantación
+T1499.02-Slowhttptest-C2018_[6].pcapng,10550,-,0,-,-,L1,Denegación de servicio a servidor web
+T1499-Mac_spoof_[1].pcapng,1,-,0,-,-,L1,Denegación de servicio a servidor web
+T1543.003-CreateSystemProcessWindowsService_[5].pcapng,1,-,0,-,-,L1,Creación o modificación de servicio de Windows para garantizar la persistencia
+T1557-Puente_raiz_[1].pcapng,1,-,0,-,-,L1,Suplantación ARP
+T1557-Redireccion_[1].pcapng,1,-,0,-,-,L1,DHCP Spoofing
+T1557.002-ARP_poisoning1_[2].pcapng,1,-,0,-,-,L1,Agujero 196
+T1557.002-ARP_poisoning2_[3].pcapng,1,-,0,-,-,L1,Suplantación del puente raíz
+T1557-Arp_spoof_[1].pcapng,1,-,0,-,-,L1,Redirección
+T1557-Hole196_[1].pcapng,1,-,0,-,-,L1,Envenenamiento ARP
+T1557-Dhcp_spoofing_[1].pcapng,1,-,0,-,-,L1,Envenenamiento ARP
+T1563.002-RDPHijacking_[5].pcapng,2,-,0,-,-,L1,Secuestro de sesión RDP mediante tscon.exe
+T1565.001-SQL_inyection_[3].pcapng,1,-,0,-,-,L1,Inyección SQL
+T1570-Lateral_Tool_Transfer_[5].pcapng,1,-,0,-,-,L2,Transferencia de herramientas para la continuación del ataque entre máquinas utilizando protocolos de compartición de archivos
+T1573.002_AssymetricCryptography_[5].pcapng,1,-,0,-,-,L1,Encriptar conexion con C2 Server
+T1584-Cache_dns_[1].pcapng,1,-,0,-,-,L1,Envenenamiento de Caché DNS
+T1584-Secuestro_dns_[1].pcapng,1,-,0,-,-,L1,Secuestro / Redireccionamiento DNS
+T1599-Salto_vlan_[1].pcapng,1,-,0,-,-,L1,Modificación de políticas de red para permitir tráfico externo a la red interna
+T1615-Group_Policy_Discovery_[5].pcapng,41,-,0,-,-,L2,Comandos mediante Powershell para obtener información sobre configuraciones de políticas de grupo
+"T1659_Inyeccion_[1].pcapng,1,-,0,-,-,L1,""Realizar una suplantación de identidad DHCP, saturando el servidor DHCP verdadero para que el servidor DHCP del atacante procese las consultas de un usuario. Posteriormente se manipula alguna consulta inyectando contenido malicioso"""
