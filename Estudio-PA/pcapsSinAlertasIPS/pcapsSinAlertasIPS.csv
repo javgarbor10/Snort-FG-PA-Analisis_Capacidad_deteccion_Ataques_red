@@ -1,0 +1,57 @@
+﻿Fichero PCAP,Nº Flujos con Ataque en el PCAP,Nº Alertas IPS (Ataque) generadas,Nº Flujos con Ataque Detectados (Principales) IPS,¿Alerta de firmas de aplicación?,Alerta Identificada que NO está saltando,Categoría del Ataque,Explicacion
+T1030-Transfer_Size_Limits_[5].pcapng,1,-,0,FTP,-,L2,Dividir archivos para realizar transferencias menores a un umbral que provoque alertas. PaloAlto detecta el uso de FTP mediante Control de Aplicaciones
+T1041-exfiltration_over_c2_channel_[3].pcapng,1,-,0,Web Browsing - Able to transfer file,-,L1,Exfiltración por canal C2
+T1048.003-Exfiltration_over_ICMP_[2].pcapng,1,-,1,Ping - Has Known Vulnerability,-,L1,Exfiltración por ICMP. PaloAlto detecta el uso de Ping en Control de Aplicaciones
+T1048.003-Exfiltration_over_FTP_[3].pcapng,1,-,1,FTP - File Sharing,-,L1,Exfiltración por FTP y PaloAlto detecta el uso de FTP para compartir archivos con Control de Aplicaciones
+T1105-Ingress_Tool_Transfer_[5].pcapng,1,-,1,FTP - File Sharing,-,L1,Transferencia de archivos de un servidor C2 a un equipo previamente comprometido y detecta FTP como medio para la transferencia mediante Control de Aplicaciones
+T1199-Trusted_relationship_[4].pcapng,2,-,1,ms-rdp -- remote-access,-,L2,Uso de una conexión RDP sin proteger para el acceso a un equipo y PaloAlto detecta el uso de RDP como acceso remoto mediante Control de Aplicaciones
+T1219-RemoteAccessSoftwareLocal_[5].pcapng,1,-,1,teamviewer-sharing -- remote-access,-,L2,Uso de TeamViewer para establecer canal de comunicación alternativo el cual detecta PaloAlto con control de aplicaciones
+T1534-Internal_spearphishing_[4].pcapng,1,-,0,smtp-base -- email,-,L2,Phishing interno entre equipos pertenecientes a un dominio con servidor de correo habilitado y PaloAlto detecta el uso de smtp para emails con Control de Aplicaciones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+T1589.002-Gather_victim_identity_information_[4].pcapng,1,-,1,smtp-base -- email (risk of app = 5),-,L2,Recogida de cuentas de correo eléctronico y validación de las mismas
+
+T1602.001-MIB_Dump_[2].pcapng,1,-,1,snmpv1 -- infrastructure,-,L2,Recogida MIB de un equipamiento
