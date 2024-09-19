@@ -46,5 +46,5 @@ T1586.001-Compromise_Accounts_[2].pcapng,6951,697509,9999,6949,6949,0.0,-,-,L1,F
 T1598.003-Spearphishing_Link_[5].pcapng,2,5,9999  56610,0,0,0.0,-,-,L1,Recogida de información de la víctima mediante ingeniería social
 T1599-NBB1_[5].pcapng,1,2,31914,0,0,0.0,-,-,L1,Modificación de políticas de red para permitir tráfico externo a la red interna
 T1599-NBB2_[5].pcapng,1,1,31914,0,0,0.0,-,-,L2,Modificación de políticas de red para permitir tráfico externo a la red interna
-"T1659-Content_Injection_[5].pcapng,2,4,14984  9999,0,0,0.0,-,-,L1,""Realizar una suplantación de identidad DHCP, saturando el servidor DHCP verdadero para que el servidor DHCP del atacante procese las consultas de un usuario. Posteriormente se manipula alguna consulta inyectando contenido malicioso"""
+T1659-Content_Injection_[5].pcapng,2,4,14984  9999,0,0,0.0,-,-,L1,Realizar una suplantación de identidad DHCP saturando el servidor DHCP verdadero para que el servidor DHCP del atacante procese las consultas de un usuario. Posteriormente se manipula alguna consulta inyectando contenido malicioso
 T1665-Hide_Infrastructure_[5].pcapng,1,9,9999  14984,0,0,0.0,-,-,L1,Esconder el servidor C2 utilizando un Proxy
