@@ -25,7 +25,6 @@ T1498.001-UDP_flood_[2].pcapng,1,-,0,,-,L1,Inundación TCP
 T1498-Smurf_[1].pcapng,1,-,0,-,-,L1,Inundación UDP
 T1499-Syn_suplantacion_[1].pcapng,2332,-,0,-,-,L1,LAND
 T1499-Land_[1].pcapng,1,-,0,-,-,L1,Suplantación MAC
-T1499-Reseteo_[1].pcapng,1,-,0,-,-,L1,Reflexión SYN-ACK
 T1499-Dhcp_flood_[1].pcapng,1,-,0,-,-,L1,Reseteo de Conexión
 T1499-Reflexion_synack_[1].pcapng,952,-,0,-,-,L1,Inundación SYN con suplantación
 T1499.02-Slowhttptest-C2018_[6].pcapng,10550,-,0,-,-,L1,Denegación de servicio a servidor web
