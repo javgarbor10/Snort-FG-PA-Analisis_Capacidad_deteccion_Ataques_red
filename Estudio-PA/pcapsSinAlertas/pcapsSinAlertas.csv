@@ -7,6 +7,7 @@ T1040-Fragmentacion_[1].pcapng,1,-,0,-,-,L1,Fragmentacion
 T1040-Mac_flood_[1].pcapng,10674,-,0,-,-,L1,Inundacion MAC
 T1040-Chopchop_[1].pcapng,1,-,0,-,-,L1,IChopChop
 T1047-WinRM_[2].pcapng,450,-,0,-,-,L1,Ejecución de carga por WinRM
+T1110.001-FTP-C2018_[6].pcapng,190300,-,0,-,-,L1,Ataque PMKID
 T1110-Wps_[1].pcapng,1,-,0,-,-,L1,Ataque sobre WPS
 T1110-pmkid_[1].pcapng,1,-,0,-,-,L1,Obtención de contraseña por fuerza bruta (adivinación)
 T1110-Ptw_korek_[1].pcapng,1,-,0,-,-,L1,Obtención de contraseña por fuerza bruta (adivinación)
@@ -45,4 +46,4 @@ T1584-Cache_dns_[1].pcapng,1,-,0,-,-,L1,Envenenamiento de Caché DNS
 T1584-Secuestro_dns_[1].pcapng,1,-,0,-,-,L1,Secuestro / Redireccionamiento DNS
 T1599-Salto_vlan_[1].pcapng,1,-,0,-,-,L1,Modificación de políticas de red para permitir tráfico externo a la red interna
 T1615-Group_Policy_Discovery_[5].pcapng,41,-,0,-,-,L2,Comandos mediante Powershell para obtener información sobre configuraciones de políticas de grupo
-T1659_Inyeccion_[1].pcapng,1,-,0,-,-,L1,Realizar una suplantación de identidad DHCP saturando el servidor DHCP verdadero para que el servidor DHCP del atacante procese las consultas de un usuario. Posteriormente se manipula alguna consulta inyectando contenido malicioso
+"T1659_Inyeccion_[1].pcapng,1,-,0,-,-,L1,""Realizar una suplantación de identidad DHCP, saturando el servidor DHCP verdadero para que el servidor DHCP del atacante procese las consultas de un usuario. Posteriormente se manipula alguna consulta inyectando contenido malicioso"""
