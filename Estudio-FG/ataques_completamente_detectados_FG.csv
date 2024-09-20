@@ -22,9 +22,10 @@ T1505.001-SQL_inyection_[3].pcapng,1,15621,-,-,El ataque es detectado por las re
 T1537-Transfer_Data_to_Cloud_Account_[5].pcapng,2,-,41469,Microsoft.Portal,El Control de Aplicaciones detecta satisfactoriamente el uso del portal de Microsoft para la subida de los ficheros,,,,,,
 T1565.001-SQL_inyection_[3].pcapng,1,15621,-,-,El ataque es detectado por las reglas IPS generadas,,,,,,
 T1566.001-C2018_[6].pcapng,1,"29247, 12449",-,-,El ataque es detectado por las reglas IPS generadas,,,,,,
+T1567.002-Exfiltration_To_Cloud_Storage_[5].pcapng,1,-,"42533, 38131","Google.Services, Google.Accounts",El Control de Aplicaciones detecta el uso de los servicios web para llevar a cabo la extracción de los datos en el proceso de ataque,,,,,,
 T1569-System_services_service_execution_[4].pcapng,11,-,"25853, 52166","PsExec, Microsoft.Service.Controller",El Control de Aplicaciones detecta satisfactoriamente el uso de las herramientas para el arranque de un servicio de forma remota,,,,,,
 T1573.002_AssymetricCryptography_[5].pcapng,1,-,47013,SSL_TLSv1.3,El Control de Aplicaciones detecta satisfactoriamente el uso de esta versión SSL para el cifrado asimétrico,,,,,,
 T1596.001-DNS_Transfer_[2].pcapng,1,-,10357,DNS_Transfer.Zone,El ataque es detectado adecuadamente por el Control de Aplicaciones,,,,,,
-T1612-BuildImageOnHostNAT_[5].pcapng,4,-,46402,Docker,El Control de Aplicaciones detecta correctamente el uso de Docker,,,,,,
-T1567.002-Exfiltration_To_Cloud_Storage_[5].pcapng,1,-,"42533, 38131","Google.Services, Google.Accounts",El Control de Aplicaciones detecta el uso de los servicios web para llevar a cabo la extracción de los datos en el proceso de ataque,,,,,,
 T1602.001-MIB_Dump_[2].pcapng,1,-,"34789, 34795","SNMP_GetRequest, SNMP_GetNextRequest",El Control de Aplicaciones detecta correctamente las llamadas a las funciones SNMP,,,,,,
+T1612-BuildImageOnHostNAT_[5].pcapng,4,-,46402,Docker,El Control de Aplicaciones detecta correctamente el uso de Docker,,,,,,
+
