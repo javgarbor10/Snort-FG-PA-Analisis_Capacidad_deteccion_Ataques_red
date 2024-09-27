@@ -3,23 +3,35 @@ T1003-Os_credential_dumping_dcsync_[4].pcapng	1	-	53580	Directory.Replication.Se
 T1021-remote_services_ssh_[3].pcapng	1		16060	SSH	El Control de Aplicaciones detecta satisfactoriamente la creación de la sesión SSH						
 T1039-Data_from_network_shared_drive_[4].pcapng	1	-	31834	Windows.File.Sharing_Read.File	El Control de Aplicaciones detecta satisfactoriamente la lectura de ficheros de un disco compartido						
 T1041-exfiltration_over_c2_channel_[3].pcapng	1	-	18123	File.Upload.HTTP	El Control de Aplicaciones detecta la subida de un fichero por via HTTP						
-T1046-Version_services_detection1_[3].pcapng	158	44780, 12648, 15229, 15463, 46767, 27560, 43336, 12015, 30908, 13106, 24975, 13011, 18057, 15621, 10574, 34971, 12577, 10181, 12758, 12709, 12979, 50825, 12980, 10003, 48010, 15117, 29613, 14946, 15091, 14950, 14857, 14956, 13825, 14947, 15115, 29615, 15100, 14740, 30542, 14157, 15092, 14949, 15118, 29564, 14742, 15110, 14230, 10819, 14737, 14953, 15114, 14341, 29614, 14948, 32033, 29965, 31752, 47202	-	-	El ataque es detectado por las reglas IPS generadas						
+T1046-Version_services_detection1_[3].pcapng	159	44780, 12648, 12475, 15229, 10604, 15463, 12699, 12935, 12560, 12426, 12439, 29261, 46767, 29264, 13116, 27560, 43336, 12265, 12015, 13106, 13011, 56146, 14088, 15621, 17702, 10574, 12577, 15221, 12909, 12933, 13056, 12758, 12709, 12459, 24975, 30908, 56270, 12979, 13801, 50825, 12980, 10003, 48010, 15117, 29613, 14946, 15091, 14950, 14957, 14848, 14955, 14857, 14956, 13825, 14305, 14849, 15115, 29615, 15100, 14873, 14847, 14954, 14374, 14740, 14286, 30542, 14405, 14338, 14157, 15116, 15092, 14850, 14942, 14949, 14852, 15118, 29564, 14855, 14859, 14743, 14734, 14742, 14406, 15110, 14953, 14851, 14404, 15114, 14952, 14856, 14341, 14858, 14266, 14736, 14345, 15225, 29614, 14484, 14948, 29965, 31752, 29263, 47202	-	-	El ataque es detectado por las reglas IPS generadas						
 T1070-Indicator_removal_network_share_connection_removal_[4].pcapng	1	-	27457	Windows.File.Sharing	El Control de Aplicaciones detecta el uso de esta funcionalidad de Windows						
 T1102.003-Web_service-one_way_communication_[4].pcapng	1	52169	42533	Google.Services	El Control de Aplicaciones detecta el uso de los servicios web para llevar a cabo la extracción de los datos en el proceso de ataque						
 T1104-Multi_stage_channels_[4].pcapng	1	52169	-	-	El ataque es detectado por las reglas IPS generadas						
 T1105-Ingress_Tool_Transfer_[5].pcapng	1	8064362	-	-	El ataque es detectado por las reglas IPS generadas						
 T1110.001-Hydra_[3].pcapng	2	-	-	-	El ataque es detectado por las reglas IPS generadas						
 T1110.001-SSH-C2018_[6].pcapng	91642	-	-	-	El ataque es detectado por las reglas IPS generadas						
+T1114-Email_collection_remote_email_collection_[4].pcapng	3	48934	-	-	El ataque es detectado por las reglas IPS generadas						
+T1187-Forced_Authentication_[5].pcapng	1	12090	-	-	El ataque es detectado por las reglas IPS generadas						
+T1187-Forced_Authentication2_[5].pcapng	1	12090	-	-	El ataque es detectado por las reglas IPS generadas						
 T1189-Drive-by_compromise_v1_[4].pcapng	3	49480	-	-	El ataque es detectado por las reglas IPS generadas						
 T1190-Sql_injection-C2018_[6].pcapng	35	15621	-	-	El ataque es detectado por las reglas IPS generadas						
 T1190-Sql_inyection1_[3].pcapng	1	15621	-	-	El ataque es detectado por las reglas IPS generadas						
 T1190-Sql_inyection2_[2].pcapng	76	46199, 15621	-	-	El ataque es detectado por las reglas IPS generadas						
+T1199-Trusted_relationship_[4].pcapng	3	-	15511	RDP	El control de aplicaciones detecta el intento de establecimiento de sesión con RDP						
+T1203-CIC2018	112	17702	-	-	El ataque es detectado por las reglas IPS generadas						
 T1207-Rogue_domain_controller_[4].pcapng	1	-	53580		El Control de Aplicaciones detecta la llamada a la función DSGetNCChanges						
 T1210-Eternal_blue_[2].pcapng	2	43799, 43963, 43796	-	-	El ataque es detectado por las reglas IPS generadas						
 T1210-Remote_code_execution_[2].pcapng	1	40511	-	-	El ataque es detectado por las reglas IPS generadas						
 T1219-RemoteAccessSoftwareLocal_[5].pcapng	1	-	15921	TeamViewer	El Control de Aplicaciones detecta el uso de TeamViewer para la conexión entre equipos						
 T1219-RemoteAccessSoftwareNAT_[5].pcapng	1	-	15921	TeamViewer	El Control de Aplicaciones detecta el uso de TeamViewer para la conexión entre equipos						
+T1498.001-UDP_flood_[2].pcapng	1	12525	-	-	El ataque es detectado por las reglas IPS generadas						
+T1498.001-HTTP_flood-C2018_[6].pcapng	1	107347977	-	-	El ataque es detectado por las reglas IPS generadas						
+T1498.001-TCP_flood-C2018_[6].pcapng	1	30952	-	-	El ataque es detectado por las reglas IPS generadas						
+T1499-Reseteo_[1].pcapng	1	17677	-	-	El ataque es detectado por las reglas IPS generadas						
+T1499-Land_[1].pcapng	1	12588	-	-	El ataque es detectado por las reglas IPS generadas						
+T1499.02-Slowloris-C2018_[6].pcapng	1	17533, 107347979	-	-	El ataque es detectado por las reglas IPS generadas						
 T1505.001-SQL_inyection_[3].pcapng	1	15621	-	-	El ataque es detectado por las reglas IPS generadas						
+T1505.005-Shell_Web_[2].pcapng	1	12449	-	-	El ataque es detectado por las reglas IPS generadas						
 T1537-Transfer_Data_to_Cloud_Account_[5].pcapng	2	-	41469	Microsoft.Portal	El Control de Aplicaciones detecta satisfactoriamente el uso del portal de Microsoft para la subida de los ficheros						
 T1565.001-SQL_inyection_[3].pcapng	1	15621	-	-	El ataque es detectado por las reglas IPS generadas						
 T1566.001-C2018_[6].pcapng	1	29247, 12449	-	-	El ataque es detectado por las reglas IPS generadas						
