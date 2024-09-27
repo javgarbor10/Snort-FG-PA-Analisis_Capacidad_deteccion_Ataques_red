@@ -18,17 +18,12 @@ T1110-pmkid_[1].pcapng,1,1,0,-,0,0,0,0,,L1,FUERA DEL ALCANCE DEL IDS (NO ES RELE
 T1110-Ptw_korek_[1].pcapng,1,1,0,-,0,0,0,0,,L1,FUERA DEL ALCANCE DEL IDS (NO ES RELEVANTE)
 T1110-Wps_[1].pcapng,1,1,0,-,0,0,0,0,,L1,FUERA DEL ALCANCE DEL IDS (NO ES RELEVANTE)
 T1112-Modify_registry_[4].pcapng,1,1,0,-,6,0,0,0,,L2,No se generan alertas y el control de aplicaciones no marca el uso de la funcionalidad de registro remoto
-T1114-Email_collection_remote_email_collection_[4].pcapng,3,3,0,-,5,0,0,0,,L2,"El control de aplicaciones detecta el uso de LDAP, pero no especifica para qué. Tampoco se generan alertas"
 T1132.001-Standard_Encoding_[5].pcapng,5,5,0,-,3,0,0,0,,L1,"El control de aplicaciones sólo detecta el uso de navegadores y protocolos concretos, sin detectar el codificado"
 T1133-External_remote_services_[4].pcapng,1,1,0,-,7,0,0,0,,L2,El control de aplicaciones no marca el acceso a la VPN
 T1176-Browser-extension_[4].pcapng,212,212,0,-,3,0,0,0,,L1,"El control de aplicaciones no marca el uso de una extensión, sino el uso de un navegador. No se puede determinar como válida"
-T1187-Forced_Authentication_[5].pcapng,1,1,0,-,3,0,0,0,,L1,"El control de aplicaciones sólo marca la funcionalidad de compartición de archivos, nada más"
-T1187-Forced_Authentication2_[5].pcapng,1,1,0,-,2,0,0,0,,L1,"El control de aplicaciones sólo marca la funcionalidad de compartición de archivos, nada más"
 T1189-Drive-by_compromise_v2_[4].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo marca el uso del navegador y las peticiones HTTP
 T1197-BITS_Jobs_[5].pcapng,9,9,0,-,9,0,0,0,,L1,"El control de aplicaciones detecta varios protocolos y llamadas HTTP pero no se detecta la creación de una tarea BITS, ni por IPS ni por APP-CTRL"
-T1199-Trusted_relationship_[4].pcapng,2,2,0,-,4,0,0,0,,L2,"El control de aplicaciones detecta el uso de RDP, pero no se proporciona más información, por lo que no se identifica con claridad el ataque"
 T1200-Hardware_Additions_[5].pcapng,1,1,0,-,3,0,0,0,,L1,"El control de aplicaciones sólo marca el uso de RDP, nada más"
-T1203-C2018_[6].pcapng,116,116,0,-,1,0,0,0,,L1,Se desconoce el foco principal del ataque (no cuenta para los análisis)
 T1204.001-malicious_link_[3].pcapng,1,1,0,-,0,0,0,0,,L1,No se ha generado ningún tipo de alerta
 T1205.001-Port_Knocking_[3].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo marca el uso de SSH
 T1210-Web_attack-C2018_[6].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo marca el uso deL navegador Firefox
@@ -41,7 +36,6 @@ T1496-Cryptomining_[2].pcapng,1,1,0,-,5,0,0,0,,L1,"Se detecta el acceso a Github
 T1498.001-HTTP_flood-C2018_[6].pcapng,29179,29179,0,-,1,0,0,0,,L1,Ninguna alerta relacionada con DoS
 T1498.001-MAC_table_flood_[3].pcapng,21711,21711,0,-,1,0,0,0,,L1,FUERA DEL ALCANCE DEL IDS (NO ES RELEVANTE)
 T1498.001-TCP_flood-C2018_[6].pcapng,536494,536494,0,-,6,0,0,0,,L1,Ninguna alerta relacionada con DoS
-T1498.001-UDP_flood_[2].pcapng,1,1,0,-,1,0,0,0,,L1,Ninguna alerta relacionada con DoS
 T1498.001-UDP_flood_1-C2018_[6].pcapng,110,110,0,-,6,0,0,0,,L1,Ninguna alerta relacionada con DoS
 T1498.001-UDP_flood_2-C2018_[6].pcapng,1473,1473,0,-,1,0,0,0,,L1,Ninguna alerta relacionada con DoS
 T1498-Fraggle_[1].pcapng,1,1,0,-,1,0,0,0,,L1,"El control de aplicaciones avisa del uso de ICMP, pero nada más allá"
@@ -52,12 +46,9 @@ T1499.02-Slowhttptest-C2018_[6].pcapng,10550,10550,0,-,0,0,0,0,SlowHTTPTest.Http
 T1499.03-GoldenEye-C2018_[6].pcapng,27772,27772,0,-,5,0,0,0,,L1,Ninguna alerta relacionada con DoS
 T1499.03-Hulk-C2018_[6].pcapng,44878,44878,0,-,4,0,0,0,,L1,Ninguna alerta relacionada con DoS
 T1499-Dhcp_flood_[1].pcapng,1,1,0,-,2,0,0,0,,L1,Ninguna alerta relacionada con inundaciones DHCP
-T1499-Land_[1].pcapng,1,1,0,-,0,0,0,0,IP.Land,L1,Ninguna alerta
 T1499-Mac_spoof_[1].pcapng,1,1,0,-,1,0,0,0,,L1,FUERA DEL ALCANCE DEL IDS (NO ES RELEVANTE)
 T1499-Reflexion_synack_[1].pcapng,952,952,0,-,0,0,0,0,,L1,Ninguna alerta
-T1499-Reseteo_[1].pcapng,1,1,0,-,1,0,0,0,,L1,FUERA DEL ALCANCE DEL IDS (NO ES RELEVANTE)
 T1499-Syn_suplantacion_[1].pcapng,2332,2332,0,-,0,0,0,0,,L1,Ninguna alerta
-T1505.005-Shell_Web_[2].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo detecta el uso del navegador
 T1534-Internal_spearphishing_[4].pcapng,1,1,0,-,4,0,0,0,,L2,El control de aplicaciones sólo detecta el uso de protocolos de mensajería como IMAP y SMTP
 T1542.005-TFTP_Boot_[5].pcapng,1,1,0,-,9,0,0,0,,L1,"El control de aplicaciones sólo detecta protocolos y herramientas genéricas, no identifica el ataque"
 T1543.003-CreateSystemProcessWindowsService_[5].pcapng,1,1,0,-,1,0,0,0,,L1,El control de aplicaciones sólo detecta el uso de Wake.On.LAN
