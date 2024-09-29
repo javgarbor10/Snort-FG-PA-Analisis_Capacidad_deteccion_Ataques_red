@@ -1,1 +1,5 @@
-attackid,sessionid,repeated,severity,attack,service,srcip,dstip,subtype,eventtype
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
+48934,7955371,1,low,HTTP.Suspicious.Headers.With.Special.Characters,HTTP,192.168.10.6,192.168.10.5,62082,80,ips,signature,/
+48934,7955373,1,low,HTTP.Suspicious.Headers.With.Special.Characters,HTTP,192.168.10.6,192.168.10.5,62083,80,ips,signature,/
+48934,7955374,1,low,HTTP.Suspicious.Headers.With.Special.Characters,HTTP,192.168.10.6,192.168.10.5,62084,80,ips,signature,/
+48934,7955373,1,low,HTTP.Suspicious.Headers.With.Special.Characters,HTTP,192.168.10.6,192.168.10.5,62083,80,ips,signature,-

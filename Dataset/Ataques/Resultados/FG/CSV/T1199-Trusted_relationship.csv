@@ -1,0 +1,2 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
+33106,7955913,1,high,MS.RDP.Connection.Brute.Force,RDP,fe80::b35a:ad64:8a9a:3cfd,fe80::ca8c:e0e8:31e2:93e5,50252,3389,ips,signature

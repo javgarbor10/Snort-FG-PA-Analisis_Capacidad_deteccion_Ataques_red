@@ -1,1 +1,6 @@
-attackid,sessionid,repeated,severity,attack,service,srcip,dstip,subtype,eventtype
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
+12090,7955640,1,high,SMB.Login.Brute.Force,NBSS,192.168.0.10,192.168.0.30,49187,445,ips,signature
+12090,7955642,1,high,SMB.Login.Brute.Force,NBSS,192.168.0.10,192.168.0.30,49188,445,ips,signature
+12090,7955643,1,high,SMB.Login.Brute.Force,NBSS,192.168.0.10,192.168.0.30,49189,445,ips,signature
+12090,7955644,1,high,SMB.Login.Brute.Force,NBSS,192.168.0.10,192.168.0.30,49190,445,ips,signature
+12090,7955645,1,high,SMB.Login.Brute.Force,NBSS,192.168.0.10,192.168.0.30,49191,445,ips,signature
