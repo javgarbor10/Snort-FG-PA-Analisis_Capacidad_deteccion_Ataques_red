@@ -22,7 +22,6 @@ T1132.001-Standard_Encoding_[5].pcapng	5	5	0	-	3	0	0	0		L1	El control de aplicac
 T1133-External_remote_services_[4].pcapng	1	1	0	-	7	0	0	0		L2	El control de aplicaciones no marca el acceso a la VPN
 T1176-Browser-extension_[4].pcapng	212	212	0	-	3	0	0	0		L1	El control de aplicaciones no marca el uso de una extensión, sino el uso de un navegador. No se puede determinar como válida
 T1189-Drive-by_compromise_v2_[4].pcapng	1	1	0	-	1	0	0	0		L1	El control de aplicaciones sólo marca el uso del navegador y las peticiones HTTP
-T1197-BITS_Jobs_[5].pcapng	9	9	0	12449	9	0	0	0		L1	El control de aplicaciones detecta varios protocolos y llamadas HTTP pero no se detecta la creación de una tarea BITS, ni por IPS ni por APP-CTRL. El motor IPS detecta un ataque colateral, pero no la creación de la tarea BITS
 T1200-Hardware_Additions_[5].pcapng	1	1	0	-	3	0	0	0		L1	El control de aplicaciones sólo marca el uso de RDP, nada más
 T1204.001-malicious_link_[3].pcapng	1	1	0	-	0	0	0	0		L1	No se ha generado ningún tipo de alerta
 T1205.001-Port_Knocking_[3].pcapng	1	1	0	-	1	0	0	0		L1	El control de aplicaciones sólo marca el uso de SSH
