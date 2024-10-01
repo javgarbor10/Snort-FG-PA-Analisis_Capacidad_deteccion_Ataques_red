@@ -17,6 +17,7 @@ T1189-Drive-by_compromise_v1_[4].pcapng,3,49480,-,-,El ataque es detectado por l
 T1190-Sql_injection-C2018_[6].pcapng,35,15621,-,-,El ataque es detectado por las reglas IPS generadas,,,,,,
 T1190-Sql_inyection1_[3].pcapng,1,15621,-,-,El ataque es detectado por las reglas IPS generadas,,,,,,
 T1190-Sql_inyection2_[2].pcapng,76,"46199, 15621",-,-,El ataque es detectado por las reglas IPS generadas,,,,,,
+T1197-BITS_Jobs_[5].pcapng,1,-,"15893, 33224",(Interesa más el campo agent=Microsoft BITS 7/8),El control de aplicaciones detecta el uso de Microsoft BITS para la creación del servicio,,,,,,
 T1199-Trusted_relationship_[4].pcapng,3,-,15511,RDP,El control de aplicaciones detecta el intento de establecimiento de sesión con RDP,,,,,,
 T1203-CIC2018,112,17702,-,-,El ataque es detectado por las reglas IPS generadas,,,,,,
 T1207-Rogue_domain_controller_[4].pcapng,1,-,53580,,El Control de Aplicaciones detecta la llamada a la función DSGetNCChanges,,,,,,
