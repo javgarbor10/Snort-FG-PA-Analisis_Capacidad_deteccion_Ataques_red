@@ -15,9 +15,9 @@ sudo make install
 cd ..
 wget https://www.tcpdump.org/release/libpcap-1.6.2.tar.gz
 tar xfvz libpcap-1.6.2.tar.gz
-libpcap-1.6.2
+cd libpcap-1.6.2
 ./configure
-apt -y install flex grammar yacc bison
+apt -y install flex yacc bison
 ./configure
 make
 sudo make install
@@ -28,7 +28,7 @@ tar xfvz libevent-2.1.12-stable.tar.gz
 ./configure
 make
 sudo make install
-ln -s /usr/local/lib/libdnet.1 /usr/lib/x86_64-linux-gnu/libdnet.1
+# ln -s /usr/local/lib/libdnet.1 /usr/lib/x86_64-linux-gnu/libdnet.1
 
 cd ..
 wget https://codeload.github.com/ajkeeton/fragroute/zip/refs/heads/master
