@@ -1,0 +1,4 @@
+Fichero PCAP,Attackids a 0.1 Mbps,Attackids a 1 Mbps,Attackids a 10 Mbps,Attackids a 100 Mbps,Attackids a 1000 Mbps,Attackids a 10000 Mbps,Attackids a MAX,Alertas totales a 0.1 Mbps,Alertas totales a 1 Mbps,Alertas totales a 10 Mbps,Alertas totales a 100 Mbps,Alertas totales a 1000 Mbps,Alertas totales a 10000 Mbps,Alertas totales a MAX
+T1046-Version_services_detection1_[3].pcapng,108,108,108,108,79,67,30,6286,6286,6286,6286,5043,2819,1324
+T1071-Tunel_[1].pcapng,20,20,20,20,20,20,20,204,204,204,204,204,204,204
+T1203-C2018_[6].pcapng,1,1,1,1,1,1,1,5565,5565,5565,5444,2857,2656,2661
