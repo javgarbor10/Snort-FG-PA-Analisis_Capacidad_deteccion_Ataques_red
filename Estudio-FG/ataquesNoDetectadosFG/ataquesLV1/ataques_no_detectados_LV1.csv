@@ -1,0 +1,46 @@
+Fichero PCAP,Descripción del Ataque,Causa / Regla Identificada,Ataques Colaterales (OMITIR ESTAS ALERTAS)
+T1001.003-Data_obfuscation_protocol_impersonation_[4].pcapng,Falsificación de protocolos de conexión segura como TLS,No hay regla aparentemente asociada,-
+T1008-Fallback_channels_[4].pcapng,Traspaso de canal primario C2 a canal alternativo (SMBv2),No hay regla aparentemente asociada,52169
+T1047-WinRM_[2].pcapng,Ejecución de carga por WinRM,MS.WinRM.Script.Exec.Remote.Code.Execution,-
+T1048.003-Exfiltration_over_FTP_[3].pcapng,Exfiltración por FTP,No hay regla aparentemente asociada,-
+T1048.003-Exfiltration_over_ICMP_[2].pcapng ,Exfiltración por ICMP,No hay regla aparentemente asociada,-
+T1053.002-Scheduled_TaskJob_At_[5].pcapng,Ejecución de tarea mediante uso de comando at para programar la hora de la ejecución,No hay regla aparentemente asociada,52676
+T1095-Non_Application_Layer_[3].pcapng,Usar un protocolo que no sea de la capa de Aplicacion en el modelo OSI para esconder la conexión de C2. En este caso utilizamos TCP,No hay regla aparentemente asociada,52169
+T1110.001-FTP-C2018_[6].pcapng,Obtención de contraseña por fuerza bruta (adivinación),FTP.Login.Brute.Force,-
+T1213-SQL_inyection_[3].pcapng,Inyección SQL,HTTP.URI.SQL.Injection,-
+T1218.010-COM_Scriptlet_[2].pcapng,Ejecución de COM scriptlet remoto,Regsvr32.Application.Whitelisting.Server.Remote.Code.Execution,-
+T1496-Cryptomining_[2].pcapng,Descarga y puesta en marcha de software de criptominado,No hay regla aparentemente asociada,-
+T1498-Amplif_dns_[1].pcapng,Amplificación DNS,DNS.Amplification.Detection,48370
+T1498-Fraggle_[1].pcapng,Fraggle,No hay regla aparentemente asociada,-
+T1498-Smurf_[1].pcapng,Smurf,No hay regla aparentemente asociada,-
+T1498.001-UDP_flood_1-C2018_[6].pcapng,Inundación UDP,Varias reglas de DoS para UDP,-
+T1498.001-UDP_flood_2-C2018_[6].pcapng,Inundación UDP,Varias reglas de DoS para UDP,-
+T1499-Dhcp_flood_[1].pcapng,Inundación DHCP / Inanición,DHCP.Discover.Flood / ISC.DHCP.TCP.Session.Exhaustion.DoS,-
+T1499-Reflexion_synack_[1].pcapng,Reflexión SYN-ACK,No hay regla aparentemente asociada,-
+T1499-Syn_suplantacion_[1].pcapng,Inundación SYN con suplantación,No hay regla aparentemente asociada,-
+T1499.001-OS_Exhaustion_Flood_[3].pcapng,Denegación de servicio a servidor web,Varias reglas de DoS,-
+T1499.02-Slowhttptest-C2018_[6].pcapng,Envio solicitudes HTTP a baja tasa,SlowHTTPTest.Http.Request.DoS,-
+T1499.03-GoldenEye-C2018_[6].pcapng,Denegación de servicio a servidor web,No hay regla aparentemente asociada,-
+T1499.03-Hulk-C2018_[6].pcapng,Denegación de servicio a servidor web,Varias reglas de DoS,-
+T1557-Dhcp_spoofing_[1].pcapng,DHCP Spoofing,No hay regla aparentemente asociada,-
+T1563.002-RDPHijacking_[5].pcapng,Secuestro de sesión RDP mediante tscon.exe,No hay regla aparentemente asociada,-
+T1570-Lateral_Tool_Transfer_[5].pcapng,Transferencia de herramientas para la continuación del ataque entre máquinas utilizando protocolos de compartición de archivos,No hay regla aparentemente asociada,12449
+T1598.003-Spearphishing_Link_[5].pcapng,Recogida de información de la víctima mediante ingeniería social,No hay regla aparentemente asociada,-
+T1665-Hide_Infrastructure_[5].pcapng,Esconder el servidor C2 utilizando un Proxy,No hay regla aparentemente asociada,12449
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
