@@ -8,10 +8,3 @@ T1568-fastFluxDNS_[5].pcapng,Esconder un C2 Server mediante un servidor DNS con 
 T1570-Lateral_Tool_Transfer_[5].pcapng,Transferencia de herramientas para la continuación del ataque entre máquinas utilizando protocolos de compartición de archivos,No hay regla aparentemente asociada,12449
 T1572-Protocol_Tunneling_[5].pcapng,Tunelizar la conexión al C2 Server mediante SSH,No hay regla aparentemente asociada,12449
 T1589.002-Gather_victim_identity_information_[4].pcapng,Recogida de cuentas de correo eléctronico y validación de las mismas,No hay regla aparentemente asociada,-
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
