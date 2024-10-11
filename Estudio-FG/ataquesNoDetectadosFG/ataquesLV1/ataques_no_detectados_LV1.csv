@@ -9,8 +9,6 @@ T1095-Non_Application_Layer_[3].pcapng,Usar un protocolo que no sea de la capa d
 T1110.001-FTP-C2018_[6].pcapng,Obtención de contraseña por fuerza bruta (adivinación),FTP.Login.Brute.Force,-
 T1213-SQL_inyection_[3].pcapng,Inyección SQL,HTTP.URI.SQL.Injection,-
 T1218.010-COM_Scriptlet_[2].pcapng,Ejecución de COM scriptlet remoto,Regsvr32.Application.Whitelisting.Server.Remote.Code.Execution,-
-T1496-Cryptomining_[2].pcapng,Descarga y puesta en marcha de software de criptominado,No hay regla aparentemente asociada,-
-T1498-Amplif_dns_[1].pcapng,Amplificación DNS,DNS.Amplification.Detection,48370
 T1498-Fraggle_[1].pcapng,Fraggle,No hay regla aparentemente asociada,-
 T1498-Smurf_[1].pcapng,Smurf,No hay regla aparentemente asociada,-
 T1498.001-UDP_flood_1-C2018_[6].pcapng,Inundación UDP,Varias reglas de DoS para UDP,-
