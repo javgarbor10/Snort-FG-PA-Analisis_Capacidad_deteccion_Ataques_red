@@ -1,0 +1,2 @@
+attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
+35662,7862737,1,high,SSH.Connection.Brute.Force,SSH,13.58.98.64,172.31.69.25,43838,22,ips,signature
