@@ -1,10 +1,6 @@
 attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype
-35662,11303007,1,high,SSH.Connection.Brute.Force,SSH,10.10.1.9,10.10.1.2,46485,22,ips,signature
 17677,11303007,1,info,TCP.Out.Of.Range.Timestamp,SSH,10.10.1.9,10.10.1.2,46485,22,ips,signature
 17677,11303007,1,info,TCP.Out.Of.Range.Timestamp,SSH,10.10.1.9,10.10.1.2,46485,22,ips,signature
-7929858,0,1,info,IPv4.Invalid.Datagram.Size,other,0.0.0.0,0.0.0.0,-,-,ips,signature
-35662,11303008,1,high,SSH.Connection.Brute.Force,SSH,10.10.1.9,10.10.1.2,46486,22,ips,signature
-35662,11303009,1,high,SSH.Connection.Brute.Force,SSH,10.10.1.9,10.10.1.2,46487,22,ips,signature
 17677,11303007,1,info,TCP.Out.Of.Range.Timestamp,SSH,10.10.1.9,10.10.1.2,46485,22,ips,signature
 17677,11303007,2,info,TCP.Out.Of.Range.Timestamp,SSH,10.10.1.9,10.10.1.2,46485,22,ips,signature
-35662,11303008,1,high,SSH.Connection.Brute.Force,SSH,10.10.1.9,10.10.1.2,46486,22,ips,signature
+
