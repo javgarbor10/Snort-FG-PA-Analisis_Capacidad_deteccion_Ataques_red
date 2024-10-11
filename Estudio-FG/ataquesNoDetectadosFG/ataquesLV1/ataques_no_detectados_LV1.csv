@@ -27,20 +27,3 @@ T1563.002-RDPHijacking_[5].pcapng,Secuestro de sesión RDP mediante tscon.exe,No
 T1570-Lateral_Tool_Transfer_[5].pcapng,Transferencia de herramientas para la continuación del ataque entre máquinas utilizando protocolos de compartición de archivos,No hay regla aparentemente asociada,12449
 T1598.003-Spearphishing_Link_[5].pcapng,Recogida de información de la víctima mediante ingeniería social,No hay regla aparentemente asociada,-
 T1665-Hide_Infrastructure_[5].pcapng,Esconder el servidor C2 utilizando un Proxy,No hay regla aparentemente asociada,12449
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
