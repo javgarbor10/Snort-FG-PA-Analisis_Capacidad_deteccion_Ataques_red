@@ -1,3 +1,2 @@
 attackid,sessionid,repeated,severity,attack,service,srcip,dstip,srcport,dstport,subtype,eventtype,url
-107347979,11305350,1,low,HTTP.Request.Smuggling,HTTP,192.168.1.3,192.168.2.2,35073,8585,ips,signature,/uploads/script_m.php
 12449,11305351,1,critical,Remote.CMD.Shell,tcp/3334,192.168.2.2,192.168.1.3,49539,3334,ips,signature,-
