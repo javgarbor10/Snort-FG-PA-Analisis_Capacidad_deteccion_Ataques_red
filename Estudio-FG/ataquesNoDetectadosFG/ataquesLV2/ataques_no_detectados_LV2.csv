@@ -1,17 +1,17 @@
-﻿Fichero PCAP;Descripción del Ataque;Causa / Regla asociada;Ataques Colaterales (OMITIR ESTAS ALERTAS)
-T1033-System_owner_[4].pcapng;Descubrimiento de sesión de usuario en equipo remoto;No hay regla aparentemente asociada;-
-T1087.002-AccountDiscovery_DomainAccount_[5].pcapng;Descubrimiento de cuentas de dominio en entorno Active Directory;No hay regla aparentemente asociada;52676
-T1112-Modify_registry_[4].pcapng;Modificación del Registro de forma remota;No hay regla aparentemente asociada;-
-T1189-Drive-by_compromise_v2_[4].pcapng;HTML Exploit II - Descarga de Ejecutable;No hay regla aparentemente asociada;-
-T1221-Template_Injection_[5].pcapng;Inyectar un fichero mediante Phishing .docx con macros modificadas que permita pasar desapercibido;No hay regla aparentemente asociada;12449
-T1568-fastFluxDNS_[5].pcapng;Esconder un C2 Server mediante un servidor DNS con bajo TTL y modo Fast Flux;La regla puede no estar saltando por la falta de direcciones IP que intervienen en el ataque / DNS.Fast.Flux;-
-T1570-Lateral_Tool_Transfer_[5].pcapng;Transferencia de herramientas para la continuación del ataque entre máquinas utilizando protocolos de compartición de archivos;;12449
-T1572-Protocol_Tunneling_[5].pcapng;Tunelizar la conexión al C2 Server mediante SSH;No hay regla aparentemente asociada;12449
-T1589.002-Gather_victim_identity_information_[4].pcapng;Recogida de cuentas de correo eléctronico y validación de las mismas;No hay regla aparentemente asociada;-
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
+Fichero PCAP,Descripción del Ataque,Causa / Regla asociada,Ataques Colaterales (OMITIR ESTAS ALERTAS)
+T1033-System_owner_[4].pcapng,Descubrimiento de sesión de usuario en equipo remoto,No hay regla aparentemente asociada,-
+T1087.002-AccountDiscovery_DomainAccount_[5].pcapng,Descubrimiento de cuentas de dominio en entorno Active Directory,No hay regla aparentemente asociada,52676
+T1112-Modify_registry_[4].pcapng,Modificación del Registro de forma remota,No hay regla aparentemente asociada,-
+T1189-Drive-by_compromise_v2_[4].pcapng,HTML Exploit II - Descarga de Ejecutable,No hay regla aparentemente asociada,-
+T1221-Template_Injection_[5].pcapng,Inyectar un fichero mediante Phishing .docx con macros modificadas que permita pasar desapercibido,No hay regla aparentemente asociada,12449
+T1568-fastFluxDNS_[5].pcapng,Esconder un C2 Server mediante un servidor DNS con bajo TTL y modo Fast Flux,La regla puede no estar saltando por la falta de direcciones IP que intervienen en el ataque / DNS.Fast.Flux,-
+T1570-Lateral_Tool_Transfer_[5].pcapng,Transferencia de herramientas para la continuación del ataque entre máquinas utilizando protocolos de compartición de archivos,,12449
+T1572-Protocol_Tunneling_[5].pcapng,Tunelizar la conexión al C2 Server mediante SSH,No hay regla aparentemente asociada,12449
+T1589.002-Gather_victim_identity_information_[4].pcapng,Recogida de cuentas de correo eléctronico y validación de las mismas,No hay regla aparentemente asociada,-
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
