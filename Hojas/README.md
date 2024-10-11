@@ -18,7 +18,8 @@ A continuación se proporciona una guía para entender la información que se en
      ------------ SECCIÓN A.1: VISTA GENERAL HOJA DETECCIONES ------------
      
      Esta hoja concentra numerosos aspectos relacionados con el estudio, divididos en pestañas:
-      -> (A) - Reglas Usadas: pestaña con un registro de versiones y agrupación de los paquetes de reglas, así como las versiones de los IDS
+      -> (A.1) - Reglas Usadas: pestaña con un registro de versiones y agrupación de los paquetes de reglas, así como las versiones de los IDS
+      -> (A.2) - Configuración de FG / PA: pestaña con detalles de configuración que puedan afectar a las detecciones, e.g. umbrales de Denegación de Servicio y Fuerza Bruta. Viene acompañada de indicaciones.
       -> (B) - Detecciones - Ataque: esta pestaña contiene dos aspectos de los ataques implementados
        --> Caracterización de pcaps: información variada acerca del ataque implementado, sin relación con los IDS
        --> Resultados de Detecciones: resultados devueltos por los distintos IDS para cada uno de los ataques
@@ -45,10 +46,12 @@ A continuación se proporciona una guía para entender la información que se en
       -> FICHERO PCAP: nombre del fichero PCAP que recoge los paquetes generados durante la implementación del ataque
       -> Nº TOTAL DE FLUJOS: número total de flujos en el fichero pcap. Calculado haciendo uso de la herramienta tranalyzer, descartando aquellos flujos que no tienen una Cabecera asociada (descartando así la mayoría de flujos de capa <L3)
       -> Nº DE FLUJOS CON ATAQUE/S: número de flujos que contienen paquetes vinculados al ataque implementado
+      -> Nº DE FLUJOS CON ATAQUE/S COLATERALES: número total de flujos que contienen ataques colaterales
       -> Nº DE MENSAJES DE RED CON ATAQUE/S: número de mensajes/paquetes que contienen al ataque implementado o parte de él.
       -> Nº DE ATAQUES (INSTANCIAS) TOTALES: número total de instancias de ataque principales y colaterales. Una instancia es la unidad mínima de un ataque, pudiéndose tratar, por ejemplo, de un comando, una inyección SQL o un escaneo a un puerto concreto
       -> Nº DE ATAQUES (INSTANCIAS) PRINCIPALES: número de instancias de ataque en la captura de paquetes
       -> Nº DE ATAQUES (INSTANCIAS) COLATERALES: número de instancias en la captura de paquetes que constituyen amenaza y pueden generar alertas pero no están relacionadas con el propio ataque en sí.
+      -> ATAQUE/S COLATERAL/ES - EXPLICACIÓN: explicación del ataque colateral, de qué se trata y a qué técnica de la matriz MITRE pertenece
       -> DETECTABLE POR PATRONES: SI o NO en función de si el ataque puede o podría ser detectado por patrones por un IDS
       -> MECANISMO DE DETECCIÓN: define el mecanismo usado o que podría usarse para detectar satisfactoriamente el ataque
       -> DETALLES DE IMPLEMENTACIÓN DE ATAQUE: descripción más extensa del proceso de implementación del ataque. Opcional
@@ -61,12 +64,14 @@ A continuación se proporciona una guía para entender la información que se en
       -> VERIFICACIÓN MTU MÁXIMA: ✔ o ✘ en función de si la captura de paquetes ha sufrido el ajuste de MTU para los entornos de los IDS
       -> ERROR TCP_Replay: ✔ o ✘ en función de si la captura de paquetes ha devuelto errores en la reproducción de paquetes dentro de los entornos de los IDS
       -> CONTIENE SÓLO FLUJOS COMPLETOS CON SYN INICIAL: ✔ o ✘ en función de si la captura de paquetes tan sólo contiene flujos completos, es decir, no incluye flujos truncados
-      -> NIVEL DE ATAQUE: para cada ataque se especifica si el ataque pertenece al nivel L1 (el ataque siempre será ataque y no puede ser confundido con actividad legítima) o si pertenece al L2 (el ataque puede ser interpretado en ciertos contextos como actividad legítima realizada por la propia "víctima")
+      -> NIVEL DE ATAQUE (Contexto de Ataque): LV1 o LV2 dependiendo de la categoría del ataque. Un ataque que puede interpretarse como una acción legítima en ciertos contextos pertenecerá a la categoría LV2. Si este caso hipotético no puede darse (el ataque siempre es ataque) será LV1
+      -> JUSTIFICACIÓN NIVEL DE ATAQUE (Contexto de Ataque): explicación de por qué el ataque se categoriza como un ataque L1 o L2
+      -> NIVEL DE ATAQUE (MODELO OSI): L3 si el ataque se apoya, como mínimo, en la capa 3 del modelo OSI o L2 si lo hace por debajo, es decir, a nivel de Switch, WiFi o algún protocolo de enlace
       -> SIDs (sin repetición): para cada RS de Snort, esta sección enumera los SIDs de las alertas devueltos por Snort para el RuleSet correspondiente
       -> #SIDs: para cada RS de Snort, número de SIDs diferentes de las alertas devueltos por Snort para el RuleSet correspondiente
       -> Número total de alertas: para cada RS de Snort, número total de alertas (con repetición) generadas por Snort para el RuleSet correspondiente.
       -> SIDs en legítimo y ataque: para cada RS de Snort, SIDs que aparecen tanto en las detecciones de tráfico legítimo como en el propio ataque
-      -> SIDs sólo en ataque - SIDs TP ( Automático):  para cada RS de Snort, SIDs que sólo aparecen en las detecciones del ataque, equivalente a decir que los SIDs que aparecen en esta coluimna son todos los SIDs considerados como TP en el método de identificación de alertas automático
+      -> SIDs sólo en ataque - SIDs TP (Automático):  para cada RS de Snort, SIDs que sólo aparecen en las detecciones del ataque, equivalente a decir que los SIDs que aparecen en esta coluimna son todos los SIDs considerados como TP en el método de identificación de alertas automático
       -> #SIDs TP (Automático): para cada RS de Snort, nº de SIDs diferentes que han sido calificados como TP para el método automático de identificación de alertas
       -> Nº Total de Alertas TP (Automático): para cada RS de Snort, nº total de alertas TP generadas, atendiendo al procedimiento automático de identificación de alertas
       -> SIDs FP (Manual): para cada RS de Snort, SIDs que manualmente han sido calificados como FP, ya sea por tratarse de simples eventos de red o por no estar relacionados
@@ -105,10 +110,13 @@ A continuación se proporciona una guía para entender la información que se en
       -> % DETECCIÓN INSTANCIAS (Manual): para los RS2, RS3 y RS4, número de instancias de ataques detectadas calculadas manualmente entre número de instancias de ataques en la captura
       -> % DETECCIÓN INSTANCIAS (Automático + Manual): para los RS2, RS3 y RS4, número de instancias de ataques TP filtrados automáticamente y calculados manualmente entre número de instancias de ataques de la captura
       -> % DETECCIÓN INSTANCIAS TP (Manual): para cada RS, número de instancias de ataques TP filtrados manualmente detectadas entre número de instancias de ataques de la captura
+      -> % DETECCIÓN EFICAZ FLUJOS (Manual): para cada RS, porcentaje de detección eficaz de flujos. Esto es el número de flujos detectados, ya sean principales o colaterales
+      -> % DETECCIÓN EFICAZ ATAQUES (Manual): para cada RS, porcentaje de detección del ataque. Esta celda valdrá 100% si el ataque contiene al menos una alerta válida (TP o colateral) o 0% en caso contrario
       -> ANÁLISIS MANUAL REALIZADO: para cada ataque, esta columna indica si se ha podido realizar el análisis manual basado en flujos, mensajes e instancias. Debido a la existencia de pcaps de gran tamaño y que por consiguiente pueden generar un gran número de alertas, su manejo y clasificación puede resultar inabordable, por lo que se deja indicado en esta columna. Aquellos ataques con una ✘ en esta celda no serán contemplados para los registros manuales (además disponen de "-" en los apartados manuales)
       -> COMENTARIOS DE LAS DETECCIONES SNORT: es posible que en determinados casos resulte necesario añadir comentarios acerca de un ataque en particular. En esta columna podrá encontrar dichos comentarios para el caso de Snort.
       -> Attackids (sin repetición): para FortiGate, muestra la lista de los attackids devueltos por la detección de FortiGate para un ataque concreto
       -> #Attackid: para FortiGate, número de attackids diferentes
+      -> Número total de alertas: para Fortigate, número total de alertas (con repetición) generadas por Fortigate.
       -> Attackids FP Dataset_Legítimo_XX: para FortiGate, attackids que aparecen tanto en la captura del ataque como en el dataset legitimo XX
       -> #Attackids FP Dataset_Legítimo_XX: para FortiGate, número de attackids que aparecen tanto en la captura del ataque como en el dataset legitimo XX
       -> Attackids FP (Manual): attackids que han sido considerados como FP de forma manual
@@ -117,10 +125,17 @@ A continuación se proporciona una guía para entender la información que se en
       -> Attackids TP (Automático): attackids que han sido considerados como TP de forma automática, es decir, aquellos que no han aparecido en las detecciones del tráfico legítimo.
       -> Attackids FP Totales: para FortiGate, Attackids considerados como FP totales. Para esta columna se usará siempre que se haya podido efectuar el análisis manual los attackids que aparezcan en la columna "Attackids FP (Manual)". En su defecto se usarán los valores del análisis automático.
       -> #Attackids FP Totales: número de attackids FP que han acabado identificándose.
+      -> App (Control de Aplicaciones): appids de las alertas de control de aplicaciones que saltan para el ataque estudiado
       -> COMENTARIOS DE LAS DETECCIONES FG: es posible que en determinados casos resulte necesario añadir comentarios acerca de un ataque en particular. En esta columna podrá encontrar dichos comentarios para el caso de FortiGate
+      -> DETECTABLE POR FG: SI o NO dependiendo de si el ataque se encuentra en el rango de acción del IDS. Por lo general, se aplica SI a ataques L3 y NO a ataques L2
       -> Nº FLUJOS IDENTIFICADOS POR FORTIGATE: número de sessionids diferentes que aparecen en el log generado para un ataque. Este parámetro sirve para identificar el número total de flujos detectados por FortiGate.
-      -> Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE: número de sessionids diferentes que tienen asociado un attackid en el log generado por FortiGate.
+      -> Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE - TOTAL: número total de flujos ya sea de ataques o considerados por el motor de aplicaciones y que identifican correctamente el ataque 
+      -> Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE - IPS / VIRUS: número de flujos con ataque (sessionids) detectados por los motores de ataque de FortiGate
+      -> Nº FLUJOS CON ATAQUE DETECTADOS POR FORTIGATE - Control de Aplicaciones: número de flujos con ataque (sessionids) detectados por los motores de aplicación de FortiGate (y que identifican el ataque correctamente)
+      -> Nº FLUJOS CON ATAQUE EFICAZMENTE DETECTADOS: número de flujos (ya sean principales o colaterales) para los que se ha generado una alerta TP válida
       -> % DETECCIÓN FORTIGATE: número de flujos con ataque detectados por FortiGate entre número de flujos con ataque en la captura
+      -> % DETECCIÓN EFICAZ FLUJOS FORTIGATE: porcentaje de detección eficaz de flujos. Se calcula dividiendo el número de flujos con ataque eficazmente detectados entre el número total de flujos con ataque (principales + colaterales)
+      -> % DETECCIÓN EFICAZ ATAQUE FORTIGATE: porcentaje de detección eficaz de ataque. Valdrá 100% si hay al menos un flujo de ataque detectado eficazmente. Valdrá 0% en caso contrario
       -> threat_ids (sin repetición): para PaloAlto, muestra la lista de los threat_ids devueltos por la detección de PaloAlto para un ataque concreto
       -> #threat_id: para PaloAlto, número de threat_ids diferentes
       -> threat_ids FP Dataset_Legítimo_XX: para PaloAlto, threat_ids que aparecen tanto en la captura del ataque como en el dataset legitimo XX
