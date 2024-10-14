@@ -19,11 +19,14 @@ INSERT INTO alertas_ataque_snort SELECT * FROM temp_alertas_ataque_snort;
 SET TABLE temp_alertas_legitimo_snort SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_legitimo_snort.csv;ignore_first=true"
 INSERT INTO alertas_legitimo_snort SELECT * FROM temp_alertas_legitimo_snort;
 
+SET TABLE temp_alertas_app_paloalto SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_app_paloalto.csv;ignore_first=true"
+INSERT INTO alertas_app_paloalto SELECT * FROM temp_alertas_app_paloalto;
+
 SET TABLE temp_resumen SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/mapeos.csv;ignore_first=true"
 INSERT INTO resumen SELECT * FROM temp_resumen;
 
-SET TABLE temp_alertas_ataque_fg SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_ataque_fortigate.csv;ignore_first=true"
+SET TABLE temp_alertas_ataque_fg SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_ataque_fg.csv;ignore_first=true"
 INSERT INTO alertas_ataque_fg SELECT * FROM temp_alertas_ataque_fg;
 
-SET TABLE temp_alertas_ataque_pa SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_ataque_paloalto.csv;ignore_first=true"
+SET TABLE temp_alertas_ataque_pa SOURCE "/home/dit/Escritorio/hsqldb/hsqldb-2.7.3/hsqldb/lib/alertas_ataque_pa.csv;ignore_first=true"
 INSERT INTO alertas_ataque_pa SELECT * FROM temp_alertas_ataque_pa;
