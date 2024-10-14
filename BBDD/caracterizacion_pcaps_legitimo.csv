@@ -1,11 +1,11 @@
-"Fichero pcap,Tipo de tráfico,Categoría,Tamaño real del tráfico,Nº de Flujos,Nº de Direcciones Distintas,Flujos Completos"
-"smtp-FIX.pcapng,REAL,Básico,""0,0019"",2,2,1"
-"http-FIX.pcapng,REAL,Básico,""0,0527"",61,16,1"
-"youtube-FIX.pcapng,REAL,Básico,""0,3327"",40,17,1"
-"01 - DIT (01 - DIT (captura_00001_20240125083640)).pcapng,REAL,TD,100,15649,2866,1"
-"02 - DIT (02 - DIT (captura_00001_20240202080842)).pcapng,REAL,TD,""3,9"",3421,715,1"
-"03 - DIT (03 - DIT (captura_00002_20240125191218)).pcapng,REAL,TD,103,44016,7531,1"
-"04 - DIT (04 - DIT (captura_00003_20240126181602)).pcapng,REAL,TD,109,56302,3096,1"
-"05 - DIT (05 - DIT (captura_00004_20240128151951)).pcapng,REAL,TD,107,64674,6565,1"
-"06 - DIT (06 - DIT (captura_00005_20240130061546)).pcapng,REAL,TD,106,65257,4702,1"
-"07 - DIT (07 - DIT (captura_00006_20240131165021)).pcapng,REAL,TD,48,32428,3104,1"
+Fichero pcap,Tipo de tráfico,Categoría,Tamaño real del tráfico,Nº de Flujos,Nº de Direcciones Distintas,Flujos Completos
+smtp-FIX.pcapng,REAL,Básico,0.0019,2,2,1
+http-FIX.pcapng,REAL,Básico,0.0527,61,16,1
+youtube-FIX.pcapng,REAL,Básico,0.3327,40,17,1
+01 - DIT (01 - DIT (captura_00001_20240125083640)).pcapng,REAL,TD,100,15649,2866,1
+02 - DIT (02 - DIT (captura_00001_20240202080842)).pcapng,REAL,TD,3.9,3421,715,1
+03 - DIT (03 - DIT (captura_00002_20240125191218)).pcapng,REAL,TD,103,44016,7531,1
+04 - DIT (04 - DIT (captura_00003_20240126181602)).pcapng,REAL,TD,109,56302,3096,1
+05 - DIT (05 - DIT (captura_00004_20240128151951)).pcapng,REAL,TD,107,64674,6565,1
+06 - DIT (06 - DIT (captura_00005_20240130061546)).pcapng,REAL,TD,106,65257,4702,1
+07 - DIT (07 - DIT (captura_00006_20240131165021)).pcapng,REAL,TD,48,32428,3104,1
