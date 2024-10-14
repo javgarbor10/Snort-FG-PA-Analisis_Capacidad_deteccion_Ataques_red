@@ -11,10 +11,10 @@ T1029-Scheduled_transfer_[4].pcapng,7,0,0,0,1,"Ataques Colaterales: FortiGate de
 T1030-Transfer_Size_Limits_[5].pcapng,37,0,0,0,1,-
 T1033-System_owner_[4].pcapng,4,0,0,0,0,"Flujos Detectados FG: FortiGate no identifica los flujos con direcciones IPv6, causando esta variación en los resultados"
 T1039-Data_from_network_shared_drive_[4].pcapng,0,1,0,1,1,-
-T1040-Autenticacion_[1].pcapng,-,0,0,0,0,-
-T1040-Chopchop_[1].pcapng,-,0,0,0,0,-
-T1040-Fragmentacion_[1].pcapng,-,0,0,0,0,-
-T1040-Mac_flood_[1].pcapng,-,0,0,0,0,-
+T1040-Autenticacion_[1].pcapng,0,0,0,0,0,-
+T1040-Chopchop_[1].pcapng,0,0,0,0,0,-
+T1040-Fragmentacion_[1].pcapng,0,0,0,0,0,-
+T1040-Mac_flood_[1].pcapng,0,0,0,0,0,-
 T1041-exfiltration_over_c2_channel_[3].pcapng,1,1,0,1,1,Flujos Detectados FG: hay un flujo que FortiGate no detecta. No hay causa aparente 
 T1046-C2018_[6].pcapng,1,0,0,0,1,"Ataques Colaterales: FortiGate detecta el uso de comandos de forma remota, aunque esto se trata de una acción meramente residual, que no está relacionada con la naturaleza del ataque."
 T1046-Version_services_detection1_[3].pcapng,160,159,159,0,159,Instancias Ataque: cada URL escaneada se considera como una instancia de ataque independiente. 
@@ -31,10 +31,10 @@ T1095-Non_Application_Layer_[3].pcapng,2,0,0,0,1,"Ataques Colaterales: FortiGate
 T1102.003-Web_service-one_way_communication_[4].pcapng,2,1,0,1,1,"Ataques Colaterales: FortiGate detecta el establecimiento del canal C&C además del ataque principal, que consiste en el uso de servicios de Google"
 T1104-Multi_stage_channels_[4].pcapng,1,0,0,0,1,"Ataques Colaterales: FortIGate detecta el establecimiento del canal de comunicación con la víctima. Sin embargo, no está detectando adecuadamente el uso de un frente de ataque, y la división del ataque en varias fases (lógico atendiendo a la naturaleza de la técnica)"
 T1105-Ingress_Tool_Transfer_[5].pcapng,3,1,1,0,1,-
-T1110-Diccionario_[1].pcapng,-,0,0,0,0,-
-T1110-pmkid_[1].pcapng,-,0,0,0,0,-
-T1110-Ptw_korek_[1].pcapng,-,0,0,0,0,-
-T1110-Wps_[1].pcapng,-,0,0,0,0,-
+T1110-Diccionario_[1].pcapng,0,0,0,0,0,-
+T1110-pmkid_[1].pcapng,0,0,0,0,0,-
+T1110-Ptw_korek_[1].pcapng,0,0,0,0,0,-
+T1110-Wps_[1].pcapng,0,0,0,0,0,-
 T1110.001-FTP-C2018_[6].pcapng,27710,0,0,0,0,-
 T1110.001-Hydra_[3].pcapng,3,1,1,0,1,-
 T1110.001-SSH-C2018_[6].pcapng,92637,1,1,0,1,-
