@@ -1,7 +1,0 @@
-ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
-9999,689107,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/index.html
-9999,689107,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/docs.html
-9999,689107,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/index.html
-85585,689107,3,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.150,192.168.10.140,spyware,192.168.10.140/en-us/docs.html
-31914,689108,1,1,SSH2 Login Attempt,brute-force,tcp,192.168.10.150,192.168.10.140,vulnerability,
-9999,689107,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/test.html
