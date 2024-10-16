@@ -1,5 +1,0 @@
-ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
-92322,491139,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,fe80::2b14:3be:3d23:e37f,fe80::ca8c:e0e8:31e2:93e5,vulnerability,
-33836,491139,1,2,Microsoft Windows RPC Encrypted Data Detected,code-execution,tcp,fe80::2b14:3be:3d23:e37f,fe80::ca8c:e0e8:31e2:93e5,vulnerability,
-33836,491139,1,2,Microsoft Windows RPC Encrypted Data Detected,code-execution,tcp,fe80::2b14:3be:3d23:e37f,fe80::ca8c:e0e8:31e2:93e5,vulnerability,
-33836,491139,2,2,Microsoft Windows RPC Encrypted Data Detected,code-execution,tcp,fe80::2b14:3be:3d23:e37f,fe80::ca8c:e0e8:31e2:93e5,vulnerability,
