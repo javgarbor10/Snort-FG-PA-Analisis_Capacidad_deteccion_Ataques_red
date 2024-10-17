@@ -1,0 +1,16 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+33515,43588,1,5,Metasploit Meterpreter Connection Attempt,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,
+9999,45464,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,192.168.0.2/
+9999,52786,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,192.168.0.2/
+54752,45464,2,4,Metasploit Windows Meterpreter Reverse Shell Detection,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,192.168.0.2/
+39909,45464,2,3,Metasploit Evasion Payload Detected,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,192.168.0.2/
+9999,53090,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,192.168.0.2/
+9999,51083,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,192.168.0.2/
+9999,52952,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,192.168.0.2/
+9999,53162,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,192.168.0.2/
+54752,53162,1,4,Metasploit Windows Meterpreter Reverse Shell Detection,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,192.168.0.2/
+39909,53162,2,3,Metasploit Evasion Payload Detected,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,192.168.0.2/
+9999,43576,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,192.168.0.2/
+9999,53264,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,192.168.0.2/
+54752,53264,1,4,Metasploit Windows Meterpreter Reverse Shell Detection,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,192.168.0.2/
+33515,53041,1,5,Metasploit Meterpreter Connection Attempt,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,

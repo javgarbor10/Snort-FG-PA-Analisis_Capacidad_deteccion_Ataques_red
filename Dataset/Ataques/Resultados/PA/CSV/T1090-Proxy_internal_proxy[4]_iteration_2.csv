@@ -1,0 +1,41 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+54319,493838,6,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,192.168.10.5,192.168.10.1,vulnerability,192.168.10.1/
+54319,492965,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/test.html?message=&v=1
+32880,492965,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/test.html?message=&v=1
+56396,492965,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/test.html?message=&v=1
+85585,492965,1,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.2,192.168.10.5,spyware,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,492965,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=&v=1
+9999,493838,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/
+9999,492965,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,493882,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/
+9999,494159,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/
+54319,493838,3,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,192.168.10.5,192.168.10.1,vulnerability,192.168.10.1/
+85585,494159,1,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.5,192.168.10.1,spyware,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,494159,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+54319,495360,5,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+32880,495360,5,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+56396,495360,5,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,493882,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/index.html?page=dae80cc2e5&v=1
+9999,495360,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,493596,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/
+9999,494275,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,494159,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/en-us/docs.html?type=dae80cc2e5&v=1
+9999,494080,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,493536,1,1,,N/A,tcp,192.168.10.5,192.168.10.1,url,192.168.10.1/
+9999,494080,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,492005,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,493318,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+54319,493838,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,192.168.10.5,192.168.10.1,vulnerability,192.168.10.1/
+54319,492616,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1
+32880,492616,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1
+56396,492616,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1
+9999,493318,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1
+9999,492616,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1
+54319,494324,3,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+32880,494324,3,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+56396,494324,3,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,192.168.10.2,192.168.10.5,vulnerability,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+85585,494324,1,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.2,192.168.10.5,spyware,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,494324,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,494324,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/docs.html?type=dae80cc2e5&v=1
+9999,493525,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/index.html?page=dae80cc2e5&v=1
+9999,493490,1,1,,N/A,tcp,192.168.10.2,192.168.10.5,url,192.168.10.5/en-us/test.html?message=dae80cc2e5&v=1

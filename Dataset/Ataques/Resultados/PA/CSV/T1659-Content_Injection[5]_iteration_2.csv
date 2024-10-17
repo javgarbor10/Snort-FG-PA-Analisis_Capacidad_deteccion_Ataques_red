@@ -1,0 +1,8 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,54882,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,google.es/
+9999,44092,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,google.es/
+9999,52660,1,1,,N/A,tcp,192.168.0.10,192.168.0.2,url,google.es/
+676053655,52660,2,3,Trojan/Win32.meterpreter.hgkc,pe,tcp,192.168.0.10,192.168.0.2,wildfire-virus,google.es/
+54752,52660,1,4,Metasploit Windows Meterpreter Reverse Shell Detection,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,google.es/
+39909,52660,1,3,Metasploit Evasion Payload Detected,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,google.es/
+33515,55447,1,5,Metasploit Meterpreter Connection Attempt,code-execution,tcp,192.168.0.10,192.168.0.2,vulnerability,

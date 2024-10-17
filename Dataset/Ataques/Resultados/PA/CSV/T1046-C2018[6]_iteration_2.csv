@@ -1,0 +1,3 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+33515,427257,1,5,Metasploit Meterpreter Connection Attempt,code-execution,tcp,172.31.69.13,13.58.225.34,vulnerability,
+33515,425609,1,5,Metasploit Meterpreter Connection Attempt,code-execution,tcp,172.31.69.13,13.58.225.34,vulnerability,

@@ -1,0 +1,7 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+56953,325010,2,1,Non-RFC Compliant SMTP Traffic on Port 25,protocol-anomaly,tcp,192.168.10.20,192.168.10.10,vulnerability,
+56951,326849,1,1,Non-RFC Compliant SMTP Traffic on Port 25,protocol-anomaly,tcp,192.168.10.21,192.168.10.10,vulnerability,
+57018,326849,1,1,Non-RFC Compliant SMTP Traffic on Port 25,protocol-anomaly,tcp,192.168.10.21,192.168.10.10,vulnerability,
+56952,326849,2,1,Non-RFC Compliant SMTP Traffic on Port 25,protocol-anomaly,tcp,192.168.10.21,192.168.10.10,vulnerability,
+56953,326849,1,1,Non-RFC Compliant SMTP Traffic on Port 25,protocol-anomaly,tcp,192.168.10.21,192.168.10.10,vulnerability,ProyectoOmega.pdf
+56953,326849,1,1,Non-RFC Compliant SMTP Traffic on Port 25,protocol-anomaly,tcp,192.168.10.21,192.168.10.10,vulnerability,ProyectoOmega.pdf

@@ -1,0 +1,6 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+9999,418865,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/index.html
+85585,418865,2,5,Covenant .NET HackTool Command and Control Traffic Detection,spyware,tcp,192.168.10.150,192.168.10.140,spyware,192.168.10.140/en-us/docs.html
+9999,418865,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/
+94634,417846,1,1,Non-RFC Compliant SSH Traffic on Port 22,protocol-anomaly,tcp,192.168.10.150,192.168.10.140,vulnerability,
+9999,418865,1,1,,N/A,tcp,192.168.10.150,192.168.10.140,url,192.168.10.140/en-us/docs.html

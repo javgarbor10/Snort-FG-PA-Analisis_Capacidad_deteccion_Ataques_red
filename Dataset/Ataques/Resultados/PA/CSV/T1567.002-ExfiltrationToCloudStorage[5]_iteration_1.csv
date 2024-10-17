@@ -1,0 +1,3 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+56101,325462,1,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,142.250.184.3,vulnerability,
+56101,326193,1,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,172.217.168.161,vulnerability,

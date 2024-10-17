@@ -1,0 +1,8 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+33515,52911,1,5,Metasploit Meterpreter Connection Attempt,code-execution,tcp,192.168.0.50,192.168.0.3,vulnerability,
+9999,42949,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/
+9999,44989,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/
+9999,43347,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/
+9999,49894,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/
+9999,43245,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/
+9999,45091,1,1,,N/A,tcp,192.168.0.50,192.168.0.2,url,192.168.0.2/

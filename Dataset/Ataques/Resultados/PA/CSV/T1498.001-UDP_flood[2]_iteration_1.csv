@@ -1,0 +1,2 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+31339,794901,1,4,Microsoft Windows NAT Helper DNS Query Denial of Service,dos,udp,192.168.1.3,192.168.2.2,vulnerability,

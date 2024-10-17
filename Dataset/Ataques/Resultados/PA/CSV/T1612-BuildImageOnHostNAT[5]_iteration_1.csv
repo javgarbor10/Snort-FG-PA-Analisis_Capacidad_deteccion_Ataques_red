@@ -1,0 +1,57 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+56101,418495,3,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,54.236.113.205,vulnerability,
+56101,417998,1,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,54.198.86.24,vulnerability,
+56101,418151,1,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,54.227.20.253,vulnerability,
+56101,417154,2,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,104.16.100.215,vulnerability,
+56101,417073,2,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,54.236.113.205,vulnerability,
+56101,416807,1,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,54.227.20.253,vulnerability,
+56101,414462,1,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,54.198.86.24,vulnerability,
+56101,418546,2,1,Non-RFC Compliant SSL Traffic,protocol-anomaly,tcp,10.0.2.15,104.16.99.215,vulnerability,
+54319,415236,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
+32880,415236,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
+56396,415236,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
+14984,415236,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
+9999,415236,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
+9999,415236,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/p/python3.8/libpython3.8-minimal_3.8.10-0ubuntu1~20.04.9_amd64.deb
+14984,417540,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/p/python3.8/python3.8_3.8.10-0ubuntu1~20.04.9_amd64.deb
+54319,417540,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/p/python3.8/python3.8_3.8.10-0ubuntu1~20.04.9_amd64.deb
+32880,417540,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/p/python3.8/python3.8_3.8.10-0ubuntu1~20.04.9_amd64.deb
+56396,417540,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/p/python3.8/python3.8_3.8.10-0ubuntu1~20.04.9_amd64.deb
+9999,417540,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/p/python3.8/python3.8_3.8.10-0ubuntu1~20.04.9_amd64.deb
+9999,417540,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/p/python3-defaults/libpython3-stdlib_3.8.2-0ubuntu2_amd64.deb
+54319,417002,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd-timesyncd_245.4-4ubuntu3.23_amd64.deb
+32880,417002,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd-timesyncd_245.4-4ubuntu3.23_amd64.deb
+56396,417002,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd-timesyncd_245.4-4ubuntu3.23_amd64.deb
+14984,417002,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd-timesyncd_245.4-4ubuntu3.23_amd64.deb
+9999,417002,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd-timesyncd_245.4-4ubuntu3.23_amd64.deb
+9999,417002,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_245.4-4ubuntu3.23_amd64.deb
+54319,416612,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.38-4_amd64.deb
+32880,416612,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.38-4_amd64.deb
+56396,416612,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.38-4_amd64.deb
+9999,416612,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.38-4_amd64.deb
+9999,416612,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/libglib2.0-0_2.64.6-1~ubuntu20.04.6_amd64.deb
+14984,416612,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/libglib2.0-0_2.64.6-1~ubuntu20.04.6_amd64.deb
+54319,416634,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/l/lsb/lsb-release_11.1.0ubuntu2_all.deb
+32880,416634,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/l/lsb/lsb-release_11.1.0ubuntu2_all.deb
+56396,416634,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/l/lsb/lsb-release_11.1.0ubuntu2_all.deb
+14984,416634,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/d/dbus-python/python3-dbus_1.2.16-1build1_amd64.deb
+9999,416634,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/l/lsb/lsb-release_11.1.0ubuntu2_all.deb
+9999,416634,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/d/dbus-python/python3-dbus_1.2.16-1build1_amd64.deb
+14984,415505,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/libc/libcbor/libcbor0.6_0.6.0-0ubuntu1_amd64.deb
+54319,415505,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/libc/libcbor/libcbor0.6_0.6.0-0ubuntu1_amd64.deb
+32880,415505,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/libc/libcbor/libcbor0.6_0.6.0-0ubuntu1_amd64.deb
+56396,415505,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/libc/libcbor/libcbor0.6_0.6.0-0ubuntu1_amd64.deb
+9999,415505,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/libc/libcbor/libcbor0.6_0.6.0-0ubuntu1_amd64.deb
+9999,415505,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/libe/libedit/libedit2_3.1-20191231-1_amd64.deb
+14984,415916,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb1_1.14-2_amd64.deb
+54319,415916,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb1_1.14-2_amd64.deb
+32880,415916,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb1_1.14-2_amd64.deb
+56396,415916,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb1_1.14-2_amd64.deb
+9999,415916,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb1_1.14-2_amd64.deb
+9999,415916,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/libx/libx11/libx11-data_1.6.9-2ubuntu1.6_all.deb
+54319,417274,1,1,Suspicious HTTP Response Found,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-sftp-server_8.2p1-4ubuntu0.11_amd64.deb
+32880,417274,1,1,HTTP Non RFC-Compliant Response Found,info-leak,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-sftp-server_8.2p1-4ubuntu0.11_amd64.deb
+56396,417274,1,1,Non-RFC Compliant HTTP Traffic on Port 80,protocol-anomaly,tcp,10.0.2.15,185.125.190.36,vulnerability,archive.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-sftp-server_8.2p1-4ubuntu0.11_amd64.deb
+14984,417274,1,1,Suspicious HTTP Evasion Found,spyware,tcp,10.0.2.15,185.125.190.36,spyware,archive.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-sftp-server_8.2p1-4ubuntu0.11_amd64.deb
+9999,417274,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-sftp-server_8.2p1-4ubuntu0.11_amd64.deb
+9999,417274,1,1,,N/A,tcp,10.0.2.15,185.125.190.36,url,archive.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-server_8.2p1-4ubuntu0.11_amd64.deb

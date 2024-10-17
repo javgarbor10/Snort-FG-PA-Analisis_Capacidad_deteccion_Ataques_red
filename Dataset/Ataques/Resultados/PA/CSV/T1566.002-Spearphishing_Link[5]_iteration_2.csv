@@ -1,0 +1,9 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+675809149,1057733,1,3,Trojan/Win32.meterpreter.hgdv,pe,tcp,192.168.0.2,192.168.0.3,virus,payloadAccess.exe
+675809149,1057733,1,3,Trojan/Win32.meterpreter.hgdv,pe,tcp,192.168.0.2,192.168.0.3,wildfire-virus,payloadAccess.exe
+54752,1057733,1,4,Metasploit Windows Meterpreter Reverse Shell Detection,code-execution,tcp,192.168.0.2,192.168.0.3,vulnerability,payloadAccess.exe
+39909,1057733,1,3,Metasploit Evasion Payload Detected,code-execution,tcp,192.168.0.2,192.168.0.3,vulnerability,payloadAccess.exe
+675809149,1057733,1,3,Trojan/Win32.meterpreter.hgdv,pe,tcp,192.168.0.2,192.168.0.3,wildfire-virus,payloadAccess.exe
+599800,1057733,1,3,Machine Learning found virus,pe,tcp,192.168.0.2,192.168.0.3,ml-virus,payloadAccess.exe
+86533,1060419,1,5,TCP Shell Command Detection,backdoor,tcp,192.168.0.2,192.168.0.3,spyware,
+52020,1057733,1,4,Windows Executable (EXE),N/A,tcp,192.168.0.2,192.168.0.3,wildfire,payloadAccess.exe

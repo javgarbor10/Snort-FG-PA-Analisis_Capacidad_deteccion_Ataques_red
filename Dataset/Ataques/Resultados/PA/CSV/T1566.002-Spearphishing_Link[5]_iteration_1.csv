@@ -1,0 +1,6 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+54752,323494,1,4,Metasploit Windows Meterpreter Reverse Shell Detection,code-execution,tcp,192.168.0.2,192.168.0.3,vulnerability,payloadAccess.exe
+39909,323494,1,3,Metasploit Evasion Payload Detected,code-execution,tcp,192.168.0.2,192.168.0.3,vulnerability,payloadAccess.exe
+599800,323494,1,3,Machine Learning found virus,pe,tcp,192.168.0.2,192.168.0.3,ml-virus,payloadAccess.exe
+86533,328349,1,5,TCP Shell Command Detection,backdoor,tcp,192.168.0.2,192.168.0.3,spyware,
+52020,323494,1,4,Windows Executable (EXE),N/A,tcp,192.168.0.2,192.168.0.3,wildfire,payloadAccess.exe

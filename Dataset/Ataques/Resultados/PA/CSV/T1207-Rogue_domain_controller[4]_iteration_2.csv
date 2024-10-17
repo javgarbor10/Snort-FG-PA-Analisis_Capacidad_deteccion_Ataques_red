@@ -1,0 +1,9 @@
+ID_regla,sessionid,repeatcnt,severity_number,Nombre_regla,thread_category,prot,src_ip,dst_ip,log_subtype,extra_data
+56497,776656,4,1,Non-RFC Compliant LDAP Traffic on Port 389,protocol-anomaly,tcp,192.168.10.8,192.168.10.10,vulnerability,
+56497,778655,3,1,Non-RFC Compliant LDAP Traffic on Port 389,protocol-anomaly,tcp,192.168.10.8,192.168.10.10,vulnerability,
+56497,779578,5,1,Non-RFC Compliant LDAP Traffic on Port 389,protocol-anomaly,tcp,192.168.10.8,192.168.10.10,vulnerability,
+56497,780584,3,1,Non-RFC Compliant LDAP Traffic on Port 389,protocol-anomaly,tcp,192.168.10.8,192.168.10.10,vulnerability,
+92322,778725,1,1,Microsoft Windows NTLMSSP Detection,info-leak,tcp,192.168.10.8,192.168.10.10,vulnerability,
+56497,777527,3,1,Non-RFC Compliant LDAP Traffic on Port 389,protocol-anomaly,tcp,192.168.10.8,192.168.10.10,vulnerability,
+56497,777282,3,1,Non-RFC Compliant LDAP Traffic on Port 389,protocol-anomaly,tcp,192.168.10.8,192.168.10.10,vulnerability,
+54406,774546,1,1,Microsoft Active Directory DCSync Attempt Detection,info-leak,tcp,192.168.10.10,192.168.10.8,vulnerability,
