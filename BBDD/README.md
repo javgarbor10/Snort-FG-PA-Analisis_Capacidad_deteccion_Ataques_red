@@ -41,5 +41,5 @@ A continuación se proporciona una guía de los elementos disponibles en este di
      6º) Inserción de los datos. Carga del script "datos.sql" y ejecución.
      7º) Indagación libre: la BBDD debería estar completamente activa y operativa en este punto. Puede realizar todas las consultas que precise para recoger los datos.
 
-     En el siguiente enlace dispone de un video que muestra de forma práctica el procedimiento a seguir para arrancar el servidor y poner en marcha la BBDD: https://youtu.be/YmFTiXp3DQQ
+     En el siguiente enlace dispone de un video que muestra de forma práctica el procedimiento a seguir para arrancar el servidor y poner en marcha la BBDD: https://youtu.be/4IGI93Z41Z8
 
