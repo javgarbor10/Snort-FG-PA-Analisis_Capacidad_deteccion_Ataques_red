@@ -43,5 +43,5 @@ A continuación se proporciona una guía de los elementos disponibles en este di
 
      Puede acceder a los siguientes enlaces para indagar en el funcionamiento concreto de la BBDD:
      - Puesta en Marcha y Prueba: https://youtu.be/4IGI93Z41Z8
-     - Estructura: https://youtu.be/j4W2l4Xpx-k
+     - Estructura: https://youtu.be/IHG9tnVEfLU
 
